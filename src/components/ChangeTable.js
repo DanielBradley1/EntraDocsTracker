@@ -13,7 +13,7 @@ function ChangeTable() {
         
         try {
           // Try to fetch from GitHub API to get actual file list
-          const repoApiUrl = 'https://api.github.com/repos/DanielBradley1/EntraDocsTracker/contents/entradocstracker/public/Changes';
+          const repoApiUrl = 'https://api.github.com/repos/DanielBradley1/EntraDocsTracker/contents/public/Changes';
           const response = await fetch(repoApiUrl);
           
           if (response.ok) {
