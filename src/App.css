@@ -318,6 +318,12 @@ body {
   justify-content: center;
   gap: 1rem;
 }
+.ed-title-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+}
 .ed-logo {
   height: 48px;
   width: 48px;
@@ -336,6 +342,20 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+.ed-header-link {
+  font-size: 0.75rem;
+  color: #dbeafe;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  transition: color 0.2s ease;
+  opacity: 0.8;
+}
+.ed-header-link:hover {
+  color: #ffffff;
+  opacity: 1;
+  text-decoration: underline;
 }
 
 .ed-main {
