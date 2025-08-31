@@ -3,6 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 2rem;
   background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
   color: #1a2341;
   font-size: 0.95rem;
@@ -31,7 +32,8 @@
   display: flex;
   align-items: center;
   gap: 0.6rem;
-  padding-left: 0.4rem;
+  padding-left: 1rem;
+  border-left: 1px solid #e2e8f0;
 }
 .ed-social-link {
   display: flex;
@@ -168,7 +170,6 @@
   border-collapse: collapse;
   font-family: 'Inter', sans-serif;
   background: #fff;
-  table-layout: fixed;
 }
 .ed-table th, .ed-table td {
   padding: 1.1rem 1rem;
@@ -177,20 +178,6 @@
   border-bottom: 1.5px solid #e6eaf3;
   background: #fff;
   transition: background 0.2s;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-}
-
-.ed-table th:nth-child(1), .ed-table td:nth-child(1) {
-  width: 15%;
-}
-
-.ed-table th:nth-child(2), .ed-table td:nth-child(2) {
-  width: 70%;
-}
-
-.ed-table th:nth-child(3), .ed-table td:nth-child(3) {
-  width: 10%;
 }
 .ed-table th {
   background: #f3f6fa;
@@ -209,44 +196,6 @@
   color: #1a2341;
   font-weight: 350;
   line-height: 1.5;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-  max-width: 100%;
-}
-
-.ed-summary * {
-  max-width: 100%;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-}
-
-.ed-summary p {
-  margin: 0 0 0.5rem 0;
-}
-
-.ed-summary p:last-child {
-  margin-bottom: 0;
-}
-
-.ed-summary strong {
-  font-weight: 600;
-}
-
-.ed-summary code {
-  background: #f1f5f9;
-  padding: 0.15rem 0.3rem;
-  border-radius: 3px;
-  font-size: 0.9em;
-  word-break: break-all;
-}
-
-.ed-summary ul, .ed-summary ol {
-  margin: 0.5rem 0;
-  padding-left: 1.2rem;
-}
-
-.ed-summary li {
-  margin-bottom: 0.2rem;
 }
 .ed-expand-btn {
   background: #1a6cff;
@@ -318,12 +267,6 @@ body {
   justify-content: center;
   gap: 1rem;
 }
-.ed-title-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.2rem;
-}
 .ed-logo {
   height: 48px;
   width: 48px;
@@ -342,20 +285,6 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-}
-.ed-header-link {
-  font-size: 0.75rem;
-  color: #dbeafe;
-  text-decoration: none;
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  transition: color 0.2s ease;
-  opacity: 0.8;
-}
-.ed-header-link:hover {
-  color: #ffffff;
-  opacity: 1;
-  text-decoration: underline;
 }
 
 .ed-main {

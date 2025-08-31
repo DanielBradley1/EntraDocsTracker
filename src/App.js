@@ -36,12 +36,7 @@ function App() {
       <header className="ed-header">
         <div className="ed-header-content">
           <img src={process.env.PUBLIC_URL + '/logo.png'} className="ed-logo" alt="EntraDocsTracker Logo" />
-          <div className="ed-title-section">
-            <h1 className="ed-title">EntraDocsTracker</h1>
-            <a href="https://ourcloudnetwork.com/" target="_blank" rel="noopener noreferrer" className="ed-header-link">
-              ourcloudnetwork.com
-            </a>
-          </div>
+          <h1 className="ed-title">EntraDocsTracker</h1>
         </div>
       </header>
       <div className="ed-creator-bar">
