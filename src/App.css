@@ -3,7 +3,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
   background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
   color: #1a2341;
   font-size: 0.95rem;
@@ -32,8 +31,7 @@
   display: flex;
   align-items: center;
   gap: 0.6rem;
-  padding-left: 1rem;
-  border-left: 1px solid #e2e8f0;
+  padding-left: 0.4rem;
 }
 .ed-social-link {
   display: flex;
@@ -192,7 +190,7 @@
 }
 
 .ed-table th:nth-child(3), .ed-table td:nth-child(3) {
-  width: 15%;
+  width: 10%;
 }
 .ed-table th {
   background: #f3f6fa;
