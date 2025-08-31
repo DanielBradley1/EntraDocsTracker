@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/entradocstracker/static/css/main.97fd6d4b.css",
+    "main.js": "/entradocstracker/static/js/main.23821417.js",
+    "static/js/453.9f2eaf9d.chunk.js": "/entradocstracker/static/js/453.9f2eaf9d.chunk.js",
+    "index.html": "/entradocstracker/index.html",
+    "static/media/blog.svg": "/entradocstracker/static/media/blog.1dca6efdf184c64e9880e4847db0cbe6.svg",
+    "static/media/x.svg": "/entradocstracker/static/media/x.77e7da21d2ebc836627d34279a67abd2.svg",
+    "static/media/linkedin.svg": "/entradocstracker/static/media/linkedin.ada11cda991129bc91b79d2c7cee1066.svg",
+    "static/media/youtube.svg": "/entradocstracker/static/media/youtube.6806408aa1bf55b7f1aaba51978e649e.svg",
+    "main.97fd6d4b.css.map": "/entradocstracker/static/css/main.97fd6d4b.css.map",
+    "main.23821417.js.map": "/entradocstracker/static/js/main.23821417.js.map",
+    "453.9f2eaf9d.chunk.js.map": "/entradocstracker/static/js/453.9f2eaf9d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97fd6d4b.css",
+    "static/js/main.23821417.js"
+  ]
+}
