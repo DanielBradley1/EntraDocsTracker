@@ -4,102 +4,31 @@ function ChangeTable() {
   const [expanded, setExpanded] = useState({});
 
   useEffect(() => {
-    // Dynamically load all JSON files in public/Changes
-    const fetchAllChanges = async () => {
+    // Load changes from the single changes.json file
+    const fetchChanges = async () => {
       try {
-        // Use GitHub API to get the actual list of files in the Changes directory
-        // This is more efficient than guessing filenames
-        let allChanges = [];
+        const response = await fetch(process.env.PUBLIC_URL + '/changes.json');
         
-        try {
-          // Try to fetch from GitHub API to get actual file list
-          const repoApiUrl = 'https://api.github.com/repos/DanielBradley1/EntraDocsTracker/contents/public/Changes';
-          const response = await fetch(repoApiUrl);
+        if (response.ok) {
+          const data = await response.json();
           
-          if (response.ok) {
-            const files = await response.json();
-            
-            // Calculate date 7 days ago
-            const sevenDaysAgo = new Date();
-            sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
-            
-            const jsonFiles = files
-              .filter(file => file.name.match(/^entra-changes-\d{8}-\d{4}\.json$/))
-              .filter(file => {
-                // Extract date from filename (format: entra-changes-YYYYMMDD-HHMM.json)
-                const dateMatch = file.name.match(/entra-changes-(\d{8})-\d{4}\.json/);
-                if (dateMatch) {
-                  const fileDate = dateMatch[1];
-                  const year = parseInt(fileDate.substring(0, 4));
-                  const month = parseInt(fileDate.substring(4, 6)) - 1; // Month is 0-indexed
-                  const day = parseInt(fileDate.substring(6, 8));
-                  const fileDateObj = new Date(year, month, day);
-                  return fileDateObj >= sevenDaysAgo;
-                }
-                return false; // If we can't parse the date, exclude the file
-              })
-              .map(file => file.name);
-            
-            // Fetch each JSON file from the last 7 days only
-            for (const fileName of jsonFiles) {
-              try {
-                const resp = await fetch(process.env.PUBLIC_URL + '/Changes/' + fileName);
-                if (resp.ok) {
-                  const data = await resp.json();
-                  allChanges = allChanges.concat(data);
-                }
-              } catch (err) {
-                console.error('Error loading', fileName, err);
-              }
-            }
-          }
-        } catch (apiError) {
-          // Fallback: if GitHub API fails, try a simpler approach with known recent patterns
-          console.log('GitHub API unavailable, using fallback method');
+          // Extract changes array from the response
+          const changesData = data.changes || [];
           
-          // Just try a few recent dates with common times from your existing files
-          const today = new Date();
-          const recentFiles = [];
+          // Sort by date descending (most recent first)
+          changesData.sort((a, b) => new Date(b.date) - new Date(a.date));
           
-          for (let i = 0; i < 7; i++) {
-            const date = new Date(today);
-            date.setDate(date.getDate() - i);
-            
-            const year = date.getFullYear();
-            const month = String(date.getMonth() + 1).padStart(2, '0');
-            const day = String(date.getDate()).padStart(2, '0');
-            const dateStr = `${year}${month}${day}`;
-            
-            // Only try the times we know exist from your current files
-            const knownTimes = ['0758', '0842'];
-            
-            for (const time of knownTimes) {
-              recentFiles.push(`entra-changes-${dateStr}-${time}.json`);
-            }
-          }
-          
-          // Test which files actually exist
-          for (const file of recentFiles) {
-            try {
-              const resp = await fetch(process.env.PUBLIC_URL + '/Changes/' + file);
-              if (resp.ok) {
-                const data = await resp.json();
-                allChanges = allChanges.concat(data);
-              }
-            } catch {
-              // File doesn't exist, skip
-            }
-          }
+          setChanges(changesData);
+        } else {
+          console.error('Failed to fetch changes.json:', response.status);
+          setChanges([]);
         }
-        // Sort by date descending
-        allChanges.sort((a, b) => new Date(b.date) - new Date(a.date));
-        setChanges(allChanges);
       } catch (err) {
-        console.error('Error loading all changes:', err);
+        console.error('Error loading changes:', err);
         setChanges([]);
       }
     };
-    fetchAllChanges();
+    fetchChanges();
   }, []);
 
   const toggleExpand = idx => {
