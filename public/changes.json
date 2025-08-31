@@ -1,21 +1,13 @@
 {
   "metadata": {
-    "generated_date": "2025-08-31T06:36:12Z",
+    "generated_date": "2025-08-31T06:37:33Z",
     "source_files": [
       {
-        "filename": "entra-changes-20250831-0624.json",
-        "commit_count": 15
-      },
-      {
-        "filename": "entra-changes-20250831-0630.json",
-        "commit_count": 15
-      },
-      {
-        "filename": "entra-changes-20250831-0635.json",
+        "filename": "entra-changes-20250831-0637.json",
         "commit_count": 15
       }
     ],
-    "total_commits": 45
+    "total_commits": 15
   },
   "changes": [
     {
@@ -25,77 +17,7 @@
       "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
       "date": "2025-08-29T22:13:20Z",
       "message": "Merge pull request #9535 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-08-29 22:04 UTC",
-      "ai_summary": "The commit updates documentation for Microsoft Entra ID.\n\nKey changes include:\n\n*   **Lifecycle Workflows:** Enhancements to the \"Remove all access package assignments for user\" task to allow customization of the removal timing (immediate or after a specified number of days).\n*   **Privileged Identity Management (PIM):** Updates to the PIM documentation regarding assigning roles with administrative unit scope, clarifying the process when starting from the \"Roles & admins\" page versus an administrative unit.",
-      "files": [
-        {
-          "filename": "docs/id-governance/lifecycle-workflow-tasks.md",
-          "status": "modified",
-          "additions": 17,
-          "deletions": 3
-        },
-        {
-          "filename": "docs/id-governance/media/lifecycle-workflow-task/remove-all-access-package-assignment-user-task.png",
-          "status": "modified",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/id-governance/privileged-identity-management/pim-how-to-add-role-to-user.md",
-          "status": "modified",
-          "additions": 2,
-          "deletions": 2
-        },
-        {
-          "filename": "docs/id-protection/media/workbook-risk-based-policy-impact/workbook-risk-based-impact.png",
-          "status": "modified",
-          "additions": 0,
-          "deletions": 0
-        }
-      ]
-    },
-    {
-      "sha": "ca823eeb9ea81b72a0b718b5d7c9b6959ae381d4",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/ca823eeb9ea81b72a0b718b5d7c9b6959ae381d4",
-      "author": "learn-build-service-prod[bot]",
-      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
-      "date": "2025-08-29T22:13:20Z",
-      "message": "Merge pull request #9535 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-08-29 22:04 UTC",
-      "ai_summary": "The commit updates documentation for Microsoft Entra ID. It enhances the description of a lifecycle workflow task to include the option of delaying the removal of access package assignments and refines information on assigning roles with administrative unit scope in Privileged Identity Management. An image file related to risk-based policy impact has also been modified.",
-      "files": [
-        {
-          "filename": "docs/id-governance/lifecycle-workflow-tasks.md",
-          "status": "modified",
-          "additions": 17,
-          "deletions": 3
-        },
-        {
-          "filename": "docs/id-governance/media/lifecycle-workflow-task/remove-all-access-package-assignment-user-task.png",
-          "status": "modified",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/id-governance/privileged-identity-management/pim-how-to-add-role-to-user.md",
-          "status": "modified",
-          "additions": 2,
-          "deletions": 2
-        },
-        {
-          "filename": "docs/id-protection/media/workbook-risk-based-policy-impact/workbook-risk-based-impact.png",
-          "status": "modified",
-          "additions": 0,
-          "deletions": 0
-        }
-      ]
-    },
-    {
-      "sha": "ca823eeb9ea81b72a0b718b5d7c9b6959ae381d4",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/ca823eeb9ea81b72a0b718b5d7c9b6959ae381d4",
-      "author": "learn-build-service-prod[bot]",
-      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
-      "date": "2025-08-29T22:13:20Z",
-      "message": "Merge pull request #9535 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-08-29 22:04 UTC",
-      "ai_summary": "Here's a summary of the changes:\n\nThe documentation for **Lifecycle Workflows** has been updated to include an option for the \"Remove all access package assignments for user\" task, allowing administrators to specify a delay before assignments are removed. Additionally, the **Privileged Identity Management** documentation has been revised to clarify the process of assigning roles with administrative unit scope, particularly for custom roles. The date for this PIM article has also been advanced.",
+      "ai_summary": "This commit updates documentation for Microsoft Entra ID. It enhances the \"Remove all access package assignments for user\" task in Lifecycle Workflows by adding an option to specify the number of days until assignments are removed, alongside customisation of the task's name and description. Additionally, the Privileged Identity Management (PIM) documentation is updated to clarify how to assign roles with administrative unit scope, particularly for custom roles.",
       "files": [
         {
           "filename": "docs/id-governance/lifecycle-workflow-tasks.md",
@@ -130,41 +52,7 @@
       "email": "40007230+prmerger-automator[bot]@users.noreply.github.com",
       "date": "2025-08-29T21:52:13Z",
       "message": "Merge pull request #9534 from rolyon/rolyon-pim-assign-role-admin-unit-scope\n\n[Entra PIM] Assign custom role with administrative unit scope",
-      "ai_summary": "This commit updates the documentation for adding roles to users in Privileged Identity Management (PIM). The main changes include:\n\n- **Date Update:** The `ms.date` metadata has been updated from 08/11/2025 to 08/29/2025.\n- **Administrative Unit Scope Clarification:** The documentation now clarifies that custom roles compatible with administrative units cannot be assigned with administrative unit scope directly from the \"Roles & admins\" page. Instead, users must first open the administrative unit and then assign the role. It also provides links to relevant documentation for managing and assigning roles with administrative unit scope.",
-      "files": [
-        {
-          "filename": "docs/id-governance/privileged-identity-management/pim-how-to-add-role-to-user.md",
-          "status": "modified",
-          "additions": 2,
-          "deletions": 2
-        }
-      ]
-    },
-    {
-      "sha": "1dce8486115631c702b069ef1619ff90c2f868a7",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/1dce8486115631c702b069ef1619ff90c2f868a7",
-      "author": "prmerger-automator[bot]",
-      "email": "40007230+prmerger-automator[bot]@users.noreply.github.com",
-      "date": "2025-08-29T21:52:13Z",
-      "message": "Merge pull request #9534 from rolyon/rolyon-pim-assign-role-admin-unit-scope\n\n[Entra PIM] Assign custom role with administrative unit scope",
-      "ai_summary": "<p>This commit updates the Microsoft Entra Privileged Identity Management (PIM) documentation regarding role assignments.</p>\n<p>Specifically, it corrects a cross-reference to the administrative units management page and provides updated guidance on assigning custom roles with administrative unit scope, directing users to a more specific article for this scenario.</p>",
-      "files": [
-        {
-          "filename": "docs/id-governance/privileged-identity-management/pim-how-to-add-role-to-user.md",
-          "status": "modified",
-          "additions": 2,
-          "deletions": 2
-        }
-      ]
-    },
-    {
-      "sha": "1dce8486115631c702b069ef1619ff90c2f868a7",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/1dce8486115631c702b069ef1619ff90c2f868a7",
-      "author": "prmerger-automator[bot]",
-      "email": "40007230+prmerger-automator[bot]@users.noreply.github.com",
-      "date": "2025-08-29T21:52:13Z",
-      "message": "Merge pull request #9534 from rolyon/rolyon-pim-assign-role-admin-unit-scope\n\n[Entra PIM] Assign custom role with administrative unit scope",
-      "ai_summary": "This commit updates a Microsoft Entra ID document concerning Privileged Identity Management. The `ms.date` metadata has been changed from August 11, 2025 to August 29, 2025. Additionally, the document now includes specific instructions for assigning custom roles with administrative unit scope, clarifying that this assignment must be initiated from within the administrative unit itself.",
+      "ai_summary": "This commit updates the date in the metadata of the `pim-how-to-add-role-to-user.md` file. It also refines the instructions for assigning custom roles with administrative unit scope, clarifying that these assignments must be initiated from the administrative unit itself rather than the \"Roles & admins\" page. The updated text provides a link to relevant documentation on managing roles with administrative unit scope and creating administrative units.",
       "files": [
         {
           "filename": "docs/id-governance/privileged-identity-management/pim-how-to-add-role-to-user.md",
@@ -181,41 +69,7 @@
       "email": "35980532+rolyon@users.noreply.github.com",
       "date": "2025-08-29T21:44:02Z",
       "message": "Update link text",
-      "ai_summary": "The commit modifies the documentation for assigning roles in Privileged Identity Management (PIM). The change updates a link related to creating administrative units, changing it from \"Add and remove administrative units\" to \"Create or delete administrative units\". This is a minor documentation correction to ensure the correct link is provided for users managing administrative units.",
-      "files": [
-        {
-          "filename": "docs/id-governance/privileged-identity-management/pim-how-to-add-role-to-user.md",
-          "status": "modified",
-          "additions": 1,
-          "deletions": 1
-        }
-      ]
-    },
-    {
-      "sha": "1a727fbdb394f582350787eb59280cc610043954",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/1a727fbdb394f582350787eb59280cc610043954",
-      "author": "rolyon",
-      "email": "35980532+rolyon@users.noreply.github.com",
-      "date": "2025-08-29T21:44:02Z",
-      "message": "Update link text",
-      "ai_summary": "<p>The recent commit updates a Microsoft Entra ID documentation page concerning Privileged Identity Management (PIM) role assignments. The change corrects a hyperlink, specifically altering \"Add and remove administrative units\" to \"Create or delete administrative units\" in the relevant section, ensuring users are directed to the most accurate guidance for managing administrative units when assigning roles with specific scope.</p>",
-      "files": [
-        {
-          "filename": "docs/id-governance/privileged-identity-management/pim-how-to-add-role-to-user.md",
-          "status": "modified",
-          "additions": 1,
-          "deletions": 1
-        }
-      ]
-    },
-    {
-      "sha": "1a727fbdb394f582350787eb59280cc610043954",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/1a727fbdb394f582350787eb59280cc610043954",
-      "author": "rolyon",
-      "email": "35980532+rolyon@users.noreply.github.com",
-      "date": "2025-08-29T21:44:02Z",
-      "message": "Update link text",
-      "ai_summary": "This commit makes a minor correction to a documentation page regarding Privileged Identity Management (PIM). It updates a cross-reference link from \"Add and remove administrative units\" to \"Create or delete administrative units\" to ensure users are directed to the correct resource for managing administrative units. This ensures the documentation accurately reflects the process of assigning custom roles with administrative unit scope.",
+      "ai_summary": "This commit updates a Microsoft Entra ID documentation page concerning Privileged Identity Management (PIM).\n\nThe change is a minor textual correction within the section detailing how to assign roles with administrative unit scope to custom roles. Specifically, it amends a link to a related article from \"Add and remove administrative units\" to \"Create or delete administrative units\" to ensure better accuracy and clarity for users.",
       "files": [
         {
           "filename": "docs/id-governance/privileged-identity-management/pim-how-to-add-role-to-user.md",
@@ -232,53 +86,7 @@
       "email": "35980532+rolyon@users.noreply.github.com",
       "date": "2025-08-29T21:38:00Z",
       "message": "Merge branch 'main' of https://github.com/MicrosoftDocs/entra-docs-pr into rolyon-pim-assign-role-admin-unit-scope",
-      "ai_summary": "This commit updates the documentation for Microsoft Entra Lifecycle Workflows. Specifically, it enhances the description of the \"Remove all access package assignments for user\" task to include the ability to customize the delay before assignments are removed. The changes also update the example usage and Microsoft Graph parameters to reflect this new functionality, allowing for immediate removal or a specified delay in days.",
-      "files": [
-        {
-          "filename": "docs/id-governance/lifecycle-workflow-tasks.md",
-          "status": "modified",
-          "additions": 17,
-          "deletions": 3
-        },
-        {
-          "filename": "docs/id-governance/media/lifecycle-workflow-task/remove-all-access-package-assignment-user-task.png",
-          "status": "modified",
-          "additions": 0,
-          "deletions": 0
-        }
-      ]
-    },
-    {
-      "sha": "65bfc6bc8a6f3869f0ba58ef698689803b1bf2f6",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/65bfc6bc8a6f3869f0ba58ef698689803b1bf2f6",
-      "author": "rolyon",
-      "email": "35980532+rolyon@users.noreply.github.com",
-      "date": "2025-08-29T21:38:00Z",
-      "message": "Merge branch 'main' of https://github.com/MicrosoftDocs/entra-docs-pr into rolyon-pim-assign-role-admin-unit-scope",
-      "ai_summary": "<p>This commit updates the documentation for Microsoft Entra ID Governance's lifecycle workflows. Specifically, it enhances the description of the \"Remove all access package assignments for user\" task to include the ability to specify a delay in days before assignments are removed. The commit also includes a more detailed example of how to configure this task using Microsoft Graph, demonstrating the addition of the <code>daysUntilExpiration</code> argument.</p>",
-      "files": [
-        {
-          "filename": "docs/id-governance/lifecycle-workflow-tasks.md",
-          "status": "modified",
-          "additions": 17,
-          "deletions": 3
-        },
-        {
-          "filename": "docs/id-governance/media/lifecycle-workflow-task/remove-all-access-package-assignment-user-task.png",
-          "status": "modified",
-          "additions": 0,
-          "deletions": 0
-        }
-      ]
-    },
-    {
-      "sha": "65bfc6bc8a6f3869f0ba58ef698689803b1bf2f6",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/65bfc6bc8a6f3869f0ba58ef698689803b1bf2f6",
-      "author": "rolyon",
-      "email": "35980532+rolyon@users.noreply.github.com",
-      "date": "2025-08-29T21:38:00Z",
-      "message": "Merge branch 'main' of https://github.com/MicrosoftDocs/entra-docs-pr into rolyon-pim-assign-role-admin-unit-scope",
-      "ai_summary": "This commit updates the documentation for Microsoft Entra ID's Lifecycle Workflows. Specifically, it enhances the description of the \"Remove all access package assignments for user\" task, informing users that they can now customise whether assignments are removed immediately or after a specified number of days. This is reflected in both the text and the accompanying screenshot, along with an update to the Microsoft Graph parameters to include the `daysUntilExpiration` argument.",
+      "ai_summary": "This commit updates the documentation for Microsoft Entra Lifecycle Workflows. Specifically, it enhances the description of the \"Remove all access package assignments for user\" task to include the ability to customise whether assignments are removed immediately or after a specified number of days. The commit also refines the example usage of this task to reflect the new `daysUntilExpiration` parameter.",
       "files": [
         {
           "filename": "docs/id-governance/lifecycle-workflow-tasks.md",
@@ -301,41 +109,7 @@
       "email": "35980532+rolyon@users.noreply.github.com",
       "date": "2025-08-29T21:37:49Z",
       "message": "Assign custom role with administrative unit scope",
-      "ai_summary": "<p>The documentation for assigning roles to users in Privileged Identity Management (PIM) has been updated. Specifically, the article <code>pim-how-to-add-role-to-user.md</code> has had its publication date changed from 11 August 2025 to 29 August 2025. Additionally, clarification has been added regarding the assignment of custom roles with administrative unit scope via the Microsoft Graph API and the Azure portal.</p>",
-      "files": [
-        {
-          "filename": "docs/id-governance/privileged-identity-management/pim-how-to-add-role-to-user.md",
-          "status": "modified",
-          "additions": 2,
-          "deletions": 2
-        }
-      ]
-    },
-    {
-      "sha": "acf4d419fc375014f415ee1465ada24b28f7694b",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/acf4d419fc375014f415ee1465ada24b28f7694b",
-      "author": "rolyon",
-      "email": "35980532+rolyon@users.noreply.github.com",
-      "date": "2025-08-29T21:37:49Z",
-      "message": "Assign custom role with administrative unit scope",
-      "ai_summary": "This commit updates a Microsoft Entra Privileged Identity Management (PIM) how-to guide. The `ms.date` metadata has been changed from August 11, 2025, to August 29, 2025. Additionally, a clarification has been added regarding the assignment of custom roles with administrative unit scope, specifying that this must be done by first opening the administrative unit, not directly from the \"Roles & admins\" page.",
-      "files": [
-        {
-          "filename": "docs/id-governance/privileged-identity-management/pim-how-to-add-role-to-user.md",
-          "status": "modified",
-          "additions": 2,
-          "deletions": 2
-        }
-      ]
-    },
-    {
-      "sha": "acf4d419fc375014f415ee1465ada24b28f7694b",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/acf4d419fc375014f415ee1465ada24b28f7694b",
-      "author": "rolyon",
-      "email": "35980532+rolyon@users.noreply.github.com",
-      "date": "2025-08-29T21:37:49Z",
-      "message": "Assign custom role with administrative unit scope",
-      "ai_summary": "The commit modifies the documentation for adding roles to users in Privileged Identity Management (PIM). It updates the `ms.date` metadata and adds a new note about assigning custom roles with administrative unit scope. The added content clarifies that custom roles compatible with administrative units must be assigned from within the administrative unit itself, not from the \"Roles & admins\" page, and provides a link for further information.",
+      "ai_summary": "This commit updates the Microsoft Entra Privileged Identity Management documentation for adding roles to users. The `ms.date` metadata has been changed from August 11, 2025, to August 29, 2025. Additionally, a clarification has been added regarding the assignment of custom roles with administrative unit scope, explaining that these must be assigned via the administrative unit itself, not directly from the \"Roles & admins\" page.",
       "files": [
         {
           "filename": "docs/id-governance/privileged-identity-management/pim-how-to-add-role-to-user.md",
@@ -352,53 +126,7 @@
       "email": "v-jabarnett@microsoft.com",
       "date": "2025-08-29T21:33:39Z",
       "message": "Merge pull request #9533 from OWinfreyATL/owinfreyATL-AccessPackageAssignmentBehavior-PublicPreview\n\nAssignment package workflow Public Preview",
-      "ai_summary": "This commit updates the documentation for \"Lifecycle workflow tasks\" in Microsoft Entra ID. Specifically, it enhances the description of the \"Remove all access package assignments for user\" task to include the ability to configure whether assignments are removed immediately or after a specified number of days. The commit also adds the `daysUntilExpiration` argument to the task's JSON configuration for Microsoft Graph.",
-      "files": [
-        {
-          "filename": "docs/id-governance/lifecycle-workflow-tasks.md",
-          "status": "modified",
-          "additions": 17,
-          "deletions": 3
-        },
-        {
-          "filename": "docs/id-governance/media/lifecycle-workflow-task/remove-all-access-package-assignment-user-task.png",
-          "status": "modified",
-          "additions": 0,
-          "deletions": 0
-        }
-      ]
-    },
-    {
-      "sha": "77d3aa6c55509e41f21bca4e2d4d13c54a007ef0",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/77d3aa6c55509e41f21bca4e2d4d13c54a007ef0",
-      "author": "James Barnett",
-      "email": "v-jabarnett@microsoft.com",
-      "date": "2025-08-29T21:33:39Z",
-      "message": "Merge pull request #9533 from OWinfreyATL/owinfreyATL-AccessPackageAssignmentBehavior-PublicPreview\n\nAssignment package workflow Public Preview",
-      "ai_summary": "This commit updates the documentation for the \"Remove all access package assignments for user\" task in Microsoft Entra ID lifecycle workflows. The changes enhance the description of the task's customizability, specifically highlighting the new ability to configure the immediate removal of access package assignments or to defer it for a specified number of days. Additionally, the commit includes updated details on the task's arguments, reflecting the introduction of the `daysUntilExpiration` parameter.",
-      "files": [
-        {
-          "filename": "docs/id-governance/lifecycle-workflow-tasks.md",
-          "status": "modified",
-          "additions": 17,
-          "deletions": 3
-        },
-        {
-          "filename": "docs/id-governance/media/lifecycle-workflow-task/remove-all-access-package-assignment-user-task.png",
-          "status": "modified",
-          "additions": 0,
-          "deletions": 0
-        }
-      ]
-    },
-    {
-      "sha": "77d3aa6c55509e41f21bca4e2d4d13c54a007ef0",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/77d3aa6c55509e41f21bca4e2d4d13c54a007ef0",
-      "author": "James Barnett",
-      "email": "v-jabarnett@microsoft.com",
-      "date": "2025-08-29T21:33:39Z",
-      "message": "Merge pull request #9533 from OWinfreyATL/owinfreyATL-AccessPackageAssignmentBehavior-PublicPreview\n\nAssignment package workflow Public Preview",
-      "ai_summary": "<p>The documentation for the \"Remove all access package assignments for user\" task within Microsoft Entra lifecycle workflows has been updated. The changes allow for greater customisation, enabling administrators to configure not only the task's name and description but also to specify a delay (in days) before all access package assignments are removed for a user. This enhances flexibility in managing user access during offboarding or other lifecycle events.</p>",
+      "ai_summary": "This commit updates the documentation for lifecycle workflow tasks in Microsoft Entra ID.\n\nThe `lifecycle-workflow-tasks.md` file has been modified to reflect an enhancement for the \"Remove all access package assignments for user\" task. Previously, only the task name and description could be customised. Now, users can also configure whether the removal of access package assignments happens immediately or after a specified number of days, with a new `daysUntilExpiration` argument introduced for this purpose. An accompanying image file has also been updated.",
       "files": [
         {
           "filename": "docs/id-governance/lifecycle-workflow-tasks.md",
@@ -421,41 +149,7 @@
       "email": "85191667+OWinfreyATL@users.noreply.github.com",
       "date": "2025-08-29T20:56:47Z",
       "message": "Updates",
-      "ai_summary": "This commit updates the documentation for Lifecycle Workflow Tasks, specifically focusing on the \"Remove all access package assignments for user\" task. A new argument has been added, `daysUntilExpiration`, which allows for the configuration of the expiration period for these assignments. This enhances the flexibility and control over user access package management within the workflow.",
-      "files": [
-        {
-          "filename": "docs/id-governance/lifecycle-workflow-tasks.md",
-          "status": "modified",
-          "additions": 1,
-          "deletions": 0
-        }
-      ]
-    },
-    {
-      "sha": "da9db038fb4f8ace6aabe4bd43230a2ffb2307ea",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/da9db038fb4f8ace6aabe4bd43230a2ffb2307ea",
-      "author": "Ortagus Winfrey",
-      "email": "85191667+OWinfreyATL@users.noreply.github.com",
-      "date": "2025-08-29T20:56:47Z",
-      "message": "Updates",
-      "ai_summary": "The provided commit modifies the `docs/id-governance/lifecycle-workflow-tasks.md` file. It adds a new entry for the \"Remove all access package assignments for user\" task. This new entry includes a description of the `arguments` parameter, specifically mentioning \"daysUntilExpiration\" as a configurable value to determine when all access package assignments for a user should be removed.",
-      "files": [
-        {
-          "filename": "docs/id-governance/lifecycle-workflow-tasks.md",
-          "status": "modified",
-          "additions": 1,
-          "deletions": 0
-        }
-      ]
-    },
-    {
-      "sha": "da9db038fb4f8ace6aabe4bd43230a2ffb2307ea",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/da9db038fb4f8ace6aabe4bd43230a2ffb2307ea",
-      "author": "Ortagus Winfrey",
-      "email": "85191667+OWinfreyATL@users.noreply.github.com",
-      "date": "2025-08-29T20:56:47Z",
-      "message": "Updates",
-      "ai_summary": "<p>This commit updates the documentation for Microsoft Entra ID Lifecycle Workflows. Specifically, it clarifies the arguments for the \"Remove all access package assignments for user\" task, indicating that a parameter named \"daysUntilExpiration\" can be used to define the expiration period for these assignments.</p>",
+      "ai_summary": "This commit introduces a new argument for the \"Remove all access package assignments for user\" task within Microsoft Entra ID Lifecycle Workflows. The added argument, `daysUntilExpiration`, allows for the specification of a timeframe, enabling the automated removal of all user access package assignments after a defined period. This enhances the flexibility and control over user access revocation processes.",
       "files": [
         {
           "filename": "docs/id-governance/lifecycle-workflow-tasks.md",
@@ -472,53 +166,7 @@
       "email": "85191667+OWinfreyATL@users.noreply.github.com",
       "date": "2025-08-29T20:50:52Z",
       "message": "Assignment package workflow Public Preview",
-      "ai_summary": "The commit updates the documentation for **Lifecycle Workflows** in Microsoft Entra ID. Specifically, it enhances the description for the \"Remove all access package assignments for user\" task. The change clarifies that users can now configure whether these assignments are removed immediately or after a specified number of days, and it also includes an updated JSON example demonstrating the inclusion of the `daysUntilExpiration` parameter.",
-      "files": [
-        {
-          "filename": "docs/id-governance/lifecycle-workflow-tasks.md",
-          "status": "modified",
-          "additions": 16,
-          "deletions": 3
-        },
-        {
-          "filename": "docs/id-governance/media/lifecycle-workflow-task/remove-all-access-package-assignment-user-task.png",
-          "status": "modified",
-          "additions": 0,
-          "deletions": 0
-        }
-      ]
-    },
-    {
-      "sha": "ea0aedfef205f08ec8e2b3a631f0c3c73484a6bf",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/ea0aedfef205f08ec8e2b3a631f0c3c73484a6bf",
-      "author": "Ortagus Winfrey",
-      "email": "85191667+OWinfreyATL@users.noreply.github.com",
-      "date": "2025-08-29T20:50:52Z",
-      "message": "Assignment package workflow Public Preview",
-      "ai_summary": "<p>This commit updates the documentation for the \"Remove all access package assignments for user\" task within Microsoft Entra lifecycle workflows. The changes include:</p>\n<ul>\n  <li>Enhancing the description to highlight the ability to customise not only the task name and description, but also the timing of access package removal (immediate or delayed).</li>\n  <li>Updating the example JSON payload to include the new `daysUntilExpiration` parameter, which allows for configuring the delay before assignments are removed.</li>\n</ul>",
-      "files": [
-        {
-          "filename": "docs/id-governance/lifecycle-workflow-tasks.md",
-          "status": "modified",
-          "additions": 16,
-          "deletions": 3
-        },
-        {
-          "filename": "docs/id-governance/media/lifecycle-workflow-task/remove-all-access-package-assignment-user-task.png",
-          "status": "modified",
-          "additions": 0,
-          "deletions": 0
-        }
-      ]
-    },
-    {
-      "sha": "ea0aedfef205f08ec8e2b3a631f0c3c73484a6bf",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/ea0aedfef205f08ec8e2b3a631f0c3c73484a6bf",
-      "author": "Ortagus Winfrey",
-      "email": "85191667+OWinfreyATL@users.noreply.github.com",
-      "date": "2025-08-29T20:50:52Z",
-      "message": "Assignment package workflow Public Preview",
-      "ai_summary": "The changes update the documentation for the \"Remove all access package assignments for user\" task in Microsoft Entra ID lifecycle workflows. The update enhances the task's description to include the ability to customize whether assignments are removed immediately or after a specified number of days. Additionally, the example code snippet for the task has been updated to reflect the new `daysUntilExpiration` parameter.",
+      "ai_summary": "This commit updates the documentation for the \"Remove all access package assignments for user\" task within Microsoft Entra lifecycle workflows. It clarifies that users can now customise the task's name, description, and importantly, whether the removal of access package assignments happens immediately or after a specified number of days. The accompanying code example has also been updated to reflect this new configuration option.",
       "files": [
         {
           "filename": "docs/id-governance/lifecycle-workflow-tasks.md",
@@ -541,41 +189,7 @@
       "email": "102548089+Stacyrch140@users.noreply.github.com",
       "date": "2025-08-29T18:34:40Z",
       "message": "Merge pull request #9532 from TheWriteDoc/katleftnavedits8\n\nreduce left nav screen",
-      "ai_summary": "<p>This commit appears to be a minor modification to an image file located in the documentation for Microsoft Entra ID protection. The file, <code>workbook-risk-based-impact.png</code>, has been updated, though the specific nature of the change is not detailed by the provided information (zero additions, deletions, or changes are reported, which is unusual for a modified image). The image likely illustrates the impact of risk-based policies within the Entra ID workbook.</p>",
-      "files": [
-        {
-          "filename": "docs/id-protection/media/workbook-risk-based-policy-impact/workbook-risk-based-impact.png",
-          "status": "modified",
-          "additions": 0,
-          "deletions": 0
-        }
-      ]
-    },
-    {
-      "sha": "1deece61f36aaa9ee7f982f9a670c84e57cc5df4",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/1deece61f36aaa9ee7f982f9a670c84e57cc5df4",
-      "author": "Stacy Chambers",
-      "email": "102548089+Stacyrch140@users.noreply.github.com",
-      "date": "2025-08-29T18:34:40Z",
-      "message": "Merge pull request #9532 from TheWriteDoc/katleftnavedits8\n\nreduce left nav screen",
-      "ai_summary": "This commit modifies an image file named `workbook-risk-based-impact.png` located within the `docs/id-protection/media/workbook-risk-based-policy-impact` directory. No additions or deletions were made to the file's content, indicating a potential update or replacement of the image itself without altering its size or adding new information.",
-      "files": [
-        {
-          "filename": "docs/id-protection/media/workbook-risk-based-policy-impact/workbook-risk-based-impact.png",
-          "status": "modified",
-          "additions": 0,
-          "deletions": 0
-        }
-      ]
-    },
-    {
-      "sha": "1deece61f36aaa9ee7f982f9a670c84e57cc5df4",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/1deece61f36aaa9ee7f982f9a670c84e57cc5df4",
-      "author": "Stacy Chambers",
-      "email": "102548089+Stacyrch140@users.noreply.github.com",
-      "date": "2025-08-29T18:34:40Z",
-      "message": "Merge pull request #9532 from TheWriteDoc/katleftnavedits8\n\nreduce left nav screen",
-      "ai_summary": "This commit only modified an image file, `workbook-risk-based-impact.png`. The file is located within the documentation for Identity Protection, specifically in the media folder related to a workbook on risk-based policy impact. No code was changed, only an image asset.",
+      "ai_summary": "This commit modifies an image file located within the documentation for Identity Protection. Specifically, the file `workbook-risk-based-impact.png` has been updated. No changes to the code itself were made, only an alteration to the visual asset.",
       "files": [
         {
           "filename": "docs/id-protection/media/workbook-risk-based-policy-impact/workbook-risk-based-impact.png",
@@ -592,41 +206,7 @@
       "email": "187326664+TheWriteDoc@users.noreply.github.com",
       "date": "2025-08-29T17:52:51Z",
       "message": "reduce left nav screen",
-      "ai_summary": "<p>This commit shows a modification to an image file located in the documentation for Microsoft Entra ID protection. Specifically, the image <code>workbook-risk-based-impact.png</code> within the <code>docs/id-protection/media/workbook-risk-based-policy-impact/</code> directory has been updated. No lines of code were added or deleted, indicating the change was likely a revision or replacement of the image itself.</p>",
-      "files": [
-        {
-          "filename": "docs/id-protection/media/workbook-risk-based-policy-impact/workbook-risk-based-impact.png",
-          "status": "modified",
-          "additions": 0,
-          "deletions": 0
-        }
-      ]
-    },
-    {
-      "sha": "bc42535e20f98244b5052dfa9e154c20a7faf0d0",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/bc42535e20f98244b5052dfa9e154c20a7faf0d0",
-      "author": "TheWriteDoc",
-      "email": "187326664+TheWriteDoc@users.noreply.github.com",
-      "date": "2025-08-29T17:52:51Z",
-      "message": "reduce left nav screen",
-      "ai_summary": "This commit appears to be a modification to an image file, specifically `workbook-risk-based-impact.png`, located within the documentation for identity protection.\n\nIt seems the image itself has been updated or replaced, though the number of additions, deletions, and overall changes to the file content are reported as zero. This could indicate a minor visual adjustment or a change in the image's metadata rather than a significant alteration of its content.",
-      "files": [
-        {
-          "filename": "docs/id-protection/media/workbook-risk-based-policy-impact/workbook-risk-based-impact.png",
-          "status": "modified",
-          "additions": 0,
-          "deletions": 0
-        }
-      ]
-    },
-    {
-      "sha": "bc42535e20f98244b5052dfa9e154c20a7faf0d0",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/bc42535e20f98244b5052dfa9e154c20a7faf0d0",
-      "author": "TheWriteDoc",
-      "email": "187326664+TheWriteDoc@users.noreply.github.com",
-      "date": "2025-08-29T17:52:51Z",
-      "message": "reduce left nav screen",
-      "ai_summary": "The commit modified an image file located at `docs/id-protection/media/workbook-risk-based-policy-impact/workbook-risk-based-impact.png`. There were no additions or deletions of lines, indicating the change was likely an update or replacement of the image itself, rather than content modification within a text file.",
+      "ai_summary": "The provided information indicates a modification to an image file. Specifically, the image `workbook-risk-based-impact.png`, located within the documentation for Microsoft Entra ID Protection, has been altered. No additions or deletions of lines were made, suggesting a potential update to the image content or its metadata rather than a structural change to the file.",
       "files": [
         {
           "filename": "docs/id-protection/media/workbook-risk-based-policy-impact/workbook-risk-based-impact.png",
@@ -643,233 +223,7 @@
       "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
       "date": "2025-08-29T17:06:16Z",
       "message": "Merge pull request #9531 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-08-29 17:04 UTC",
-      "ai_summary": "```html\n<p>This commit primarily updates documentation related to certificate-based authentication in Microsoft Entra ID. Key changes include:</p>\n<ul>\n  <li>Revising links to a new article detailing certificate revocation lists, consolidating information previously spread across multiple technical deep-dive pages.</li>\n  <li>Adding a dedicated new article explaining certificate revocation lists (CRLs) in detail, including their function, integration with Microsoft Entra CBA, and troubleshooting guidance.</li>\n  <li>Refining content on CRL validation, including the enforcement of CRL checking and exemption capabilities for specific Certificate Authorities.</li>\n  <li>Minor updates to Privileged Identity Management (PIM) audit log documentation and other general documentation links.</li>\n</ul>\n```",
-      "files": [
-        {
-          "filename": "docs/architecture/resilience-in-credentials.md",
-          "status": "modified",
-          "additions": 1,
-          "deletions": 1
-        },
-        {
-          "filename": "docs/fundamentals/whats-new-archive.md",
-          "status": "modified",
-          "additions": 1,
-          "deletions": 1
-        },
-        {
-          "filename": "docs/fundamentals/whats-new.md",
-          "status": "modified",
-          "additions": 5,
-          "deletions": 5
-        },
-        {
-          "filename": "docs/id-governance/privileged-identity-management/media/pim-how-use-audit-log/my-audit.png",
-          "status": "added",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/id-governance/privileged-identity-management/media/pim-how-use-audit-log/resource-audit.png",
-          "status": "added",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/id-governance/privileged-identity-management/pim-how-to-use-audit-log.md",
-          "status": "modified",
-          "additions": 8,
-          "deletions": 11
-        },
-        {
-          "filename": "docs/identity/authentication/TOC.yml",
-          "status": "modified",
-          "additions": 2,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity/authentication/certificate-based-authentication-faq.yml",
-          "status": "modified",
-          "additions": 5,
-          "deletions": 47
-        },
-        {
-          "filename": "docs/identity/authentication/concept-certificate-based-authentication-certificate-revocation-list.md",
-          "status": "added",
-          "additions": 236,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity/authentication/concept-certificate-based-authentication-technical-deep-dive.md",
-          "status": "modified",
-          "additions": 1,
-          "deletions": 75
-        },
-        {
-          "filename": "docs/identity/authentication/how-to-configure-certificate-authorities.md",
-          "status": "modified",
-          "additions": 1,
-          "deletions": 1
-        },
-        {
-          "filename": "docs/identity/authentication/media/concept-certificate-based-authentication-certificate-revocation-list/exempt-validation.png",
-          "status": "renamed",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity/authentication/media/concept-certificate-based-authentication-certificate-revocation-list/exempted.png",
-          "status": "renamed",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity/authentication/media/concept-certificate-based-authentication-certificate-revocation-list/require-validation.png",
-          "status": "renamed",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity/authentication/media/concept-certificate-based-authentication-certificate-revocation-list/user-cert.png",
-          "status": "added",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity/hybrid/connect/authenticate-application-id.md",
-          "status": "modified",
-          "additions": 1,
-          "deletions": 1
-        },
-        {
-          "filename": "docs/identity/hybrid/connect/how-to-connect-install-prerequisites.md",
-          "status": "modified",
-          "additions": 5,
-          "deletions": 5
-        }
-      ]
-    },
-    {
-      "sha": "4e6d4e16e5723a1aa97ab9f67e9761a97a19d7fc",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/4e6d4e16e5723a1aa97ab9f67e9761a97a19d7fc",
-      "author": "learn-build-service-prod[bot]",
-      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
-      "date": "2025-08-29T17:06:16Z",
-      "message": "Merge pull request #9531 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-08-29 17:04 UTC",
-      "ai_summary": "The updated documentation includes crucial changes to the Certificate-Based Authentication (CBA) section, specifically clarifying the handling of Certificate Revocation Lists (CRLs). Several files have been modified to accurately reflect the new link for CRL validation documentation and to update the technical deep-dive content regarding CRLs. Additionally, there are minor updates to the \"What's New\" archives and a file path correction within the Privileged Identity Management (PIM) documentation.",
-      "files": [
-        {
-          "filename": "docs/architecture/resilience-in-credentials.md",
-          "status": "modified",
-          "additions": 1,
-          "deletions": 1
-        },
-        {
-          "filename": "docs/fundamentals/whats-new-archive.md",
-          "status": "modified",
-          "additions": 1,
-          "deletions": 1
-        },
-        {
-          "filename": "docs/fundamentals/whats-new.md",
-          "status": "modified",
-          "additions": 5,
-          "deletions": 5
-        },
-        {
-          "filename": "docs/id-governance/privileged-identity-management/media/pim-how-use-audit-log/my-audit.png",
-          "status": "added",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/id-governance/privileged-identity-management/media/pim-how-use-audit-log/resource-audit.png",
-          "status": "added",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/id-governance/privileged-identity-management/pim-how-to-use-audit-log.md",
-          "status": "modified",
-          "additions": 8,
-          "deletions": 11
-        },
-        {
-          "filename": "docs/identity/authentication/TOC.yml",
-          "status": "modified",
-          "additions": 2,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity/authentication/certificate-based-authentication-faq.yml",
-          "status": "modified",
-          "additions": 5,
-          "deletions": 47
-        },
-        {
-          "filename": "docs/identity/authentication/concept-certificate-based-authentication-certificate-revocation-list.md",
-          "status": "added",
-          "additions": 236,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity/authentication/concept-certificate-based-authentication-technical-deep-dive.md",
-          "status": "modified",
-          "additions": 1,
-          "deletions": 75
-        },
-        {
-          "filename": "docs/identity/authentication/how-to-configure-certificate-authorities.md",
-          "status": "modified",
-          "additions": 1,
-          "deletions": 1
-        },
-        {
-          "filename": "docs/identity/authentication/media/concept-certificate-based-authentication-certificate-revocation-list/exempt-validation.png",
-          "status": "renamed",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity/authentication/media/concept-certificate-based-authentication-certificate-revocation-list/exempted.png",
-          "status": "renamed",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity/authentication/media/concept-certificate-based-authentication-certificate-revocation-list/require-validation.png",
-          "status": "renamed",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity/authentication/media/concept-certificate-based-authentication-certificate-revocation-list/user-cert.png",
-          "status": "added",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity/hybrid/connect/authenticate-application-id.md",
-          "status": "modified",
-          "additions": 1,
-          "deletions": 1
-        },
-        {
-          "filename": "docs/identity/hybrid/connect/how-to-connect-install-prerequisites.md",
-          "status": "modified",
-          "additions": 5,
-          "deletions": 5
-        }
-      ]
-    },
-    {
-      "sha": "4e6d4e16e5723a1aa97ab9f67e9761a97a19d7fc",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/4e6d4e16e5723a1aa97ab9f67e9761a97a19d7fc",
-      "author": "learn-build-service-prod[bot]",
-      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
-      "date": "2025-08-29T17:06:16Z",
-      "message": "Merge pull request #9531 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-08-29 17:04 UTC",
-      "ai_summary": "The changes in these commits primarily revolve around updating documentation related to Microsoft Entra certificate-based authentication (CBA). This includes:\n\n*   **Clarifying CRL (Certificate Revocation List) validation:** Several files have been updated to point to a new or refined topic on CRL validation, emphasizing its importance for security and the process of enforcing it.\n*   **Improving link accuracy and content:** References to specific documentation sections have been updated, and some content has been slightly rephrased for clarity.\n*   **Updating PIM audit log documentation:** Changes were made to the Privileged Identity Management (PIM) audit log article, including adding new image files and updating the text to reflect current procedures and terminology.\n*   **Minor updates to Entra Connect prerequisites:** A small change was made to the supported SQL Server version for Entra Connect installation prerequisites.",
+      "ai_summary": "These commits update documentation related to Microsoft Entra, primarily focusing on Certificate-Based Authentication (CBA). Key changes include:\n\n*   **Clarifying CRL Validation:** The documentation now consistently points to the correct article for Certificate Revocation List (CRL) validation, including new explanations and FAQs about CRL functionality, error handling, and configuration.\n*   **Refining PIM Audit Logs:** Updates have been made to the Privileged Identity Management (PIM) audit log articles, including adding new image assets and refining the steps for viewing audit history.\n*   **Updating Links and References:** Several internal documentation links have been corrected to reflect the new location of the CRL information.\n*   **Minor Version Updates:** There are minor updates to prerequisite requirements for Microsoft Entra Connect.",
       "files": [
         {
           "filename": "docs/architecture/resilience-in-credentials.md",
@@ -982,185 +336,7 @@
       "email": "v-jabarnett@microsoft.com",
       "date": "2025-08-29T16:10:50Z",
       "message": "Merge pull request #9329 from vimrang/CRLChanges\n\ncreating new CRL page",
-      "ai_summary": "This commit primarily focuses on updating documentation related to Microsoft Entra's certificate-based authentication (CBA). It refactors and reorganises content about Certificate Revocation Lists (CRLs), moving detailed explanations to a new dedicated page (`concept-certificate-based-authentication-certificate-revocation-list.md`). The updates include clarifying the CRL process, improving guidance on CRL setup, and expanding the error reference section. Additionally, links have been updated across various documentation pages to reflect the new article structure.",
-      "files": [
-        {
-          "filename": "docs/architecture/resilience-in-credentials.md",
-          "status": "modified",
-          "additions": 1,
-          "deletions": 1
-        },
-        {
-          "filename": "docs/fundamentals/whats-new-archive.md",
-          "status": "modified",
-          "additions": 1,
-          "deletions": 1
-        },
-        {
-          "filename": "docs/fundamentals/whats-new.md",
-          "status": "modified",
-          "additions": 5,
-          "deletions": 5
-        },
-        {
-          "filename": "docs/identity/authentication/TOC.yml",
-          "status": "modified",
-          "additions": 2,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity/authentication/certificate-based-authentication-faq.yml",
-          "status": "modified",
-          "additions": 5,
-          "deletions": 47
-        },
-        {
-          "filename": "docs/identity/authentication/concept-certificate-based-authentication-certificate-revocation-list.md",
-          "status": "added",
-          "additions": 236,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity/authentication/concept-certificate-based-authentication-technical-deep-dive.md",
-          "status": "modified",
-          "additions": 1,
-          "deletions": 75
-        },
-        {
-          "filename": "docs/identity/authentication/how-to-configure-certificate-authorities.md",
-          "status": "modified",
-          "additions": 1,
-          "deletions": 1
-        },
-        {
-          "filename": "docs/identity/authentication/media/concept-certificate-based-authentication-certificate-revocation-list/exempt-validation.png",
-          "status": "renamed",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity/authentication/media/concept-certificate-based-authentication-certificate-revocation-list/exempted.png",
-          "status": "renamed",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity/authentication/media/concept-certificate-based-authentication-certificate-revocation-list/require-validation.png",
-          "status": "renamed",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity/authentication/media/concept-certificate-based-authentication-certificate-revocation-list/user-cert.png",
-          "status": "added",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity/hybrid/connect/authenticate-application-id.md",
-          "status": "modified",
-          "additions": 1,
-          "deletions": 1
-        }
-      ]
-    },
-    {
-      "sha": "30f504f4ab75f97044ac1911822d83b9a5b5b807",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/30f504f4ab75f97044ac1911822d83b9a5b5b807",
-      "author": "James Barnett",
-      "email": "v-jabarnett@microsoft.com",
-      "date": "2025-08-29T16:10:50Z",
-      "message": "Merge pull request #9329 from vimrang/CRLChanges\n\ncreating new CRL page",
-      "ai_summary": "The changes update documentation related to Microsoft Entra's certificate-based authentication (CBA). This includes refining links to point to the new \"Certificate revocation list\" concept page, consolidating information about CRL validation, and renaming image files for better organization. The overall goal is to improve clarity and accuracy in the documentation concerning CRL management and its impact on CBA.",
-      "files": [
-        {
-          "filename": "docs/architecture/resilience-in-credentials.md",
-          "status": "modified",
-          "additions": 1,
-          "deletions": 1
-        },
-        {
-          "filename": "docs/fundamentals/whats-new-archive.md",
-          "status": "modified",
-          "additions": 1,
-          "deletions": 1
-        },
-        {
-          "filename": "docs/fundamentals/whats-new.md",
-          "status": "modified",
-          "additions": 5,
-          "deletions": 5
-        },
-        {
-          "filename": "docs/identity/authentication/TOC.yml",
-          "status": "modified",
-          "additions": 2,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity/authentication/certificate-based-authentication-faq.yml",
-          "status": "modified",
-          "additions": 5,
-          "deletions": 47
-        },
-        {
-          "filename": "docs/identity/authentication/concept-certificate-based-authentication-certificate-revocation-list.md",
-          "status": "added",
-          "additions": 236,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity/authentication/concept-certificate-based-authentication-technical-deep-dive.md",
-          "status": "modified",
-          "additions": 1,
-          "deletions": 75
-        },
-        {
-          "filename": "docs/identity/authentication/how-to-configure-certificate-authorities.md",
-          "status": "modified",
-          "additions": 1,
-          "deletions": 1
-        },
-        {
-          "filename": "docs/identity/authentication/media/concept-certificate-based-authentication-certificate-revocation-list/exempt-validation.png",
-          "status": "renamed",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity/authentication/media/concept-certificate-based-authentication-certificate-revocation-list/exempted.png",
-          "status": "renamed",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity/authentication/media/concept-certificate-based-authentication-certificate-revocation-list/require-validation.png",
-          "status": "renamed",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity/authentication/media/concept-certificate-based-authentication-certificate-revocation-list/user-cert.png",
-          "status": "added",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity/hybrid/connect/authenticate-application-id.md",
-          "status": "modified",
-          "additions": 1,
-          "deletions": 1
-        }
-      ]
-    },
-    {
-      "sha": "30f504f4ab75f97044ac1911822d83b9a5b5b807",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/30f504f4ab75f97044ac1911822d83b9a5b5b807",
-      "author": "James Barnett",
-      "email": "v-jabarnett@microsoft.com",
-      "date": "2025-08-29T16:10:50Z",
-      "message": "Merge pull request #9329 from vimrang/CRLChanges\n\ncreating new CRL page",
-      "ai_summary": "The commits update documentation regarding Microsoft Entra certificate-based authentication (CBA). They introduce a new article detailing Certificate Revocation Lists (CRLs), refine existing explanations about CRL validation, and update links to reflect the new article's location. Additionally, the changes improve the clarity and accuracy of technical documentation related to CA configuration and certificate revocation processes.",
+      "ai_summary": "This commit appears to be primarily focused on updating and improving documentation related to Certificate-Based Authentication (CBA) in Microsoft Entra ID. Key changes include:\n\n*   **Renaming and Relocation:** A significant change involves the renaming and relocation of documentation files related to certificate revocation, moving them from `concept-certificate-based-authentication-technical-deep-dive.md` to a new dedicated file, `concept-certificate-based-authentication-certificate-revocation-list.md`.\n*   **Content Updates:** Several files have been updated to reflect this change in file path and to refine the content around Certificate Revocation Lists (CRLs), including details on CRL validation, configuration, and error handling.\n*   **Cross-referencing:** Links and references across various documentation pages have been updated to point to the new or corrected file locations.",
       "files": [
         {
           "filename": "docs/architecture/resilience-in-credentials.md",
@@ -1249,41 +425,7 @@
       "email": "vimrang@yahoo.com",
       "date": "2025-08-29T15:29:53Z",
       "message": "addressed spelling error",
-      "ai_summary": "This commit makes a minor correction to a typo in the documentation. The word \"eeference\" in the heading \"CRL error eeference\" has been corrected to \"error reference\". This change appears in the file `docs/identity/authentication/concept-certificate-based-authentication-certificate-revocation-list.md`.",
-      "files": [
-        {
-          "filename": "docs/identity/authentication/concept-certificate-based-authentication-certificate-revocation-list.md",
-          "status": "modified",
-          "additions": 1,
-          "deletions": 1
-        }
-      ]
-    },
-    {
-      "sha": "07c7fc6e6e1a3f74224e073e2687f2addbead913",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/07c7fc6e6e1a3f74224e073e2687f2addbead913",
-      "author": "vimrang",
-      "email": "vimrang@yahoo.com",
-      "date": "2025-08-29T15:29:53Z",
-      "message": "addressed spelling error",
-      "ai_summary": "<p>The commit updates a documentation file concerning certificate revocation lists (CRLs) used in certificate-based authentication.</p>\n<p>Specifically, it corrects a typo in a heading from \"CRL error eeference\" to \"CRL error reference\", ensuring clearer and more accurate information for users referencing CRL error codes and their resolutions.</p>",
-      "files": [
-        {
-          "filename": "docs/identity/authentication/concept-certificate-based-authentication-certificate-revocation-list.md",
-          "status": "modified",
-          "additions": 1,
-          "deletions": 1
-        }
-      ]
-    },
-    {
-      "sha": "07c7fc6e6e1a3f74224e073e2687f2addbead913",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/07c7fc6e6e1a3f74224e073e2687f2addbead913",
-      "author": "vimrang",
-      "email": "vimrang@yahoo.com",
-      "date": "2025-08-29T15:29:53Z",
-      "message": "addressed spelling error",
-      "ai_summary": "This commit updates a documentation file regarding Certificate Revocation Lists (CRLs) for certificate-based authentication.\n\nThe change specifically corrects a minor typographical error in the heading, changing \"CRL error eeference\" to \"CRL error reference\". This ensures the clarity and accuracy of the technical documentation.",
+      "ai_summary": "This commit addresses a minor typo in the documentation for certificate-based authentication. The word \"eeference\" has been corrected to \"reference\" in the heading of the CRL error section. This update aims to improve clarity and accuracy within the Microsoft Entra documentation.",
       "files": [
         {
           "filename": "docs/identity/authentication/concept-certificate-based-authentication-certificate-revocation-list.md",
@@ -1300,65 +442,7 @@
       "email": "72402153+v-ccolin@users.noreply.github.com",
       "date": "2025-08-29T14:28:24Z",
       "message": "Merge pull request #9495 from barclayn/2025-august-pim-log-history\n\nupdating date",
-      "ai_summary": "The commit updates the documentation for viewing audit history in Microsoft Entra Privileged Identity Management (PIM). It adds two new image files, `resource-audit.png` and `my-audit.png`, and modifies the `pim-how-to-use-audit-log.md` file. The changes include clarifying the purpose of the \"Resource audit\" and \"My audit\" blades, updating the required sign-in roles for viewing the audit history, and referencing the new image files.",
-      "files": [
-        {
-          "filename": "docs/id-governance/privileged-identity-management/media/pim-how-use-audit-log/my-audit.png",
-          "status": "added",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/id-governance/privileged-identity-management/media/pim-how-use-audit-log/resource-audit.png",
-          "status": "added",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/id-governance/privileged-identity-management/pim-how-to-use-audit-log.md",
-          "status": "modified",
-          "additions": 8,
-          "deletions": 11
-        }
-      ]
-    },
-    {
-      "sha": "20d1ddf75eab745526ec2e74245577bc674b1381",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/20d1ddf75eab745526ec2e74245577bc674b1381",
-      "author": "v-ccolin",
-      "email": "72402153+v-ccolin@users.noreply.github.com",
-      "date": "2025-08-29T14:28:24Z",
-      "message": "Merge pull request #9495 from barclayn/2025-august-pim-log-history\n\nupdating date",
-      "ai_summary": "<p>This commit updates the Microsoft Entra documentation for Privileged Identity Management (PIM) audit logs. It introduces two new image files, <code>resource-audit.png</code> and <code>my-audit.png</code>, which are now referenced in the <code>pim-how-to-use-audit-log.md</code> file. The documentation has been slightly revised to clarify the purpose of the 'Resource audit' and 'My audit' blades, and to adjust the required permissions for viewing the audit history, allowing a broader set of roles to access this information.</p>",
-      "files": [
-        {
-          "filename": "docs/id-governance/privileged-identity-management/media/pim-how-use-audit-log/my-audit.png",
-          "status": "added",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/id-governance/privileged-identity-management/media/pim-how-use-audit-log/resource-audit.png",
-          "status": "added",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/id-governance/privileged-identity-management/pim-how-to-use-audit-log.md",
-          "status": "modified",
-          "additions": 8,
-          "deletions": 11
-        }
-      ]
-    },
-    {
-      "sha": "20d1ddf75eab745526ec2e74245577bc674b1381",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/20d1ddf75eab745526ec2e74245577bc674b1381",
-      "author": "v-ccolin",
-      "email": "72402153+v-ccolin@users.noreply.github.com",
-      "date": "2025-08-29T14:28:24Z",
-      "message": "Merge pull request #9495 from barclayn/2025-august-pim-log-history\n\nupdating date",
-      "ai_summary": "This commit updates the documentation for viewing audit logs in Microsoft Entra Privileged Identity Management (PIM).\n\nTwo new image files, `resource-audit.png` and `my-audit.png`, have been added to illustrate the \"Resource audit\" and \"My audit\" views respectively.\n\nThe main Markdown file, `pim-how-to-use-audit-log.md`, has been modified to reflect these changes, including updated instructions, clearer descriptions of the audit views, and a change in the required sign-in roles for viewing resource audit history to include Global Administrator, Global Reader, Security Administrator, and Security Reader. The date of the article has also been updated.",
+      "ai_summary": "This commit updates the documentation for viewing audit logs in Microsoft Entra Privileged Identity Management (PIM). It adds two new images (`my-audit.png` and `resource-audit.png`) and modifies the main markdown file (`pim-how-to-use-audit-log.md`). The changes clarify that the audit history covers role assignment changes and activations within the past 30 days and adjust the required sign-in permissions for viewing the \"Resource audit\" section.",
       "files": [
         {
           "filename": "docs/id-governance/privileged-identity-management/media/pim-how-use-audit-log/my-audit.png",
@@ -1387,41 +471,7 @@
       "email": "40007230+prmerger-automator[bot]@users.noreply.github.com",
       "date": "2025-08-29T11:08:16Z",
       "message": "Merge pull request #9520 from msewaweru/sql-edition-change\n\nUpdate SQL Server version in prerequisites",
-      "ai_summary": "The recent commit updates the documentation for Microsoft Entra Connect installation prerequisites. The changes include updating the `ms.date` metadata, modifying a link to the SQL Server TLS 1.2 support documentation, and upgrading the included Microsoft SQL Server components from version 2022 to version 2019.",
-      "files": [
-        {
-          "filename": "docs/identity/hybrid/connect/how-to-connect-install-prerequisites.md",
-          "status": "modified",
-          "additions": 5,
-          "deletions": 5
-        }
-      ]
-    },
-    {
-      "sha": "bb440c829448a6f86390be56ed2d5fcdcf048e2f",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/bb440c829448a6f86390be56ed2d5fcdcf048e2f",
-      "author": "prmerger-automator[bot]",
-      "email": "40007230+prmerger-automator[bot]@users.noreply.github.com",
-      "date": "2025-08-29T11:08:16Z",
-      "message": "Merge pull request #9520 from msewaweru/sql-edition-change\n\nUpdate SQL Server version in prerequisites",
-      "ai_summary": "<p>The update to the Microsoft Entra Connect prerequisites documentation primarily involves an adjustment to the article's publication date and a correction to a hyperlink. Specifically, the <code>ms.date</code> metadata has been changed from 04/09/2025 to 08/28/2025. Additionally, a broken link for TLS 1.2 support on SQL Server has been fixed, now directing users to a relevant internal Microsoft documentation page.</p>",
-      "files": [
-        {
-          "filename": "docs/identity/hybrid/connect/how-to-connect-install-prerequisites.md",
-          "status": "modified",
-          "additions": 5,
-          "deletions": 5
-        }
-      ]
-    },
-    {
-      "sha": "bb440c829448a6f86390be56ed2d5fcdcf048e2f",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/bb440c829448a6f86390be56ed2d5fcdcf048e2f",
-      "author": "prmerger-automator[bot]",
-      "email": "40007230+prmerger-automator[bot]@users.noreply.github.com",
-      "date": "2025-08-29T11:08:16Z",
-      "message": "Merge pull request #9520 from msewaweru/sql-edition-change\n\nUpdate SQL Server version in prerequisites",
-      "ai_summary": "This commit updates the documentation for installing prerequisites for Microsoft Entra Connect. The primary changes include an update to the `ms.date` metadata, a correction to a hyperlink for TLS 1.2 support on SQL Server to use a relative path, and a downgrade of the Microsoft SQL Server components from version 2022 to version 2019 for local installations.",
+      "ai_summary": "The commit updates the documentation for Microsoft Entra Connect installation prerequisites.\n\nSpecifically, it amends the `ms.date` metadata to reflect a later publication date and corrects a broken internal link within the TLS 1.2 section. Additionally, it updates the listed SQL Server components from version 2022 to version 2019, likely to align with current recommended or supported versions.",
       "files": [
         {
           "filename": "docs/identity/hybrid/connect/how-to-connect-install-prerequisites.md",
