@@ -58,7 +58,7 @@ function ChangeTable() {
                 <td>{new Date(change.date).toLocaleString()}</td>
                 <td>
                   <div className="ed-summary">
-                    <ReactMarkdown>{change.ai_summary}</ReactMarkdown>
+                    <ReactMarkdown>{change.ai_summary.response}</ReactMarkdown>
                   </div>
                 </td>
                 <td>
