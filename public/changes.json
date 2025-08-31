@@ -1,14 +1,4 @@
 {
-  "metadata": {
-    "total_commits": 15,
-    "source_files": [
-      {
-        "filename": "entra-changes-20250831-0637.json",
-        "commit_count": 15
-      }
-    ],
-    "generated_date": "2025-08-31T06:38:15Z"
-  },
   "changes": [
     {
       "sha": "ca823eeb9ea81b72a0b718b5d7c9b6959ae381d4",
@@ -586,5 +576,15 @@
         }
       ]
     }
-  ]
+  ],
+  "metadata": {
+    "source_files": [
+      {
+        "filename": "entra-changes-20250831-0637.json",
+        "commit_count": 15
+      }
+    ],
+    "total_commits": 15,
+    "generated_date": "2025-08-31T07:00:32Z"
+  }
 }
