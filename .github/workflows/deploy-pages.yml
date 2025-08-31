@@ -7,10 +7,6 @@ on:
   
   # Allow manual trigger
   workflow_dispatch:
-  
-  # Also trigger on pushes to main branch (optional)
-  push:
-    branches: [ main ]
 
 jobs:
   deploy:
