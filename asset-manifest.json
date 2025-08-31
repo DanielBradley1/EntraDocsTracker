@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/EntraDocsTracker/static/css/main.97fd6d4b.css",
-    "main.js": "/EntraDocsTracker/static/js/main.9c883ffb.js",
+    "main.css": "/EntraDocsTracker/static/css/main.1ba6728e.css",
+    "main.js": "/EntraDocsTracker/static/js/main.823f0b4c.js",
     "static/js/453.9f2eaf9d.chunk.js": "/EntraDocsTracker/static/js/453.9f2eaf9d.chunk.js",
     "index.html": "/EntraDocsTracker/index.html",
     "static/media/blog.svg": "/EntraDocsTracker/static/media/blog.1dca6efdf184c64e9880e4847db0cbe6.svg",
     "static/media/x.svg": "/EntraDocsTracker/static/media/x.77e7da21d2ebc836627d34279a67abd2.svg",
     "static/media/linkedin.svg": "/EntraDocsTracker/static/media/linkedin.ada11cda991129bc91b79d2c7cee1066.svg",
     "static/media/youtube.svg": "/EntraDocsTracker/static/media/youtube.6806408aa1bf55b7f1aaba51978e649e.svg",
-    "main.97fd6d4b.css.map": "/EntraDocsTracker/static/css/main.97fd6d4b.css.map",
-    "main.9c883ffb.js.map": "/EntraDocsTracker/static/js/main.9c883ffb.js.map",
+    "main.1ba6728e.css.map": "/EntraDocsTracker/static/css/main.1ba6728e.css.map",
+    "main.823f0b4c.js.map": "/EntraDocsTracker/static/js/main.823f0b4c.js.map",
     "453.9f2eaf9d.chunk.js.map": "/EntraDocsTracker/static/js/453.9f2eaf9d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.97fd6d4b.css",
-    "static/js/main.9c883ffb.js"
+    "static/css/main.1ba6728e.css",
+    "static/js/main.823f0b4c.js"
   ]
 }
