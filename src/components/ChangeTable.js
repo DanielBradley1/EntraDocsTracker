@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import ReactMarkdown from 'react-markdown';
 function ChangeTable() {
   const [changes, setChanges] = useState([]);
   const [expanded, setExpanded] = useState({});
@@ -55,7 +56,11 @@ function ChangeTable() {
             <React.Fragment key={change.sha}>
               <tr>
                 <td>{new Date(change.date).toLocaleString()}</td>
-                <td><div className="ed-summary">{change.ai_summary}</div></td>
+                <td>
+                  <div className="ed-summary">
+                    <ReactMarkdown>{change.ai_summary}</ReactMarkdown>
+                  </div>
+                </td>
                 <td>
                   <button className="ed-expand-btn" onClick={() => toggleExpand(idx)}>
                     {expanded[idx] ? 'Hide' : 'Show'}

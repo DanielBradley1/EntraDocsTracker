@@ -170,6 +170,7 @@
   border-collapse: collapse;
   font-family: 'Inter', sans-serif;
   background: #fff;
+  table-layout: fixed;
 }
 .ed-table th, .ed-table td {
   padding: 1.1rem 1rem;
@@ -178,6 +179,20 @@
   border-bottom: 1.5px solid #e6eaf3;
   background: #fff;
   transition: background 0.2s;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.ed-table th:nth-child(1), .ed-table td:nth-child(1) {
+  width: 15%;
+}
+
+.ed-table th:nth-child(2), .ed-table td:nth-child(2) {
+  width: 70%;
+}
+
+.ed-table th:nth-child(3), .ed-table td:nth-child(3) {
+  width: 15%;
 }
 .ed-table th {
   background: #f3f6fa;
@@ -196,6 +211,44 @@
   color: #1a2341;
   font-weight: 350;
   line-height: 1.5;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
+}
+
+.ed-summary * {
+  max-width: 100%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.ed-summary p {
+  margin: 0 0 0.5rem 0;
+}
+
+.ed-summary p:last-child {
+  margin-bottom: 0;
+}
+
+.ed-summary strong {
+  font-weight: 600;
+}
+
+.ed-summary code {
+  background: #f1f5f9;
+  padding: 0.15rem 0.3rem;
+  border-radius: 3px;
+  font-size: 0.9em;
+  word-break: break-all;
+}
+
+.ed-summary ul, .ed-summary ol {
+  margin: 0.5rem 0;
+  padding-left: 1.2rem;
+}
+
+.ed-summary li {
+  margin-bottom: 0.2rem;
 }
 .ed-expand-btn {
   background: #1a6cff;
