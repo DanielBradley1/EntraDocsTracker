@@ -39,7 +39,7 @@ function ChangeTable() {
   return (
     <div>
       <div className="ed-info-banner">
-        Want to learn how this tool works? <a href="https://ourcloudnetwork.com/what-is-entradocstracker/" target="_blank" rel="noopener noreferrer">Read our comprehensive guide</a> to understand how EntraDocsTracker monitors and tracks documentation changes.
+        Want to learn how this tool works? <a href="https://ourcloudnetwork.com/what-is-entra-docs-tracker/" target="_blank" rel="noopener noreferrer">Read our comprehensive guide</a> to understand how EntraDocsTracker monitors and tracks documentation changes.
       </div>
       <div className="ed-table-container">
         <h2 className="ed-changes-title">Recent Entra Docs Changes</h2>
