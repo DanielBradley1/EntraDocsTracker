@@ -3,7 +3,7 @@ name: Auto-Deploy GitHub Pages
 on:
   # Trigger deployment every 4 hours
   schedule:
-    - cron: '0 */4 * * *'  # Runs at minute 0 of every 4th hour
+    - cron: '10 */4 * * *'  # Runs at minute 0 of every 4th hour
   
   # Allow manual trigger
   workflow_dispatch:
