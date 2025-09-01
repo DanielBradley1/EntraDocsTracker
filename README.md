@@ -1,6 +1,4 @@
-# 📚 EntraDocsTracker
-
-**Stay effortlessly up-to-date with all changes to the Microsoft Entra documentation.**
+<img width="800" height="200" alt="EntraDocsTracker" src="https://github.com/user-attachments/assets/dd023bbf-10cf-45fb-b994-98a88d05fa06" />
 
 *Created by **Daniel Bradley** | [ourcloudnetwork.com](https://ourcloudnetwork.com/) | [LinkedIn](https://www.linkedin.com/in/danielbradley2/) | [Twitter](https://x.com/DanielatOCN) | [YouTube](https://www.youtube.com/@ourcloudnetwork)*
 
@@ -11,8 +9,6 @@ EntraDocsTracker monitors updates to Microsoft Entra ID documentation so you nev
 ## 🌐 Access EntraDocsTracker
 
 **[Visit EntraDocsTracker Live →](https://entradocs.ourcloudnetwork.com/)**
-
-*The easiest way to stay updated with Entra documentation changes is to use the hosted version above. It's always up-to-date.
 
 ## ✨ Features
 
@@ -26,39 +22,4 @@ EntraDocsTracker monitors updates to Microsoft Entra ID documentation so you nev
 
 ## 🤝 Questions or Feedback?
 
-Have questions about EntraDocsTracker or suggestions for improvement? 
-
-- 🌐 Visit: [ourcloudnetwork.com](https://ourcloudnetwork.com/)
-- 💼 Connect: [LinkedIn](https://www.linkedin.com/in/danielbradley2/)
-- 🐦 Follow: [Twitter](https://x.com/DanielatOCN)
-- 📺 Subscribe: [YouTube Channel](https://www.youtube.com/@ourcloudnetwork)
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👨‍💻 Author
-
-**Daniel Bradley**
-- Website: [ourcloudnetwork.com](https://ourcloudnetwork.com/)
-- LinkedIn: [danielbradley2](https://www.linkedin.com/in/danielbradley2/)
-- Twitter: [@DanielatOCN](https://x.com/DanielatOCN)
-- YouTube: [Our Cloud Network](https://www.youtube.com/@ourcloudnetwork)
-
-## 🙏 Acknowledgments
-
-- Microsoft for maintaining the comprehensive Entra documentation
-- The React community for excellent tooling and libraries
-- AI model providers for powering the intelligent summaries
-
-## 📈 Future Enhancements
-
-- [ ] Email notifications for specific documentation changes
-- [ ] Advanced filtering and search capabilities
-- [ ] Historical trend analysis
-- [ ] Integration with Microsoft Graph API
-- [ ] Custom alert rules and keywords
-
----
-
-**Stay informed. Stay ahead. Track Entra documentation changes effortlessly.**
+Have questions about EntraDocsTracker or suggestions for improvement? Drop me a message through any of my social media channels. Alternatively, report an issue right here on GitHub.
