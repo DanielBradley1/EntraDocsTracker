@@ -1,8 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useMemo } from 'react';
 import ReactMarkdown from 'react-markdown';
 function ChangeTable() {
   const [changes, setChanges] = useState([]);
   const [expanded, setExpanded] = useState({});
+  const [searchTerm, setSearchTerm] = useState('');
 
   useEffect(() => {
     // Load changes from the single changes.json file
@@ -32,8 +33,42 @@ function ChangeTable() {
     fetchChanges();
   }, []);
 
+  // Performant filtering using useMemo
+  const filteredChanges = useMemo(() => {
+    if (!searchTerm.trim()) {
+      return changes;
+    }
+    
+    const searchLower = searchTerm.toLowerCase();
+    return changes.filter(change => {
+      // Search in AI summary
+      const summary = change.ai_summary?.Response || change.ai_summary || '';
+      if (summary.toLowerCase().includes(searchLower)) return true;
+      
+      // Search in author
+      if (change.author && change.author.toLowerCase().includes(searchLower)) return true;
+      
+      // Search in file names
+      if (change.files && change.files.some(file => 
+        file.filename.toLowerCase().includes(searchLower)
+      )) return true;
+      
+      // Search in date (formatted)
+      const dateStr = new Date(change.date).toLocaleString().toLowerCase();
+      if (dateStr.includes(searchLower)) return true;
+      
+      return false;
+    });
+  }, [changes, searchTerm]);
+
   const toggleExpand = idx => {
     setExpanded(prev => ({ ...prev, [idx]: !prev[idx] }));
+  };
+
+  const handleSearchChange = (e) => {
+    setSearchTerm(e.target.value);
+    // Clear expanded state when searching to avoid index mismatches
+    setExpanded({});
   };
 
   return (
@@ -43,6 +78,39 @@ function ChangeTable() {
       </div>
       <div className="ed-table-container">
         <h2 className="ed-changes-title">Recent Entra Docs Changes</h2>
+        
+        {/* Search Bar */}
+        <div className="ed-search-container">
+          <div className="ed-search-wrapper">
+            <svg className="ed-search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+              <path fillRule="evenodd" d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z" clipRule="evenodd" />
+            </svg>
+            <input
+              type="text"
+              className="ed-search-input"
+              placeholder="Search changes by summary, author, file names, or date..."
+              value={searchTerm}
+              onChange={handleSearchChange}
+            />
+            {searchTerm && (
+              <button 
+                className="ed-search-clear"
+                onClick={() => handleSearchChange({ target: { value: '' } })}
+                title="Clear search"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                  <path d="M6.28 5.22a.75.75 0 00-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 101.06 1.06L10 11.06l3.72 3.72a.75.75 0 101.06-1.06L11.06 10l3.72-3.72a.75.75 0 00-1.06-1.06L10 8.94 6.28 5.22z" />
+                </svg>
+              </button>
+            )}
+          </div>
+          {searchTerm && (
+            <div className="ed-search-results">
+              Showing {filteredChanges.length} of {changes.length} changes
+            </div>
+          )}
+        </div>
+
         <table className="ed-table">
         <thead>
           <tr>
@@ -52,7 +120,7 @@ function ChangeTable() {
           </tr>
         </thead>
         <tbody>
-          {changes.map((change, idx) => (
+          {filteredChanges.map((change, idx) => (
             <React.Fragment key={change.sha}>
               <tr>
                 <td>{new Date(change.date).toLocaleString()}</td>
