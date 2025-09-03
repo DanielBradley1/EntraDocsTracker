@@ -1,39 +1,59 @@
 {
-  "metadata": {
-    "source_files": [
-      {
-        "commit_count": 15,
-        "filename": "entra-changes-20250831-0839.json"
-      },
-      {
-        "commit_count": 3,
-        "filename": "entra-changes-20250901-1715.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20250901-2301.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20250902-1301.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20250902-1901.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20250902-2101.json"
-      },
-      {
-        "commit_count": 3,
-        "filename": "entra-changes-20250902-2301.json"
-      }
-    ],
-    "generated_date": "2025-09-02T23:01:21Z",
-    "total_commits": 25
-  },
   "changes": [
+    {
+      "sha": "8a793537d67debb0d7536fe20348de489e865733",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/8a793537d67debb0d7536fe20348de489e865733",
+      "author": "learn-build-service-prod[bot]",
+      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+      "date": "2025-09-03T05:04:48Z",
+      "message": "Merge pull request #9565 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-09-03 05:02 UTC",
+      "ai_summary": {
+        "Messages": "{\"role\":\"user\",\"content\":\"The following is the commit files that have changed: [\\r\\n  {\\r\\n    \\\"sha\\\": \\\"0e5dd8bcfd798559e9d5772b5ef6f7781a34d5fc\\\",\\r\\n    \\\"filename\\\": \\\"docs/global-secure-access/concept-remote-network-connectivity.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 6,\\r\\n    \\\"deletions\\\": 2,\\r\\n    \\\"changes\\\": 8,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/8a793537d67debb0d7536fe20348de489e865733/docs%2Fglobal-secure-access%2Fconcept-remote-network-connectivity.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/8a793537d67debb0d7536fe20348de489e865733/docs%2Fglobal-secure-access%2Fconcept-remote-network-connectivity.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fglobal-secure-access%2Fconcept-remote-network-connectivity.md?ref=8a793537d67debb0d7536fe20348de489e865733\\\",\\r\\n    \\\"patch\\\": \\\"@@ -5,7 +5,7 @@ author: kenwith\\\\n ms.author: kenwith\\\\n manager: dougeby\\\\n ms.topic: concept-article\\\\n-ms.date: 05/09/2025\\\\n+ms.date: 09/02/2025\\\\n ms.service: global-secure-access\\\\n ai-usage: ai-assisted\\\\n ---\\\\n@@ -30,6 +30,9 @@ Remote networks, such as a branch location, are typically connected to the corpo\\\\n \\\\n **Evolving threats** – Malicious actors are finding new avenues to attack the devices at the edge of networks. Edge devices in branch offices or even home offices are often the most vulnerable point of attack.\\\\n \\\\n+> [!TIP]\\\\n+> For guidance on enhancing the resilience of remote networks, see [Best practices for Global Secure Access remote network resilience](remote-network-resilience.md).\\\\n+\\\\n ## How does Global Secure Access remote network connectivity work? \\\\n \\\\n To connect a remote network to Global Secure Access, you set up an Internet Protocol Security (IPSec) tunnel between your on-premises equipment and the Global Secure Access endpoint. Traffic that you specify is routed through the IPSec tunnel to the nearest Global Secure Access endpoint. You can apply security policies in the Microsoft Entra admin center.\\\\n@@ -53,7 +56,7 @@ Guest devices on your network might not have the client installed. To ensure tha\\\\n \\\\n ### How much bandwidth will be allocated per tenant \\\\n \\\\n-The total bandwidth you are allocated is determined by the number of licenses purchased. Each Microsoft Entra ID P1 license, Microsoft Entra Internet Access license, or Microsoft Entra Suite license contributes to your total bandwidth. Bandwidth for remote networks can be assigned to IPsec tunnels in increments of 250 Mbps, 500 Mbps, 750 Mbps, or 1000 Mbps. This flexibility allows you to allocate bandwidth to different remote network locations according to your specific needs. For optimal performance, Microsoft recommends configuring at least two IPsec tunnels per location for high availability. The table below details the total bandwidth based on the number of licenses purchased. \\\\n+The total bandwidth you're allocated is determined by the number of licenses purchased. Each Microsoft Entra ID P1 license, Microsoft Entra Internet Access license, or Microsoft Entra Suite license contributes to your total bandwidth. Bandwidth for remote networks can be assigned to IPsec tunnels in increments of 250 Mbps, 500 Mbps, 750 Mbps, or 1,000 Mbps. This flexibility allows you to allocate bandwidth to different remote network locations according to your specific needs. For optimal performance, Microsoft recommends configuring at least two IPsec tunnels per location for high availability. The table below details the total bandwidth based on the number of licenses purchased. \\\\n \\\\n #### Initial bandwidth allocation\\\\n \\\\n@@ -156,3 +159,4 @@ Remaining Bandwidth: 28,500 Mbps\\\\n ## Next steps\\\\n - [List all remote networks](how-to-list-remote-networks.md)\\\\n - [Manage remote networks](how-to-manage-remote-networks.md)\\\\n+- [Best practices for Global Secure Access remote network resilience](remote-network-resilience.md)\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"c68bc8c675daac34d01598bb60f90292a92b8363\\\",\\r\\n    \\\"filename\\\": \\\"docs/global-secure-access/how-to-create-remote-networks.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 6,\\r\\n    \\\"deletions\\\": 3,\\r\\n    \\\"changes\\\": 9,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/8a793537d67debb0d7536fe20348de489e865733/docs%2Fglobal-secure-access%2Fhow-to-create-remote-networks.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/8a793537d67debb0d7536fe20348de489e865733/docs%2Fglobal-secure-access%2Fhow-to-create-remote-networks.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fglobal-secure-access%2Fhow-to-create-remote-networks.md?ref=8a793537d67debb0d7536fe20348de489e865733\\\",\\r\\n    \\\"patch\\\": \\\"@@ -5,9 +5,9 @@ ms.author: jayrusso\\\\n author: HULKsmashGithub\\\\n manager: dougeby\\\\n ms.topic: how-to\\\\n-ms.date: 02/25/2025\\\\n+ms.date: 09/02/2025\\\\n ms.service: global-secure-access\\\\n-ms.reviewer: absinh\\\\n+ms.reviewer: abhijeetsinha\\\\n ms.custom: sfi-image-nochange\\\\n # Customer intent: As an IT admin, I need to be able to create a remote network for a remote office so that my organization can connect to the Global Secure Access service.\\\\n ---\\\\n@@ -95,7 +95,10 @@ This process is covered in detail in the [How to configure your customer premise\\\\n \\\\n ### Set up your CPE\\\\n \\\\n-This step is performed in management console your CPE, not in Microsoft Entra admin center. Until you complete this step, your IPsec *isn't* set up. IPsec is a bidirectional communication. IKE negotiations happen between two parties before the tunnel is successfully set up. So, don't miss this step.\\\\n+You perform this step in the management console of your CPE, not in Microsoft Entra admin center. Until you complete this step, your IPsec *isn't* set up. IPsec is a bidirectional communication. IKE negotiations occur between two parties before the tunnel is successfully set up. Don't skip this step.\\\\n+\\\\n+> [!TIP]\\\\n+> For guidance on enhancing the resilience of remote networks, see [Best practices for Global Secure Access remote network resilience](remote-network-resilience.md).\\\\n \\\\n ## [Microsoft Graph API](#tab/microsoft-graph-api)\\\\n \\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"1d8cc759064b780b5f6dc3c5ac99958656e724d2\\\",\\r\\n    \\\"filename\\\": \\\"docs/global-secure-access/media/remote-network-resilience/geographic-redundancy.png\\\",\\r\\n    \\\"status\\\": \\\"added\\\",\\r\\n    \\\"additions\\\": 0,\\r\\n    \\\"deletions\\\": 0,\\r\\n    \\\"changes\\\": 0,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/8a793537d67debb0d7536fe20348de489e865733/docs%2Fglobal-secure-access%2Fmedia%2Fremote-network-resilience%2Fgeographic-redundancy.png\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/8a793537d67debb0d7536fe20348de489e865733/docs%2Fglobal-secure-access%2Fmedia%2Fremote-network-resilience%2Fgeographic-redundancy.png\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fglobal-secure-access%2Fmedia%2Fremote-network-resilience%2Fgeographic-redundancy.png?ref=8a793537d67debb0d7536fe20348de489e865733\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"558456f58919d1802b909ffb7a1e91cac0c0d405\\\",\\r\\n    \\\"filename\\\": \\\"docs/global-secure-access/media/remote-network-resilience/zone-redundancy.png\\\",\\r\\n    \\\"status\\\": \\\"added\\\",\\r\\n    \\\"additions\\\": 0,\\r\\n    \\\"deletions\\\": 0,\\r\\n    \\\"changes\\\": 0,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/8a793537d67debb0d7536fe20348de489e865733/docs%2Fglobal-secure-access%2Fmedia%2Fremote-network-resilience%2Fzone-redundancy.png\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/8a793537d67debb0d7536fe20348de489e865733/docs%2Fglobal-secure-access%2Fmedia%2Fremote-network-resilience%2Fzone-redundancy.png\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fglobal-secure-access%2Fmedia%2Fremote-network-resilience%2Fzone-redundancy.png?ref=8a793537d67debb0d7536fe20348de489e865733\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"cdaf8e4b1b4923878925087656098ff0bdf2aa26\\\",\\r\\n    \\\"filename\\\": \\\"docs/global-secure-access/remote-network-resilience.md\\\",\\r\\n    \\\"status\\\": \\\"added\\\",\\r\\n    \\\"additions\\\": 68,\\r\\n    \\\"deletions\\\": 0,\\r\\n    \\\"changes\\\": 68,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/8a793537d67debb0d7536fe20348de489e865733/docs%2Fglobal-secure-access%2Fremote-network-resilience.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/8a793537d67debb0d7536fe20348de489e865733/docs%2Fglobal-secure-access%2Fremote-network-resilience.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fglobal-secure-access%2Fremote-network-resilience.md?ref=8a793537d67debb0d7536fe20348de489e865733\\\",\\r\\n    \\\"patch\\\": \\\"@@ -0,0 +1,68 @@\\\\n+---\\\\n+title: Enhance Remote Network Resilience with Global Secure Access\\\\n+description: \\\\\\\"This article provides techniques to improve remote network resilience with Global Secure Access.\\\\\\\"\\\\n+author: HULKsmashGithub\\\\n+ms.author: jayrusso\\\\n+ms.service: global-secure-access\\\\n+ms.topic: best-practice\\\\n+ms.date: 09/02/2025\\\\n+manager: dougeby\\\\n+ms.reviewer: abhijeetsinha\\\\n+ai-usage: ai-assisted\\\\n+\\\\n+#customer intent: As a network administrator, I want to improve remote network resilience so that users can maintain connectivity during disruptions.\\\\n+\\\\n+---\\\\n+\\\\n+# Best practices for Global Secure Access remote network resilience\\\\n+This article provides actionable recommendations to enhance the resilience of remote networks. To ensure optimal deployment and performance of Global Secure Access remote network connectivity, follow these best practices:\\\\n+ \\\\n+## Configure redundant tunnels and failovers\\\\n+Configure multiple Internet Protocol Security (IPsec) tunnels from the customer premises equipment (CPE) to different Global Secure Access edges or POPs. \\\\n+\\\\n+### Zone redundancy \\\\n+The **Zone redundancy** option creates two IPsec tunnels in different availability zones, but within the same Azure region. \\\\n+\\\\n+:::image type=\\\\\\\"content\\\\\\\" source=\\\\\\\"media/remote-network-resilience/zone-redundancy.png\\\\\\\" alt-text=\\\\\\\"Screenshot of the Connectivity step, with the Add a link pane showing the Zone redundancy menu option.\\\\\\\":::   \\\\n+\\\\n+### Geographic redundancy\\\\n+You can also achieve redundancy by creating a new remote network in a different geographic region. You can use the same CPE configuration to set up IPsec tunnels in the secondary remote network.  \\\\n+\\\\n+:::image type=\\\\\\\"content\\\\\\\" source=\\\\\\\"media/remote-network-resilience/geographic-redundancy.png\\\\\\\" alt-text=\\\\\\\"Screenshot of the list of remote networks in multiple geographic regions.\\\\\\\":::   \\\\n+\\\\n+Use the CPE's management console to assign weights to these IPsec tunnels and decide how to route traffic through them. \\\\n+\\\\n+|Tunnel weighting  |Traffic routing  |\\\\n+|---------|---------|\\\\n+|Equal split     | active-active        |\\\\n+|Primary/secondary     | active-standby        |\\\\n+\\\\n+### Dynamic route learning\\\\n+Use Border Gateway Protocol (BGP) for dynamic route learning. If BGP isn't supported on the device, set up static routes with appropriate metrics. \\\\n+\\\\n+## Set up CPE according to your desired security posture\\\\n+Configure CPE based on whether your business prioritizes security or productivity.\\\\n+\\\\n+### Prioritize security\\\\n+If you prioritize security, prevent user traffic from going to the destination without first going through Global Secure Access. To do so, statically route traffic over the IPsec tunnel with Global Secure Access without setting up the default route.\\\\n+\\\\n+### Prioritize productivity\\\\n+If you prioritize productivity, set up a default route for traffic. This way, if a Global Secure Access VPN gateway or backend service goes down, user traffic continues directly through the default route.\\\\n+\\\\n+> [!IMPORTANT]\\\\n+> **Recommendation**: Set up a default route and configure an IP SLA Layer 7 health probe to monitor the endpoint.\\\\n+\\\\n+To set up a default route:\\\\n+1. Configure an IP SLA Layer 7 health probe to monitor the endpoint `http://m365.remote-network.edgediagnostic.globalsecureaccess.microsoft.com:6544/ping`. For guidance, see [How to create a remote network with Global Secure Access](how-to-create-remote-networks.md).\\\\n+1. Alternatively, set the probe to monitor IP address `198.18.1.101`. Statically send these IP addresses over the Global Secure Access IPsec tunnel from your CPE. We're adding this IP address to the Microsoft 365 BGP route advertisement.\\\\n+\\\\n+> [!NOTE]\\\\n+> These endpoints are accessible only through Global Secure Access remote network connectivity.\\\\n+\\\\n+## Configure monitoring and observability\\\\n+Monitor traffic logs and remote network health events by exporting them to your Log Analytics workspace. Set up Azure Monitor alert rules to track the health of your workspace. For more information, see [What are remote network health logs?](how-to-remote-network-health-logs.md).\\\\n+\\\\n+## Related content\\\\n+\\\\n+- [Understand remote network connectivity](concept-remote-network-connectivity.md)\\\\n+- [How to create a remote network with Global Secure Access](how-to-create-remote-networks.md)\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"bd7532a7482ac8b819b0f31967e9c6f10fe0843a\\\",\\r\\n    \\\"filename\\\": \\\"docs/global-secure-access/toc.yml\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 2,\\r\\n    \\\"deletions\\\": 0,\\r\\n    \\\"changes\\\": 2,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/8a793537d67debb0d7536fe20348de489e865733/docs%2Fglobal-secure-access%2Ftoc.yml\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/8a793537d67debb0d7536fe20348de489e865733/docs%2Fglobal-secure-access%2Ftoc.yml\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fglobal-secure-access%2Ftoc.yml?ref=8a793537d67debb0d7536fe20348de489e865733\\\",\\r\\n    \\\"patch\\\": \\\"@@ -78,6 +78,8 @@ items:\\\\n         href: concept-remote-network-connectivity.md\\\\n       - name: Create a remote network\\\\n         href: how-to-create-remote-networks.md\\\\n+      - name: Enhance remote network resilience\\\\n+        href: remote-network-resilience.md\\\\n       - name: Create remote network with custom Internet Key Exchange (IKE) policy\\\\n         href: how-to-create-remote-network-custom-ike-policy.md\\\\n       - name: Configure customer premises equipment\\\"\\r\\n  }\\r\\n]. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\"}",
+        "Response": "This commit introduces a new article on enhancing remote network resilience with Global Secure Access, providing guidance on configuring redundant tunnels, zone redundancy, and geographic redundancy. It also updates existing documentation on remote network connectivity and creation to include a link to this new resilience guidance and adjust the review date. Additionally, the table of contents has been updated to reflect the addition of the new article.",
+        "Model": "google:gemini-2.5-flash-lite",
+        "Provider": "google",
+        "ModelName": "gemini-2.5-flash-lite",
+        "Timestamp": "2025-09-03T07:01:26.6966597+00:00"
+      },
+      "files": [
+        {
+          "filename": "docs/global-secure-access/concept-remote-network-connectivity.md",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/global-secure-access/how-to-create-remote-networks.md",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 3
+        },
+        {
+          "filename": "docs/global-secure-access/media/remote-network-resilience/geographic-redundancy.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/remote-network-resilience/zone-redundancy.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/remote-network-resilience.md",
+          "status": "added",
+          "additions": 68,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/toc.yml",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0
+        }
+      ]
+    },
     {
       "sha": "e0534783de13b951286dbc84e165165587617017",
       "url": "https://github.com/MicrosoftDocs/entra-docs/commit/e0534783de13b951286dbc84e165165587617017",
@@ -2800,5 +2820,43 @@
         }
       ]
     }
-  ]
+  ],
+  "metadata": {
+    "total_commits": 26,
+    "generated_date": "2025-09-03T07:01:29Z",
+    "source_files": [
+      {
+        "filename": "entra-changes-20250831-0839.json",
+        "commit_count": 15
+      },
+      {
+        "filename": "entra-changes-20250901-1715.json",
+        "commit_count": 3
+      },
+      {
+        "filename": "entra-changes-20250901-2301.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250902-1301.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250902-1901.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250902-2101.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250902-2301.json",
+        "commit_count": 3
+      },
+      {
+        "filename": "entra-changes-20250903-0701.json",
+        "commit_count": 1
+      }
+    ]
+  }
 }
