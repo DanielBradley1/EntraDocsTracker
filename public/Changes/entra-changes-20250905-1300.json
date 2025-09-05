@@ -1,0 +1,24 @@
+{
+  "sha": "db9faf5ecb01242560f2feb5051aff60641a1e22",
+  "url": "https://github.com/MicrosoftDocs/entra-docs/commit/db9faf5ecb01242560f2feb5051aff60641a1e22",
+  "author": "learn-build-service-prod[bot]",
+  "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+  "date": "2025-09-05T11:02:44Z",
+  "message": "Merge pull request #9609 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-09-05 11:00 UTC",
+  "ai_summary": {
+    "Messages": "{\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"66e2ed4c45a78232ed48bf010898d64c07a7daaa\\\",\\r\\n  \\\"filename\\\": \\\"docs/id-governance/TOC.yml\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 2,\\r\\n  \\\"deletions\\\": 0,\\r\\n  \\\"changes\\\": 2,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/db9faf5ecb01242560f2feb5051aff60641a1e22/docs%2Fid-governance%2FTOC.yml\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/db9faf5ecb01242560f2feb5051aff60641a1e22/docs%2Fid-governance%2FTOC.yml\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fid-governance%2FTOC.yml?ref=db9faf5ecb01242560f2feb5051aff60641a1e22\\\",\\r\\n  \\\"patch\\\": \\\"@@ -321,6 +321,8 @@\\\\n         href: entitlement-management-access-reviews-review-access.md  \\\\n       - name: Delegate approvers (Preview)\\\\n         href: delegate-approvals-my-access.md\\\\n+      - name: Self-review of an access package\\\\n+        href: entitlement-management-access-reviews-self-review.md  \\\\n     - name: Requestors\\\\n       items:\\\\n       - name: Request access\\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\",\"role\":\"user\"}",
+    "Response": "This commit modifies the Table of Contents for Identity Governance documentation. Two new entries have been added: \"Delegate approvers (Preview)\" and \"Self-review of an access package\", enhancing the structure and discoverability of related content.",
+    "Model": "google:gemini-2.5-flash-lite",
+    "Provider": "google",
+    "ModelName": "gemini-2.5-flash-lite",
+    "Timestamp": "2025-09-05T13:01:01.2681388+00:00"
+  },
+  "files": [
+    {
+      "filename": "docs/id-governance/TOC.yml",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0
+    }
+  ]
+}
