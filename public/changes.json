@@ -1,95 +1,123 @@
 {
   "metadata": {
-    "total_commits": 46,
+    "total_commits": 47,
     "source_files": [
       {
-        "commit_count": 15,
-        "filename": "entra-changes-20250831-0839.json"
+        "filename": "entra-changes-20250831-0839.json",
+        "commit_count": 15
       },
       {
-        "commit_count": 3,
-        "filename": "entra-changes-20250901-1715.json"
+        "filename": "entra-changes-20250901-1715.json",
+        "commit_count": 3
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20250901-2301.json"
+        "filename": "entra-changes-20250901-2301.json",
+        "commit_count": 1
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20250902-1301.json"
+        "filename": "entra-changes-20250902-1301.json",
+        "commit_count": 1
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20250902-1901.json"
+        "filename": "entra-changes-20250902-1901.json",
+        "commit_count": 1
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20250902-2101.json"
+        "filename": "entra-changes-20250902-2101.json",
+        "commit_count": 1
       },
       {
-        "commit_count": 3,
-        "filename": "entra-changes-20250902-2301.json"
+        "filename": "entra-changes-20250902-2301.json",
+        "commit_count": 3
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20250903-0701.json"
+        "filename": "entra-changes-20250903-0701.json",
+        "commit_count": 1
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20250903-1300.json"
+        "filename": "entra-changes-20250903-1300.json",
+        "commit_count": 1
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20250903-1501.json"
+        "filename": "entra-changes-20250903-1501.json",
+        "commit_count": 1
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20250903-1901.json"
+        "filename": "entra-changes-20250903-1901.json",
+        "commit_count": 1
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20250903-2101.json"
+        "filename": "entra-changes-20250903-2101.json",
+        "commit_count": 1
       },
       {
-        "commit_count": 2,
-        "filename": "entra-changes-20250903-2300.json"
+        "filename": "entra-changes-20250903-2300.json",
+        "commit_count": 2
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20250904-1301.json"
+        "filename": "entra-changes-20250904-1301.json",
+        "commit_count": 1
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20250904-1901.json"
+        "filename": "entra-changes-20250904-1901.json",
+        "commit_count": 1
       },
       {
-        "commit_count": 5,
-        "filename": "entra-changes-20250904-2300.json"
+        "filename": "entra-changes-20250904-2300.json",
+        "commit_count": 5
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20250905-0701.json"
+        "filename": "entra-changes-20250905-0701.json",
+        "commit_count": 1
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20250905-1300.json"
+        "filename": "entra-changes-20250905-1300.json",
+        "commit_count": 1
       },
       {
-        "commit_count": 3,
-        "filename": "entra-changes-20250905-1701.json"
+        "filename": "entra-changes-20250905-1701.json",
+        "commit_count": 3
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20250905-1900.json"
+        "filename": "entra-changes-20250905-1900.json",
+        "commit_count": 1
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20250905-2301.json"
+        "filename": "entra-changes-20250905-2301.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250906-0701.json",
+        "commit_count": 1
       }
     ],
-    "generated_date": "2025-09-05T23:01:33Z"
+    "generated_date": "2025-09-06T07:01:22Z"
   },
   "changes": [
+    {
+      "sha": "ca1b2f76e35cfca2ea9577925b3e96cdb2e30b6a",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/ca1b2f76e35cfca2ea9577925b3e96cdb2e30b6a",
+      "author": "learn-build-service-prod[bot]",
+      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+      "date": "2025-09-06T05:03:27Z",
+      "message": "Merge pull request #9619 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-09-06 05:00 UTC",
+      "ai_summary": {
+        "Messages": "{\"role\":\"user\",\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"9de77186d3727f9b2576cd1cdd4240b641418fe3\\\",\\r\\n  \\\"filename\\\": \\\"docs/identity/users/groups-members-owners-search.md\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 7,\\r\\n  \\\"deletions\\\": 4,\\r\\n  \\\"changes\\\": 11,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/ca1b2f76e35cfca2ea9577925b3e96cdb2e30b6a/docs%2Fidentity%2Fusers%2Fgroups-members-owners-search.md\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/ca1b2f76e35cfca2ea9577925b3e96cdb2e30b6a/docs%2Fidentity%2Fusers%2Fgroups-members-owners-search.md\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fusers%2Fgroups-members-owners-search.md?ref=ca1b2f76e35cfca2ea9577925b3e96cdb2e30b6a\\\",\\r\\n  \\\"patch\\\": \\\"@@ -6,9 +6,9 @@ manager: pmwongera\\\\n ms.service: entra-id\\\\n ms.subservice: users\\\\n ms.topic: how-to\\\\n-ms.date: 01/15/2025\\\\n+ms.date: 09/04/2025\\\\n ms.author: barclayn\\\\n-ms.reviewer: jodah\\\\n+ms.reviewer: Mohit\\\\n ms.custom: it-pro, sfi-image-nochange\\\\n ---\\\\n \\\\n@@ -22,7 +22,10 @@ This article tells you how to search for members and owners of a group and how t\\\\n \\\\n ## Group search and sort\\\\n \\\\n-On the **All groups** page, when you enter a search string, you can now toggle between \\\\\\\"contains\\\\\\\" and \\\\\\\"starts with\\\\\\\" searches on the **All groups** page only. \\\\n+On the **All groups** page, when you enter a search string, you can toggle between **contains** and **starts with** searches on the **All groups** page only.\\\\n+\\\\n+>[!IMPORTANT]\\\\n+>The contains search uses tokenized matching, not literal substring matching. This means the system breaks both your query and the stored values into smaller chunks (tokens), usually words or alphanumeric segments, and checks if any query token appears in the stored tokens.\\\\n \\\\n The substring search is done using whole words only, and any special characters are searched for also as an ANDed search. For example, searching for -Name starts a search for the substring \\\\\\\"Name\\\\\\\" and a search for \\\\\\\"-\\\\\\\". Substring search is case-sensitive. Object ID or mailNickname properties are also searched.\\\\n \\\\n@@ -34,7 +37,7 @@ For example, a search for “policy” returns both \\\\\\\"MDM policy – West\\\\\\\" and \\\\\\\"P\\\\n \\\\n ### Search group member and owner lists\\\\n \\\\n-You can search the members or owners of a specific group by name, and when you enter a search string, a `contains` search is automatically done. For example, a search for “Scott” returns both Scott Wilkinson and Maya Scott.\\\\n+When you search the members or owners of a group, a tokenized contains search is automatically used. For example, a search for “Scott” returns both Scott Wilkinson and Maya Scott.\\\\n \\\\n :::image type=\\\\\\\"content\\\\\\\" source=\\\\\\\"./media/groups-members-owners-search/groups-search-preview.png\\\\\\\" alt-text=\\\\\\\"Screenshot of new substring searches on the group members and owners lists.\\\\\\\":::\\\\n \\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\"}",
+        "Response": "This commit updates the documentation for searching groups, members, and owners in Microsoft Entra ID.\n\nThe changes include:\n\n*   A clarification that the \"contains\" search for groups uses tokenized matching rather than literal substring matching, providing a brief explanation of how tokenization works.\n*   An update to the description of searching group members and owners, stating that a tokenized \"contains\" search is automatically used.\n*   Minor changes to metadata, such as the `ms.date` and `ms.reviewer` fields.",
+        "Model": "google:gemini-2.5-flash-lite",
+        "Provider": "google",
+        "ModelName": "gemini-2.5-flash-lite",
+        "Timestamp": "2025-09-06T07:01:20.1522545+00:00"
+      },
+      "files": [
+        {
+          "filename": "docs/identity/users/groups-members-owners-search.md",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 4
+        }
+      ]
+    },
     {
       "sha": "d149416f34269b110dc9d461e3589f2a243d67b8",
       "url": "https://github.com/MicrosoftDocs/entra-docs/commit/d149416f34269b110dc9d461e3589f2a243d67b8",
