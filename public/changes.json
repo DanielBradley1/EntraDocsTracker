@@ -1,4 +1,82 @@
 {
+  "metadata": {
+    "generated_date": "2025-09-10T23:01:10Z",
+    "source_files": [
+      {
+        "filename": "entra-changes-20250904-1301.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250904-1901.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250904-2300.json",
+        "commit_count": 5
+      },
+      {
+        "filename": "entra-changes-20250905-0701.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250905-1300.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250905-1701.json",
+        "commit_count": 3
+      },
+      {
+        "filename": "entra-changes-20250905-1900.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250905-2301.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250906-0701.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250907-1301.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250908-1900.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250908-2100.json",
+        "commit_count": 2
+      },
+      {
+        "filename": "entra-changes-20250909-0701.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250909-1301.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250909-1901.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250909-2301.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250910-0701.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250910-1901.json",
+        "commit_count": 1
+      }
+    ],
+    "total_commits": 25
+  },
   "changes": [
     {
       "sha": "30c9a1e08fbd20dde74d074fad16494aac9f7461",
@@ -1637,176 +1715,6 @@
           "deletions": 1
         }
       ]
-    },
-    {
-      "sha": "0031338386b5d1e3f824ae515e28bc5f9b5a8162",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/0031338386b5d1e3f824ae515e28bc5f9b5a8162",
-      "author": "learn-build-service-prod[bot]",
-      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
-      "date": "2025-09-03T22:08:36Z",
-      "message": "Merge pull request #9577 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-09-03 22:03 UTC",
-      "ai_summary": {
-        "Messages": "{\"role\":\"user\",\"content\":\"The following is the commit files that have changed: [\\r\\n  {\\r\\n    \\\"sha\\\": \\\"e17343e2d62f28e6f438f6ae96aef3ec23475f2f\\\",\\r\\n    \\\"filename\\\": \\\"docs/external-id/whats-new-docs.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 11,\\r\\n    \\\"deletions\\\": 34,\\r\\n    \\\"changes\\\": 45,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/0031338386b5d1e3f824ae515e28bc5f9b5a8162/docs%2Fexternal-id%2Fwhats-new-docs.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/0031338386b5d1e3f824ae515e28bc5f9b5a8162/docs%2Fexternal-id%2Fwhats-new-docs.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fexternal-id%2Fwhats-new-docs.md?ref=0031338386b5d1e3f824ae515e28bc5f9b5a8162\\\",\\r\\n    \\\"patch\\\": \\\"@@ -1,7 +1,7 @@\\\\n ---\\\\n title: What's new in Microsoft Entra External ID\\\\n description: New and updated documentation for the Microsoft Entra External ID.\\\\n-ms.date: 07/04/2025\\\\n+ms.date: 09/03/2025\\\\n ms.service: entra-external-id\\\\n ms.topic: whats-new\\\\n \\\\n@@ -18,6 +18,12 @@ Welcome to what's new in documentation for Microsoft Entra External ID. This art\\\\n \\\\n # [External ID in external tenants](#tab/external-tenants)\\\\n \\\\n+## August 2025\\\\n+\\\\n+### Updated articles\\\\n+\\\\n+- [Regional opt-in for MFA telephony verification with external tenants (preview)](customers/how-to-region-code-opt-in.md) - Rest API updates\\\\n+\\\\n ## July 2025\\\\n \\\\n ### New article\\\\n@@ -36,34 +42,15 @@ Welcome to what's new in documentation for Microsoft Entra External ID. This art\\\\n - [Supported features in workforce and external tenants](customers/concept-supported-features-customers.md) - Added activity logs and reports\\\\n - [Microsoft Entra External ID training, live demo, and videos](customers/reference-training-videos.md) - Added video on configuring OpenID Connect identity providers\\\\n \\\\n-## May 2025\\\\n-\\\\n-### Updated articles\\\\n-\\\\n-- [Supported features in workforce and external tenants](customers/concept-supported-features-customers.md) - Added multiple updates\\\\n-- [Collect custom user attributes during sign-up](customers/how-to-define-custom-attributes.md) - Attribute visibility update\\\\n-- [Microsoft Entra External ID training, live demo, and videos](customers/reference-training-videos.md) - Added new videos\\\\n-- [Add the SAML/WS-Fed identity provider to a user flow](customers/how-to-saml-ws-federation-self-service-sign-up.md) - SAML/WS-Fed federation is generally available\\\\n-\\\\n-## March 2025\\\\n \\\\n-### New article\\\\n+# [External ID in workforce tenants](#tab/workforce-tenants)\\\\n \\\\n-- [Migrating users to Microsoft Entra External ID](customers/how-to-migrate-users.md)\\\\n+## August 2025\\\\n \\\\n ### Updated articles\\\\n \\\\n-- [Customize the language of the authentication experience](customers/how-to-customize-languages-customers.md) - Editorial updates\\\\n-- [Add OpenID Connect as an external identity provider](customers/how-to-custom-oidc-federation-customers.md) - OpenID Connect federation is generally available\\\\n-- [Add Facebook as an identity provider](customers/how-to-facebook-federation-customers.md) - Facebook federation is generally available\\\\n-- [Add Google as an identity provider](customers/how-to-google-federation-customers.md) - Google federation is generally available\\\\n-- [Create a sign-up and sign-in user flow for an external tenant app](customers/how-to-user-flow-sign-up-sign-in-customers.md) - Removed disable sign-up in a sign-up and sign-in user flow\\\\n-- [Add and manage admin accounts](customers/how-to-manage-admin-accounts.md) - Added clarification\\\\n-- [Manage user accounts for consumers and business customers](customers/how-to-manage-customer-accounts.md) - Added clarification\\\\n-- [Default user permissions in external tenants](customers/reference-user-permissions.md) - Updated default permissions\\\\n-- [Supported features in workforce and external tenants](customers/concept-supported-features-customers.md) - Added default permissions\\\\n-\\\\n-# [External ID in workforce tenants](#tab/workforce-tenants)\\\\n+- [Microsoft Entra B2B in government and national clouds](b2b-government-national-clouds.md) - Cross-cloud synchronization update\\\\n+- [Overview: Cross-tenant access with Microsoft Entra External ID](cross-tenant-access-overview.md) - Cross-cloud synchronization update\\\\n \\\\n ## July 2025\\\\n \\\\n@@ -80,15 +67,5 @@ Welcome to what's new in documentation for Microsoft Entra External ID. This art\\\\n - [Tutorial: Use PowerShell to bulk invite Microsoft Entra B2B collaboration users](bulk-invite-powershell.md) - Editorial updates\\\\n - [B2B collaboration invitation redemption](redemption-experience.md) - Editorial updates\\\\n \\\\n-## February 2025\\\\n-\\\\n-### New articles\\\\n-\\\\n-- [SAML/WS-Fed identity providers](direct-federation-overview.md)\\\\n-\\\\n-### Updated articles\\\\n-\\\\n-- [Add federation with SAML/WS-Fed identity providers](direct-federation.md) - Editorial updates\\\\n-- [Configure external collaboration settings for B2B in Microsoft Entra External ID](external-collaboration-settings-configure.md) - Global Administrator role update\\\\n \\\\n ---\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"9fd400d5b93022b5eb10864202ac8fe79a8d6f6e\\\",\\r\\n    \\\"filename\\\": \\\"docs/global-secure-access/faq-transport-layer-security.yml\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 4,\\r\\n    \\\"deletions\\\": 2,\\r\\n    \\\"changes\\\": 6,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/0031338386b5d1e3f824ae515e28bc5f9b5a8162/docs%2Fglobal-secure-access%2Ffaq-transport-layer-security.yml\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/0031338386b5d1e3f824ae515e28bc5f9b5a8162/docs%2Fglobal-secure-access%2Ffaq-transport-layer-security.yml\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fglobal-secure-access%2Ffaq-transport-layer-security.yml?ref=0031338386b5d1e3f824ae515e28bc5f9b5a8162\\\",\\r\\n    \\\"patch\\\": \\\"@@ -30,6 +30,9 @@ sections:\\\\n           - Define a TLS policy: Configure a TLS inspection policy that aligns with your organization's security and operational requirements.\\\\n           - Configure Conditional Access: Create a Conditional Access policy and associate it with the Global Secure Access security profile linked to the TLS policy.\\\\n           - Distribute the trusted certificate: Ensure the selected certificate authority is installed on all client devices to establish trust and enable seamless TLS inspection.\\\\n+          \\\\n+      - question: What are the cryptographic algorithms required when generating Certificates for TLS inspection? \\\\n+        answer: Global Secure Access currently supports SHA-256, SHA-384, and SHA-512 for the signing certificates.\\\\n         \\\\n       - question: How do I Sign CSR Using the Active Directory Certificate Services (AD CS)\\\\n         answer: |\\\\n@@ -38,7 +41,6 @@ sections:\\\\n           ```cmd\\\\n           certreq -submit -attrib \\\\\\\"CertificateTemplate:SubCA\\\\\\\" \\\\\\\"C:\\\\\\\\pathtoyourCSR\\\\\\\\tlsca.csr\\\\\\\" \\\\\\\"tlsca.cer\\\\\\\"\\\\n           ```\\\\n-\\\\n       - question: Why do I receive the error \\\\\\\"SSL certificate problem unable to get local issuer certificate\\\\\\\" when using Git?\\\\n         answer: | \\\\n           This error occurs because certain developer tools (such as Git) don't use the operating system's certificate store by default; instead, they maintain their own certificate store.\\\\n@@ -94,4 +96,4 @@ additionalContent: |\\\\n     ## Related content\\\\n \\\\n     * [What is Transport Layer Security inspection?](concept-transport-layer-security.md)\\\\n-    * [Configure Transport Layer Security](how-to-transport-layer-security.md)\\\\n\\\\\\\\ No newline at end of file\\\\n+    * [Configure Transport Layer Security](how-to-transport-layer-security.md)\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"37dc96d400a46da3914f33dd6e50866955c215dc\\\",\\r\\n    \\\"filename\\\": \\\"docs/id-governance/check-workflow-execution-scope.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 2,\\r\\n    \\\"deletions\\\": 2,\\r\\n    \\\"changes\\\": 4,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/0031338386b5d1e3f824ae515e28bc5f9b5a8162/docs%2Fid-governance%2Fcheck-workflow-execution-scope.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/0031338386b5d1e3f824ae515e28bc5f9b5a8162/docs%2Fid-governance%2Fcheck-workflow-execution-scope.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fid-governance%2Fcheck-workflow-execution-scope.md?ref=0031338386b5d1e3f824ae515e28bc5f9b5a8162\\\",\\r\\n    \\\"patch\\\": \\\"@@ -31,11 +31,11 @@ To check the users who fall under the execution scope of a workflow, you'd follo\\\\n \\\\n 1. On the Execution conditions page, select the **Execution User Scope** tab.\\\\n \\\\n-1. On this page you're presented with a list of users who currently meet the scope for execution for the workflow.\\\\n+1. On this page you're presented with a list of users who currently meet the scope for execution for the workflow regardless of whether they have already been processed by the workflow.\\\\n     :::image type=\\\\\\\"content\\\\\\\" source=\\\\\\\"media/check-workflow-execution-scope/execution-user-scope-list.png\\\\\\\" alt-text=\\\\\\\"Screenshot of users under scope of workflow execution.\\\\\\\" lightbox=\\\\\\\"media/check-workflow-execution-scope/execution-user-scope-list.png\\\\\\\":::\\\\n \\\\n > [!NOTE]\\\\n-> The workflow engine routinely evaluates the users that meet the execution conditions. The results will not be up to date if the execution conditions have been changed recently, relevant attributes on the user have been changed recently, or the time based trigger has recently passed.\\\\n+> The workflow engine routinely evaluates the users that meet the execution conditions regardless of whether they have already been processed by the workflow. The results will not be up to date if the execution conditions have been changed recently, relevant attributes on the user have been changed recently, or the time based trigger has recently passed.\\\\n \\\\n ## Check execution user scope of a workflow using Microsoft Graph\\\\n \\\"\\r\\n  }\\r\\n]. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\"}",
-        "Response": "The documentation for Microsoft Entra External ID has been updated to include information on regional opt-in for MFA telephony verification in August 2025. Several existing articles have also seen updates, with a focus on new videos, API changes, and general availability announcements for features like SAML/WS-Fed federation.\n\nAdditionally, the FAQ for Global Secure Access has been clarified to specify the required cryptographic algorithms for TLS inspection certificates, supporting SHA-256, SHA-384, and SHA-512.\n\nFinally, an update to the Microsoft Entra ID Governance documentation clarifies that the execution user scope list displays all users meeting the conditions, regardless of whether they have already been processed by the workflow.",
-        "Model": "google:gemini-2.5-flash-lite",
-        "Provider": "google",
-        "ModelName": "gemini-2.5-flash-lite",
-        "Timestamp": "2025-09-03T23:00:59.4086971+00:00"
-      },
-      "files": [
-        {
-          "filename": "docs/external-id/whats-new-docs.md",
-          "status": "modified",
-          "additions": 11,
-          "deletions": 34
-        },
-        {
-          "filename": "docs/global-secure-access/faq-transport-layer-security.yml",
-          "status": "modified",
-          "additions": 4,
-          "deletions": 2
-        },
-        {
-          "filename": "docs/id-governance/check-workflow-execution-scope.md",
-          "status": "modified",
-          "additions": 2,
-          "deletions": 2
-        }
-      ]
-    },
-    {
-      "sha": "0b30d6086de31805f5713d9078cf38b7b35e635b",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/0b30d6086de31805f5713d9078cf38b7b35e635b",
-      "author": "Taojunshen",
-      "email": "v-jutao@microsoft.com",
-      "date": "2025-09-03T21:40:47Z",
-      "message": "Merge pull request #9574 from MicrosoftDocs/repo_sync_working_branch\n\nConfirm merge from repo_sync_working_branch to main to sync with https://github.com/MicrosoftDocs/entra-docs (branch main)",
-      "ai_summary": {
-        "Messages": "{\"role\":\"user\",\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"37dc96d400a46da3914f33dd6e50866955c215dc\\\",\\r\\n  \\\"filename\\\": \\\"docs/id-governance/check-workflow-execution-scope.md\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 2,\\r\\n  \\\"deletions\\\": 2,\\r\\n  \\\"changes\\\": 4,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/0b30d6086de31805f5713d9078cf38b7b35e635b/docs%2Fid-governance%2Fcheck-workflow-execution-scope.md\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/0b30d6086de31805f5713d9078cf38b7b35e635b/docs%2Fid-governance%2Fcheck-workflow-execution-scope.md\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fid-governance%2Fcheck-workflow-execution-scope.md?ref=0b30d6086de31805f5713d9078cf38b7b35e635b\\\",\\r\\n  \\\"patch\\\": \\\"@@ -31,11 +31,11 @@ To check the users who fall under the execution scope of a workflow, you'd follo\\\\n \\\\n 1. On the Execution conditions page, select the **Execution User Scope** tab.\\\\n \\\\n-1. On this page you're presented with a list of users who currently meet the scope for execution for the workflow.\\\\n+1. On this page you're presented with a list of users who currently meet the scope for execution for the workflow regardless of whether they have already been processed by the workflow.\\\\n     :::image type=\\\\\\\"content\\\\\\\" source=\\\\\\\"media/check-workflow-execution-scope/execution-user-scope-list.png\\\\\\\" alt-text=\\\\\\\"Screenshot of users under scope of workflow execution.\\\\\\\" lightbox=\\\\\\\"media/check-workflow-execution-scope/execution-user-scope-list.png\\\\\\\":::\\\\n \\\\n > [!NOTE]\\\\n-> The workflow engine routinely evaluates the users that meet the execution conditions. The results will not be up to date if the execution conditions have been changed recently, relevant attributes on the user have been changed recently, or the time based trigger has recently passed.\\\\n+> The workflow engine routinely evaluates the users that meet the execution conditions regardless of whether they have already been processed by the workflow. The results will not be up to date if the execution conditions have been changed recently, relevant attributes on the user have been changed recently, or the time based trigger has recently passed.\\\\n \\\\n ## Check execution user scope of a workflow using Microsoft Graph\\\\n \\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\"}",
-        "Response": "The commit modifies a documentation page regarding checking workflow execution scope in Microsoft Entra ID. It clarifies that the displayed list of users under the execution scope includes all users meeting the criteria, regardless of whether they have already been processed by the workflow. Additionally, a note is updated to emphasize that the workflow engine evaluates users irrespective of prior processing, and the results' timeliness depends on recent changes to execution conditions or user attributes.",
-        "Model": "google:gemini-2.5-flash-lite",
-        "Provider": "google",
-        "ModelName": "gemini-2.5-flash-lite",
-        "Timestamp": "2025-09-03T23:01:00.4397244+00:00"
-      },
-      "files": [
-        {
-          "filename": "docs/id-governance/check-workflow-execution-scope.md",
-          "status": "modified",
-          "additions": 2,
-          "deletions": 2
-        }
-      ]
-    },
-    {
-      "sha": "03745c060767aa5ffae42c08a618a60103d7efef",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/03745c060767aa5ffae42c08a618a60103d7efef",
-      "author": "Diana Richards",
-      "email": "v-dirichards@microsoft.com",
-      "date": "2025-09-03T20:09:09Z",
-      "message": "Merge pull request #1743 from krbain/patch-5\n\nUpdate execution user scope description for clarity",
-      "ai_summary": {
-        "Messages": "{\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"37dc96d400a46da3914f33dd6e50866955c215dc\\\",\\r\\n  \\\"filename\\\": \\\"docs/id-governance/check-workflow-execution-scope.md\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 2,\\r\\n  \\\"deletions\\\": 2,\\r\\n  \\\"changes\\\": 4,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/03745c060767aa5ffae42c08a618a60103d7efef/docs%2Fid-governance%2Fcheck-workflow-execution-scope.md\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/03745c060767aa5ffae42c08a618a60103d7efef/docs%2Fid-governance%2Fcheck-workflow-execution-scope.md\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fid-governance%2Fcheck-workflow-execution-scope.md?ref=03745c060767aa5ffae42c08a618a60103d7efef\\\",\\r\\n  \\\"patch\\\": \\\"@@ -31,11 +31,11 @@ To check the users who fall under the execution scope of a workflow, you'd follo\\\\n \\\\n 1. On the Execution conditions page, select the **Execution User Scope** tab.\\\\n \\\\n-1. On this page you're presented with a list of users who currently meet the scope for execution for the workflow.\\\\n+1. On this page you're presented with a list of users who currently meet the scope for execution for the workflow regardless of whether they have already been processed by the workflow.\\\\n     :::image type=\\\\\\\"content\\\\\\\" source=\\\\\\\"media/check-workflow-execution-scope/execution-user-scope-list.png\\\\\\\" alt-text=\\\\\\\"Screenshot of users under scope of workflow execution.\\\\\\\" lightbox=\\\\\\\"media/check-workflow-execution-scope/execution-user-scope-list.png\\\\\\\":::\\\\n \\\\n > [!NOTE]\\\\n-> The workflow engine routinely evaluates the users that meet the execution conditions. The results will not be up to date if the execution conditions have been changed recently, relevant attributes on the user have been changed recently, or the time based trigger has recently passed.\\\\n+> The workflow engine routinely evaluates the users that meet the execution conditions regardless of whether they have already been processed by the workflow. The results will not be up to date if the execution conditions have been changed recently, relevant attributes on the user have been changed recently, or the time based trigger has recently passed.\\\\n \\\\n ## Check execution user scope of a workflow using Microsoft Graph\\\\n \\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\",\"role\":\"user\"}",
-        "Response": "This commit refines the documentation for checking workflow execution scope in Microsoft Entra ID. The changes clarify that the displayed list of users under the execution scope includes all users who currently meet the conditions, irrespective of whether they have already been processed by the workflow. A note has also been updated to provide further context on potential delays in the accuracy of the displayed results following recent changes.",
-        "Model": "google:gemini-2.5-flash-lite",
-        "Provider": "google",
-        "ModelName": "gemini-2.5-flash-lite",
-        "Timestamp": "2025-09-03T21:01:06.3301025+00:00"
-      },
-      "files": [
-        {
-          "filename": "docs/id-governance/check-workflow-execution-scope.md",
-          "status": "modified",
-          "additions": 2,
-          "deletions": 2
-        }
-      ]
     }
-  ],
-  "metadata": {
-    "source_files": [
-      {
-        "filename": "entra-changes-20250903-2101.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20250903-2300.json",
-        "commit_count": 2
-      },
-      {
-        "filename": "entra-changes-20250904-1301.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20250904-1901.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20250904-2300.json",
-        "commit_count": 5
-      },
-      {
-        "filename": "entra-changes-20250905-0701.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20250905-1300.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20250905-1701.json",
-        "commit_count": 3
-      },
-      {
-        "filename": "entra-changes-20250905-1900.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20250905-2301.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20250906-0701.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20250907-1301.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20250908-1900.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20250908-2100.json",
-        "commit_count": 2
-      },
-      {
-        "filename": "entra-changes-20250909-0701.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20250909-1301.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20250909-1901.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20250909-2301.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20250910-0701.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20250910-1901.json",
-        "commit_count": 1
-      }
-    ],
-    "generated_date": "2025-09-10T19:01:22Z",
-    "total_commits": 28
-  }
+  ]
 }
