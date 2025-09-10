@@ -1,99 +1,41 @@
 {
-  "metadata": {
-    "generated_date": "2025-09-09T23:01:17Z",
-    "source_files": [
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20250903-0701.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20250903-1300.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20250903-1501.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20250903-1901.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20250903-2101.json"
-      },
-      {
-        "commit_count": 2,
-        "filename": "entra-changes-20250903-2300.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20250904-1301.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20250904-1901.json"
-      },
-      {
-        "commit_count": 5,
-        "filename": "entra-changes-20250904-2300.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20250905-0701.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20250905-1300.json"
-      },
-      {
-        "commit_count": 3,
-        "filename": "entra-changes-20250905-1701.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20250905-1900.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20250905-2301.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20250906-0701.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20250907-1301.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20250908-1900.json"
-      },
-      {
-        "commit_count": 2,
-        "filename": "entra-changes-20250908-2100.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20250909-0701.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20250909-1301.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20250909-1901.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20250909-2301.json"
-      }
-    ],
-    "total_commits": 30
-  },
   "changes": [
+    {
+      "sha": "bee421885891103366f659710f9773580b4f656d",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/bee421885891103366f659710f9773580b4f656d",
+      "author": "learn-build-service-prod[bot]",
+      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+      "date": "2025-09-10T05:06:07Z",
+      "message": "Merge pull request #9658 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-09-10 05:04 UTC",
+      "ai_summary": {
+        "Messages": "{\"role\":\"user\",\"content\":\"The following is the commit files that have changed: [\\r\\n  {\\r\\n    \\\"sha\\\": \\\"e744a425906e01ebe7088d55ac8da15e9725667f\\\",\\r\\n    \\\"filename\\\": \\\"docs/architecture/deployment-external-operations.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 3,\\r\\n    \\\"deletions\\\": 3,\\r\\n    \\\"changes\\\": 6,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/bee421885891103366f659710f9773580b4f656d/docs%2Farchitecture%2Fdeployment-external-operations.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/bee421885891103366f659710f9773580b4f656d/docs%2Farchitecture%2Fdeployment-external-operations.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Farchitecture%2Fdeployment-external-operations.md?ref=bee421885891103366f659710f9773580b4f656d\\\",\\r\\n    \\\"patch\\\": \\\"@@ -5,7 +5,7 @@ author: gargi-sinha\\\\n manager: martinco\\\\r\\\\n ms.service: entra-external-id\\\\r\\\\n ms.topic: concept-article\\\\r\\\\n-ms.date: 05/22/2025\\\\r\\\\n+ms.date: 09/09/2025\\\\r\\\\n ms.author: gasinh\\\\r\\\\n \\\\r\\\\n #customer intent: I need to understand subscriptions and billing, consumer app security, and how to prevent fraud tactics in Microsoft Entra External ID. \\\\r\\\\n@@ -110,7 +110,7 @@ To strengthen defenses, Microsoft Entra External ID has a premium fraud preventi\\\\n \\\\r\\\\n ### International Revenue Share Fraud\\\\r\\\\n \\\\r\\\\n-An International Revenue Share Fraud (IRSF) is a financially driven attack possible when you expose short message service (SMS) verification on a publicly accessible endpoint. When you enable [Microsoft Entra multifactor authentication (MFA)](/entra/identity/authentication/concept-mfa-howitworks) on Microsoft Entra External ID, IRSF attacks are possible. With SMS verification enabled, Microsoft Entra has two built-in protections: \\\\r\\\\n+An International Revenue Share Fraud (IRSF) is a financially driven attack possible when you expose short message service (SMS) verification on a publicly accessible endpoint. When you enable [Microsoft Entra multifactor authentication (MFA) on Microsoft Entra External ID](../external-id/customers/concept-multifactor-authentication-customers.md), IRSF attacks are possible. With SMS verification enabled, Microsoft Entra has two built-in protections: \\\\r\\\\n \\\\r\\\\n * **Telephony throttling** helps mitigate the risk of service outages and performance degradation\\\\r\\\\n * **CAPTCHA for SMS-based MFA** helps defend against automated attacks by distinguishing human users from bots. If a user is deemed high-risk, access is blocked, or a CAPTCHA challenge appears before an SMS verification code is sent. \\\\r\\\\n@@ -120,7 +120,7 @@ As another layer of defense, we recommend you review the following table to cons\\\\n |Security control|Description|\\\\r\\\\n |---|---|\\\\r\\\\n |WAF: Bot protection| To trigger OTP messages during sign-up, enable the frontline of defense against IRSF attacks, typically driven by bots that generate high-volume traffic. |\\\\r\\\\n-|Regions that require MFA telephony verification opt-in |Help prevent telephony-based fraud: Microsoft doesn't automatically enable phone-based MFA verification for some country or region codes. To support sign-in from these regions, an administrator submits a support request to opt in and enable telephony verification for those codes. To allow traffic from deactivated regions, activate them with the [Microsoft Graph API](/graph/use-the-api). |\\\\r\\\\n+|Regions that require MFA telephony verification opt-in |Help prevent telephony-based fraud: Microsoft doesn't automatically enable phone-based MFA verification for some country or region codes. To support sign-in from these regions, an administrator submits a support request to opt in and enable telephony verification for those codes. To allow traffic from deactivated regions, activate them with the Microsoft Graph API. For more information, see [Regional opt-in for MFA telephony verification with external tenants](../external-id/customers/how-to-region-code-opt-in.md). |\\\\r\\\\n |Excessive SMS OTPs from one IP address or ASN. |Implement monitoring and alerting for a high volume of SMS one-time password (OTP) requests originating from the same IP address, ASN, or geographic location. For example, trigger an alert for excessive SMS OTPs from a single IP or geo-coordinates in a short time. This scenario can indicate an IRSF attack. </br> To improve accuracy and reduce noise, refine the alert criteria. Focus on unsuccessful OTP requests by users. In IRSF scenarios, attackers typically don't complete authentication. Then want to generate SMS traffic to phone numbers for financial gain. Use this approach to see potentially malicious activity while minimizing false positives. |\\\\r\\\\n \\\\r\\\\n ## Sign-in protection: Account takeover\\\\r\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"d120e900eb699d3a91e20c16267f253da108d0ce\\\",\\r\\n    \\\"filename\\\": \\\"docs/identity/conditional-access/agent-optimization.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 1,\\r\\n    \\\"deletions\\\": 1,\\r\\n    \\\"changes\\\": 2,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/bee421885891103366f659710f9773580b4f656d/docs%2Fidentity%2Fconditional-access%2Fagent-optimization.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/bee421885891103366f659710f9773580b4f656d/docs%2Fidentity%2Fconditional-access%2Fagent-optimization.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fconditional-access%2Fagent-optimization.md?ref=bee421885891103366f659710f9773580b4f656d\\\",\\r\\n    \\\"patch\\\": \\\"@@ -180,7 +180,7 @@ The Conditional Access Optimization Agent integrates with Microsoft Intune to mo\\\\n \\\\n Agent suggestions for Intune scenarios cover specific user groups and platforms (iOS or Android). For example, the agent identifies an active Intune app protection policy that targets the \\\\\\\"Finance\\\\\\\" group, but determines there isn't a sufficient Conditional Access policy that enforces app protection. The agent creates a report-only policy that requires users to access resources only through compliant applications on iOS devices.\\\\n \\\\n-The agent must be running as a Security Administrator or Global Administrator to identify Intune app protection policies. The Conditional Access Administrator role doesn't have sufficient privileges in Intune.\\\\n+To identify Intune app protection policies, the agent must be running as a Global Administrator or Conditional Access Administrator AND Global Reader. Conditional Access Administrator is not sufficient on its own for the agent to product Intune suggestions.\\\\n \\\\n ## Remove agent\\\\n \\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"822bb2ca0e3ec5ffa25fad5e6218f0fa9d0a5597\\\",\\r\\n    \\\"filename\\\": \\\"docs/identity/hybrid/connect/reference-connect-adsynctools.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 13,\\r\\n    \\\"deletions\\\": 6,\\r\\n    \\\"changes\\\": 19,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/bee421885891103366f659710f9773580b4f656d/docs%2Fidentity%2Fhybrid%2Fconnect%2Freference-connect-adsynctools.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/bee421885891103366f659710f9773580b4f656d/docs%2Fidentity%2Fhybrid%2Fconnect%2Freference-connect-adsynctools.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fhybrid%2Fconnect%2Freference-connect-adsynctools.md?ref=bee421885891103366f659710f9773580b4f656d\\\",\\r\\n    \\\"patch\\\": \\\"@@ -1076,7 +1076,13 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable\\\\n \\\\n ## Remove-ADSyncToolsAadObject\\\\n ### SYNOPSIS\\\\n-Remove orphaned synced object from Microsoft Entra ID\\\\n+Remove orphaned synced object from Microsoft Entra ID.\\\\n+\\\\n+**NOTE:**\\\\n+\\\\n+This function requires the credentials of a Global Administrator in Microsoft Entra ID and authentication with MFA isn't supported.\\\\n+If DirSync is disabled on the tenant, you need to temporary re-enable DirSync in order to use this function.\\\\n+\\\\n ### SYNTAX\\\\n #### CsvInput\\\\n ```\\\\n@@ -1091,6 +1097,8 @@ Remove-ADSyncToolsAadObject [-Credential] <PSCredential> [-SourceAnchor] <Object\\\\n ### DESCRIPTION\\\\n Deletes from Microsoft Entra ID one or more synced objects based on SourceAnchor and ObjectType.\\\\n The CSV file can be generated using `Export-ADSyncToolsAadDisconnectors`.\\\\n+**IMPORTANT:** This operation might be irreversible. Other than User objects that have a Recycle Bin, any other object types deleted with this function **can't be recovered**.\\\\n+\\\\n ### EXAMPLES\\\\n #### EXAMPLE 1\\\\n ```\\\\n@@ -1179,16 +1187,17 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable\\\\n ### INPUTS\\\\n InputCsvFilename must point to a CSV file with at least 2 columns: SourceAnchor, SyncObjectType\\\\n ### OUTPUTS\\\\n-Shows results from ExportDeletions operation DISCLAIMER: Other than User objects that have a Recycle Bin, any other object types DELETED with this function can't be RECOVERED!\\\\n+Shows results from ExportDeletions operation \\\\n \\\\n ## Remove-ADSyncToolsAadPublicFolders\\\\n ### SYNOPSIS\\\\n Removes synchronized Mail-Enabled Public Folders (MEPF) present in Microsoft Entra ID.\\\\n \\\\n You can specify the SourceAnchor/ImmutableID for the target MEPF object to delete or provide a CSV list with a batch of objects to delete that can be obtained with `Export-ADSyncToolsAadPublicFolders`.\\\\n-This function requires the credentials of a Global Administrator in Microsoft Entra ID and authentication with MFA isn't supported.\\\\n-NOTE: If DirSync is disabled on the tenant, you need to temporary re-enable DirSync in order to remove orphaned Mail Enabled Public Folders from Microsoft Entra ID.\\\\n+**NOTE:**\\\\n \\\\n+This function requires the credentials of a Global Administrator in Microsoft Entra ID and authentication with MFA isn't supported.\\\\n+If DirSync is disabled on the tenant, you need to temporary re-enable DirSync in order to remove orphaned Mail Enabled Public Folders from Microsoft Entra ID.\\\\n ### SYNTAX\\\\n #### CsvInput\\\\n ```\\\\n@@ -1204,8 +1213,6 @@ Deletes from Microsoft Entra ID a synced Mail-Enabled Public Folder object based\\\\n The CSV list can be obtained with `Export-ADSyncToolsAadPublicFolders` to identify and remove all orphaned Mail-Enabled Public Folders in Microsoft Entra ID.\\\\n **IMPORTANT**: This operation is irreversible. Deleted Mail-Enabled Public Folder objects cannot be restored from Microsoft Entra ID.\\\\n \\\\n-This function requires the credentials of a Global Administrator in Microsoft Entra ID and authentication with MFA isn't supported.\\\\n-NOTE: If DirSync has been disabled on the tenant, you'll need to temporarily re-enabled DirSync in order to remove orphaned Mail Enabled Public Folders from Microsoft Entra ID.\\\\n ### EXAMPLES\\\\n #### EXAMPLE 1\\\\n ```\\\"\\r\\n  }\\r\\n]. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\"}",
+        "Response": "These commits primarily focus on updating documentation within Microsoft's Entra ID documentation. Key changes include:\n\n*   **Date updates:** A minor update to the publication date of the \"Deployment external operations\" article.\n*   **Role permission clarification:** The documentation for the \"Conditional Access Optimization Agent\" has been clarified to specify the necessary administrator roles (Global Administrator and Conditional Access Administrator AND Global Reader) for identifying Intune app protection policies.\n*   **Tooling documentation enhancements:** The `Remove-ADSyncToolsAadObject` and `Remove-ADSyncToolsAadPublicFolders` cmdlets documentation has been updated with important notes. These include warnings about the irreversibility of deletions for non-user objects, the requirement for Global Administrator credentials (without MFA support), and the temporary re-enabling of DirSync if it's disabled on the tenant.",
+        "Model": "google:gemini-2.5-flash-lite",
+        "Provider": "google",
+        "ModelName": "gemini-2.5-flash-lite",
+        "Timestamp": "2025-09-10T07:01:50.4892732+00:00"
+      },
+      "files": [
+        {
+          "filename": "docs/architecture/deployment-external-operations.md",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 3
+        },
+        {
+          "filename": "docs/identity/conditional-access/agent-optimization.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity/hybrid/connect/reference-connect-adsynctools.md",
+          "status": "modified",
+          "additions": 13,
+          "deletions": 6
+        }
+      ]
+    },
     {
       "sha": "17582c44d4741a58cfe6385db37c5920768a6d3e",
       "url": "https://github.com/MicrosoftDocs/entra-docs/commit/17582c44d4741a58cfe6385db37c5920768a6d3e",
@@ -1653,60 +1595,100 @@
           "deletions": 16
         }
       ]
-    },
-    {
-      "sha": "8a793537d67debb0d7536fe20348de489e865733",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/8a793537d67debb0d7536fe20348de489e865733",
-      "author": "learn-build-service-prod[bot]",
-      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
-      "date": "2025-09-03T05:04:48Z",
-      "message": "Merge pull request #9565 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-09-03 05:02 UTC",
-      "ai_summary": {
-        "Messages": "{\"role\":\"user\",\"content\":\"The following is the commit files that have changed: [\\r\\n  {\\r\\n    \\\"sha\\\": \\\"0e5dd8bcfd798559e9d5772b5ef6f7781a34d5fc\\\",\\r\\n    \\\"filename\\\": \\\"docs/global-secure-access/concept-remote-network-connectivity.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 6,\\r\\n    \\\"deletions\\\": 2,\\r\\n    \\\"changes\\\": 8,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/8a793537d67debb0d7536fe20348de489e865733/docs%2Fglobal-secure-access%2Fconcept-remote-network-connectivity.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/8a793537d67debb0d7536fe20348de489e865733/docs%2Fglobal-secure-access%2Fconcept-remote-network-connectivity.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fglobal-secure-access%2Fconcept-remote-network-connectivity.md?ref=8a793537d67debb0d7536fe20348de489e865733\\\",\\r\\n    \\\"patch\\\": \\\"@@ -5,7 +5,7 @@ author: kenwith\\\\n ms.author: kenwith\\\\n manager: dougeby\\\\n ms.topic: concept-article\\\\n-ms.date: 05/09/2025\\\\n+ms.date: 09/02/2025\\\\n ms.service: global-secure-access\\\\n ai-usage: ai-assisted\\\\n ---\\\\n@@ -30,6 +30,9 @@ Remote networks, such as a branch location, are typically connected to the corpo\\\\n \\\\n **Evolving threats** – Malicious actors are finding new avenues to attack the devices at the edge of networks. Edge devices in branch offices or even home offices are often the most vulnerable point of attack.\\\\n \\\\n+> [!TIP]\\\\n+> For guidance on enhancing the resilience of remote networks, see [Best practices for Global Secure Access remote network resilience](remote-network-resilience.md).\\\\n+\\\\n ## How does Global Secure Access remote network connectivity work? \\\\n \\\\n To connect a remote network to Global Secure Access, you set up an Internet Protocol Security (IPSec) tunnel between your on-premises equipment and the Global Secure Access endpoint. Traffic that you specify is routed through the IPSec tunnel to the nearest Global Secure Access endpoint. You can apply security policies in the Microsoft Entra admin center.\\\\n@@ -53,7 +56,7 @@ Guest devices on your network might not have the client installed. To ensure tha\\\\n \\\\n ### How much bandwidth will be allocated per tenant \\\\n \\\\n-The total bandwidth you are allocated is determined by the number of licenses purchased. Each Microsoft Entra ID P1 license, Microsoft Entra Internet Access license, or Microsoft Entra Suite license contributes to your total bandwidth. Bandwidth for remote networks can be assigned to IPsec tunnels in increments of 250 Mbps, 500 Mbps, 750 Mbps, or 1000 Mbps. This flexibility allows you to allocate bandwidth to different remote network locations according to your specific needs. For optimal performance, Microsoft recommends configuring at least two IPsec tunnels per location for high availability. The table below details the total bandwidth based on the number of licenses purchased. \\\\n+The total bandwidth you're allocated is determined by the number of licenses purchased. Each Microsoft Entra ID P1 license, Microsoft Entra Internet Access license, or Microsoft Entra Suite license contributes to your total bandwidth. Bandwidth for remote networks can be assigned to IPsec tunnels in increments of 250 Mbps, 500 Mbps, 750 Mbps, or 1,000 Mbps. This flexibility allows you to allocate bandwidth to different remote network locations according to your specific needs. For optimal performance, Microsoft recommends configuring at least two IPsec tunnels per location for high availability. The table below details the total bandwidth based on the number of licenses purchased. \\\\n \\\\n #### Initial bandwidth allocation\\\\n \\\\n@@ -156,3 +159,4 @@ Remaining Bandwidth: 28,500 Mbps\\\\n ## Next steps\\\\n - [List all remote networks](how-to-list-remote-networks.md)\\\\n - [Manage remote networks](how-to-manage-remote-networks.md)\\\\n+- [Best practices for Global Secure Access remote network resilience](remote-network-resilience.md)\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"c68bc8c675daac34d01598bb60f90292a92b8363\\\",\\r\\n    \\\"filename\\\": \\\"docs/global-secure-access/how-to-create-remote-networks.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 6,\\r\\n    \\\"deletions\\\": 3,\\r\\n    \\\"changes\\\": 9,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/8a793537d67debb0d7536fe20348de489e865733/docs%2Fglobal-secure-access%2Fhow-to-create-remote-networks.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/8a793537d67debb0d7536fe20348de489e865733/docs%2Fglobal-secure-access%2Fhow-to-create-remote-networks.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fglobal-secure-access%2Fhow-to-create-remote-networks.md?ref=8a793537d67debb0d7536fe20348de489e865733\\\",\\r\\n    \\\"patch\\\": \\\"@@ -5,9 +5,9 @@ ms.author: jayrusso\\\\n author: HULKsmashGithub\\\\n manager: dougeby\\\\n ms.topic: how-to\\\\n-ms.date: 02/25/2025\\\\n+ms.date: 09/02/2025\\\\n ms.service: global-secure-access\\\\n-ms.reviewer: absinh\\\\n+ms.reviewer: abhijeetsinha\\\\n ms.custom: sfi-image-nochange\\\\n # Customer intent: As an IT admin, I need to be able to create a remote network for a remote office so that my organization can connect to the Global Secure Access service.\\\\n ---\\\\n@@ -95,7 +95,10 @@ This process is covered in detail in the [How to configure your customer premise\\\\n \\\\n ### Set up your CPE\\\\n \\\\n-This step is performed in management console your CPE, not in Microsoft Entra admin center. Until you complete this step, your IPsec *isn't* set up. IPsec is a bidirectional communication. IKE negotiations happen between two parties before the tunnel is successfully set up. So, don't miss this step.\\\\n+You perform this step in the management console of your CPE, not in Microsoft Entra admin center. Until you complete this step, your IPsec *isn't* set up. IPsec is a bidirectional communication. IKE negotiations occur between two parties before the tunnel is successfully set up. Don't skip this step.\\\\n+\\\\n+> [!TIP]\\\\n+> For guidance on enhancing the resilience of remote networks, see [Best practices for Global Secure Access remote network resilience](remote-network-resilience.md).\\\\n \\\\n ## [Microsoft Graph API](#tab/microsoft-graph-api)\\\\n \\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"1d8cc759064b780b5f6dc3c5ac99958656e724d2\\\",\\r\\n    \\\"filename\\\": \\\"docs/global-secure-access/media/remote-network-resilience/geographic-redundancy.png\\\",\\r\\n    \\\"status\\\": \\\"added\\\",\\r\\n    \\\"additions\\\": 0,\\r\\n    \\\"deletions\\\": 0,\\r\\n    \\\"changes\\\": 0,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/8a793537d67debb0d7536fe20348de489e865733/docs%2Fglobal-secure-access%2Fmedia%2Fremote-network-resilience%2Fgeographic-redundancy.png\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/8a793537d67debb0d7536fe20348de489e865733/docs%2Fglobal-secure-access%2Fmedia%2Fremote-network-resilience%2Fgeographic-redundancy.png\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fglobal-secure-access%2Fmedia%2Fremote-network-resilience%2Fgeographic-redundancy.png?ref=8a793537d67debb0d7536fe20348de489e865733\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"558456f58919d1802b909ffb7a1e91cac0c0d405\\\",\\r\\n    \\\"filename\\\": \\\"docs/global-secure-access/media/remote-network-resilience/zone-redundancy.png\\\",\\r\\n    \\\"status\\\": \\\"added\\\",\\r\\n    \\\"additions\\\": 0,\\r\\n    \\\"deletions\\\": 0,\\r\\n    \\\"changes\\\": 0,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/8a793537d67debb0d7536fe20348de489e865733/docs%2Fglobal-secure-access%2Fmedia%2Fremote-network-resilience%2Fzone-redundancy.png\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/8a793537d67debb0d7536fe20348de489e865733/docs%2Fglobal-secure-access%2Fmedia%2Fremote-network-resilience%2Fzone-redundancy.png\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fglobal-secure-access%2Fmedia%2Fremote-network-resilience%2Fzone-redundancy.png?ref=8a793537d67debb0d7536fe20348de489e865733\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"cdaf8e4b1b4923878925087656098ff0bdf2aa26\\\",\\r\\n    \\\"filename\\\": \\\"docs/global-secure-access/remote-network-resilience.md\\\",\\r\\n    \\\"status\\\": \\\"added\\\",\\r\\n    \\\"additions\\\": 68,\\r\\n    \\\"deletions\\\": 0,\\r\\n    \\\"changes\\\": 68,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/8a793537d67debb0d7536fe20348de489e865733/docs%2Fglobal-secure-access%2Fremote-network-resilience.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/8a793537d67debb0d7536fe20348de489e865733/docs%2Fglobal-secure-access%2Fremote-network-resilience.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fglobal-secure-access%2Fremote-network-resilience.md?ref=8a793537d67debb0d7536fe20348de489e865733\\\",\\r\\n    \\\"patch\\\": \\\"@@ -0,0 +1,68 @@\\\\n+---\\\\n+title: Enhance Remote Network Resilience with Global Secure Access\\\\n+description: \\\\\\\"This article provides techniques to improve remote network resilience with Global Secure Access.\\\\\\\"\\\\n+author: HULKsmashGithub\\\\n+ms.author: jayrusso\\\\n+ms.service: global-secure-access\\\\n+ms.topic: best-practice\\\\n+ms.date: 09/02/2025\\\\n+manager: dougeby\\\\n+ms.reviewer: abhijeetsinha\\\\n+ai-usage: ai-assisted\\\\n+\\\\n+#customer intent: As a network administrator, I want to improve remote network resilience so that users can maintain connectivity during disruptions.\\\\n+\\\\n+---\\\\n+\\\\n+# Best practices for Global Secure Access remote network resilience\\\\n+This article provides actionable recommendations to enhance the resilience of remote networks. To ensure optimal deployment and performance of Global Secure Access remote network connectivity, follow these best practices:\\\\n+ \\\\n+## Configure redundant tunnels and failovers\\\\n+Configure multiple Internet Protocol Security (IPsec) tunnels from the customer premises equipment (CPE) to different Global Secure Access edges or POPs. \\\\n+\\\\n+### Zone redundancy \\\\n+The **Zone redundancy** option creates two IPsec tunnels in different availability zones, but within the same Azure region. \\\\n+\\\\n+:::image type=\\\\\\\"content\\\\\\\" source=\\\\\\\"media/remote-network-resilience/zone-redundancy.png\\\\\\\" alt-text=\\\\\\\"Screenshot of the Connectivity step, with the Add a link pane showing the Zone redundancy menu option.\\\\\\\":::   \\\\n+\\\\n+### Geographic redundancy\\\\n+You can also achieve redundancy by creating a new remote network in a different geographic region. You can use the same CPE configuration to set up IPsec tunnels in the secondary remote network.  \\\\n+\\\\n+:::image type=\\\\\\\"content\\\\\\\" source=\\\\\\\"media/remote-network-resilience/geographic-redundancy.png\\\\\\\" alt-text=\\\\\\\"Screenshot of the list of remote networks in multiple geographic regions.\\\\\\\":::   \\\\n+\\\\n+Use the CPE's management console to assign weights to these IPsec tunnels and decide how to route traffic through them. \\\\n+\\\\n+|Tunnel weighting  |Traffic routing  |\\\\n+|---------|---------|\\\\n+|Equal split     | active-active        |\\\\n+|Primary/secondary     | active-standby        |\\\\n+\\\\n+### Dynamic route learning\\\\n+Use Border Gateway Protocol (BGP) for dynamic route learning. If BGP isn't supported on the device, set up static routes with appropriate metrics. \\\\n+\\\\n+## Set up CPE according to your desired security posture\\\\n+Configure CPE based on whether your business prioritizes security or productivity.\\\\n+\\\\n+### Prioritize security\\\\n+If you prioritize security, prevent user traffic from going to the destination without first going through Global Secure Access. To do so, statically route traffic over the IPsec tunnel with Global Secure Access without setting up the default route.\\\\n+\\\\n+### Prioritize productivity\\\\n+If you prioritize productivity, set up a default route for traffic. This way, if a Global Secure Access VPN gateway or backend service goes down, user traffic continues directly through the default route.\\\\n+\\\\n+> [!IMPORTANT]\\\\n+> **Recommendation**: Set up a default route and configure an IP SLA Layer 7 health probe to monitor the endpoint.\\\\n+\\\\n+To set up a default route:\\\\n+1. Configure an IP SLA Layer 7 health probe to monitor the endpoint `http://m365.remote-network.edgediagnostic.globalsecureaccess.microsoft.com:6544/ping`. For guidance, see [How to create a remote network with Global Secure Access](how-to-create-remote-networks.md).\\\\n+1. Alternatively, set the probe to monitor IP address `198.18.1.101`. Statically send these IP addresses over the Global Secure Access IPsec tunnel from your CPE. We're adding this IP address to the Microsoft 365 BGP route advertisement.\\\\n+\\\\n+> [!NOTE]\\\\n+> These endpoints are accessible only through Global Secure Access remote network connectivity.\\\\n+\\\\n+## Configure monitoring and observability\\\\n+Monitor traffic logs and remote network health events by exporting them to your Log Analytics workspace. Set up Azure Monitor alert rules to track the health of your workspace. For more information, see [What are remote network health logs?](how-to-remote-network-health-logs.md).\\\\n+\\\\n+## Related content\\\\n+\\\\n+- [Understand remote network connectivity](concept-remote-network-connectivity.md)\\\\n+- [How to create a remote network with Global Secure Access](how-to-create-remote-networks.md)\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"bd7532a7482ac8b819b0f31967e9c6f10fe0843a\\\",\\r\\n    \\\"filename\\\": \\\"docs/global-secure-access/toc.yml\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 2,\\r\\n    \\\"deletions\\\": 0,\\r\\n    \\\"changes\\\": 2,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/8a793537d67debb0d7536fe20348de489e865733/docs%2Fglobal-secure-access%2Ftoc.yml\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/8a793537d67debb0d7536fe20348de489e865733/docs%2Fglobal-secure-access%2Ftoc.yml\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fglobal-secure-access%2Ftoc.yml?ref=8a793537d67debb0d7536fe20348de489e865733\\\",\\r\\n    \\\"patch\\\": \\\"@@ -78,6 +78,8 @@ items:\\\\n         href: concept-remote-network-connectivity.md\\\\n       - name: Create a remote network\\\\n         href: how-to-create-remote-networks.md\\\\n+      - name: Enhance remote network resilience\\\\n+        href: remote-network-resilience.md\\\\n       - name: Create remote network with custom Internet Key Exchange (IKE) policy\\\\n         href: how-to-create-remote-network-custom-ike-policy.md\\\\n       - name: Configure customer premises equipment\\\"\\r\\n  }\\r\\n]. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\"}",
-        "Response": "This commit introduces a new article on enhancing remote network resilience with Global Secure Access, providing guidance on configuring redundant tunnels, zone redundancy, and geographic redundancy. It also updates existing documentation on remote network connectivity and creation to include a link to this new resilience guidance and adjust the review date. Additionally, the table of contents has been updated to reflect the addition of the new article.",
-        "Model": "google:gemini-2.5-flash-lite",
-        "Provider": "google",
-        "ModelName": "gemini-2.5-flash-lite",
-        "Timestamp": "2025-09-03T07:01:26.6966597+00:00"
-      },
-      "files": [
-        {
-          "filename": "docs/global-secure-access/concept-remote-network-connectivity.md",
-          "status": "modified",
-          "additions": 6,
-          "deletions": 2
-        },
-        {
-          "filename": "docs/global-secure-access/how-to-create-remote-networks.md",
-          "status": "modified",
-          "additions": 6,
-          "deletions": 3
-        },
-        {
-          "filename": "docs/global-secure-access/media/remote-network-resilience/geographic-redundancy.png",
-          "status": "added",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/global-secure-access/media/remote-network-resilience/zone-redundancy.png",
-          "status": "added",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/global-secure-access/remote-network-resilience.md",
-          "status": "added",
-          "additions": 68,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/global-secure-access/toc.yml",
-          "status": "modified",
-          "additions": 2,
-          "deletions": 0
-        }
-      ]
     }
-  ]
+  ],
+  "metadata": {
+    "source_files": [
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20250903-1300.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20250903-1501.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20250903-1901.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20250903-2101.json"
+      },
+      {
+        "commit_count": 2,
+        "filename": "entra-changes-20250903-2300.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20250904-1301.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20250904-1901.json"
+      },
+      {
+        "commit_count": 5,
+        "filename": "entra-changes-20250904-2300.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20250905-0701.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20250905-1300.json"
+      },
+      {
+        "commit_count": 3,
+        "filename": "entra-changes-20250905-1701.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20250905-1900.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20250905-2301.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20250906-0701.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20250907-1301.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20250908-1900.json"
+      },
+      {
+        "commit_count": 2,
+        "filename": "entra-changes-20250908-2100.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20250909-0701.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20250909-1301.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20250909-1901.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20250909-2301.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20250910-0701.json"
+      }
+    ],
+    "generated_date": "2025-09-10T07:01:58Z",
+    "total_commits": 30
+  }
 }
