@@ -1,0 +1,24 @@
+{
+  "sha": "2bdbe1e498d41ba88d2cbc6e6674193ddbe481eb",
+  "url": "https://github.com/MicrosoftDocs/entra-docs/commit/2bdbe1e498d41ba88d2cbc6e6674193ddbe481eb",
+  "author": "learn-build-service-prod[bot]",
+  "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+  "date": "2025-09-12T17:04:04Z",
+  "message": "Merge pull request #9681 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-09-12 17:01 UTC",
+  "ai_summary": {
+    "Messages": "{\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"04a584c0113378f9dc6facef1b792b611b50e76a\\\",\\r\\n  \\\"filename\\\": \\\"docs/identity/saas-apps/uniflow-online-provisioning-tutorial.md\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 3,\\r\\n  \\\"deletions\\\": 3,\\r\\n  \\\"changes\\\": 6,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/2bdbe1e498d41ba88d2cbc6e6674193ddbe481eb/docs%2Fidentity%2Fsaas-apps%2Funiflow-online-provisioning-tutorial.md\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/2bdbe1e498d41ba88d2cbc6e6674193ddbe481eb/docs%2Fidentity%2Fsaas-apps%2Funiflow-online-provisioning-tutorial.md\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fsaas-apps%2Funiflow-online-provisioning-tutorial.md?ref=2bdbe1e498d41ba88d2cbc6e6674193ddbe481eb\\\",\\r\\n  \\\"patch\\\": \\\"@@ -66,7 +66,7 @@ Add uniFLOW Online from the Microsoft Entra application gallery to start managin\\\\n \\\\n ## Step 5: Configure automatic user provisioning to uniFLOW Online \\\\n \\\\n-This section guides you through the steps to configure the Microsoft Entra provisioning service to create, update, and disable users in TestApp based on user and/or group assignments in Microsoft Entra ID.\\\\n+This section guides you through the steps to configure the Microsoft Entra provisioning service to create, update, and disable users and/or groups in TestApp based on user and/or group assignments in Microsoft Entra ID.\\\\n \\\\n <a name='to-configure-automatic-user-provisioning-for-uniflow-online-in-azure-ad'></a>\\\\n \\\\n@@ -126,15 +126,15 @@ This section guides you through the steps to configure the Microsoft Entra provi\\\\n \\\\n \\\\t![Screenshot of Provisioning Status Toggled On.](common/provisioning-toggle-on.png)\\\\n \\\\n-1. Define the users that you would like to provision to uniFLOW Online by choosing the desired values in **Scope** in the **Settings** section.\\\\n+1. Define the users and/or groups that you would like to provision to uniFLOW Online by choosing the desired values in **Scope** in the **Settings** section.\\\\n \\\\n \\\\t![Screenshot of Provisioning Scope.](common/provisioning-scope.png)\\\\n \\\\n 1. When you're ready to provision, select **Save**.\\\\n \\\\n \\\\t![Screenshot of Saving Provisioning Configuration.](common/provisioning-configuration-save.png)\\\\n \\\\n-This operation starts the initial synchronization cycle of all users defined in **Scope** in the **Settings** section. The initial cycle takes longer to perform than subsequent cycles, which occur approximately every 40 minutes as long as the Microsoft Entra provisioning service is running. \\\\n+This operation starts the initial synchronization cycle of all users and groups defined in **Scope** in the **Settings** section. The initial cycle takes longer to perform than subsequent cycles, which occur approximately every 40 minutes as long as the Microsoft Entra provisioning service is running. \\\\n \\\\n ## Step 6: Monitor your deployment\\\\n \\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\",\"role\":\"user\"}",
+    "Response": "This commit modifies a Markdown document detailing the setup for uniFLOW Online provisioning. The changes involve slightly rephrasing sentences to clarify that both users *and/or* groups can be provisioned, and that the scope setting applies to these users and groups. The primary goal is to enhance the clarity of the provisioning configuration instructions.",
+    "Model": "google:gemini-2.5-flash-lite",
+    "Provider": "google",
+    "ModelName": "gemini-2.5-flash-lite",
+    "Timestamp": "2025-09-12T19:01:11.288641+00:00"
+  },
+  "files": [
+    {
+      "filename": "docs/identity/saas-apps/uniflow-online-provisioning-tutorial.md",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3
+    }
+  ]
+}
