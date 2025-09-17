@@ -1,0 +1,30 @@
+{
+  "sha": "4876cac4828d662f5aa3ca8ddd731c49fee57ea6",
+  "url": "https://github.com/MicrosoftDocs/entra-docs/commit/4876cac4828d662f5aa3ca8ddd731c49fee57ea6",
+  "author": "learn-build-service-prod[bot]",
+  "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+  "date": "2025-09-17T22:11:38Z",
+  "message": "Merge pull request #9725 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-09-17 22:06 UTC",
+  "ai_summary": {
+    "Messages": "{\"role\":\"user\",\"content\":\"The following is the commit files that have changed: [\\r\\n  {\\r\\n    \\\"sha\\\": \\\"6d762a40b40724382fc89379b52b365dd8a7e5b5\\\",\\r\\n    \\\"filename\\\": \\\"docs/identity/authentication/media/concept-mandatory-multifactor-authentication/postpone-phase-two.png\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 0,\\r\\n    \\\"deletions\\\": 0,\\r\\n    \\\"changes\\\": 0,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/4876cac4828d662f5aa3ca8ddd731c49fee57ea6/docs%2Fidentity%2Fauthentication%2Fmedia%2Fconcept-mandatory-multifactor-authentication%2Fpostpone-phase-two.png\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/4876cac4828d662f5aa3ca8ddd731c49fee57ea6/docs%2Fidentity%2Fauthentication%2Fmedia%2Fconcept-mandatory-multifactor-authentication%2Fpostpone-phase-two.png\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fauthentication%2Fmedia%2Fconcept-mandatory-multifactor-authentication%2Fpostpone-phase-two.png?ref=4876cac4828d662f5aa3ca8ddd731c49fee57ea6\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"eaa844d6a97bca344b789411575e982f94c50b52\\\",\\r\\n    \\\"filename\\\": \\\"docs/identity/monitoring-health/concept-activity-log-schemas.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 1,\\r\\n    \\\"deletions\\\": 1,\\r\\n    \\\"changes\\\": 2,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/4876cac4828d662f5aa3ca8ddd731c49fee57ea6/docs%2Fidentity%2Fmonitoring-health%2Fconcept-activity-log-schemas.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/4876cac4828d662f5aa3ca8ddd731c49fee57ea6/docs%2Fidentity%2Fmonitoring-health%2Fconcept-activity-log-schemas.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fmonitoring-health%2Fconcept-activity-log-schemas.md?ref=4876cac4828d662f5aa3ca8ddd731c49fee57ea6\\\",\\r\\n    \\\"patch\\\": \\\"@@ -65,7 +65,7 @@ Some values are common across all log schemas.\\\\n - `category`: Indicates which resource category that's targeted by the activity. For example: `UserManagement`, `GroupManagement`, `ApplicationManagement`, `RoleManagement`. For more information, see [Audit log activities](reference-audit-activities.md).\\\\n - `initiatedBy`: Indicates information about the user or app that initiated the activity.\\\\n - `targetResources`: Provides information on which resource was changed. Possible values include `User`, `Device`, `Directory`, `App`, `Role`, `Group`, `Policy` or `Other`.\\\\n-- `ipAddress`: Found in the `initiatedBy` section, this is the OAuth client's IP address. The IP address is the TCP peer of the service's endpoint.\\\\n+- `ipAddress`: Found in the `initiatedBy` section, this is the OAuth client's IP address. The IP address is the peer (directly connected client) of the service's endpoint.\\\\n \\\\n ### Sign-in logs\\\\n \\\"\\r\\n  }\\r\\n]. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\"}",
+    "Response": "This commit includes a minor update to the documentation for Entra ID.\n\nThe `docs/identity/monitoring-health/concept-activity-log-schemas.md` file has been modified to clarify the description of the `ipAddress` field within the `initiatedBy` section of the activity logs. Specifically, it now states that the IP address is the \"peer (directly connected client)\" of the service's endpoint, rather than the \"TCP peer\". Additionally, an image file (`postpone-phase-two.png`) related to mandatory multi-factor authentication has also been modified, although no specific changes to its content are detailed.",
+    "Model": "google:gemini-2.5-flash-lite",
+    "Provider": "google",
+    "ModelName": "gemini-2.5-flash-lite",
+    "Timestamp": "2025-09-17T23:00:36.4612878+00:00"
+  },
+  "files": [
+    {
+      "filename": "docs/identity/authentication/media/concept-mandatory-multifactor-authentication/postpone-phase-two.png",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "filename": "docs/identity/monitoring-health/concept-activity-log-schemas.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1
+    }
+  ]
+}
