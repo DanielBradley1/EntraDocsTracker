@@ -1,71 +1,99 @@
 {
   "metadata": {
-    "total_commits": 17,
-    "generated_date": "2025-09-18T15:00:44Z",
+    "generated_date": "2025-09-18T19:01:30Z",
+    "total_commits": 18,
     "source_files": [
       {
-        "filename": "entra-changes-20250911-2301.json",
-        "commit_count": 1
+        "commit_count": 1,
+        "filename": "entra-changes-20250911-2301.json"
       },
       {
-        "filename": "entra-changes-20250912-0701.json",
-        "commit_count": 1
+        "commit_count": 1,
+        "filename": "entra-changes-20250912-0701.json"
       },
       {
-        "filename": "entra-changes-20250912-1901.json",
-        "commit_count": 1
+        "commit_count": 1,
+        "filename": "entra-changes-20250912-1901.json"
       },
       {
-        "filename": "entra-changes-20250912-2301.json",
-        "commit_count": 1
+        "commit_count": 1,
+        "filename": "entra-changes-20250912-2301.json"
       },
       {
-        "filename": "entra-changes-20250913-0701.json",
-        "commit_count": 1
+        "commit_count": 1,
+        "filename": "entra-changes-20250913-0701.json"
       },
       {
-        "filename": "entra-changes-20250915-1501.json",
-        "commit_count": 2
+        "commit_count": 2,
+        "filename": "entra-changes-20250915-1501.json"
       },
       {
-        "filename": "entra-changes-20250915-1900.json",
-        "commit_count": 1
+        "commit_count": 1,
+        "filename": "entra-changes-20250915-1900.json"
       },
       {
-        "filename": "entra-changes-20250915-2300.json",
-        "commit_count": 2
+        "commit_count": 2,
+        "filename": "entra-changes-20250915-2300.json"
       },
       {
-        "filename": "entra-changes-20250916-0700.json",
-        "commit_count": 1
+        "commit_count": 1,
+        "filename": "entra-changes-20250916-0700.json"
       },
       {
-        "filename": "entra-changes-20250916-1301.json",
-        "commit_count": 1
+        "commit_count": 1,
+        "filename": "entra-changes-20250916-1301.json"
       },
       {
-        "filename": "entra-changes-20250916-2301.json",
-        "commit_count": 1
+        "commit_count": 1,
+        "filename": "entra-changes-20250916-2301.json"
       },
       {
-        "filename": "entra-changes-20250917-1500.json",
-        "commit_count": 1
+        "commit_count": 1,
+        "filename": "entra-changes-20250917-1500.json"
       },
       {
-        "filename": "entra-changes-20250917-1901.json",
-        "commit_count": 1
+        "commit_count": 1,
+        "filename": "entra-changes-20250917-1901.json"
       },
       {
-        "filename": "entra-changes-20250917-2300.json",
-        "commit_count": 1
+        "commit_count": 1,
+        "filename": "entra-changes-20250917-2300.json"
       },
       {
-        "filename": "entra-changes-20250918-1500.json",
-        "commit_count": 1
+        "commit_count": 1,
+        "filename": "entra-changes-20250918-1500.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20250918-1901.json"
       }
     ]
   },
   "changes": [
+    {
+      "sha": "4a109ec1822fe00c62f5bfce2e0192e75c6cb88b",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/4a109ec1822fe00c62f5bfce2e0192e75c6cb88b",
+      "author": "learn-build-service-prod[bot]",
+      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+      "date": "2025-09-18T17:06:44Z",
+      "message": "Merge pull request #9730 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-09-18 17:01 UTC",
+      "ai_summary": {
+        "Messages": "{\"role\":\"user\",\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"6b05a97e00c8b8d3c13a3a4f3042e37816f3e8d5\\\",\\r\\n  \\\"filename\\\": \\\"docs/identity-platform/apple-sso-plugin.md\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 1,\\r\\n  \\\"deletions\\\": 7,\\r\\n  \\\"changes\\\": 8,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/4a109ec1822fe00c62f5bfce2e0192e75c6cb88b/docs%2Fidentity-platform%2Fapple-sso-plugin.md\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/4a109ec1822fe00c62f5bfce2e0192e75c6cb88b/docs%2Fidentity-platform%2Fapple-sso-plugin.md\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity-platform%2Fapple-sso-plugin.md?ref=4a109ec1822fe00c62f5bfce2e0192e75c6cb88b\\\",\\r\\n  \\\"patch\\\": \\\"@@ -32,12 +32,6 @@ The Microsoft Enterprise SSO plug-in for Apple devices offers the following bene\\\\n - It extends SSO to applications that use OAuth 2, OpenID Connect, and SAML.\\\\n - It's natively integrated with the MSAL, which provides a smooth native experience to the end user when the Microsoft Enterprise SSO plug-in is enabled. \\\\n \\\\n->[!NOTE]\\\\n-> On May 2024, [Microsoft announced that Platform SSO for macOS devices is available in public preview for Microsoft Entra ID.](https://techcommunity.microsoft.com/t5/microsoft-entra-blog/platform-sso-for-macos-now-in-public-preview/ba-p/4051574).\\\\n->\\\\n-> For more information, see [macOS Platform Single Sign-on overview (preview)](/entra/identity/devices/macos-psso). \\\\n-\\\\n-\\\\n ## Requirements\\\\n \\\\n To use the Microsoft Enterprise SSO plug-in for Apple devices:\\\\n@@ -436,7 +430,7 @@ The end user sees the familiar experience and doesn't have to sign in again in e\\\\n \\\\n ## Device Identity Key Storage\\\\n \\\\n-In March 2024, Microsoft announced that Microsoft Entra ID will transition from using Apple’s Keychain to Apple’s Secure Enclave for storing device identity keys. Beginning August 2025 as part of the Secure Enclave rollout, certain new device registrations will require Secure Enclave for key storage. Eventually, all new device registrations will require Secure Enclave.\\\\n+In March 2024, Microsoft announced that Microsoft Entra ID will transition from Apple's Keychain to Apple's Secure Enclave for storing device identity keys. Starting August 2025, the Secure Storage rollout will make Secure Enclave the default key storage for all new device registrations. New device registrations will use secure storage model by default. Existing devices that do not support Secure Enclave will have registration keys stored in the user's iCloud Keychain instead of the Login Keychain, which provides stronger protection than legacy Login Keychain storage. Existing functionality for older devices remains the same.\\\\n \\\\n If your applications or MDM solutions depend on accessing Microsoft Entra device registration keys through Keychain, you must update them to use the Microsoft Authentication Library (MSAL) and the Enterprise SSO plug-in to maintain compatibility with the Microsoft identity platform.\\\\n \\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\"}",
+        "Response": "The documentation for the Microsoft Enterprise SSO plug-in for Apple devices has been updated. A note has been added regarding the public preview of Platform SSO for macOS devices and a link to further information. Additionally, there's an update to the section on Device Identity Key Storage, detailing the transition from Apple's Keychain to Apple's Secure Enclave, with a phased rollout starting August 2025.",
+        "Model": "google:gemini-2.5-flash-lite",
+        "Provider": "google",
+        "ModelName": "gemini-2.5-flash-lite",
+        "Timestamp": "2025-09-18T19:01:27.5857263+00:00"
+      },
+      "files": [
+        {
+          "filename": "docs/identity-platform/apple-sso-plugin.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 7
+        }
+      ]
+    },
     {
       "sha": "371983ae2d5dcb8a7524ad30b6a46adf78088812",
       "url": "https://github.com/MicrosoftDocs/entra-docs/commit/371983ae2d5dcb8a7524ad30b6a46adf78088812",
