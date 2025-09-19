@@ -1,11 +1,6 @@
 {
   "metadata": {
-    "generated_date": "2025-09-19T19:01:52Z",
     "source_files": [
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20250912-2301.json"
-      },
       {
         "commit_count": 1,
         "filename": "entra-changes-20250913-0701.json"
@@ -65,11 +60,1935 @@
       {
         "commit_count": 1,
         "filename": "entra-changes-20250919-1901.json"
+      },
+      {
+        "commit_count": 4,
+        "filename": "entra-changes-20250919-2301.json"
       }
     ],
-    "total_commits": 18
+    "generated_date": "2025-09-19T23:01:48Z",
+    "total_commits": 21
   },
   "changes": [
+    {
+      "sha": "ca243a219b5fa602a3b99bf366c3c071d1acf009",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/ca243a219b5fa602a3b99bf366c3c071d1acf009",
+      "author": "learn-build-service-prod[bot]",
+      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+      "date": "2025-09-19T22:02:36Z",
+      "message": "Merge pull request #9747 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-09-19 22:00 UTC",
+      "ai_summary": {
+        "Messages": "{\"content\":\"The following is the commit files that have changed: [\\r\\n  {\\r\\n    \\\"sha\\\": \\\"5950403ae9d25f7fefd9c2ccd774b1ec633cf15d\\\",\\r\\n    \\\"filename\\\": \\\"docs/global-secure-access/concept-transport-layer-security.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 1,\\r\\n    \\\"deletions\\\": 2,\\r\\n    \\\"changes\\\": 3,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/ca243a219b5fa602a3b99bf366c3c071d1acf009/docs%2Fglobal-secure-access%2Fconcept-transport-layer-security.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/ca243a219b5fa602a3b99bf366c3c071d1acf009/docs%2Fglobal-secure-access%2Fconcept-transport-layer-security.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fglobal-secure-access%2Fconcept-transport-layer-security.md?ref=ca243a219b5fa602a3b99bf366c3c071d1acf009\\\",\\r\\n    \\\"patch\\\": \\\"@@ -16,8 +16,7 @@ The Transport Layer Security (TLS) protocol uses certificates at the transport l\\\\n \\\\n > [!IMPORTANT]\\\\n > The Transport Layer Security inspection feature is currently in PREVIEW.   \\\\n-> This information relates to a prerelease product that might be substantially modified before release. Microsoft makes no warranties, expressed or implied, with respect to the information provided here.   \\\\n-> While in preview, don't use TLS inspection in production environments.      \\\\n+> This information relates to a prerelease product that might be substantially modified before release. Microsoft makes no warranties, expressed or implied, with respect to the information provided here. While in preview, use TLS inspection with care, especially in production environments, thoroughly evaluate before deployment.    \\\\n \\\\n This article gives an overview of the TLS inspection process.\\\\n \\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"3ed25fd967dd2fb7f05d9612144ef4b9a7683057\\\",\\r\\n    \\\"filename\\\": \\\"docs/global-secure-access/overview-what-is-global-secure-access.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 2,\\r\\n    \\\"deletions\\\": 2,\\r\\n    \\\"changes\\\": 4,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/ca243a219b5fa602a3b99bf366c3c071d1acf009/docs%2Fglobal-secure-access%2Foverview-what-is-global-secure-access.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/ca243a219b5fa602a3b99bf366c3c071d1acf009/docs%2Fglobal-secure-access%2Foverview-what-is-global-secure-access.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fglobal-secure-access%2Foverview-what-is-global-secure-access.md?ref=ca243a219b5fa602a3b99bf366c3c071d1acf009\\\",\\r\\n    \\\"patch\\\": \\\"@@ -5,7 +5,7 @@ author: kenwith\\\\n ms.author: kenwith\\\\n manager: dougeby\\\\n ms.topic: overview\\\\n-ms.date: 04/30/2025\\\\n+ms.date: 09/19/2025\\\\n ms.service: global-secure-access\\\\n ms.custom: references_regions\\\\n ai-usage: ai-assisted\\\\n@@ -25,7 +25,7 @@ Microsoft Entra Internet Access and Microsoft Entra Private Access comprise Micr\\\\n \\\\n Microsoft Entra Internet Access and Microsoft Entra Private Access - coupled with Microsoft Defender for Cloud Apps, our SaaS-security focused Cloud Access Security Broker (CASB) - are uniquely built as a solution that converges network, identity, and endpoint access controls so you can secure access to any app or resource, from anywhere. With the addition of these Global Secure Access products, Microsoft Entra ID simplifies access policy management and enables access orchestration for employees, business partners, and digital workloads. You can continuously monitor and adjust user access in real time if permissions or risk level changes.\\\\n \\\\n-The Global Secure Access features streamline the roll-out and management of the access control capabilities with a unified portal. These features are delivered from Microsoft's Wide Area Network, spanning 140+ regions and 190+ network edge locations. This private network, which is one of the largest in the world, enables organizations to optimally connect users and devices to public and private resources seamlessly and securely. For a list of the current points of presence, see [Global Secure Access points of presence article](reference-points-of-presence.md).\\\\n+The Global Secure Access features streamline the roll-out and management of the access control capabilities with a unified portal. These features are delivered from Microsoft's Wide Area Network, spanning 70 regions and 190+ network edge locations. This private network, which is one of the largest in the world, enables organizations to optimally connect users and devices to public and private resources seamlessly and securely. For a list of the current points of presence, see [Global Secure Access points of presence article](reference-points-of-presence.md).\\\\n \\\\n ## Microsoft Entra Internet Access\\\\n \\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"5bc1f195580a7cfb84b30d47604442c94e8c7745\\\",\\r\\n    \\\"filename\\\": \\\"docs/global-secure-access/scripts/powershell-open-secure-sockets-layer.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 3,\\r\\n    \\\"deletions\\\": 5,\\r\\n    \\\"changes\\\": 8,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/ca243a219b5fa602a3b99bf366c3c071d1acf009/docs%2Fglobal-secure-access%2Fscripts%2Fpowershell-open-secure-sockets-layer.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/ca243a219b5fa602a3b99bf366c3c071d1acf009/docs%2Fglobal-secure-access%2Fscripts%2Fpowershell-open-secure-sockets-layer.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fglobal-secure-access%2Fscripts%2Fpowershell-open-secure-sockets-layer.md?ref=ca243a219b5fa602a3b99bf366c3c071d1acf009\\\",\\r\\n    \\\"patch\\\": \\\"@@ -63,7 +63,7 @@ try {\\\\n     $response = Get-MgBetaNetworkAccessTlExternalCertificateAuthorityCertificate\\\\n     if ($response.Count -gt 0) {\\\\n         Write-Host \\\\\\\"A certificate for TLS inspection already exists.\\\\\\\"\\\\n-\\\\texit 1\\\\n+\\\\t    exit 1\\\\n     } \\\\n }\\\\n catch {\\\\n@@ -137,7 +137,7 @@ Write-Host \\\\\\\"Generating Root CA key and certificate...\\\\\\\"\\\\n if (Test-Path $csrPath) {\\\\n     Write-Host \\\\\\\"Signing CSR file $csrPath...\\\\\\\"\\\\n     & $openSSLPath x509 -req -in $csrPath -CA $rootCert -CAkey $rootKey -CAcreateserial -out $signedCert -days 370 -sha256 -extfile $opensslCnfPath -extensions signedCA_ext\\\\n-    Write-Host \\\\\\\"Signed certificate saved to $signedCert\\\\\\\"\\\\n+    Write-Host \\\\\\\"Successfully saved signed certificate to $signedCert\\\\\\\"\\\\n } else {\\\\n     Write-Host \\\\\\\"CSR file '$csrPath' not found. Please generate it first.\\\\\\\"\\\\n }\\\\n@@ -147,8 +147,6 @@ $paramsupload = @{\\\\n certificate = Get-Content -Path $SignedCert -Raw\\\\n chain       = Get-Content -Path $RootCert -Raw\\\\n }\\\\n-# Upload using SDK cmdlet\\\\n-Update-MgBetaNetworkAccessTlExternalCertificateAuthorityCertificate -ExternalCertificateAuthorityCertificateId $externalCertificateAuthorityCertificateId -BodyParameter $paramsupload\\\\n \\\\n # Upload the signed certificate and its chain to Microsoft Graph using the SDK cmdlet.\\\\n # -ExternalCertificateAuthorityCertificateId: The unique ID of the certificate request previously created.\\\\n@@ -160,7 +158,7 @@ Write-Error \\\\\\\"Failed to upload certificate and chain: $($_.Exception.Message)\\\\\\\"\\\\n exit 1\\\\n }\\\\n \\\\n-Write-Host \\\\\\\"Upload complete via Microsoft Graph SDK.\\\\\\\"\\\\n+Write-Host \\\\\\\"Certificate is uploaded successfully via Microsoft Graph SDK.\\\\\\\"\\\\n ```\\\\n \\\\n ## Related content\\\"\\r\\n  }\\r\\n]. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\",\"role\":\"user\"}",
+        "Response": "The changes update documentation for Microsoft Entra Global Secure Access.\n\n*   The disclaimer for the TLS inspection feature has been refined to provide clearer guidance for preview users, particularly regarding production environments.\n*   The number of regions for Microsoft's Wide Area Network has been updated from 140+ to 70.\n*   Minor improvements have been made to PowerShell script output messages for clarity.",
+        "Model": "google:gemini-2.5-flash-lite",
+        "Provider": "google",
+        "ModelName": "gemini-2.5-flash-lite",
+        "Timestamp": "2025-09-19T23:01:36.8699382+00:00"
+      },
+      "files": [
+        {
+          "filename": "docs/global-secure-access/concept-transport-layer-security.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/global-secure-access/overview-what-is-global-secure-access.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/global-secure-access/scripts/powershell-open-secure-sockets-layer.md",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 5
+        }
+      ]
+    },
+    {
+      "sha": "27805e16bffa083b87335dddda9d0860576994e7",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/27805e16bffa083b87335dddda9d0860576994e7",
+      "author": "prmerger-automator[bot]",
+      "email": "40007230+prmerger-automator[bot]@users.noreply.github.com",
+      "date": "2025-09-19T21:34:56Z",
+      "message": "Merge pull request #9746 from teresayao/tlsfaq\n\nopen SSL PS",
+      "ai_summary": {
+        "Messages": "{\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"5bc1f195580a7cfb84b30d47604442c94e8c7745\\\",\\r\\n  \\\"filename\\\": \\\"docs/global-secure-access/scripts/powershell-open-secure-sockets-layer.md\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 3,\\r\\n  \\\"deletions\\\": 5,\\r\\n  \\\"changes\\\": 8,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/27805e16bffa083b87335dddda9d0860576994e7/docs%2Fglobal-secure-access%2Fscripts%2Fpowershell-open-secure-sockets-layer.md\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/27805e16bffa083b87335dddda9d0860576994e7/docs%2Fglobal-secure-access%2Fscripts%2Fpowershell-open-secure-sockets-layer.md\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fglobal-secure-access%2Fscripts%2Fpowershell-open-secure-sockets-layer.md?ref=27805e16bffa083b87335dddda9d0860576994e7\\\",\\r\\n  \\\"patch\\\": \\\"@@ -63,7 +63,7 @@ try {\\\\n     $response = Get-MgBetaNetworkAccessTlExternalCertificateAuthorityCertificate\\\\n     if ($response.Count -gt 0) {\\\\n         Write-Host \\\\\\\"A certificate for TLS inspection already exists.\\\\\\\"\\\\n-\\\\texit 1\\\\n+\\\\t    exit 1\\\\n     } \\\\n }\\\\n catch {\\\\n@@ -137,7 +137,7 @@ Write-Host \\\\\\\"Generating Root CA key and certificate...\\\\\\\"\\\\n if (Test-Path $csrPath) {\\\\n     Write-Host \\\\\\\"Signing CSR file $csrPath...\\\\\\\"\\\\n     & $openSSLPath x509 -req -in $csrPath -CA $rootCert -CAkey $rootKey -CAcreateserial -out $signedCert -days 370 -sha256 -extfile $opensslCnfPath -extensions signedCA_ext\\\\n-    Write-Host \\\\\\\"Signed certificate saved to $signedCert\\\\\\\"\\\\n+    Write-Host \\\\\\\"Successfully saved signed certificate to $signedCert\\\\\\\"\\\\n } else {\\\\n     Write-Host \\\\\\\"CSR file '$csrPath' not found. Please generate it first.\\\\\\\"\\\\n }\\\\n@@ -147,8 +147,6 @@ $paramsupload = @{\\\\n certificate = Get-Content -Path $SignedCert -Raw\\\\n chain       = Get-Content -Path $RootCert -Raw\\\\n }\\\\n-# Upload using SDK cmdlet\\\\n-Update-MgBetaNetworkAccessTlExternalCertificateAuthorityCertificate -ExternalCertificateAuthorityCertificateId $externalCertificateAuthorityCertificateId -BodyParameter $paramsupload\\\\n \\\\n # Upload the signed certificate and its chain to Microsoft Graph using the SDK cmdlet.\\\\n # -ExternalCertificateAuthorityCertificateId: The unique ID of the certificate request previously created.\\\\n@@ -160,7 +158,7 @@ Write-Error \\\\\\\"Failed to upload certificate and chain: $($_.Exception.Message)\\\\\\\"\\\\n exit 1\\\\n }\\\\n \\\\n-Write-Host \\\\\\\"Upload complete via Microsoft Graph SDK.\\\\\\\"\\\\n+Write-Host \\\\\\\"Certificate is uploaded successfully via Microsoft Graph SDK.\\\\\\\"\\\\n ```\\\\n \\\\n ## Related content\\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\",\"role\":\"user\"}",
+        "Response": "This commit addresses the PowerShell script for managing TLS inspection certificates within Microsoft Entra Global Secure Access. It refines the output messages for clarity and corrects an oversight where the SDK cmdlet for uploading the signed certificate was commented out, preventing its execution. The changes ensure the script accurately reports existing certificates and successfully uploads new ones.",
+        "Model": "google:gemini-2.5-flash-lite",
+        "Provider": "google",
+        "ModelName": "gemini-2.5-flash-lite",
+        "Timestamp": "2025-09-19T23:01:38.1271092+00:00"
+      },
+      "files": [
+        {
+          "filename": "docs/global-secure-access/scripts/powershell-open-secure-sockets-layer.md",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 5
+        }
+      ]
+    },
+    {
+      "sha": "c0b70962be2624f77925727bc25a60bf2ec5c152",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/c0b70962be2624f77925727bc25a60bf2ec5c152",
+      "author": "Teresa Yao",
+      "email": "teresayao@microsoft.com",
+      "date": "2025-09-19T21:31:07Z",
+      "message": "Merge branch 'main' into tlsfaq - resolve conflicts\n\n- PowerShell script: keep resolved version with improved error handling and messages\n- FAQ file: accept main branch version",
+      "ai_summary": "Unable to generate summary for this commit.",
+      "files": [
+        {
+          "filename": ".docutune/dictionaries/known-guids.json",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 1
+        },
+        {
+          "filename": ".openpublishing.redirection.json",
+          "status": "modified",
+          "additions": 75,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/architecture/architecture.md",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/architecture/deployment-external-operations.md",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 5
+        },
+        {
+          "filename": "docs/architecture/deployment-external-tenant-design.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/architecture/deployment-scenario-workforce-guest.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/architecture/gsa-poc-private-access.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/architecture/guide-for-independent-software-developers.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/architecture/index.yml",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/architecture/recover-from-deletions.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/architecture/resilience-in-credentials.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/architecture/secure-resource-management.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/external-id/add-users-administrator.yml",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/external-id/b2b-direct-connect-overview.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/external-id/b2b-fundamentals.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/external-id/b2b-sponsors.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/external-id/customers/concept-custom-url-domain.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 6
+        },
+        {
+          "filename": "docs/external-id/customers/concept-security-customers.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/external-id/customers/concept-supported-features-customers.md",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 4
+        },
+        {
+          "filename": "docs/external-id/customers/how-to-add-attributes-to-token.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 7
+        },
+        {
+          "filename": "docs/external-id/customers/how-to-custom-oidc-federation-customers.md",
+          "status": "modified",
+          "additions": 12,
+          "deletions": 11
+        },
+        {
+          "filename": "docs/external-id/customers/how-to-custom-url-domain.md",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 4
+        },
+        {
+          "filename": "docs/external-id/customers/how-to-customize-branding-customers.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 6
+        },
+        {
+          "filename": "docs/external-id/customers/how-to-customize-languages-customers.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 7
+        },
+        {
+          "filename": "docs/external-id/customers/how-to-define-custom-attributes.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 7
+        },
+        {
+          "filename": "docs/external-id/customers/how-to-enable-password-reset-customers.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 7
+        },
+        {
+          "filename": "docs/external-id/customers/how-to-facebook-federation-customers.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 6
+        },
+        {
+          "filename": "docs/external-id/customers/how-to-google-federation-customers.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 7
+        },
+        {
+          "filename": "docs/external-id/customers/how-to-manage-admin-accounts.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/external-id/customers/how-to-manage-customer-accounts.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/external-id/customers/how-to-microsoft-accounts-federation-customers.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 6
+        },
+        {
+          "filename": "docs/external-id/customers/how-to-multifactor-authentication-customers.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 6
+        },
+        {
+          "filename": "docs/external-id/customers/how-to-use-app-roles-customers.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 13
+        },
+        {
+          "filename": "docs/external-id/customers/how-to-user-flow-sign-up-sign-in-customers.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 7
+        },
+        {
+          "filename": "docs/external-id/customers/how-to-user-insights.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 5
+        },
+        {
+          "filename": "docs/external-id/customers/media/overview-solutions-customers/demo-woodgrove.png",
+          "status": "removed",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/external-id/customers/overview-customers-ciam.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 6
+        },
+        {
+          "filename": "docs/external-id/customers/overview-solutions-customers.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 20
+        },
+        {
+          "filename": "docs/external-id/customers/reference-training-videos.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 7
+        },
+        {
+          "filename": "docs/external-id/direct-federation.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/external-id/external-collaboration-settings-configure.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/external-id/external-identities-pricing.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/external-id/faq.yml",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/external-id/invitation-email-elements.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/external-id/leave-the-organization.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/external-id/migrate-to-xtap-v2-api.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/external-id/redemption-experience.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/external-id/tenant-restrictions-v2.md",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 6
+        },
+        {
+          "filename": "docs/external-id/whats-new-docs.md",
+          "status": "modified",
+          "additions": 11,
+          "deletions": 34
+        },
+        {
+          "filename": "docs/fundamentals/add-custom-domain.md",
+          "status": "added",
+          "additions": 108,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/fundamentals/add-custom-domain.yml",
+          "status": "removed",
+          "additions": 0,
+          "deletions": 124
+        },
+        {
+          "filename": "docs/fundamentals/agents.md",
+          "status": "removed",
+          "additions": 0,
+          "deletions": 33
+        },
+        {
+          "filename": "docs/fundamentals/bulk-operations.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/fundamentals/compare.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/fundamentals/configure-security.md",
+          "status": "modified",
+          "additions": 70,
+          "deletions": 223
+        },
+        {
+          "filename": "docs/fundamentals/copilot-entra-agents.md",
+          "status": "added",
+          "additions": 103,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/fundamentals/copilot-entra-security-scenarios.md",
+          "status": "modified",
+          "additions": 26,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/fundamentals/copilot-security-entra-investigate-risky-apps.md",
+          "status": "modified",
+          "additions": 29,
+          "deletions": 18
+        },
+        {
+          "filename": "docs/fundamentals/copilot-security-entra.md",
+          "status": "modified",
+          "additions": 11,
+          "deletions": 7
+        },
+        {
+          "filename": "docs/fundamentals/create-new-tenant.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/fundamentals/entra-admin-center.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/fundamentals/faq.yml",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 3
+        },
+        {
+          "filename": "docs/fundamentals/get-started-premium.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/fundamentals/how-subscriptions-associated-directory.md",
+          "status": "added",
+          "additions": 92,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/fundamentals/how-subscriptions-associated-directory.yml",
+          "status": "removed",
+          "additions": 0,
+          "deletions": 101
+        },
+        {
+          "filename": "docs/fundamentals/how-to-assign-roles-to-users.yml",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/fundamentals/how-to-create-delete-users.yml",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 4
+        },
+        {
+          "filename": "docs/fundamentals/how-to-find-tenant.md",
+          "status": "added",
+          "additions": 84,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/fundamentals/how-to-find-tenant.yml",
+          "status": "removed",
+          "additions": 0,
+          "deletions": 92
+        },
+        {
+          "filename": "docs/fundamentals/how-to-get-support.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/fundamentals/how-to-manage-groups.yml",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/fundamentals/how-to-manage-stay-signed-in-prompt.yml",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/fundamentals/how-to-manage-user-profile-info.md",
+          "status": "added",
+          "additions": 216,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/fundamentals/how-to-manage-user-profile-info.yml",
+          "status": "removed",
+          "additions": 0,
+          "deletions": 239
+        },
+        {
+          "filename": "docs/fundamentals/inaccessible-tenant.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/fundamentals/index.yml",
+          "status": "modified",
+          "additions": 58,
+          "deletions": 36
+        },
+        {
+          "filename": "docs/fundamentals/media/copilot-security-entra/security-copilot-sources.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/fundamentals/media/whats-new/entra-whats-new-highlights.png",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/fundamentals/properties-area.md",
+          "status": "added",
+          "additions": 52,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/fundamentals/properties-area.yml",
+          "status": "removed",
+          "additions": 0,
+          "deletions": 63
+        },
+        {
+          "filename": "docs/fundamentals/toc.yml",
+          "status": "modified",
+          "additions": 29,
+          "deletions": 16
+        },
+        {
+          "filename": "docs/fundamentals/users-default-permissions.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/fundamentals/users-reset-password-azure-portal.md",
+          "status": "added",
+          "additions": 66,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/fundamentals/users-reset-password-azure-portal.yml",
+          "status": "removed",
+          "additions": 0,
+          "deletions": 79
+        },
+        {
+          "filename": "docs/fundamentals/users-restore.md",
+          "status": "added",
+          "additions": 79,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/fundamentals/users-restore.yml",
+          "status": "removed",
+          "additions": 0,
+          "deletions": 96
+        },
+        {
+          "filename": "docs/fundamentals/whats-new-archive.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/fundamentals/whats-new.md",
+          "status": "modified",
+          "additions": 131,
+          "deletions": 6
+        },
+        {
+          "filename": "docs/fundamentals/zero-trust-monitor-detect.md",
+          "status": "added",
+          "additions": 52,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/fundamentals/zero-trust-protect-engineering-systems.md",
+          "status": "added",
+          "additions": 60,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/fundamentals/zero-trust-protect-identities.md",
+          "status": "added",
+          "additions": 98,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/fundamentals/zero-trust-protect-networks.md",
+          "status": "added",
+          "additions": 26,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/fundamentals/zero-trust-protect-tenants.md",
+          "status": "added",
+          "additions": 60,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/fundamentals/zero-trust-response-remediation.md",
+          "status": "added",
+          "additions": 30,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/concept-remote-network-connectivity.md",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/global-secure-access/faq-transport-layer-security.yml",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 6
+        },
+        {
+          "filename": "docs/global-secure-access/how-to-check-web-content-filtering-categories.md",
+          "status": "added",
+          "additions": 53,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/how-to-configure-connectors.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/global-secure-access/how-to-configure-threat-intelligence.md",
+          "status": "added",
+          "additions": 134,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/how-to-configure-web-content-filtering.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 3
+        },
+        {
+          "filename": "docs/global-secure-access/how-to-create-remote-networks.md",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 3
+        },
+        {
+          "filename": "docs/global-secure-access/how-to-install-android-client.md",
+          "status": "modified",
+          "additions": 74,
+          "deletions": 106
+        },
+        {
+          "filename": "docs/global-secure-access/how-to-install-ios-client.md",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 13
+        },
+        {
+          "filename": "docs/global-secure-access/how-to-install-windows-client.md",
+          "status": "modified",
+          "additions": 455,
+          "deletions": 48
+        },
+        {
+          "filename": "docs/global-secure-access/how-to-sentinel-integration.md",
+          "status": "added",
+          "additions": 119,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/how-to-transport-layer-security.md",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/global-secure-access/how-to-use-with-azure-sql-service-endpoint.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/global-secure-access/media/how-to-configure-threat-intelligence/http-block-threat-intelligence.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/how-to-configure-web-content-filtering/http-block-xbox.png",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/how-to-install-android-client/create-policy-assignments-expanded.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/how-to-install-android-client/create-policy-assignments.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/how-to-install-android-client/create-policy-basics-expanded.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/how-to-install-android-client/create-policy-basics.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/how-to-install-android-client/create-policy-settings-expanded.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/how-to-install-android-client/create-policy-settings.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/how-to-install-windows-client/add-app.png",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/how-to-install-windows-client/detection-rule.png",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/how-to-install-windows-client/edge-chrome-profile.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/how-to-install-windows-client/install-from-command-line.png",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/how-to-install-windows-client/program-install-parameters.png",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/how-to-install-windows-client/requirements-install-parameters.png",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/how-to-install-windows-client/restart-grace-period.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/how-to-install-windows-client/run-script-64-bit.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/how-to-sentinel-integration/analytics-rules.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/how-to-sentinel-integration/diagnostic-settings.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/how-to-sentinel-integration/install-solution-expanded.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/how-to-sentinel-integration/install-solution.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/how-to-sentinel-integration/solution-search-result.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/how-to-sentinel-integration/workbook-dashboard-expanded.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/how-to-sentinel-integration/workbook-dashboard.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/how-to-sentinel-integration/workspace-tables.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/remote-network-resilience/geographic-redundancy.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/remote-network-resilience/zone-redundancy.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/overview-what-is-global-secure-access.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/global-secure-access/reference-current-known-limitations.md",
+          "status": "modified",
+          "additions": 11,
+          "deletions": 5
+        },
+        {
+          "filename": "docs/global-secure-access/reference-points-of-presence.md",
+          "status": "modified",
+          "additions": 50,
+          "deletions": 50
+        },
+        {
+          "filename": "docs/global-secure-access/reference-threat-intelligence-threat-types.md",
+          "status": "added",
+          "additions": 35,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/remote-network-resilience.md",
+          "status": "added",
+          "additions": 68,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/toc.yml",
+          "status": "modified",
+          "additions": 16,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/TOC.yml",
+          "status": "modified",
+          "additions": 13,
+          "deletions": 5
+        },
+        {
+          "filename": "docs/id-governance/access-review-agent-logs-metrics.md",
+          "status": "added",
+          "additions": 72,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/access-review-agent.md",
+          "status": "added",
+          "additions": 231,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/apps.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/id-governance/check-workflow-execution-scope.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/id-governance/complete-access-review.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/id-governance/create-access-review-pim-for-groups.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/id-governance/create-access-review.md",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/id-governance/entitlement-management-access-package-approval-policy.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/id-governance/entitlement-management-access-package-requests.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/id-governance/entitlement-management-access-reviews-create.md",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/id-governance/entitlement-management-access-reviews-review-access.md",
+          "status": "modified",
+          "additions": 24,
+          "deletions": 13
+        },
+        {
+          "filename": "docs/id-governance/entitlement-management-external-users.md",
+          "status": "modified",
+          "additions": 13,
+          "deletions": 14
+        },
+        {
+          "filename": "docs/id-governance/entitlement-management-organization.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/id-governance/entitlement-management-troubleshoot.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/id-governance/lifecycle-workflow-tasks.md",
+          "status": "modified",
+          "additions": 17,
+          "deletions": 3
+        },
+        {
+          "filename": "docs/id-governance/media/access-review-agent-logs-metrics/access-agent-review-card-justification.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/access-review-agent-logs-metrics/access-review-agent-overview.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/access-review-agent-logs-metrics/access-review-agents-activities.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/access-review-agent/access-review-agent-prompt.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/access-review-agent/access-review-agent-settings.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/access-review-agent/access-review-agent-teams.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/access-review-agent/access-review-agent-trigger.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/access-review-agent/start-access-review-agent.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/entitlement-management-external-users/external-settings-list.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/entitlement-management-external-users/settings-external-users.png",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/lifecycle-workflow-task/remove-all-access-package-assignment-user-task.png",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/microsoft-entra-id-governance-licensing-for-guest-users.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/id-governance/perform-access-review.md",
+          "status": "modified",
+          "additions": 22,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/id-governance/privileged-identity-management/media/pim-how-use-audit-log/my-audit.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/privileged-identity-management/media/pim-how-use-audit-log/resource-audit.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/privileged-identity-management/pim-how-to-add-role-to-user.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/id-governance/privileged-identity-management/pim-how-to-use-audit-log.md",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 11
+        },
+        {
+          "filename": "docs/id-governance/tutorial-prepare-user-accounts.md",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 5
+        },
+        {
+          "filename": "docs/id-governance/what-are-lifecycle-workflows.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/id-protection/concept-identity-protection-risks.md",
+          "status": "modified",
+          "additions": 28,
+          "deletions": 10
+        },
+        {
+          "filename": "docs/id-protection/media/howto-export-risk-data/change-diagnostic-setting-in-portal.png",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-protection/media/workbook-risk-based-policy-impact/workbook-risk-based-impact.png",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/identity-platform/TOC.yml",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 14
+        },
+        {
+          "filename": "docs/identity-platform/app-only-access-primer.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/identity-platform/apple-sso-plugin.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 7
+        },
+        {
+          "filename": "docs/identity-platform/authentication-flows-app-scenarios.md",
+          "status": "modified",
+          "additions": 19,
+          "deletions": 19
+        },
+        {
+          "filename": "docs/identity-platform/console-quickstart-portal-nodejs.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/custom-claims-provider-overview.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 6
+        },
+        {
+          "filename": "docs/identity-platform/custom-extension-attribute-collection.md",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 15
+        },
+        {
+          "filename": "docs/identity-platform/custom-extension-email-otp-send-data.md",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 4
+        },
+        {
+          "filename": "docs/identity-platform/custom-extension-onattributecollectionstart-retrieve-return-data.md",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 9
+        },
+        {
+          "filename": "docs/identity-platform/custom-extension-onattributecollectionsubmit-retrieve-return-data.md",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 9
+        },
+        {
+          "filename": "docs/identity-platform/daemon-quickstart-portal-java.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/identity-platform/daemon-quickstart-portal-netcore.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/daemon-quickstart-portal-python.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/identity-platform/desktop-quickstart-portal-nodejs-desktop.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/developer-glossary.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/developer-guide-conditional-access-authentication-context.md",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 5
+        },
+        {
+          "filename": "docs/identity-platform/howto-update-permissions.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/identity-platform/includes/scenarios/accepted-token-versions.md",
+          "status": "added",
+          "additions": 29,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/identity-platform/index-desktop.yml",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/index-mobile.yml",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/index-service.yml",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/index-web-app.yml",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/identity-platform/mark-app-as-publisher-verified.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/media/app-objects-and-service-principals/app-registrations-blade.png",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/identity-platform/media/quickstart-configure-app-access-web-apis/portal-path-to-my-apis-pane.png",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/identity-platform/mobile-sso-support-overview.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/msal-authentication-flows.md",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 4
+        },
+        {
+          "filename": "docs/identity-platform/msal-overview.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/identity-platform/msal-shared-devices.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/publisher-verification-overview.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/quickstart-daemon-app-call-api.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/identity-platform/quickstart-native-authentication-android-sign-in.md",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 8
+        },
+        {
+          "filename": "docs/identity-platform/quickstart-native-authentication-ios-sign-in.md",
+          "status": "modified",
+          "additions": 11,
+          "deletions": 6
+        },
+        {
+          "filename": "docs/identity-platform/quickstart-native-authentication-macos-sign-in.md",
+          "status": "modified",
+          "additions": 11,
+          "deletions": 6
+        },
+        {
+          "filename": "docs/identity-platform/quickstart-native-authentication-single-page-app-react-sign-in.md",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 9
+        },
+        {
+          "filename": "docs/identity-platform/quickstart-native-authentication-single-page-app-sdk-sign-in.md",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 9
+        },
+        {
+          "filename": "docs/identity-platform/quickstart-v2-java-daemon.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/identity-platform/quickstart-v2-java-webapp.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/quickstart-v2-nodejs-console.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/quickstart-v2-nodejs-desktop.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/quickstart-v2-python-daemon.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/identity-platform/quickstart-v2-python-webapp.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/reference-breaking-changes.md",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 3
+        },
+        {
+          "filename": "docs/identity-platform/reference-error-codes.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/reference-native-authentication-api.md",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/identity-platform/reply-url.md",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/identity-platform/scenario-daemon-acquire-token.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/scenario-daemon-app-configuration.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/scenario-daemon-app-registration.md",
+          "status": "removed",
+          "additions": 0,
+          "deletions": 47
+        },
+        {
+          "filename": "docs/identity-platform/scenario-daemon-call-api.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/scenario-desktop-acquire-token-device-code-flow.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/scenario-desktop-acquire-token-integrated-windows-authentication.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/identity-platform/scenario-desktop-acquire-token-interactive.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/scenario-desktop-acquire-token-username-password.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/scenario-desktop-acquire-token-wam.md",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/identity-platform/scenario-desktop-acquire-token.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/scenario-desktop-app-configuration.md",
+          "status": "modified",
+          "additions": 28,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/scenario-desktop-app-registration.md",
+          "status": "removed",
+          "additions": 0,
+          "deletions": 69
+        },
+        {
+          "filename": "docs/identity-platform/scenario-desktop-call-api.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/scenario-mobile-acquire-token.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/scenario-mobile-app-configuration.md",
+          "status": "modified",
+          "additions": 31,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/identity-platform/scenario-mobile-app-registration.md",
+          "status": "removed",
+          "additions": 0,
+          "deletions": 89
+        },
+        {
+          "filename": "docs/identity-platform/scenario-mobile-call-api.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/scenario-protected-web-api-app-configuration.md",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/identity-platform/scenario-protected-web-api-expose-scopes.md",
+          "status": "renamed",
+          "additions": 16,
+          "deletions": 41
+        },
+        {
+          "filename": "docs/identity-platform/scenario-protected-web-api-verification-scope-app-roles.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/identity-platform/scenario-spa-acquire-token.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/identity-platform/scenario-spa-app-configuration.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/scenario-spa-call-api.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/scenario-spa-sign-in.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/scenario-web-api-call-api-acquire-token.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/scenario-web-api-call-api-app-configuration.md",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/identity-platform/scenario-web-api-call-api-app-registration.md",
+          "status": "removed",
+          "additions": 0,
+          "deletions": 31
+        },
+        {
+          "filename": "docs/identity-platform/scenario-web-api-call-api-call-api.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/identity-platform/scenario-web-app-call-api-acquire-token.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/identity-platform/scenario-web-app-call-api-app-configuration.md",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/identity-platform/scenario-web-app-call-api-app-registration.md",
+          "status": "removed",
+          "additions": 0,
+          "deletions": 31
+        },
+        {
+          "filename": "docs/identity-platform/scenario-web-app-call-api-call-api.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/scenario-web-app-call-api-sign-in.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/identity-platform/scenario-web-app-sign-user-app-configuration.md",
+          "status": "modified",
+          "additions": 51,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/scenario-web-app-sign-user-app-registration.md",
+          "status": "removed",
+          "additions": 0,
+          "deletions": 210
+        },
+        {
+          "filename": "docs/identity-platform/scenario-web-app-sign-user-sign-in.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/identity-platform/test-setup-environment.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/troubleshoot-publisher-verification.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/tutorial-mobile-android-device-shared-mode.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/tutorial-mobile-app-android-call-web-api.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/tutorial-mobile-app-ios-swift-sign-in-call-api.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/tutorial-native-authentication-single-page-app-react-sign-in.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/identity-platform/tutorial-v2-nodejs-console.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/tutorial-v2-nodejs-desktop.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 3
+        },
+        {
+          "filename": "docs/identity-platform/tutorial-v2-nodejs-webapp-msal.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/tutorial-v2-shared-device-mode.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/tutorial-v2-windows-desktop.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/v2-conditional-access-dev-guide.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/v2-overview.md",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 3
+        },
+        {
+          "filename": "docs/identity-platform/web-app-quickstart-portal-java.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/web-app-quickstart-portal-python.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity-platform/whats-new-docs.md",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 16
+        },
+        {
+          "filename": "docs/identity/app-provisioning/how-provisioning-works.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity/app-provisioning/media/inbound-provisioning-api-configure-app/provisioning-entra-admin-center.png",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/identity/app-provisioning/scim-graph-scenarios.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/identity/app-provisioning/use-scim-to-provision-users-and-groups.md",
+          "status": "modified",
+          "additions": 78,
+          "deletions": 39
+        },
+        {
+          "filename": "docs/identity/app-proxy/application-proxy-integrate-with-sharepoint-server-saml.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity/app-proxy/application-proxy-integrate-with-sharepoint-server.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity/app-proxy/how-to-configure-custom-domain.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/identity/authentication/TOC.yml",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/identity/authentication/certificate-based-authentication-faq.yml",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 47
+        },
+        {
+          "filename": "docs/identity/authentication/concept-authentication-external-method-provider.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/identity/authentication/concept-authentication-methods-manage.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity/authentication/concept-authentication-strength-advanced-options.md",
+          "status": "modified",
+          "additions": 16,
+          "deletions": 16
+        },
+        {
+          "filename": "docs/identity/authentication/concept-certificate-based-authentication-certificate-revocation-list.md",
+          "status": "added",
+          "additions": 253,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/identity/authentication/concept-certificate-based-authentication-certificateuserids.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/identity/authentication/concept-certificate-based-authentication-limitations.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/identity/authentication/concept-certificate-based-authentication-migration.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/identity/authentication/concept-certificate-based-authentication-mobile-android.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/identity/authentication/concept-certificate-based-authentication-mobile-ios.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/identity/authentication/concept-certificate-based-authentication-smartcard.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/identity/authentication/concept-certificate-based-authentication-technical-deep-dive.md",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 76
+        },
+        {
+          "filename": "docs/identity/authentication/concept-fido2-hardware-vendor.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/identity/authentication/concept-mandatory-multifactor-authentication.md",
+          "status": "modified",
+          "additions": 12,
+          "deletions": 14
+        },
+        {
+          "filename": "docs/identity/authentication/concept-sspr-howitworks.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity/authentication/how-to-authentication-qr-code.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity/authentication/how-to-authentication-track-linkable-identifiers.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0
+        }
+      ]
+    },
+    {
+      "sha": "423ce8e616c281c131254ad52c35d00c332b659c",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/423ce8e616c281c131254ad52c35d00c332b659c",
+      "author": "Teresa Yao",
+      "email": "teresayao@microsoft.com",
+      "date": "2025-09-19T21:18:34Z",
+      "message": "Merge branch tlsfaq",
+      "ai_summary": {
+        "Messages": "{\"content\":\"The following is the commit files that have changed: [\\r\\n  {\\r\\n    \\\"sha\\\": \\\"b02c9f3cd9d645aff4871c46980e19dce67d31e4\\\",\\r\\n    \\\"filename\\\": \\\"docs/global-secure-access/concept-connectors.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 9,\\r\\n    \\\"deletions\\\": 0,\\r\\n    \\\"changes\\\": 9,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/423ce8e616c281c131254ad52c35d00c332b659c/docs%2Fglobal-secure-access%2Fconcept-connectors.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/423ce8e616c281c131254ad52c35d00c332b659c/docs%2Fglobal-secure-access%2Fconcept-connectors.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fglobal-secure-access%2Fconcept-connectors.md?ref=423ce8e616c281c131254ad52c35d00c332b659c\\\",\\r\\n    \\\"patch\\\": \\\"@@ -57,6 +57,15 @@ You can monitor your connectors from the machine they're running on, using eithe\\\\n \\\\n You don't have to manually delete connectors that are unused. When a connector is running, it remains active as it connects to the service. Unused connectors are tagged as `_inactive_` and are removed after 10 days of inactivity. If you do want to uninstall a connector, though, uninstall both the Connector service and the Updater service from the server. Restart the computer to fully remove the service.\\\\n \\\\n+## Handling Connector Server Issues\\\\n+If one or more connector servers become unavailable (e.g., due to a server outage, network outage, or similar issue), follow these steps to maintain service continuity:\\\\n+ \\\\n+1.\\\\tIdentify and remove the affected (“bad”) servers from the connector group.\\\\n+2.\\\\tAdd available healthy servers (“good”) or backup servers into the connector group to restore capacity.\\\\n+3.\\\\tReboot affected servers to drain any pre-existing connections. Existing ongoing connections don’t drain immediately with connector group changes.\\\\n+ \\\\n+This sequence is the recommended approach to ensure service stability and minimize disruption when connector servers encounter issues.\\\\n+\\\\n ## Connector updates\\\\n \\\\n Microsoft Entra ID occasionally provides automatic updates for all the connectors that you deploy. As long as the private network connector updater service is running, your connectors may update with the latest major connector release automatically. If you don’t see the Connector Updater service on your server, you need to reinstall your connector to get updates.\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"bf1d7591a400904fcf0fdee87ea897bc81676527\\\",\\r\\n    \\\"filename\\\": \\\"docs/global-secure-access/faq-transport-layer-security.yml\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 5,\\r\\n    \\\"deletions\\\": 1,\\r\\n    \\\"changes\\\": 6,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/423ce8e616c281c131254ad52c35d00c332b659c/docs%2Fglobal-secure-access%2Ffaq-transport-layer-security.yml\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/423ce8e616c281c131254ad52c35d00c332b659c/docs%2Fglobal-secure-access%2Ffaq-transport-layer-security.yml\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fglobal-secure-access%2Ffaq-transport-layer-security.yml?ref=423ce8e616c281c131254ad52c35d00c332b659c\\\",\\r\\n    \\\"patch\\\": \\\"@@ -30,7 +30,11 @@ sections:\\\\n           - Define a TLS policy: Configure a TLS inspection policy that aligns with your organization's security and operational requirements.\\\\n           - Configure Conditional Access: Create a Conditional Access policy and associate it with the Global Secure Access security profile linked to the TLS policy.\\\\n           - Distribute the trusted certificate: Ensure the selected certificate authority is installed on all client devices to establish trust and enable seamless TLS inspection.\\\\n-        \\\\n+          \\\\n+      - question: What cryptographic algorithms are supported for the Signing Certificate authority?\\\\n+        answer: |\\\\n+          SHA-256, SHA-384 and SHA-512 are supported for the Signing Certificate authority:\\\\n+\\\\n       - question: How do I Sign CSR Using the Active Directory Certificate Services (AD CS)\\\\n         answer: |\\\\n           TLS inspection requires an intermediate certificate authority, ensure you are using the Subordinate CA template. To sign CSR generated from TLS settings,\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"ec531ea499a3a7986a723089eee7df3306d9c1fe\\\",\\r\\n    \\\"filename\\\": \\\"docs/global-secure-access/how-to-configure-connectors.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 1,\\r\\n    \\\"deletions\\\": 1,\\r\\n    \\\"changes\\\": 2,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/423ce8e616c281c131254ad52c35d00c332b659c/docs%2Fglobal-secure-access%2Fhow-to-configure-connectors.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/423ce8e616c281c131254ad52c35d00c332b659c/docs%2Fglobal-secure-access%2Fhow-to-configure-connectors.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fglobal-secure-access%2Fhow-to-configure-connectors.md?ref=423ce8e616c281c131254ad52c35d00c332b659c\\\",\\r\\n    \\\"patch\\\": \\\"@@ -27,7 +27,7 @@ User identities must be synchronized from an on-premises directory or created di\\\\n \\\\n ### Windows server\\\\n \\\\n-The Microsoft Entra private network connector requires a server running Windows Server 2012 R2 or later. You'll install the private network connector on the server. This connector server needs to connect to the Microsoft Entra Private Access service or application proxy service and the private resources or applications that you plan to publish.\\\\n+The Microsoft Entra private network connector requires a server running Windows Server 2016 or later. You'll install the private network connector on the server. This connector server needs to connect to the Microsoft Entra Private Access service or application proxy service and the private resources or applications that you plan to publish.\\\\n \\\\n * For high availability in your environment, we recommend having more than one Windows server.\\\\n * The minimum .NET version required for the connector is v4.7.1+.\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"e283ad22976dd98403a25f9b0fa5fcd8d7117e17\\\",\\r\\n    \\\"filename\\\": \\\"docs/id-governance/TOC.yml\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 2,\\r\\n    \\\"deletions\\\": 0,\\r\\n    \\\"changes\\\": 2,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/423ce8e616c281c131254ad52c35d00c332b659c/docs%2Fid-governance%2FTOC.yml\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/423ce8e616c281c131254ad52c35d00c332b659c/docs%2Fid-governance%2FTOC.yml\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fid-governance%2FTOC.yml?ref=423ce8e616c281c131254ad52c35d00c332b659c\\\",\\r\\n    \\\"patch\\\": \\\"@@ -247,6 +247,8 @@\\\\n         href: entitlement-management-organization.md\\\\n       - name: Govern access for external users\\\\n         href: entitlement-management-external-users.md\\\\n+      - name: Configure whether requestors can see approver details (Preview)\\\\n+        href: my-access-approver-details.md  \\\\n       - name: View reports and logs\\\\n         href: entitlement-management-reports.md\\\\n       - name: Archive logs and reporting\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"eab6bb53d6da930d85eae5b595788725fae54358\\\",\\r\\n    \\\"filename\\\": \\\"docs/id-governance/my-access-approver-details.md\\\",\\r\\n    \\\"status\\\": \\\"added\\\",\\r\\n    \\\"additions\\\": 45,\\r\\n    \\\"deletions\\\": 0,\\r\\n    \\\"changes\\\": 45,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/423ce8e616c281c131254ad52c35d00c332b659c/docs%2Fid-governance%2Fmy-access-approver-details.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/423ce8e616c281c131254ad52c35d00c332b659c/docs%2Fid-governance%2Fmy-access-approver-details.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fid-governance%2Fmy-access-approver-details.md?ref=423ce8e616c281c131254ad52c35d00c332b659c\\\",\\r\\n    \\\"patch\\\": \\\"@@ -0,0 +1,45 @@\\\\n+---\\\\n+title: Configure Requestor Visibility of Approver Details (Preview)\\\\n+description: Learn how to configure whether requestors can see approver details for pending access package requests in the My Access portal at the tenant or package level.\\\\n+author: OWinfreyATL\\\\n+ms.service: entra-id-governance\\\\n+ms.topic: how-to\\\\n+ms.date: 08/20/2025\\\\n+ms.author: owinfrey\\\\n+ms.reviewer: owinfrey\\\\n+---\\\\n+\\\\n+# Configure whether requestors can see approver details (Preview)\\\\n+\\\\n+> [!NOTE]\\\\n+> This feature will be widely available beginning in September 2025.\\\\n+\\\\n+Admins can control whether requestors see approver details for pending access package requests in the [My Access](https://myaccess.microsoft.com) portal. You can set this option at the access package level, or at the tenant level (default for all packages). The access package setting overrides the tenant setting when explicitly set to Yes or No.\\\\n+\\\\n+## Tenant-level setting (applies to all access packages by default)\\\\n+\\\\n+Use this setting to define the default behavior for all access packages in your tenant. This setting applies to **members only** and can be overridden by the access package-level setting.\\\\n+\\\\n+1. In the Microsoft Entra admin center, go to **Identity Governance** > **Entitlement management** > **Control configurations**.\\\\n+\\\\n+2. Under **My Access settings for end users**, find **Show approver details to members on pending access package requests (preview).**\\\\n+\\\\n+3. Choose the desired behavior:\\\\n+\\\\n+   - **Checked** – All members (excluding guests) will see their approver’s name and email address on pending access package requests in My Access.\\\\n+\\\\n+   - **Unchecked** – Members won’t see approver details by default.\\\\n+\\\\n+4. Select **Save**.\\\\n+\\\\n+> [!NOTE]\\\\n+> - The tenant setting applies to all access packages by default but can be overridden on a per-package basis via Advanced request settings.\\\\n+> - To show approver details to guests and connected organization users, set the access package-level setting to Yes.\\\\n+\\\\n+\\\\n+\\\\n+## Next step\\\\n+\\\\n+> [!div class=\\\\\\\"nextstepaction\\\\\\\"]\\\\n+> [What are access reviews? - Microsoft Entra](access-reviews-overview.md)\\\\n+> [What is the My Access portal?](my-access-portal-overview.md)\\\\n\\\\\\\\ No newline at end of file\\\"\\r\\n  }\\r\\n]. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\",\"role\":\"user\"}",
+        "Response": "This commit introduces several updates to Microsoft Entra documentation. New guidance on handling connector server issues is added to the concept connectors documentation. The FAQ for transport layer security now specifies supported cryptographic algorithms. The minimum Windows Server version for the Entra private network connector has been updated to 2016. Finally, new documentation has been added regarding the configuration of requestor visibility of approver details in the My Access portal for entitlement management.",
+        "Model": "google:gemini-2.5-flash-lite",
+        "Provider": "google",
+        "ModelName": "gemini-2.5-flash-lite",
+        "Timestamp": "2025-09-19T23:01:41.4918692+00:00"
+      },
+      "files": [
+        {
+          "filename": "docs/global-secure-access/concept-connectors.md",
+          "status": "modified",
+          "additions": 9,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/faq-transport-layer-security.yml",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/global-secure-access/how-to-configure-connectors.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/id-governance/TOC.yml",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/my-access-approver-details.md",
+          "status": "added",
+          "additions": 45,
+          "deletions": 0
+        }
+      ]
+    },
     {
       "sha": "25b941ad7e2bda7c9ac7442d585f839d523e9ed7",
       "url": "https://github.com/MicrosoftDocs/entra-docs/commit/25b941ad7e2bda7c9ac7442d585f839d523e9ed7",
@@ -883,84 +2802,6 @@
           "status": "added",
           "additions": 0,
           "deletions": 0
-        }
-      ]
-    },
-    {
-      "sha": "132a03c5f979a167eff2528d5bcd0d202dfe8db4",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/132a03c5f979a167eff2528d5bcd0d202dfe8db4",
-      "author": "learn-build-service-prod[bot]",
-      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
-      "date": "2025-09-12T22:03:18Z",
-      "message": "Merge pull request #9686 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-09-12 22:00 UTC",
-      "ai_summary": {
-        "Messages": "{\"role\":\"user\",\"content\":\"The following is the commit files that have changed: [\\r\\n  {\\r\\n    \\\"sha\\\": \\\"96bba57a39436f2b364fcbe44c409120668d41c7\\\",\\r\\n    \\\"filename\\\": \\\"docs/id-protection/concept-identity-protection-risks.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 28,\\r\\n    \\\"deletions\\\": 10,\\r\\n    \\\"changes\\\": 38,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/132a03c5f979a167eff2528d5bcd0d202dfe8db4/docs%2Fid-protection%2Fconcept-identity-protection-risks.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/132a03c5f979a167eff2528d5bcd0d202dfe8db4/docs%2Fid-protection%2Fconcept-identity-protection-risks.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fid-protection%2Fconcept-identity-protection-risks.md?ref=132a03c5f979a167eff2528d5bcd0d202dfe8db4\\\",\\r\\n    \\\"patch\\\": \\\"@@ -5,7 +5,7 @@ description: Explore the full list of risk detections and their corresponding ri\\\\n ms.service: entra-id-protection\\\\n \\\\n ms.topic: article\\\\n-ms.date: 08/06/2025\\\\n+ms.date: 09/11/2025\\\\n \\\\n author: shlipsey3\\\\n ms.author: sarahlipsey\\\\n@@ -78,7 +78,9 @@ Select a risk detection from the list to view the description of the risk detect\\\\n This detection is discovered using information provided by [Microsoft Defender for Cloud Apps](/defender-cloud-apps/anomaly-detection-policy#activity-from-anonymous-ip-addresses). This detection identifies that users were active from an IP address identified as an anonymous proxy IP address. \\\\n \\\\n - Calculated offline\\\\n-- License requirement: Microsoft Entra ID P2 *and* Microsoft 365 E5, Enterprise Mobility + Security E5, or standalone license for Microsoft Defender for Cloud Apps.\\\\n+- License requirement:\\\\n+    - Microsoft Entra ID P2 and a standalone license for Microsoft Defender for Cloud Apps\\\\n+    - Microsoft 365 E5 with Enterprise Mobility + Security E5\\\\n \\\\n ### Additional risk detected (sign-in) \\\\n \\\\n@@ -127,7 +129,9 @@ The algorithm ignores obvious \\\\\\\"false positives\\\\\\\" contributing to the impossible t\\\\n This detection is discovered using information provided by [Microsoft Defender for Cloud Apps](/defender-cloud-apps/anomaly-detection-policy#impossible-travel). This detection identifies user activities (in a single or multiple sessions) originating from geographically distant locations within a time period shorter than the time it takes to travel from the first location to the second. This risk might indicate that a different user is using the same credentials. \\\\n \\\\n - Calculated offline\\\\n-- License requirement: Microsoft Entra ID P2 *and* Microsoft 365 E5, Enterprise Mobility + Security E5, or standalone license for Microsoft Defender for Cloud Apps.\\\\n+- License requirement: \\\\n+    - Microsoft Entra ID P2 and a standalone license for Microsoft Defender for Cloud Apps\\\\n+    - Microsoft 365 E5 with Enterprise Mobility + Security E5\\\\n \\\\n ### Malicious IP address \\\\n \\\\n@@ -142,7 +146,9 @@ This detection indicates sign-in from a malicious IP address. An IP address is c\\\\n This detection is discovered using information provided by [Microsoft Defender for Cloud Apps](/defender-cloud-apps/investigate-anomaly-alerts#unusual-file-access-by-user). This detection looks at your environment and triggers alerts when users access multiple files from Microsoft SharePoint Online or Microsoft OneDrive. An alert is triggered only if the number of accessed files is uncommon for the user and the files might contain sensitive information. \\\\n \\\\n - Calculated offline\\\\n-- License requirement: Microsoft Entra ID P2 *and* Microsoft 365 E5, Enterprise Mobility + Security E5, or standalone license for Microsoft Defender for Cloud Apps.\\\\n+- License requirement:\\\\n+    - Microsoft Entra ID P2 and a standalone license for Microsoft Defender for Cloud Apps\\\\n+    - Microsoft 365 E5 with Enterprise Mobility + Security E5\\\\n \\\\n ### Microsoft Entra threat intelligence (sign-in) \\\\n \\\\n@@ -157,7 +163,9 @@ Microsoft Entra threat intelligence indicates user activity that is unusual for\\\\n This detection is discovered using information provided by [Microsoft Defender for Cloud Apps](/defender-cloud-apps/anomaly-detection-policy#activity-from-infrequent-country). This detection considers past activity locations to determine new and infrequent locations. The anomaly detection engine stores information about previous locations used by users in the organization. \\\\n \\\\n - Calculated offline\\\\n-- License requirement: Microsoft Entra ID P2 *and* Microsoft 365 E5, Enterprise Mobility + Security E5, or standalone license for Microsoft Defender for Cloud Apps.\\\\n+- License requirement:\\\\n+    - Microsoft Entra ID P2 and a standalone license for Microsoft Defender for Cloud Apps\\\\n+    - Microsoft 365 E5 with Enterprise Mobility + Security E5\\\\n \\\\n ### Password spray \\\\n \\\\n@@ -180,14 +188,18 @@ Suspicious browser detection indicates anomalous behavior based on suspicious si\\\\n This detection is discovered using information provided by [Microsoft Defender for Cloud Apps](/defender-cloud-apps/anomaly-detection-policy#suspicious-inbox-forwarding). This detection looks for suspicious email forwarding rules, for example, if a user created an inbox rule that forwards a copy of all emails to an external address. \\\\n \\\\n - Calculated offline\\\\n-- License requirement: Microsoft Entra ID P2 *and* Microsoft 365 E5, Enterprise Mobility + Security E5, or standalone license for Microsoft Defender for Cloud Apps.\\\\n+- License requirement:\\\\n+    - Microsoft Entra ID P2 and a standalone license for Microsoft Defender for Cloud Apps\\\\n+    - Microsoft 365 E5 with Enterprise Mobility + Security E5\\\\n \\\\n ### Suspicious inbox manipulation rules \\\\n \\\\n This detection is discovered using information provided by [Microsoft Defender for Cloud Apps](/defender-cloud-apps/anomaly-detection-policy#suspicious-inbox-manipulation-rules). This detection looks at your environment and triggers alerts when suspicious rules that delete or move messages or folders are set on a user's inbox. This detection might indicate: a user's account is compromised, messages are being intentionally hidden, and the mailbox is being used to distribute spam or malware in your organization. \\\\n \\\\n - Calculated offline\\\\n-- License requirement: Microsoft Entra ID P2 *and* Microsoft 365 E5, Enterprise Mobility + Security E5, or standalone license for Microsoft Defender for Cloud Apps.\\\\n+- License requirement: \\\\n+    - Microsoft Entra ID P2 and a standalone license for Microsoft Defender for Cloud Apps\\\\n+    - Microsoft 365 E5 with Enterprise Mobility + Security E5\\\\n \\\\n ### Token issuer anomaly \\\\n \\\\n@@ -248,7 +260,9 @@ This risk detection baselines normal administrative user behavior in Microsoft E\\\\n Also referred to as Adversary in the Middle, this high precision detection is triggered when an authentication session is linked to a malicious reverse proxy. In this kind of attack, the adversary can intercept the user's credentials, including tokens issued to the user. The Microsoft Security Research team uses Microsoft 365 Defender for Office to capture the identified risk and raises the user to **High** risk. We recommend administrators manually investigate the user when this detection is triggered to ensure the risk is cleared. Clearing this risk might require secure password reset or revocation of existing sessions.\\\\n \\\\n - Calculated offline\\\\n-- License requirement: Microsoft Entra ID P2\\\\n+- License requirement:\\\\n+    - Microsoft Entra ID P2 and a standalone license for Microsoft Defender for Cloud Apps\\\\n+    - Microsoft 365 E5 with Enterprise Mobility + Security E5\\\\n \\\\n ### Leaked credentials \\\\n \\\\n@@ -271,7 +285,9 @@ This risk detection type indicates user activity that is unusual for the user or\\\\n This risk detection type is discovered using information provided by Microsoft Defender for Endpoint (MDE). A Primary Refresh Token (PRT) is a key artifact of Microsoft Entra authentication on Windows 10, Windows Server 2016, and later versions, iOS, and Android devices. A PRT is a JSON Web Token (JWT) issued to Microsoft first-party token brokers to enable single sign-on (SSO) across the applications used on those devices. Attackers can attempt to access this resource to move laterally into an organization or perform credential theft. This detection moves users to high risk and only fires in organizations that deploy MDE. This detection is high risk and we recommend prompt remediation of these users. It appears infrequently in most organizations due to its low volume.  \\\\n \\\\n - Calculated offline\\\\n-- License requirement: Microsoft Entra ID P2\\\\n+- License requirement:\\\\n+    - Microsoft Entra ID P2 and a standalone license for Microsoft Defender for Cloud Apps\\\\n+    - Microsoft 365 E5 with Enterprise Mobility + Security E5\\\\n \\\\n ### Suspicious API traffic \\\\n \\\\n@@ -285,7 +301,9 @@ This risk detection is reported when abnormal GraphAPI traffic or directory enum\\\\n This risk detection type is discovered using information provided by [Microsoft Defender for Office 365 (MDO)](/defender-office-365/air-about). This alert is generated when someone in your organization sent suspicious email and is either at risk of being or is restricted from sending email. This detection moves users to medium risk and only fires in organizations that deploy MDO. This detection is low-volume and is seen infrequently in most organizations. \\\\n \\\\n - Calculated offline\\\\n-- License requirement: Microsoft Entra ID P2\\\\n+- License requirement:\\\\n+    - Microsoft Entra ID P2 and a standalone license for Microsoft Defender for Cloud Apps\\\\n+    - Microsoft 365 E5 with Enterprise Mobility + Security E5\\\\n \\\\n ### User reported suspicious activity \\\\n \\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"288f81d7ee8c0a413f57f2bcab9a918a34e10adb\\\",\\r\\n    \\\"filename\\\": \\\"docs/identity/app-provisioning/use-scim-to-provision-users-and-groups.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 55,\\r\\n    \\\"deletions\\\": 1,\\r\\n    \\\"changes\\\": 56,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/132a03c5f979a167eff2528d5bcd0d202dfe8db4/docs%2Fidentity%2Fapp-provisioning%2Fuse-scim-to-provision-users-and-groups.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/132a03c5f979a167eff2528d5bcd0d202dfe8db4/docs%2Fidentity%2Fapp-provisioning%2Fuse-scim-to-provision-users-and-groups.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fapp-provisioning%2Fuse-scim-to-provision-users-and-groups.md?ref=132a03c5f979a167eff2528d5bcd0d202dfe8db4\\\",\\r\\n    \\\"patch\\\": \\\"@@ -337,6 +337,23 @@ This article provides example SCIM requests emitted by the Microsoft Entra provi\\\\n }\\\\n ```\\\\n \\\\n+##### Validations performed by SCIM Validator\\\\n+\\\\n+**Create New User**\\\\n+- POST /Users – Creates a new user with a complete JSON payload.\\\\n+    - Endpoint returns HTTP 201\\\\n+    - POST response contains created user ID\\\\n+- GET /Users?filter={joiningProperty} eq \\\\\\\"value\\\\\\\" – Verifies creation by filtering on the joining property.\\\\n+    - GET returns created user\\\\n+    - Returned values from GET match the passed values from the POST request (varies based on endpoint)\\\\n+- DELETE /Users - Cleans Up Test User.\\\\t\\\\n+    -Only called if hard delete is supported\\\\n+    \\\\n+**Create Duplicate User**\\\\t\\\\n+- POST /Users – Attempts to create a user using an identical payload (with the same unique/joining attribute) to an existing user.\\\\n+    - Return HTTP 201 on first create request\\\\n+    - Return HTTP 409 on second create request\\\\n+\\\\n #### Get User\\\\n \\\\n ###### <a name=\\\\\\\"request-1\\\\\\\"></a>Request\\\\n@@ -542,6 +559,32 @@ This article provides example SCIM requests emitted by the Microsoft Entra provi\\\\n }\\\\n ```\\\\n \\\\n+##### Validations performed by SCIM Validator\\\\n+\\\\n+**Add Attributes**\\\\n+- POST /Users - Creates the user resource\\\\n+    - HTTP 2xx success\\\\n+- PATCH /Users/{id} – Uses a JSON Patch document (with the add operation) to insert additional non-required attributes.\\\\n+- GET /Users?filter={joiningProperty} eq \\\\\\\"value\\\\\\\" – Retrieves the user to verify the added attributes.\\\\n+    - User is returned\\\\n+    - Inserted attributes are now present on the user\\\\n+    \\\\n+**Replace User Attributes**\\\\n+- POST /Users - Creates the user resource\\\\n+    - HTTP 2xx success\\\\n+- PATCH /Users/{id} – Sends a JSON Patch document (using the replace operation) to update one or more attributes.\\\\n+- GET /Users?filter={joiningProperty} eq \\\\\\\"value\\\\\\\" – Verifies that the updated attributes are correctly applied.\\\\n+    - User is returned\\\\n+    - Updated attributes are present on the user\\\\n+    \\\\n+**Update Joining Property**\\\\n+- POST /Users - Creates the user resource\\\\n+    - HTTP 2xx success\\\\n+- PATCH /Users/{id} – Updates the joining property (e.g., userName) via a JSON Patch document.\\\\n+- GET /Users?filter={joiningProperty} eq \\\\\\\"newValue\\\\\\\" – Confirms the joining property has been updated.\\\\t\\\\n+    - Joining property is updated on user\\\\n+\\\\n+\\\\n ### Disable User\\\\n \\\\n ##### <a name=\\\\\\\"request-14\\\\\\\"></a>Request\\\\n@@ -598,6 +641,17 @@ This article provides example SCIM requests emitted by the Microsoft Entra provi\\\\n }\\\\n ```\\\\n \\\\n+##### Validations performed by SCIM Validator\\\\n+\\\\n+- POST /Users/ - Creates a resource based on the schema\\\\n+    - HTTP 2xx success\\\\n+    - Disabled user should be returned on GET request\\\\n+- PATCH /Users/{id} – Issues a JSON Patch document that sets the \\\\\\\"active\\\\\\\" attribute to false.\\\\n+    - HTTP 2xx success\\\\n+- GET /Users?filter={joiningProperty} eq \\\\\\\"value\\\\\\\" – Retrieves the user to confirm the active attribute is now false.\\\\t\\\\n+    - Returned user record should have ACTIVE=FALSE\\\\\\\"\\\\n+\\\\n+\\\\n #### Delete User\\\\n \\\\n ##### <a name=\\\\\\\"request-6\\\\\\\"></a>Request\\\\n@@ -1428,7 +1482,7 @@ When using the OAuth Code Grant flow, it's required that you support a model whe\\\\n 1. When the provisioning cycle begins, the service checks if the current access token is valid and exchanges it for a new token if needed. The access token is provided in each request made to the app and the validity of the request is checked before each request.\\\\n \\\\n > [!NOTE]\\\\n-> While it's not possible to setup OAuth on the non-gallery applications, you can manually generate an access token from your authorization server and input it as the secret token to a non-gallery application. This allows you to verify compatibility of your SCIM server with the Microsoft Entra provisioning service before onboarding to the app gallery, which does support the OAuth code grant.  \\\\n+> While it's not possible to set up OAuth on the non-gallery applications, you can manually generate an access token from your authorization server and input it as the secret token to a non-gallery application. This allows you to verify compatibility of your SCIM server with the Microsoft Entra provisioning service before onboarding to the app gallery, which does support the OAuth code grant.  \\\\n \\\\n **Long-lived OAuth bearer tokens:** If your application doesn't support the OAuth authorization code grant flow, instead generate a long lived OAuth bearer token that an administrator can use to set up the provisioning integration. The token should be perpetual, or else the provisioning job is [quarantined](application-provisioning-quarantine-status.md) when the token expires.\\\\n \\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"981e619d09359dda7c91659357127ce34eeb4d04\\\",\\r\\n    \\\"filename\\\": \\\"docs/identity/authentication/concept-certificate-based-authentication-certificate-revocation-list.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 18,\\r\\n    \\\"deletions\\\": 1,\\r\\n    \\\"changes\\\": 19,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/132a03c5f979a167eff2528d5bcd0d202dfe8db4/docs%2Fidentity%2Fauthentication%2Fconcept-certificate-based-authentication-certificate-revocation-list.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/132a03c5f979a167eff2528d5bcd0d202dfe8db4/docs%2Fidentity%2Fauthentication%2Fconcept-certificate-based-authentication-certificate-revocation-list.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fauthentication%2Fconcept-certificate-based-authentication-certificate-revocation-list.md?ref=132a03c5f979a167eff2528d5bcd0d202dfe8db4\\\",\\r\\n    \\\"patch\\\": \\\"@@ -29,7 +29,8 @@ A CRL works by providing a mechanism to check the validity of certificates used\\\\n \\\\n - **Certificate Issuance:** When a certificate is issued by a CA, it is valid until its expiration date unless it is revoked earlier. Each certificate contains a public key and is signed by the CA.\\\\n - **Revocation:** If a certificate needs to be revoked (for example, if  the private key is compromised or the certificate is no longer needed), the CA adds it to the CRL.\\\\n-- **CRL Distribution:** The CA publishes the CRL to a location accessible by clients, such as a web server or a directory service. The CRL is typically signed by the CA to ensure its integrity.\\\\n+- **CRL Distribution:** The CA publishes the CRL to a location accessible by clients, such as a web server or a directory service. The CRL is typically signed by the CA to ensure its integrity. If the CRL is not signed by the CA, a cryptography error [AADSTS2205015](./concept-certificate-based-authentication-certificate-revocation-list.md#crl-error-reference) is thrown and follow the steps in [FAQ](./concept-certificate-based-authentication-certificate-revocation-list.md#frequently-asked-questions) to troubleshoot the issue.\\\\n+\\\\n - **Client Check:** When a client presents a certificate for authentication, the system retrieves the CRL for each CA in the certificate chain from its published locations and checks for any revoked CAs. If any CRL location is unavailable, authentication fails because the system cannot verify the certificate’s revocation status.\\\\n - **Authentication:** If the certificate is found in the CRL, the authentication attempt is rejected, and the client is denied access. If the certificate is not in the CRL, the authentication proceeds as normal.\\\\n - **CRL Updates:** The CRL is updated periodically by the CA, and clients should ensure they have the latest version to make accurate decisions about certificate validity. The system does cache the CRL for a certain period to reduce network traffic and improve performance, but it does also check for updates regularly.\\\\n@@ -222,6 +223,22 @@ In the CBA Authentication methods policy, select **Configure** and then select *\\\\n \\\\n When a problem prevents Microsoft Entra from downloading the CRL, the cause is often firewall restrictions. In most cases, you can resolve the issue by updating firewall rules to allow the required IP addresses so Microsoft Entra can successfully download the CRL. For more information, see [List of Microsoft IPAddress](/microsoft-365/enterprise/urls-and-ip-address-ranges#microsoft-365-unified-domains).\\\\n \\\\n+### How do I find the CRL for a CA, or how do I troubleshoot the error \\\\\\\"AADSTS2205015: The Certificate Revocation List (CRL) failed signature validation\\\\\\\"?\\\\n+\\\\n+Download the CRL and compare the CA certificate and the CRL information to validate that the `crlDistributionPoint` value is valid for the CA you want to add. You can configure the CRL to the corresponding CA by matching the CA's issuer subject key identifier (SKI) to the authority key identifier (AKI) of the CRL (CA Issuer SKI == CRL AKI).\\\\n+\\\\n+The following table and figure show how to map information from the CA certificate to the attributes of the downloaded CRL.\\\\n+\\\\n+| CA certificate info |= |Downloaded CRL info|\\\\n+|----|:-:|----|\\\\n+|Subject |=|Issuer |\\\\n+|Subject Key Identifier (SKI) |=|Authority Key Identifier (KeyID) |\\\\n+\\\\n+:::image type=\\\\\\\"content\\\\\\\" border=\\\\\\\"false\\\\\\\" source=\\\\\\\"./media/how-to-certificate-based-authentication/certificate-crl-compare.png\\\\\\\" alt-text=\\\\\\\"Screenshot that compares CA certificate fields with CRL information.\\\\\\\":::\\\\n+\\\\n+- [Microsoft Entra CBA Certificate Revocation List](concept-certificate-based-authentication-certificate-revocation-list.md)\\\\n+\\\\n+\\\\n ## Next steps\\\\n \\\\n - [Overview of Microsoft Entra CBA](concept-certificate-based-authentication.md)\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"3e0e2e26121d8cacb27ffdd5d42b98ccbfb51732\\\",\\r\\n    \\\"filename\\\": \\\"docs/identity/authentication/concept-certificate-based-authentication-certificateuserids.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 1,\\r\\n    \\\"deletions\\\": 0,\\r\\n    \\\"changes\\\": 1,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/132a03c5f979a167eff2528d5bcd0d202dfe8db4/docs%2Fidentity%2Fauthentication%2Fconcept-certificate-based-authentication-certificateuserids.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/132a03c5f979a167eff2528d5bcd0d202dfe8db4/docs%2Fidentity%2Fauthentication%2Fconcept-certificate-based-authentication-certificateuserids.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fauthentication%2Fconcept-certificate-based-authentication-certificateuserids.md?ref=132a03c5f979a167eff2528d5bcd0d202dfe8db4\\\",\\r\\n    \\\"patch\\\": \\\"@@ -514,6 +514,7 @@ Administrators can filter values from altSecurityIdentities that align with the\\\\n - [Overview of Microsoft Entra CBA](concept-certificate-based-authentication.md)\\\\n - [Technical deep dive for Microsoft Entra CBA](concept-certificate-based-authentication-technical-deep-dive.md)\\\\n - [How to configure Microsoft Entra CBA](how-to-certificate-based-authentication.md)\\\\n+- [Microsoft Entra CBA Certificate Revocation List](concept-certificate-based-authentication-certificate-revocation-list.md)\\\\n - [Microsoft Entra CBA on iOS devices](concept-certificate-based-authentication-mobile-ios.md)\\\\n - [Microsoft Entra CBA on Android devices](concept-certificate-based-authentication-mobile-android.md)\\\\n - [Windows smart card logon using Microsoft Entra CBA](concept-certificate-based-authentication-smartcard.md)\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"57e5c1cf6201db3812bfa0c7dc79b55cca26d603\\\",\\r\\n    \\\"filename\\\": \\\"docs/identity/authentication/concept-certificate-based-authentication-limitations.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 1,\\r\\n    \\\"deletions\\\": 0,\\r\\n    \\\"changes\\\": 1,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/132a03c5f979a167eff2528d5bcd0d202dfe8db4/docs%2Fidentity%2Fauthentication%2Fconcept-certificate-based-authentication-limitations.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/132a03c5f979a167eff2528d5bcd0d202dfe8db4/docs%2Fidentity%2Fauthentication%2Fconcept-certificate-based-authentication-limitations.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fauthentication%2Fconcept-certificate-based-authentication-limitations.md?ref=132a03c5f979a167eff2528d5bcd0d202dfe8db4\\\",\\r\\n    \\\"patch\\\": \\\"@@ -79,6 +79,7 @@ The following scenarios aren't supported:\\\\n - [Technical deep dive for Microsoft Entra CBA](concept-certificate-based-authentication-technical-deep-dive.md)   \\\\n - [How to configure Microsoft Entra CBA](how-to-certificate-based-authentication.md)\\\\n - [Windows SmartCard logon using Microsoft Entra CBA](concept-certificate-based-authentication-smartcard.md)\\\\n+- [Microsoft Entra CBA Certificate Revocation List](concept-certificate-based-authentication-certificate-revocation-list.md)\\\\n - [Microsoft Entra CBA on mobile devices (Android and iOS)](./concept-certificate-based-authentication-mobile-ios.md)\\\\n - [CertificateUserIDs](concept-certificate-based-authentication-certificateuserids.md)\\\\n - [How to migrate federated users](concept-certificate-based-authentication-migration.md)\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"6447edf3f3178ea57786f5237a9a10a3eb1015f5\\\",\\r\\n    \\\"filename\\\": \\\"docs/identity/authentication/concept-certificate-based-authentication-migration.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 1,\\r\\n    \\\"deletions\\\": 0,\\r\\n    \\\"changes\\\": 1,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/132a03c5f979a167eff2528d5bcd0d202dfe8db4/docs%2Fidentity%2Fauthentication%2Fconcept-certificate-based-authentication-migration.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/132a03c5f979a167eff2528d5bcd0d202dfe8db4/docs%2Fidentity%2Fauthentication%2Fconcept-certificate-based-authentication-migration.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fauthentication%2Fconcept-certificate-based-authentication-migration.md?ref=132a03c5f979a167eff2528d5bcd0d202dfe8db4\\\",\\r\\n    \\\"patch\\\": \\\"@@ -98,6 +98,7 @@ In Windows sign-in, the match depends on if the device is hybrid or Microsoft En\\\\n - [Overview of Microsoft Entra CBA](concept-certificate-based-authentication.md)\\\\n - [Technical deep dive for Microsoft Entra CBA](concept-certificate-based-authentication-technical-deep-dive.md)\\\\n - [How to configure Microsoft Entra CBA](how-to-certificate-based-authentication.md)\\\\n+- [Microsoft Entra CBA Certificate Revocation List](concept-certificate-based-authentication-certificate-revocation-list.md)\\\\n - [Microsoft Entra CBA on iOS devices](concept-certificate-based-authentication-mobile-ios.md)\\\\n - [Microsoft Entra CBA on Android devices](concept-certificate-based-authentication-mobile-android.md)\\\\n - [Windows smart card sign-in using Microsoft Entra CBA](concept-certificate-based-authentication-smartcard.md)\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"c18442f2748974a514c1670ece93a6ce106d9005\\\",\\r\\n    \\\"filename\\\": \\\"docs/identity/authentication/concept-certificate-based-authentication-mobile-android.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 1,\\r\\n    \\\"deletions\\\": 0,\\r\\n    \\\"changes\\\": 1,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/132a03c5f979a167eff2528d5bcd0d202dfe8db4/docs%2Fidentity%2Fauthentication%2Fconcept-certificate-based-authentication-mobile-android.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/132a03c5f979a167eff2528d5bcd0d202dfe8db4/docs%2Fidentity%2Fauthentication%2Fconcept-certificate-based-authentication-mobile-android.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fauthentication%2Fconcept-certificate-based-authentication-mobile-android.md?ref=132a03c5f979a167eff2528d5bcd0d202dfe8db4\\\",\\r\\n    \\\"patch\\\": \\\"@@ -159,6 +159,7 @@ This issue happens because of certificate caching. As a workaround, clicking can\\\\n - [Overview of Microsoft Entra CBA](concept-certificate-based-authentication.md)\\\\n - [Technical deep dive for Microsoft Entra CBA](concept-certificate-based-authentication-technical-deep-dive.md)\\\\n - [How to configure Microsoft Entra CBA](how-to-certificate-based-authentication.md)\\\\n+- [Microsoft Entra CBA Certificate Revocation List](concept-certificate-based-authentication-certificate-revocation-list.md)\\\\n - [Microsoft Entra CBA on iOS devices](concept-certificate-based-authentication-mobile-ios.md)\\\\n - [Windows SmartCard logon using Microsoft Entra CBA](concept-certificate-based-authentication-smartcard.md)\\\\n - [Certificate user IDs](concept-certificate-based-authentication-certificateuserids.md)\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"74c7375f38f1af8284ff6b96276cfb87bde5fade\\\",\\r\\n    \\\"filename\\\": \\\"docs/identity/authentication/concept-certificate-based-authentication-mobile-ios.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 1,\\r\\n    \\\"deletions\\\": 0,\\r\\n    \\\"changes\\\": 1,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/132a03c5f979a167eff2528d5bcd0d202dfe8db4/docs%2Fidentity%2Fauthentication%2Fconcept-certificate-based-authentication-mobile-ios.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/132a03c5f979a167eff2528d5bcd0d202dfe8db4/docs%2Fidentity%2Fauthentication%2Fconcept-certificate-based-authentication-mobile-ios.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fauthentication%2Fconcept-certificate-based-authentication-mobile-ios.md?ref=132a03c5f979a167eff2528d5bcd0d202dfe8db4\\\",\\r\\n    \\\"patch\\\": \\\"@@ -191,6 +191,7 @@ CBA support for YubiKey is available in the latest Microsoft Authentication Libr\\\\n - [Overview of Microsoft Entra CBA](concept-certificate-based-authentication.md)\\\\n - [Technical deep dive for Microsoft Entra CBA](concept-certificate-based-authentication-technical-deep-dive.md)\\\\n - [How to configure Microsoft Entra CBA](how-to-certificate-based-authentication.md)\\\\n+- [Microsoft Entra CBA Certificate Revocation List](concept-certificate-based-authentication-certificate-revocation-list.md)\\\\n - [Microsoft Entra CBA on Android devices](concept-certificate-based-authentication-mobile-android.md)\\\\n - [Windows smart card logon using Microsoft Entra CBA](concept-certificate-based-authentication-smartcard.md)\\\\n - [Certificate user IDs](concept-certificate-based-authentication-certificateuserids.md)\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"5a0b6d197406ed1cecb4ccaa7ff0b374cb376cb0\\\",\\r\\n    \\\"filename\\\": \\\"docs/identity/authentication/concept-certificate-based-authentication-smartcard.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 1,\\r\\n    \\\"deletions\\\": 0,\\r\\n    \\\"changes\\\": 1,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/132a03c5f979a167eff2528d5bcd0d202dfe8db4/docs%2Fidentity%2Fauthentication%2Fconcept-certificate-based-authentication-smartcard.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/132a03c5f979a167eff2528d5bcd0d202dfe8db4/docs%2Fidentity%2Fauthentication%2Fconcept-certificate-based-authentication-smartcard.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fauthentication%2Fconcept-certificate-based-authentication-smartcard.md?ref=132a03c5f979a167eff2528d5bcd0d202dfe8db4\\\",\\r\\n    \\\"patch\\\": \\\"@@ -95,6 +95,7 @@ Windows OOBE should allow the user to login using an external smart card reader\\\\n - [Overview of Microsoft Entra CBA](concept-certificate-based-authentication.md)\\\\n - [Technical deep dive for Microsoft Entra CBA](concept-certificate-based-authentication-technical-deep-dive.md)\\\\n - [How to configure Microsoft Entra CBA](how-to-certificate-based-authentication.md)\\\\n+- [Microsoft Entra CBA Certificate Revocation List](concept-certificate-based-authentication-certificate-revocation-list.md)\\\\n - [Microsoft Entra CBA on iOS devices](concept-certificate-based-authentication-mobile-ios.md)\\\\n - [Microsoft Entra CBA on Android devices](concept-certificate-based-authentication-mobile-android.md)\\\\n - [Certificate user IDs](concept-certificate-based-authentication-certificateuserids.md)\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"3bab147666e8f6dbcf65eaabdf6d80253a2260e8\\\",\\r\\n    \\\"filename\\\": \\\"docs/identity/authentication/concept-certificate-based-authentication-technical-deep-dive.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 2,\\r\\n    \\\"deletions\\\": 1,\\r\\n    \\\"changes\\\": 3,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/132a03c5f979a167eff2528d5bcd0d202dfe8db4/docs%2Fidentity%2Fauthentication%2Fconcept-certificate-based-authentication-technical-deep-dive.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/132a03c5f979a167eff2528d5bcd0d202dfe8db4/docs%2Fidentity%2Fauthentication%2Fconcept-certificate-based-authentication-technical-deep-dive.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fauthentication%2Fconcept-certificate-based-authentication-technical-deep-dive.md?ref=132a03c5f979a167eff2528d5bcd0d202dfe8db4\\\",\\r\\n    \\\"patch\\\": \\\"@@ -647,10 +647,11 @@ An external identity B2B guest user can use CBA on the home tenant. If the cross\\\\n \\\\n - [Overview of Microsoft Entra CBA](concept-certificate-based-authentication.md)\\\\n - [Set up Microsoft Entra CBA](how-to-certificate-based-authentication.md)\\\\n+- [Microsoft Entra CBA Certificate Revocation List](concept-certificate-based-authentication-certificate-revocation-list.md)\\\\n - [Microsoft Entra CBA on iOS devices](concept-certificate-based-authentication-mobile-ios.md)\\\\n - [Microsoft Entra CBA on Android devices](concept-certificate-based-authentication-mobile-android.md)\\\\n - [Windows smart card sign-in by using Microsoft Entra CBA](concept-certificate-based-authentication-smartcard.md)\\\\n - [Certificate user IDs](concept-certificate-based-authentication-certificateuserids.md)\\\\n - [Migrate federated users](concept-certificate-based-authentication-migration.md)\\\\n - [FAQ](certificate-based-authentication-faq.yml)\\\\n-- [Troubleshoot Microsoft Entra CBA](./certificate-based-authentication-faq.yml)\\\\n+- [Troubleshoot Microsoft Entra CBA](./certificate-based-authentication-faq.yml)\\\\n\\\\\\\\ No newline at end of file\\\"\\r\\n  }\\r\\n]. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\"}",
-        "Response": "This commit updates Microsoft Entra ID documentation. Key changes include:\n\n*   Refining the description and license requirements for various risk detections in Microsoft Entra ID Protection.\n*   Expanding the SCIM Validator section in the SCIM provisioning guide to detail validations for creating, updating, and disabling users.\n*   Adding troubleshooting steps and a comparison table for Certificate Revocation List (CRL) signature validation errors in Certificate-Based Authentication (CBA).\n*   Inserting cross-references to the new CRL troubleshooting article within several other CBA-related articles, including those for mobile devices, smart cards, limitations, and migration.",
-        "Model": "google:gemini-2.5-flash-lite",
-        "Provider": "google",
-        "ModelName": "gemini-2.5-flash-lite",
-        "Timestamp": "2025-09-12T23:01:23.8820806+00:00"
-      },
-      "files": [
-        {
-          "filename": "docs/id-protection/concept-identity-protection-risks.md",
-          "status": "modified",
-          "additions": 28,
-          "deletions": 10
-        },
-        {
-          "filename": "docs/identity/app-provisioning/use-scim-to-provision-users-and-groups.md",
-          "status": "modified",
-          "additions": 55,
-          "deletions": 1
-        },
-        {
-          "filename": "docs/identity/authentication/concept-certificate-based-authentication-certificate-revocation-list.md",
-          "status": "modified",
-          "additions": 18,
-          "deletions": 1
-        },
-        {
-          "filename": "docs/identity/authentication/concept-certificate-based-authentication-certificateuserids.md",
-          "status": "modified",
-          "additions": 1,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity/authentication/concept-certificate-based-authentication-limitations.md",
-          "status": "modified",
-          "additions": 1,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity/authentication/concept-certificate-based-authentication-migration.md",
-          "status": "modified",
-          "additions": 1,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity/authentication/concept-certificate-based-authentication-mobile-android.md",
-          "status": "modified",
-          "additions": 1,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity/authentication/concept-certificate-based-authentication-mobile-ios.md",
-          "status": "modified",
-          "additions": 1,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity/authentication/concept-certificate-based-authentication-smartcard.md",
-          "status": "modified",
-          "additions": 1,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity/authentication/concept-certificate-based-authentication-technical-deep-dive.md",
-          "status": "modified",
-          "additions": 2,
-          "deletions": 1
         }
       ]
     }
