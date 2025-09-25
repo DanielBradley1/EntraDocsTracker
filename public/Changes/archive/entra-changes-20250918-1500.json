@@ -1,0 +1,24 @@
+{
+  "sha": "371983ae2d5dcb8a7524ad30b6a46adf78088812",
+  "url": "https://github.com/MicrosoftDocs/entra-docs/commit/371983ae2d5dcb8a7524ad30b6a46adf78088812",
+  "author": "Tracey Torble",
+  "email": "56347952+ttorble@users.noreply.github.com",
+  "date": "2025-09-18T14:03:40Z",
+  "message": "Merge pull request #1757 from antonioalwan/fix_secure_storage_message\n\nFix secure storage message",
+  "ai_summary": {
+    "Messages": "{\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"6b05a97e00c8b8d3c13a3a4f3042e37816f3e8d5\\\",\\r\\n  \\\"filename\\\": \\\"docs/identity-platform/apple-sso-plugin.md\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 1,\\r\\n  \\\"deletions\\\": 7,\\r\\n  \\\"changes\\\": 8,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/371983ae2d5dcb8a7524ad30b6a46adf78088812/docs%2Fidentity-platform%2Fapple-sso-plugin.md\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/371983ae2d5dcb8a7524ad30b6a46adf78088812/docs%2Fidentity-platform%2Fapple-sso-plugin.md\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity-platform%2Fapple-sso-plugin.md?ref=371983ae2d5dcb8a7524ad30b6a46adf78088812\\\",\\r\\n  \\\"patch\\\": \\\"@@ -32,12 +32,6 @@ The Microsoft Enterprise SSO plug-in for Apple devices offers the following bene\\\\n - It extends SSO to applications that use OAuth 2, OpenID Connect, and SAML.\\\\n - It's natively integrated with the MSAL, which provides a smooth native experience to the end user when the Microsoft Enterprise SSO plug-in is enabled. \\\\n \\\\n->[!NOTE]\\\\n-> On May 2024, [Microsoft announced that Platform SSO for macOS devices is available in public preview for Microsoft Entra ID.](https://techcommunity.microsoft.com/t5/microsoft-entra-blog/platform-sso-for-macos-now-in-public-preview/ba-p/4051574).\\\\n->\\\\n-> For more information, see [macOS Platform Single Sign-on overview (preview)](/entra/identity/devices/macos-psso). \\\\n-\\\\n-\\\\n ## Requirements\\\\n \\\\n To use the Microsoft Enterprise SSO plug-in for Apple devices:\\\\n@@ -436,7 +430,7 @@ The end user sees the familiar experience and doesn't have to sign in again in e\\\\n \\\\n ## Device Identity Key Storage\\\\n \\\\n-In March 2024, Microsoft announced that Microsoft Entra ID will transition from using Apple’s Keychain to Apple’s Secure Enclave for storing device identity keys. Beginning August 2025 as part of the Secure Enclave rollout, certain new device registrations will require Secure Enclave for key storage. Eventually, all new device registrations will require Secure Enclave.\\\\n+In March 2024, Microsoft announced that Microsoft Entra ID will transition from Apple's Keychain to Apple's Secure Enclave for storing device identity keys. Starting August 2025, the Secure Storage rollout will make Secure Enclave the default key storage for all new device registrations. New device registrations will use secure storage model by default. Existing devices that do not support Secure Enclave will have registration keys stored in the user's iCloud Keychain instead of the Login Keychain, which provides stronger protection than legacy Login Keychain storage. Existing functionality for older devices remains the same.\\\\n \\\\n If your applications or MDM solutions depend on accessing Microsoft Entra device registration keys through Keychain, you must update them to use the Microsoft Authentication Library (MSAL) and the Enterprise SSO plug-in to maintain compatibility with the Microsoft identity platform.\\\\n \\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\",\"role\":\"user\"}",
+    "Response": "This commit updates the documentation for the Microsoft Enterprise SSO plug-in for Apple devices. It removes a note about the public preview of Platform SSO for macOS, directing users to a different article for more information. Additionally, it clarifies the transition from Apple's Keychain to Secure Enclave for device identity key storage, explaining that new device registrations will default to Secure Enclave from August 2025, with existing devices using iCloud Keychain for enhanced security.",
+    "Model": "google:gemini-2.5-flash-lite",
+    "Provider": "google",
+    "ModelName": "gemini-2.5-flash-lite",
+    "Timestamp": "2025-09-18T15:00:37.5228978+00:00"
+  },
+  "files": [
+    {
+      "filename": "docs/identity-platform/apple-sso-plugin.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 7
+    }
+  ]
+}
