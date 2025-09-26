@@ -1,5 +1,99 @@
 {
+  "metadata": {
+    "source_files": [
+      {
+        "filename": "entra-changes-20250919-1901.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250919-2301.json",
+        "commit_count": 4
+      },
+      {
+        "filename": "entra-changes-20250922-1501.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250922-1901.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250922-2101.json",
+        "commit_count": 5
+      },
+      {
+        "filename": "entra-changes-20250922-2301.json",
+        "commit_count": 5
+      },
+      {
+        "filename": "entra-changes-20250923-0701.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250923-1901.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250923-2301.json",
+        "commit_count": 2
+      },
+      {
+        "filename": "entra-changes-20250924-0700.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250924-1901.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250924-2301.json",
+        "commit_count": 6
+      },
+      {
+        "filename": "entra-changes-20250925-1900.json",
+        "commit_count": 2
+      },
+      {
+        "filename": "entra-changes-20250925-2300.json",
+        "commit_count": 2
+      },
+      {
+        "filename": "entra-changes-20250926-0702.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250926-1900.json",
+        "commit_count": 1
+      }
+    ],
+    "total_commits": 35,
+    "generated_date": "2025-09-26T19:00:42Z"
+  },
   "changes": [
+    {
+      "sha": "1ef4a1223219ee5ca39ec06cd6e7ec0b3e413b56",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/1ef4a1223219ee5ca39ec06cd6e7ec0b3e413b56",
+      "author": "learn-build-service-prod[bot]",
+      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+      "date": "2025-09-26T17:07:04Z",
+      "message": "Merge pull request #9822 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-09-26 17:05 UTC",
+      "ai_summary": {
+        "Messages": "{\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"52375c9465be1d33c7d2e595461098eadbb0a3dd\\\",\\r\\n  \\\"filename\\\": \\\"docs/id-governance/access-review-agent.md\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 1,\\r\\n  \\\"deletions\\\": 1,\\r\\n  \\\"changes\\\": 2,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/1ef4a1223219ee5ca39ec06cd6e7ec0b3e413b56/docs%2Fid-governance%2Faccess-review-agent.md\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/1ef4a1223219ee5ca39ec06cd6e7ec0b3e413b56/docs%2Fid-governance%2Faccess-review-agent.md\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fid-governance%2Faccess-review-agent.md?ref=1ef4a1223219ee5ca39ec06cd6e7ec0b3e413b56\\\",\\r\\n  \\\"patch\\\": \\\"@@ -19,7 +19,7 @@ Say goodbye to time-consuming research and the uncertainty of rushed decisions.\\\\n ## Prerequisites\\\\n - You must have [Microsoft Entra ID Governance or Microsoft Entra Suite licenses](licensing-fundamentals.md).\\\\n - You must [Onboard to Security Copilot](/copilot/security/get-started-security-copilot#onboarding-to-security-copilot) with at least one [security compute unit (SCU)](/copilot/security/manage-usage) provisioned.\\\\n-   - Completing an access review that includes 20 decisions consumes on average one SCU. This includes the agent gathering insights and generating recommendations and the reviewer's natural language conversation in Microsoft Teams with the agent. The SCU consumption can vary based on the conversation length between the reviewer and agent.\\\\n+   - Completing an access review that includes 20 decisions consumes on average 4.5 SCU. This includes the agent gathering insights and generating recommendations and the reviewer's natural language conversation in Microsoft Teams with the agent. The SCU consumption can vary based on the conversation length between the reviewer and agent.\\\\n - Admins must have at least **all** the following roles to set up and manage the agent in the Microsoft Entra admin center:\\\\n    - [Identity Governance  Administrator](../identity/role-based-access-control/permissions-reference.md#identity-governance-administrator)\\\\n    - [Lifecycle Workflows Administrator](../identity/role-based-access-control/permissions-reference.md#lifecycle-workflows-administrator)\\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\",\"role\":\"user\"}",
+        "Response": "This commit updates the documentation for the access review agent. It clarifies the consumption of Security Compute Units (SCUs) per access review, changing the average from one SCU to 4.5 SCU for twenty decisions. This adjustment accounts for the agent's insight gathering, recommendation generation, and the reviewer's conversational interaction.",
+        "Model": "google:gemini-2.5-flash-lite",
+        "Provider": "google",
+        "ModelName": "gemini-2.5-flash-lite",
+        "Timestamp": "2025-09-26T19:00:36.5826226+00:00"
+      },
+      "files": [
+        {
+          "filename": "docs/id-governance/access-review-agent.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        }
+      ]
+    },
     {
       "sha": "586d24e8af3889f343c6015c5f3c98f06030e4b5",
       "url": "https://github.com/MicrosoftDocs/entra-docs/commit/586d24e8af3889f343c6015c5f3c98f06030e4b5",
@@ -3478,100 +3572,6 @@
           "deletions": 39
         }
       ]
-    },
-    {
-      "sha": "9f694eeb1622a800db7b070e4159703c4af77bdf",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/9f694eeb1622a800db7b070e4159703c4af77bdf",
-      "author": "learn-build-service-prod[bot]",
-      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
-      "date": "2025-09-19T11:02:43Z",
-      "message": "Merge pull request #9740 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-09-19 11:00 UTC",
-      "ai_summary": {
-        "Messages": "{\"role\":\"user\",\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"c782fa289d027cc6c7e4458ee85459b3107420aa\\\",\\r\\n  \\\"filename\\\": \\\"docs/identity/hybrid/connect/how-to-connect-install-prerequisites.md\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 1,\\r\\n  \\\"deletions\\\": 1,\\r\\n  \\\"changes\\\": 2,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/9f694eeb1622a800db7b070e4159703c4af77bdf/docs%2Fidentity%2Fhybrid%2Fconnect%2Fhow-to-connect-install-prerequisites.md\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/9f694eeb1622a800db7b070e4159703c4af77bdf/docs%2Fidentity%2Fhybrid%2Fconnect%2Fhow-to-connect-install-prerequisites.md\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fhybrid%2Fconnect%2Fhow-to-connect-install-prerequisites.md?ref=9f694eeb1622a800db7b070e4159703c4af77bdf\\\",\\r\\n  \\\"patch\\\": \\\"@@ -58,7 +58,7 @@ To read more about securing your Active Directory environment, see [Best practic\\\\n \\\\n #### Installation prerequisites\\\\n \\\\n-- Microsoft Entra Connect must be installed on a domain-joined Windows Server 2016 or later. We recommend using domain-joined Windows Server 2022. You can deploy Microsoft Entra Connect on Windows Server 2016. However, since Windows Server 2016 is in extended support, you might need [a paid support program](/lifecycle/policies/fixed#extended-support) if you require support for this configuration.\\\\n+- Microsoft Entra Connect must be installed on a domain-joined Windows Server 2016-2022. We recommend using domain-joined Windows Server 2022. You can deploy Microsoft Entra Connect on Windows Server 2016. However, since Windows Server 2016 is in extended support, you might need [a paid support program](/lifecycle/policies/fixed#extended-support) if you require support for this configuration. Installing on unsupported Windows Server version may cause service failures or unexpected behavior.\\\\n - The minimum .NET Framework version required is 4.6.2, and newer versions of .NET are also supported.  .NET version 4.8 and greater offers the best accessibility compliance.\\\\n - Microsoft Entra Connect can't be installed on Small Business Server or Windows Server Essentials before 2019 (Windows Server Essentials 2019 is supported). The server must be using Windows Server standard or better. \\\\n - The Microsoft Entra Connect server must have a full GUI installed. Installing Microsoft Entra Connect on Windows Server Core isn't supported. \\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\"}",
-        "Response": "This commit modifies the prerequisites documentation for installing Microsoft Entra Connect. The update clarifies that the software can be installed on Windows Server 2016 through 2022, with a recommendation for Windows Server 2022. It also adds a cautionary note about potential service failures if installed on unsupported Windows Server versions.",
-        "Model": "google:gemini-2.5-flash-lite",
-        "Provider": "google",
-        "ModelName": "gemini-2.5-flash-lite",
-        "Timestamp": "2025-09-19T13:00:59.6999796+00:00"
-      },
-      "files": [
-        {
-          "filename": "docs/identity/hybrid/connect/how-to-connect-install-prerequisites.md",
-          "status": "modified",
-          "additions": 1,
-          "deletions": 1
-        }
-      ]
     }
-  ],
-  "metadata": {
-    "generated_date": "2025-09-26T07:02:24Z",
-    "total_commits": 35,
-    "source_files": [
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20250919-1300.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20250919-1901.json"
-      },
-      {
-        "commit_count": 4,
-        "filename": "entra-changes-20250919-2301.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20250922-1501.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20250922-1901.json"
-      },
-      {
-        "commit_count": 5,
-        "filename": "entra-changes-20250922-2101.json"
-      },
-      {
-        "commit_count": 5,
-        "filename": "entra-changes-20250922-2301.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20250923-0701.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20250923-1901.json"
-      },
-      {
-        "commit_count": 2,
-        "filename": "entra-changes-20250923-2301.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20250924-0700.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20250924-1901.json"
-      },
-      {
-        "commit_count": 6,
-        "filename": "entra-changes-20250924-2301.json"
-      },
-      {
-        "commit_count": 2,
-        "filename": "entra-changes-20250925-1900.json"
-      },
-      {
-        "commit_count": 2,
-        "filename": "entra-changes-20250925-2300.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20250926-0702.json"
-      }
-    ]
-  }
+  ]
 }
