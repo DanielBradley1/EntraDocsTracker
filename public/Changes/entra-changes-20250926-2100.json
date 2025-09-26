@@ -1,0 +1,24 @@
+{
+  "sha": "0cc5d836a63f7fc9f29fdc171f97190cd6fccc6a",
+  "url": "https://github.com/MicrosoftDocs/entra-docs/commit/0cc5d836a63f7fc9f29fdc171f97190cd6fccc6a",
+  "author": "Shannon Leavitt",
+  "email": "47186198+ShannonLeavitt@users.noreply.github.com",
+  "date": "2025-09-26T20:26:22Z",
+  "message": "Merge pull request #1771 from nathanmcnulty/patch-1\n\nUpdate PRT lifetime to 90 days",
+  "ai_summary": {
+    "Messages": "{\"role\":\"user\",\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"340bb925d1fcec3e373068cb87199dd3ac86cae5\\\",\\r\\n  \\\"filename\\\": \\\"docs/identity/devices/concept-tokens-microsoft-entra-id.md\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 1,\\r\\n  \\\"deletions\\\": 1,\\r\\n  \\\"changes\\\": 2,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/0cc5d836a63f7fc9f29fdc171f97190cd6fccc6a/docs%2Fidentity%2Fdevices%2Fconcept-tokens-microsoft-entra-id.md\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/0cc5d836a63f7fc9f29fdc171f97190cd6fccc6a/docs%2Fidentity%2Fdevices%2Fconcept-tokens-microsoft-entra-id.md\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fdevices%2Fconcept-tokens-microsoft-entra-id.md?ref=0cc5d836a63f7fc9f29fdc171f97190cd6fccc6a\\\",\\r\\n  \\\"patch\\\": \\\"@@ -51,7 +51,7 @@ Another difference between the two token families: Sign-in session tokens are re\\\\n \\\\n | Token Type | Issued by | Purpose  | Scoped to Resource | Lifetime | Revocable | Renewable |\\\\n |------|------|------|------|------|------|------|\\\\n-| Primary Refresh Token (PRT)| Entra ID | Request Access Tokens | No – Can request an access token for any resource | 14 days\\\\\\\\*| Yes | Yes|\\\\n+| Primary Refresh Token (PRT)| Entra ID | Request Access Tokens | No – Can request an access token for any resource | 90 days\\\\\\\\*| Yes | Yes|\\\\n | Refresh Token| Entra ID| Request Access Tokens | Yes | 90 days\\\\\\\\* | Yes | Yes |\\\\n | Access Token | Entra ID | Access the resource | Yes | Variable 60-90 minutes| Yes, if CAE capable | No |\\\\n | App auth cookie| Web app | Access the resource | Yes  | Determined by application| Depends on application | No |\\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\"}",
+    "Response": "Here's a summary of the commit:\n\nThe change modifies a documentation file concerning Microsoft Entra ID tokens. Specifically, it updates the lifetime of a Primary Refresh Token (PRT) from 14 days to 90 days. This adjustment clarifies the duration for which a PRT remains valid for requesting access tokens.",
+    "Model": "google:gemini-2.5-flash-lite",
+    "Provider": "google",
+    "ModelName": "gemini-2.5-flash-lite",
+    "Timestamp": "2025-09-26T21:00:42.0300578+00:00"
+  },
+  "files": [
+    {
+      "filename": "docs/identity/devices/concept-tokens-microsoft-entra-id.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1
+    }
+  ]
+}
