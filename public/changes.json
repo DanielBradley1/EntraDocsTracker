@@ -1,5 +1,107 @@
 {
+  "metadata": {
+    "generated_date": "2025-09-28T19:01:29Z",
+    "source_files": [
+      {
+        "filename": "entra-changes-20250922-1501.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250922-1901.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250922-2101.json",
+        "commit_count": 5
+      },
+      {
+        "filename": "entra-changes-20250922-2301.json",
+        "commit_count": 5
+      },
+      {
+        "filename": "entra-changes-20250923-0701.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250923-1901.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250923-2301.json",
+        "commit_count": 2
+      },
+      {
+        "filename": "entra-changes-20250924-0700.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250924-1901.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250924-2301.json",
+        "commit_count": 6
+      },
+      {
+        "filename": "entra-changes-20250925-1900.json",
+        "commit_count": 2
+      },
+      {
+        "filename": "entra-changes-20250925-2300.json",
+        "commit_count": 2
+      },
+      {
+        "filename": "entra-changes-20250926-0702.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250926-1900.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250926-2100.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250926-2300.json",
+        "commit_count": 2
+      },
+      {
+        "filename": "entra-changes-20250928-1300.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250928-1901.json",
+        "commit_count": 1
+      }
+    ],
+    "total_commits": 35
+  },
   "changes": [
+    {
+      "sha": "e27721ad0e55be77abc3d812ee599f1caf9a681b",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/e27721ad0e55be77abc3d812ee599f1caf9a681b",
+      "author": "learn-build-service-prod[bot]",
+      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+      "date": "2025-09-28T17:06:26Z",
+      "message": "Merge pull request #9831 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-09-28 17:00 UTC",
+      "ai_summary": {
+        "Messages": "{\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"590c6ea0667e2da560e74d5b241e594d6cb8d6a9\\\",\\r\\n  \\\"filename\\\": \\\"docs/identity/devices/howto-vm-sign-in-azure-ad-windows.md\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 19,\\r\\n  \\\"deletions\\\": 0,\\r\\n  \\\"changes\\\": 19,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/e27721ad0e55be77abc3d812ee599f1caf9a681b/docs%2Fidentity%2Fdevices%2Fhowto-vm-sign-in-azure-ad-windows.md\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/e27721ad0e55be77abc3d812ee599f1caf9a681b/docs%2Fidentity%2Fdevices%2Fhowto-vm-sign-in-azure-ad-windows.md\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fdevices%2Fhowto-vm-sign-in-azure-ad-windows.md?ref=e27721ad0e55be77abc3d812ee599f1caf9a681b\\\",\\r\\n  \\\"patch\\\": \\\"@@ -430,6 +430,25 @@ Try these solutions:\\\\n \\\\n   Sign in with the user account in a web browser. For instance, sign in to the [Azure portal](https://portal.azure.com) in a private browsing window. If you're prompted to change the password, set a new password. Then try connecting again.\\\\n \\\\n+### AADSTS293004: The target-device identifier in the request xxx was not found in the tenant xxx\\\\n+\\\\n+Cause:\\\\n+\\\\n+The computer name entered in mstsc does not match with any one of the \\\\\\\"hostnames\\\\\\\" attributes for target AADJ device. For example, AADJ device host name is the short name like device_1, but the computer name entered in mstsc is the FQDN like device_1.contoso.com.\\\\n+\\\\n+Try these solutions:\\\\n+\\\\n+There are multiple ways to resolve the issue:\\\\n+1.\\\\tModify the HOSTS entry on client machine, add an A DNS record that points the correct device name (confirm from AAD Device record) to the IP of target machine. Use that device name in mstsc.\\\\n+2.\\\\tCheck if the target machine is managed and if the hostname is set through Group Policy or MDM via the DNS Client PrimaryDnsSuffix value [ADMX_DnsClient Policy CSP | Microsoft Learn](/windows/client-management/mdm/policy-csp-admx-dnsclient#dns_primarydnssuffix). If this is set and is incorrect, it needs to be removed or set correctly. \\\\n+3.\\\\tWhen customer requires to use FQDN to connect but AAD Device name is a short name, login to the target machine via local admin, add a “**Primary DNS Suffix**” for their domain suffix. Detailed instructions:\\\\n+- Navigate to **Advanced System Settings/System Properties** ->** Computer Name** tab -> select the \\\\\\\"**Change**\\\\\\\" button to rename the computer -> select \\\\\\\"**More**...\\\\\\\" under the existing computer name -> Type in your domain name and select **OK** -> Save and reboot.\\\\n+- Once it’s done, we can RDP with FQDN directly and no need to modify the HOSTS entry.\\\\n+\\\\n+> [!NOTE]\\\\n+> In such case, when Primary DNS Suffix is added, the Device-Sync scheduled task will be triggered which adding the FQDN into AAD device \\\\\\\"hostnames\\\\\\\" attributes. This is why it will resolve the issue.\\\\n+\\\\n+\\\\n ### MFA sign-in method required\\\\n \\\\n You might see the following error message when you initiate a remote desktop connection to your device: \\\\\\\"The sign-in method you're trying to use isn't allowed. Try a different sign-in method or contact your system administrator.\\\\\\\"\\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\",\"role\":\"user\"}",
+        "Response": "This commit addresses a specific error encountered when signing into Windows virtual machines with Azure AD: `AADSTS293004: The target-device identifier in the request xxx was not found in the tenant xxx`.\n\nThe issue arises when the hostname used in the Remote Desktop Connection (mstsc) client does not precisely match the hostname registered for the Azure AD joined device. The update provides a comprehensive set of solutions, including modifying the HOSTS file, checking Group Policy or MDM settings for the DNS Client's `PrimaryDnsSuffix`, and crucially, instructs how to correctly set the \"Primary DNS Suffix\" on the target machine to align the FQDN with the Azure AD device record, thereby resolving the connection problem.",
+        "Model": "google:gemini-2.5-flash-lite",
+        "Provider": "google",
+        "ModelName": "gemini-2.5-flash-lite",
+        "Timestamp": "2025-09-28T19:01:27.2912778+00:00"
+      },
+      "files": [
+        {
+          "filename": "docs/identity/devices/howto-vm-sign-in-azure-ad-windows.md",
+          "status": "modified",
+          "additions": 19,
+          "deletions": 0
+        }
+      ]
+    },
     {
       "sha": "cb7ceed23a0332c570b6503e597147a91a40bd10",
       "url": "https://github.com/MicrosoftDocs/entra-docs/commit/cb7ceed23a0332c570b6503e597147a91a40bd10",
@@ -1698,79 +1800,5 @@
         }
       ]
     }
-  ],
-  "metadata": {
-    "total_commits": 34,
-    "source_files": [
-      {
-        "filename": "entra-changes-20250922-1501.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20250922-1901.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20250922-2101.json",
-        "commit_count": 5
-      },
-      {
-        "filename": "entra-changes-20250922-2301.json",
-        "commit_count": 5
-      },
-      {
-        "filename": "entra-changes-20250923-0701.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20250923-1901.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20250923-2301.json",
-        "commit_count": 2
-      },
-      {
-        "filename": "entra-changes-20250924-0700.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20250924-1901.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20250924-2301.json",
-        "commit_count": 6
-      },
-      {
-        "filename": "entra-changes-20250925-1900.json",
-        "commit_count": 2
-      },
-      {
-        "filename": "entra-changes-20250925-2300.json",
-        "commit_count": 2
-      },
-      {
-        "filename": "entra-changes-20250926-0702.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20250926-1900.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20250926-2100.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20250926-2300.json",
-        "commit_count": 2
-      },
-      {
-        "filename": "entra-changes-20250928-1300.json",
-        "commit_count": 1
-      }
-    ],
-    "generated_date": "2025-09-28T13:00:53Z"
-  }
+  ]
 }
