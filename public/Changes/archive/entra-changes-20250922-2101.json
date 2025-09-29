@@ -1,0 +1,122 @@
+[
+  {
+    "sha": "e325e315e8056be6462c234f1a936ee6f3760d24",
+    "url": "https://github.com/MicrosoftDocs/entra-docs/commit/e325e315e8056be6462c234f1a936ee6f3760d24",
+    "author": "Diana Richards",
+    "email": "v-dirichards@microsoft.com",
+    "date": "2025-09-22T21:00:54Z",
+    "message": "Merge pull request #1630 from rodiera/patch-1\n\nUpdate howto-authentication-temporary-access-pass.md",
+    "ai_summary": {
+      "Messages": "{\"role\":\"user\",\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"101060c466c35f5eb890dc7e8eb476f68c354256\\\",\\r\\n  \\\"filename\\\": \\\"docs/identity/authentication/howto-authentication-temporary-access-pass.md\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 2,\\r\\n  \\\"deletions\\\": 0,\\r\\n  \\\"changes\\\": 2,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/e325e315e8056be6462c234f1a936ee6f3760d24/docs%2Fidentity%2Fauthentication%2Fhowto-authentication-temporary-access-pass.md\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/e325e315e8056be6462c234f1a936ee6f3760d24/docs%2Fidentity%2Fauthentication%2Fhowto-authentication-temporary-access-pass.md\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fauthentication%2Fhowto-authentication-temporary-access-pass.md?ref=e325e315e8056be6462c234f1a936ee6f3760d24\\\",\\r\\n  \\\"patch\\\": \\\"@@ -148,6 +148,8 @@ For joined devices to Microsoft Entra ID:\\\\n - If the [Web sign-in](/windows/client-management/mdm/policy-csp-authentication#authentication-enablewebsignin) feature on Windows is also enabled, the user can use TAP to sign into the device. This is intended only for completing initial device setup, or recovery when the user doesn't know or have a password. \\\\n \\\\n For hybrid-joined devices, users must first authenticate with another method such as a password, smartcard or FIDO2 key, before using TAP to set up Windows Hello for Business. \\\\n+> [!NOTE]\\\\n+> For federated domains, the **FederatedIdpMfaBehavior** changes the behavior when MFA is required. If set to **enforceMfaByFederatedIdp** the user is redirected to the federated IDP and does not get the chance to use the TAP. However, if set to **acceptIfMfaDoneByFederatedIdp** then the user will see a TAP prompt in Entra ID during MFA for Windows Hello for Business provisioning.\\\\n \\\\n > [!NOTE]\\\\n > For federated domains where federatedIdpMfaBehavior is set to enforceMfaByFederatedIdp, users will not be prompted for TAP to satisfy multifactor authentication (MFA) to set up Windows Hello for Business. Instead, they are redirected to the federated Identity Provider (IdP) for multifactor authentication (MFA).\\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\"}",
+      "Response": "This commit updates documentation regarding temporary access passes (TAP) for Windows Hello for Business setup. It clarifies that for federated domains, the behaviour of TAP during multi-factor authentication (MFA) is influenced by the `FederatedIdpMfaBehavior` setting. Specifically, if `enforceMfaByFederatedIdp` is enabled, users will be redirected to the federated identity provider for MFA and won't be able to use a TAP. However, with `acceptIfMfaDoneByFederatedIdp`, a TAP prompt will appear in Microsoft Entra ID for MFA during Windows Hello for Business provisioning.",
+      "Model": "google:gemini-2.5-flash-lite",
+      "Provider": "google",
+      "ModelName": "gemini-2.5-flash-lite",
+      "Timestamp": "2025-09-22T21:01:39.2069996+00:00"
+    },
+    "files": [
+      {
+        "filename": "docs/identity/authentication/howto-authentication-temporary-access-pass.md",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "sha": "9e1aae6e9a7bc2728a5fdbdc797765f8ef00e88c",
+    "url": "https://github.com/MicrosoftDocs/entra-docs/commit/9e1aae6e9a7bc2728a5fdbdc797765f8ef00e88c",
+    "author": "Diana Richards",
+    "email": "v-dirichards@microsoft.com",
+    "date": "2025-09-22T20:55:18Z",
+    "message": "fixing capitalization",
+    "ai_summary": {
+      "Messages": "{\"role\":\"user\",\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"11ed62896c828483ebe47affb5002af87d3431fc\\\",\\r\\n  \\\"filename\\\": \\\"docs/identity/authentication/howto-authentication-temporary-access-pass.md\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 1,\\r\\n  \\\"deletions\\\": 1,\\r\\n  \\\"changes\\\": 2,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/9e1aae6e9a7bc2728a5fdbdc797765f8ef00e88c/docs%2Fidentity%2Fauthentication%2Fhowto-authentication-temporary-access-pass.md\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/9e1aae6e9a7bc2728a5fdbdc797765f8ef00e88c/docs%2Fidentity%2Fauthentication%2Fhowto-authentication-temporary-access-pass.md\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fauthentication%2Fhowto-authentication-temporary-access-pass.md?ref=9e1aae6e9a7bc2728a5fdbdc797765f8ef00e88c\\\",\\r\\n  \\\"patch\\\": \\\"@@ -149,7 +149,7 @@ For joined devices to Microsoft Entra ID:\\\\n \\\\n For hybrid-joined devices, users must first authenticate with another method such as a password, smartcard or FIDO2 key, before using TAP to set up Windows Hello for Business. \\\\n > [!NOTE]\\\\n-> For federated domains, the **FederatedIdpMfaBehavior** changes the behavior when MFA is required. If set to **enforceMfaByFederatedIdp** the user is redirected to the federated IDP and does not get the chance to use the TAP. However, if set to **acceptIfMfaDoneByFederatedIdp** then the user will see a TAP prompt in Entra ID during MFA for windows hello for business provisioning.\\\\n+> For federated domains, the **FederatedIdpMfaBehavior** changes the behavior when MFA is required. If set to **enforceMfaByFederatedIdp** the user is redirected to the federated IDP and does not get the chance to use the TAP. However, if set to **acceptIfMfaDoneByFederatedIdp** then the user will see a TAP prompt in Entra ID during MFA for Windows Hello for Business provisioning.\\\\n \\\\n :::image type=\\\\\\\"content\\\\\\\" border=\\\\\\\"true\\\\\\\" source=\\\\\\\"./media/how-to-authentication-temporary-access-pass/windows-10-tap.png\\\\\\\" alt-text=\\\\\\\"Screenshot of how to enter Temporary Access Pass when setting up Windows.\\\\\\\":::\\\\n \\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\"}",
+      "Response": "The provided commit modifies a documentation file concerning temporary access passes for authentication within Microsoft Entra ID. The change is a minor correction to the wording of a note regarding federated domains. Specifically, \"windows hello for business\" has been corrected to \"Windows Hello for Business\" for consistency.",
+      "Model": "google:gemini-2.5-flash-lite",
+      "Provider": "google",
+      "ModelName": "gemini-2.5-flash-lite",
+      "Timestamp": "2025-09-22T21:01:40.353762+00:00"
+    },
+    "files": [
+      {
+        "filename": "docs/identity/authentication/howto-authentication-temporary-access-pass.md",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "sha": "ff1bb492812874ec58ecdf460dd4eb7d02eef0bf",
+    "url": "https://github.com/MicrosoftDocs/entra-docs/commit/ff1bb492812874ec58ecdf460dd4eb7d02eef0bf",
+    "author": "Diana Richards",
+    "email": "v-dirichards@microsoft.com",
+    "date": "2025-09-22T20:15:26Z",
+    "message": "Merge pull request #1646 from cdesseno/update/ab-provisioning-info\n\nUpdate amazon-business-provisioning-tutorial",
+    "ai_summary": {
+      "Messages": "{\"role\":\"user\",\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"493527d461832081a70abf4be0bb1825f3be4ff7\\\",\\r\\n  \\\"filename\\\": \\\"docs/identity/saas-apps/amazon-business-provisioning-tutorial.md\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 1,\\r\\n  \\\"deletions\\\": 0,\\r\\n  \\\"changes\\\": 1,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/ff1bb492812874ec58ecdf460dd4eb7d02eef0bf/docs%2Fidentity%2Fsaas-apps%2Famazon-business-provisioning-tutorial.md\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/ff1bb492812874ec58ecdf460dd4eb7d02eef0bf/docs%2Fidentity%2Fsaas-apps%2Famazon-business-provisioning-tutorial.md\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fsaas-apps%2Famazon-business-provisioning-tutorial.md?ref=ff1bb492812874ec58ecdf460dd4eb7d02eef0bf\\\",\\r\\n  \\\"patch\\\": \\\"@@ -117,6 +117,7 @@ This section guides you through the steps to configure the Microsoft Entra provi\\\\n    |Japan|https://jp.business-api.amazon.com/scim/v2/|https://www.amazon.co.jp/b2b/abws/oauth?state=1&redirect_uri=https://portal.azure.com/TokenAuthorize&applicationId=amzn1.sp.solution.ee27ec8c-1ee9-4c6b-9e68-26bdc37479d3|\\\\n    |Mexico|https://na.business-api.amazon.com/scim/v2/|https://www.amazon.com.mx/b2b/abws/oauth?state=1&redirect_uri=https://portal.azure.com/TokenAuthorize&applicationId=amzn1.sp.solution.ee27ec8c-1ee9-4c6b-9e68-26bdc37479d3|\\\\n    |US|https://na.business-api.amazon.com/scim/v2/|https://www.amazon.com/b2b/abws/oauth?state=1&redirect_uri=https://portal.azure.com/TokenAuthorize&applicationId=amzn1.sp.solution.ee27ec8c-1ee9-4c6b-9e68-26bdc37479d3|\\\\n+   |Australia|https://jp.business-api.amazon.com/scim/v2/|https://www.amazon.com.au/b2b/abws/oauth?state=1&redirect_uri=https://portal.azure.com/TokenAuthorize&applicationId=amzn1.sp.solution.ee27ec8c-1ee9-4c6b-9e68-26bdc37479d3|\\\\n \\\\n 1. In the **Notification Email** field, enter the email address of a person or group who should receive the provisioning error notifications and select the **Send an email notification when a failure occurs** check box.\\\\n \\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\"}",
+      "Response": "A minor update has been made to the documentation for provisioning Amazon Business users via Microsoft Entra. The change adds a new row to a table, specifically for Australia, including its SCIM endpoint and OAuth authorisation URL. This expands the geographical support for the provisioning tutorial.",
+      "Model": "google:gemini-2.5-flash-lite",
+      "Provider": "google",
+      "ModelName": "gemini-2.5-flash-lite",
+      "Timestamp": "2025-09-22T21:01:41.3920764+00:00"
+    },
+    "files": [
+      {
+        "filename": "docs/identity/saas-apps/amazon-business-provisioning-tutorial.md",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "sha": "6c0bb4f60afb6d65341081a41d350eb61df8f1fe",
+    "url": "https://github.com/MicrosoftDocs/entra-docs/commit/6c0bb4f60afb6d65341081a41d350eb61df8f1fe",
+    "author": "Diana Richards",
+    "email": "v-dirichards@microsoft.com",
+    "date": "2025-09-22T20:14:26Z",
+    "message": "Merge pull request #1749 from mantis/mantis-patch-1\n\nUpdate device-join-macos-platform-single-sign-on-kerberos-configurati…",
+    "ai_summary": {
+      "Messages": "{\"role\":\"user\",\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"962b824e37bed1f3e2ff4c23fa04bae2baac61e6\\\",\\r\\n  \\\"filename\\\": \\\"docs/identity/devices/device-join-macos-platform-single-sign-on-kerberos-configuration.md\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 4,\\r\\n  \\\"deletions\\\": 0,\\r\\n  \\\"changes\\\": 4,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/6c0bb4f60afb6d65341081a41d350eb61df8f1fe/docs%2Fidentity%2Fdevices%2Fdevice-join-macos-platform-single-sign-on-kerberos-configuration.md\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/6c0bb4f60afb6d65341081a41d350eb61df8f1fe/docs%2Fidentity%2Fdevices%2Fdevice-join-macos-platform-single-sign-on-kerberos-configuration.md\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fdevices%2Fdevice-join-macos-platform-single-sign-on-kerberos-configuration.md?ref=6c0bb4f60afb6d65341081a41d350eb61df8f1fe\\\",\\r\\n  \\\"patch\\\": \\\"@@ -100,6 +100,8 @@ Use the following settings to configure the on-premises Active Directory profile\\\\n             <string>CONTOSO.COM</string>\\\\n             <key>PayloadDisplayName</key>\\\\n             <string>Single Sign-On Extensions Payload for On-Premises</string>\\\\n+            <key>PayloadIdentifier</key>\\\\n+            <string>com.apple.extensiblesso.1aaaaaa1-2bb2-3cc3-4dd4-5eeeeeeeeee5</string>\\\\n             <key>PayloadType</key>\\\\n             <string>com.apple.extensiblesso</string>\\\\n             <key>PayloadUUID</key>\\\\n@@ -179,6 +181,8 @@ Use the following settings to configure the Microsoft Entra ID Cloud Kerberos pr\\\\n             <string>KERBEROS.MICROSOFTONLINE.COM</string>\\\\n             <key>PayloadDisplayName</key>\\\\n             <string>Single Sign-On Extensions Payload for Microsoft Entra ID Cloud Kerberos</string>\\\\n+            <key>PayloadIdentifier</key>\\\\n+            <string>com.apple.extensiblesso.00aa00aa-bb11-cc22-dd33-44ee44ee44ee</string>\\\\n             <key>PayloadType</key>\\\\n             <string>com.apple.extensiblesso</string>\\\\n             <key>PayloadUUID</key>\\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\"}",
+      "Response": "The commit modifies two configuration profiles within the macOS device join documentation for single sign-on using Kerberos. It adds a `PayloadIdentifier` key to both the on-premises Active Directory and Microsoft Entra ID Cloud Kerberos profiles. This change likely aims to provide unique identifiers for these configuration payloads, which could be important for deployment and management consistency on macOS devices.",
+      "Model": "google:gemini-2.5-flash-lite",
+      "Provider": "google",
+      "ModelName": "gemini-2.5-flash-lite",
+      "Timestamp": "2025-09-22T21:01:42.2450768+00:00"
+    },
+    "files": [
+      {
+        "filename": "docs/identity/devices/device-join-macos-platform-single-sign-on-kerberos-configuration.md",
+        "status": "modified",
+        "additions": 4,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "sha": "5f3c312c61f90b4c67bc37f7345e8eb8cb5bda26",
+    "url": "https://github.com/MicrosoftDocs/entra-docs/commit/5f3c312c61f90b4c67bc37f7345e8eb8cb5bda26",
+    "author": "Diana Richards",
+    "email": "v-dirichards@microsoft.com",
+    "date": "2025-09-22T20:12:12Z",
+    "message": "Merge pull request #1766 from Sammak/patch-10\n\nRemove preview tag",
+    "ai_summary": {
+      "Messages": "{\"role\":\"user\",\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"7f8c4ff65c532886ef5159860eb68978b7ae1bff\\\",\\r\\n  \\\"filename\\\": \\\"docs/identity/conditional-access/agent-optimization-review-suggestions.md\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 1,\\r\\n  \\\"deletions\\\": 1,\\r\\n  \\\"changes\\\": 2,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/5f3c312c61f90b4c67bc37f7345e8eb8cb5bda26/docs%2Fidentity%2Fconditional-access%2Fagent-optimization-review-suggestions.md\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/5f3c312c61f90b4c67bc37f7345e8eb8cb5bda26/docs%2Fidentity%2Fconditional-access%2Fagent-optimization-review-suggestions.md\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fconditional-access%2Fagent-optimization-review-suggestions.md?ref=5f3c312c61f90b4c67bc37f7345e8eb8cb5bda26\\\",\\r\\n  \\\"patch\\\": \\\"@@ -86,7 +86,7 @@ If the agent suggests modifying an existing policy, select **Review policy chang\\\\n - Policy details are provided as both a list of all the details that are changing and a JSON view of the entire policy, with the changes highlighted.\\\\n - For policy changes that affect users or applications, you can download a JSON file of the users and applications affected by the policy change.\\\\n \\\\n-### Deep analysis (Preview)\\\\n+### Deep analysis\\\\n \\\\n Deep analysis performs an in-depth review of Conditional Access policies for scenarios such as blocking legacy authentication, blocking device control flow, and policies that require device or MFA controls. It evaluates the targeted users, groups, and roles to identify coverage gaps, overlapping or redundant policies, and consolidation opportunities. It also analyzes exclusions—flagging policies that exclude a large portion of users and recommending explicit exclusion of break‑glass accounts to reduce the risk of accidental lockout.\\\\n \\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\"}",
+      "Response": "This commit updates the documentation for Conditional Access agent optimization suggestions. The primary change is the removal of the \"(Preview)\" tag from the \"Deep analysis\" section, indicating that this feature is now generally available. The text also clarifies that deep analysis provides a JSON view of policy changes and allows for the download of affected users and applications.",
+      "Model": "google:gemini-2.5-flash-lite",
+      "Provider": "google",
+      "ModelName": "gemini-2.5-flash-lite",
+      "Timestamp": "2025-09-22T21:01:43.7582358+00:00"
+    },
+    "files": [
+      {
+        "filename": "docs/identity/conditional-access/agent-optimization-review-suggestions.md",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      }
+    ]
+  }
+]
