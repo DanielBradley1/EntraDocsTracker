@@ -1,6 +1,30 @@
 {
   "changes": [
     {
+      "sha": "5f9c97bd7dcbbc40c5b78b2d391abd408c64a383",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/5f9c97bd7dcbbc40c5b78b2d391abd408c64a383",
+      "author": "Diana Richards",
+      "email": "v-dirichards@microsoft.com",
+      "date": "2025-09-30T20:06:49Z",
+      "message": "Merge pull request #1531 from gbtec-nelsonkapoor/patch-1\n\nremove 'roles' attribute mapping in BIC Cloud Design provisioning guide",
+      "ai_summary": {
+        "Messages": "{\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"d0c4e2e11983cfc53a2b2218e3b4573775405f95\\\",\\r\\n  \\\"filename\\\": \\\"docs/identity/saas-apps/bic-cloud-design-provisioning-tutorial.md\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 5,\\r\\n  \\\"deletions\\\": 6,\\r\\n  \\\"changes\\\": 11,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/5f9c97bd7dcbbc40c5b78b2d391abd408c64a383/docs%2Fidentity%2Fsaas-apps%2Fbic-cloud-design-provisioning-tutorial.md\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/5f9c97bd7dcbbc40c5b78b2d391abd408c64a383/docs%2Fidentity%2Fsaas-apps%2Fbic-cloud-design-provisioning-tutorial.md\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fsaas-apps%2Fbic-cloud-design-provisioning-tutorial.md?ref=5f9c97bd7dcbbc40c5b78b2d391abd408c64a383\\\",\\r\\n  \\\"patch\\\": \\\"@@ -100,12 +100,11 @@ This section guides you through the steps to configure the Microsoft Entra provi\\\\n \\\\n    |Attribute|Type|Supported for filtering|Required by BIC Cloud Design|\\\\n    |---|---|---|---|\\\\n-    |userName|String|&check;|&check;|\\\\n-    |emails[type eq \\\\\\\"work\\\\\\\"].value|String|&check;|&check;|\\\\n-    |active|Boolean||&check;|\\\\n-    |roles[primary eq \\\\\\\"True\\\\\\\"].value|String||&check;|\\\\n-    |displayName|String||&check;|\\\\n-    |urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:organization|String||&check;|\\\\n+    |userName|String|&check;|&check;\\\\n+    |emails[type eq \\\\\\\"work\\\\\\\"].value|String|&check;|&check;\\\\n+    |active|Boolean||&check;\\\\n+    |displayName|String||&check;\\\\n+    |urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:organization|String||&check;\\\\n \\\\n 1. Under the **Mappings** section, select **Synchronize Microsoft Entra groups to BIC Cloud Design**.\\\\n \\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\",\"role\":\"user\"}",
+        "Response": "Here's a summary of the changes:\n\nThe modification updates the attribute mapping table within the BIC Cloud Design provisioning tutorial documentation. Specifically, the `roles[primary eq \"True\"].value` attribute has been removed from the list of required attributes for BIC Cloud Design.",
+        "Model": "google:gemini-2.5-flash-lite",
+        "Provider": "google",
+        "ModelName": "gemini-2.5-flash-lite",
+        "Timestamp": "2025-09-30T21:00:41.5315076+00:00"
+      },
+      "files": [
+        {
+          "filename": "docs/identity/saas-apps/bic-cloud-design-provisioning-tutorial.md",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 6
+        }
+      ]
+    },
+    {
       "sha": "cf89b3f8d00b59d3622d5613322c8442f59a8a1d",
       "url": "https://github.com/MicrosoftDocs/entra-docs/commit/cf89b3f8d00b59d3622d5613322c8442f59a8a1d",
       "author": "learn-build-service-prod[bot]",
@@ -1328,73 +1352,77 @@
     }
   ],
   "metadata": {
-    "generated_date": "2025-09-30T19:01:35Z",
-    "total_commits": 27,
     "source_files": [
       {
-        "filename": "entra-changes-20250923-2301.json",
-        "commit_count": 2
+        "commit_count": 2,
+        "filename": "entra-changes-20250923-2301.json"
       },
       {
-        "filename": "entra-changes-20250924-0700.json",
-        "commit_count": 1
+        "commit_count": 1,
+        "filename": "entra-changes-20250924-0700.json"
       },
       {
-        "filename": "entra-changes-20250924-1901.json",
-        "commit_count": 1
+        "commit_count": 1,
+        "filename": "entra-changes-20250924-1901.json"
       },
       {
-        "filename": "entra-changes-20250924-2301.json",
-        "commit_count": 6
+        "commit_count": 6,
+        "filename": "entra-changes-20250924-2301.json"
       },
       {
-        "filename": "entra-changes-20250925-1900.json",
-        "commit_count": 2
+        "commit_count": 2,
+        "filename": "entra-changes-20250925-1900.json"
       },
       {
-        "filename": "entra-changes-20250925-2300.json",
-        "commit_count": 2
+        "commit_count": 2,
+        "filename": "entra-changes-20250925-2300.json"
       },
       {
-        "filename": "entra-changes-20250926-0702.json",
-        "commit_count": 1
+        "commit_count": 1,
+        "filename": "entra-changes-20250926-0702.json"
       },
       {
-        "filename": "entra-changes-20250926-1900.json",
-        "commit_count": 1
+        "commit_count": 1,
+        "filename": "entra-changes-20250926-1900.json"
       },
       {
-        "filename": "entra-changes-20250926-2100.json",
-        "commit_count": 1
+        "commit_count": 1,
+        "filename": "entra-changes-20250926-2100.json"
       },
       {
-        "filename": "entra-changes-20250926-2300.json",
-        "commit_count": 2
+        "commit_count": 2,
+        "filename": "entra-changes-20250926-2300.json"
       },
       {
-        "filename": "entra-changes-20250928-1300.json",
-        "commit_count": 1
+        "commit_count": 1,
+        "filename": "entra-changes-20250928-1300.json"
       },
       {
-        "filename": "entra-changes-20250928-1901.json",
-        "commit_count": 1
+        "commit_count": 1,
+        "filename": "entra-changes-20250928-1901.json"
       },
       {
-        "filename": "entra-changes-20250929-1901.json",
-        "commit_count": 1
+        "commit_count": 1,
+        "filename": "entra-changes-20250929-1901.json"
       },
       {
-        "filename": "entra-changes-20250929-2300.json",
-        "commit_count": 2
+        "commit_count": 2,
+        "filename": "entra-changes-20250929-2300.json"
       },
       {
-        "filename": "entra-changes-20250930-0700.json",
-        "commit_count": 1
+        "commit_count": 1,
+        "filename": "entra-changes-20250930-0700.json"
       },
       {
-        "filename": "entra-changes-20250930-1901.json",
-        "commit_count": 2
+        "commit_count": 2,
+        "filename": "entra-changes-20250930-1901.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20250930-2100.json"
       }
-    ]
+    ],
+    "generated_date": "2025-09-30T21:00:43Z",
+    "total_commits": 28
   }
 }
