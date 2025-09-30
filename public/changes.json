@@ -1,5 +1,99 @@
 {
+  "metadata": {
+    "source_files": [
+      {
+        "filename": "entra-changes-20250923-1901.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250923-2301.json",
+        "commit_count": 2
+      },
+      {
+        "filename": "entra-changes-20250924-0700.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250924-1901.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250924-2301.json",
+        "commit_count": 6
+      },
+      {
+        "filename": "entra-changes-20250925-1900.json",
+        "commit_count": 2
+      },
+      {
+        "filename": "entra-changes-20250925-2300.json",
+        "commit_count": 2
+      },
+      {
+        "filename": "entra-changes-20250926-0702.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250926-1900.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250926-2100.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250926-2300.json",
+        "commit_count": 2
+      },
+      {
+        "filename": "entra-changes-20250928-1300.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250928-1901.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250929-1901.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20250929-2300.json",
+        "commit_count": 2
+      },
+      {
+        "filename": "entra-changes-20250930-0700.json",
+        "commit_count": 1
+      }
+    ],
+    "generated_date": "2025-09-30T07:01:08Z",
+    "total_commits": 26
+  },
   "changes": [
+    {
+      "sha": "72e1d868f66445905e95b6d9162ab1474dc50e85",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/72e1d868f66445905e95b6d9162ab1474dc50e85",
+      "author": "learn-build-service-prod[bot]",
+      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+      "date": "2025-09-30T05:12:23Z",
+      "message": "Merge pull request #9846 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-09-30 05:06 UTC",
+      "ai_summary": {
+        "Messages": "{\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"418c6d9df46ec959be00ce39b006ce8f7c3b276b\\\",\\r\\n  \\\"filename\\\": \\\"docs/global-secure-access/how-to-export-connector-logs.md\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 51,\\r\\n  \\\"deletions\\\": 30,\\r\\n  \\\"changes\\\": 81,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/72e1d868f66445905e95b6d9162ab1474dc50e85/docs%2Fglobal-secure-access%2Fhow-to-export-connector-logs.md\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/72e1d868f66445905e95b6d9162ab1474dc50e85/docs%2Fglobal-secure-access%2Fhow-to-export-connector-logs.md\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fglobal-secure-access%2Fhow-to-export-connector-logs.md?ref=72e1d868f66445905e95b6d9162ab1474dc50e85\\\",\\r\\n  \\\"patch\\\": \\\"@@ -106,13 +106,21 @@ To enable verbose logging:\\\\n     1. Download the Azure Arc agent setup script from the Azure portal.\\\\n     1. Search for **Windows PowerShell ISE** in the search box on the Task bar. Right click on the application, then click **Run as administrator**.  \\\\n     From PowerShell, open the downloaded file labeled `OnboardingScript.ps1`. \\\\n-    1. Run the script. \\\\n+    1. Run the script. You can bypass the execution policy if needed by running: powershell -ExecutionPolicy Bypass - File \\\\\\\"FilePath\\\\\\\" \\\\n     1. Log in on the pop-up window to authenticate using the Azure account credentials. The screen returns a message that reads:\\\\n     `Authentication complete. You can return to the application. Feel free to close this browser tab.`\\\\n- \\\\n+\\\\n+### Set up data collection endpoint (DCE)\\\\n+1. Go to the [Azure portal](https://portal.azure.com/).\\\\n+2. In the search bar, search for **Data Collection Endpoint**.\\\\n+3. Click **Create**.\\\\n+4. Provide a name and region for the DCE.\\\\n+5. Click **Review + create** and then **Create**.\\\\n+    \\\\n ### Set up Log Analytics workspace\\\\n 1. Go to the [Azure portal](https://portal.azure.com/).\\\\n-2. Create a Log Analytics workspace: \\\\n+2. Create a Data Collection Endpoint \\\\n+3. Create a Log Analytics workspace: \\\\n     1. In the search bar, type **Log Analytics** and select **Log Analytics workspaces**.\\\\n     1. Click **Create**.\\\\n     1. Fill in the necessary details:\\\\n@@ -121,60 +129,72 @@ To enable verbose logging:\\\\n        - **Name**: Provide a unique name for the Log Analytics workspace.\\\\n        - **Region**: Choose the region closest to your on-premises machine.\\\\n     1. Click **Review + create**, then **Create**.\\\\n-3. Create a table under the new workspace. \\\\n+4. Create a table under the new workspace. \\\\n \\\\t1. Select the workspace name you created. \\\\n \\\\t1. Navigate to **Workspace** > ** **Settings** > **Tables**. \\\\n-\\\\t1. Click **Create** > **New Custom Log (MMA-based)**.\\\\n-\\\\t1. Select log file from the virtual machine (VM) location (`C:\\\\\\\\logs\\\\\\\\connector_logs.log`).\\\\n-\\\\t1. Set delimiter as **New Line**.\\\\n-\\\\t1. Add Collection Path Type – windows & Path as `C:\\\\\\\\logs\\\\\\\\connector_logs.log`. \\\\n-\\\\t1. Click **Create**.\\\\n+\\\\t1. Click **+ Create** > **New Custom Log (Direct Ingest)**.\\\\n+\\\\t1. Fill in the necessary details:\\\\n+       - **Table Name**: Provide a Table Name.\\\\n+       - **Description**: Provide an optional description for your table.\\\\n+       - **Table Plan**: Choose Appropriate Table Plan.\\\\n+       - **Data Collection rule**: If you don't have the existing DCR, click on Create a new data collection rule.\\\\n+           - **Subscription**: Select your subscription.\\\\n+           - **Resource Group**: Select an existing resource group or create a new one.\\\\n+           - **Region**: Choose the region.\\\\n+           - **Name**: Provide a unique name for the DCR.\\\\n+       -  **Data Collection endpoint**: Choose the data collection endpoint created above.\\\\n+       -  **Schema and transformation**: Upload a sample log file in json format. Look at the logs file on the virtual machine and convert it into a sample json.\\\\n+           e.g., create a sample.json with below content and upload.\\\\n+       -  **Create**: Review and Create the Table\\\\n+```json\\\\n \\\\n-### Set up data collection endpoint (DCE)\\\\n-1. Go to the [Azure portal](https://portal.azure.com/).\\\\n-2. In the search bar, search for **Data Collection Endpoint**.\\\\n-3. Click **Create**.\\\\n-4. Provide a name and region for the DCE.\\\\n-5. Click **Review + create** and then **Create**.\\\\n+\\\\t\\\\t\\\\t[\\\\n+\\\\t\\\\t\\\\t\\\\t{\\\\n+\\\\t\\\\t\\\\t\\\\t\\\\t\\\\\\\"RawData\\\\\\\": \\\\\\\"MicrosoftEntraPrivateNetworkConnectorService.exe Information: 0 : Main was called\\\\\\\"\\\\n+\\\\t\\\\t\\\\t\\\\t},\\\\n+\\\\t\\\\t\\\\t\\\\t{\\\\n+\\\\t\\\\t\\\\t\\\\t\\\\t\\\\\\\"RawData\\\\\\\": \\\\\\\"MicrosoftEntraPrivateNetworkConnectorService.exe Warning: 0 : TraceMaxMessages must be an integer value and minimum of '50000'\\\\\\\"\\\\n+\\\\t\\\\t\\\\t\\\\t},\\\\n+\\\\t\\\\t\\\\t\\\\t{\\\\n+\\\\t\\\\t\\\\t\\\\t\\\\t\\\\\\\"RawData\\\\\\\": \\\\\\\"MicrosoftEntraPrivateNetworkConnectorService.exe Information: 0 : Tracing to text file: 'Error'\\\\\\\"\\\\n+\\\\t\\\\t\\\\t\\\\t}\\\\n+\\\\t\\\\t\\\\t] \\\\n \\\\n+```\\\\n+    \\\\n ### Set up data collection rule (DCR)\\\\n 1. Go to the [Azure portal](https://portal.azure.com/).\\\\n 2. In the search bar, search for **Data Collection Rule**.\\\\n-3. Click **Create**.\\\\n-4. Fill in the necessary details:\\\\n-    - **Subscription**: Select your subscription.\\\\n-    - **Resource Group**: Select the same resource group as your Log Analytics workspace.\\\\n-    - **Name**: Provide a name for the DCR.\\\\n-    - **Region**: Choose the same region as your Log Analytics workspace.\\\\n-    - **Platform**: Windows.\\\\n-    - **Data collection Endpoint**: Select data collection endpoint you created in previous step.\\\\n-5. Click Next: Resources\\\\n+3. Select the DCR you created as part of the table creation. \\\\n+4. Go to Settings: Resources\\\\n \\\\t1. Click **Add resources**.\\\\n \\\\t1. Open your subscription.\\\\n \\\\t1. Select your resource group from the list.\\\\n \\\\t1. Click apply. You should see your VM name list in the resources.\\\\n-6. Click Next: Collect and deliver\\\\n+5. Go to Settings: Data sources\\\\n \\\\t1. Click **Add data source**.\\\\n \\\\t1. For the Data source type, select **Custom Text logs**.\\\\n \\\\t1. Specify the paths to the logs on your on-premises Windows machine (for example, C:\\\\\\\\logs\\\\\\\\ connector_logs.log).\\\\n \\\\t1. Enter the table name you created under log analytics workspace. \\\\n \\\\t  To get the table name, open a new tab and navigate to the Azure portal and search for **Log Analytics Workspaces**. Select the table you created. Click on **setting** and open the \\\\n       tables. Find the name of the **custom table (classic)**. \\\\n-\\\\t1. Click **Add**, then **Next: Destination**.\\\\n+\\\\t1. Select **Record delimiter**: End-of-line\\\\n+\\\\t1. In **Transform**: add \\\\\\\"source | extend RawData = RawData\\\\\\\"\\\\n+    1. Click **Save**, then **Next: Destination**.\\\\n 7. Configure Destination:\\\\n \\\\t1. Destination **Type-> Azure Monitor Logs**.\\\\n \\\\t1. Select your subscription.\\\\n \\\\t1. Select your Log Analytics workspace as the destination.\\\\n-\\\\t1. Ensure your Data Collection Endpoint is selected.\\\\n-\\\\t1. Click **Next: Review + create** and then **Create**.\\\\n+\\\\t1. Click **Save**.\\\\n+\\\\n \\\\n ### Verify data collection\\\\n - Check Data in Log Analytics:\\\\n \\\\n    After you've installed and configured the agent, it may take some time for data to start appearing.\\\\n \\\\n \\\\t1. In the Azure portal, go to your Log Analytics workspace > Select your Workspace.\\\\n-\\\\t1. Navigate to **Logs**, click exit on the pop-up hub > **Custom Logs** > Double Click on your log name. This adds the log name into the query. \\\\n+\\\\t1. Navigate to **Logs**, click exit on the pop-up hub > Choose **KQL mode** > Type Query (Table Name | take 10). \\\\n \\\\t1. Select **Run**. You see your logs.\\\\n     This setup allows you to collect text logs from on-premises Windows machines and send them to Azure Log Analytics using Azure Arc. The data collection rule ensures the logs are\\\\n     collected as per the defined paths, and the agent sends them to your Log Analytics workspace.\\\\n@@ -236,7 +256,8 @@ The external user receives an email invitation to join your Microsoft Entra ID p\\\\n \\\\n By following these steps, you can securely open your Azure Log Analytics workspace to a user outside of your tenant, allowing them to access and query logs as needed.\\\\n \\\\n-## Next steps\\\\n+## Useful Links\\\\n \\\\n - [Understand the Microsoft Entra private network connector](concept-connectors.md)\\\\n - [Learn about Microsoft Entra Private Access](concept-private-access.md)\\\\n+\\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\",\"role\":\"user\"}",
+        "Response": "This commit updates the documentation for exporting Global Secure Access connector logs.\n\nKey changes include:\n\n*   **Refined instructions for setting up data collection:** The process for creating a custom log table has been updated to use the \"New Custom Log (Direct Ingest)\" method, which requires uploading a sample JSON log file.\n*   **Clarified Data Collection Rule (DCR) setup:** The steps now guide users to select an existing DCR created during table creation, rather than creating a new one.\n*   **Updated verification steps:** The instructions for checking data in Log Analytics have been revised to use Kusto Query Language (KQL) and specify a sample query.\n*   **Renamed \"Next steps\" to \"Useful Links\":** This change aims to provide a clearer indication of the section's content.",
+        "Model": "google:gemini-2.5-flash-lite",
+        "Provider": "google",
+        "ModelName": "gemini-2.5-flash-lite",
+        "Timestamp": "2025-09-30T07:01:01.9716311+00:00"
+      },
+      "files": [
+        {
+          "filename": "docs/global-secure-access/how-to-export-connector-logs.md",
+          "status": "modified",
+          "additions": 51,
+          "deletions": 30
+        }
+      ]
+    },
     {
       "sha": "719c5189fd83760762bf44b14833021ef7c66e07",
       "url": "https://github.com/MicrosoftDocs/entra-docs/commit/719c5189fd83760762bf44b14833021ef7c66e07",
@@ -1265,106 +1359,6 @@
           "deletions": 0
         }
       ]
-    },
-    {
-      "sha": "6e5257f969ba6c97978a898200fe9e584144a450",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/6e5257f969ba6c97978a898200fe9e584144a450",
-      "author": "learn-build-service-prod[bot]",
-      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
-      "date": "2025-09-23T05:03:13Z",
-      "message": "Merge pull request #9767 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-09-23 05:00 UTC",
-      "ai_summary": {
-        "Messages": "{\"role\":\"user\",\"content\":\"The following is the commit files that have changed: [\\r\\n  {\\r\\n    \\\"sha\\\": \\\"0753b3aa8c082a8b683ef587f46ac8a490634a7b\\\",\\r\\n    \\\"filename\\\": \\\"docs/id-governance/microsoft-entra-id-governance-licensing-for-guest-users.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 3,\\r\\n    \\\"deletions\\\": 3,\\r\\n    \\\"changes\\\": 6,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/6e5257f969ba6c97978a898200fe9e584144a450/docs%2Fid-governance%2Fmicrosoft-entra-id-governance-licensing-for-guest-users.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/6e5257f969ba6c97978a898200fe9e584144a450/docs%2Fid-governance%2Fmicrosoft-entra-id-governance-licensing-for-guest-users.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fid-governance%2Fmicrosoft-entra-id-governance-licensing-for-guest-users.md?ref=6e5257f969ba6c97978a898200fe9e584144a450\\\",\\r\\n    \\\"patch\\\": \\\"@@ -6,7 +6,7 @@ manager: dougeby\\\\n ms.service: entra-id-governance\\\\n ms.subservice: entitlement-management\\\\n ms.topic: reference\\\\n-ms.date: 07/25/2025\\\\n+ms.date: 09/22/2025\\\\n ms.author: owinfrey\\\\n ms.reviewer: jercon\\\\n ---\\\\n@@ -48,8 +48,8 @@ The following table contains a list of currently billable actions for **guest us\\\\n | Entitlement Management  | [Directly assign any user](entitlement-management-access-package-assignments.md#directly-assign-any-user-preview)  | Bill on successful request creation when using directly assigning an access package to a user not yet in the directory.<br><br>**API**<br> https://graph.microsoft.com/v1.0/identityGovernance/entitlementManagement/assignmentRequests when using requestType \\\\\\\"*AdminAdd*\\\\\\\" for a user who doesn’t exist in the directory.  | Entitlement Management invites external user.  |\\\\n | Entitlement Management |[Mark guest as governed](entitlement-management-access-package-manage-lifecycle.md)  | Bill on conversion to governed user.<br><br>**API**<br> https://graph.microsoft.com/beta/identityGovernance/entitlementManagement/subjects where *\\\\\\\"subjectLifecycle\\\\\\\"* is set to \\\\\\\"governed\\\\\\\".  | Update access package user lifecycle. |\\\\n | Lifecycle Workflows   | [Workflow is run for guest](what-are-lifecycle-workflows.md) | Bill on workflow execution.<br>**API**<br> https://graph.microsoft.com/v1.0/identityGovernance/lifecycleWorkflows/workflows/{workflowId}/activate  | Workflow execution started for user.  |\\\\n-| Access Reviews   | [Access Review – machine learning assisted access reviews](review-recommendations-access-reviews.md#user-to-group-affiliation) | Bill when guest user is included in review. <br><br>**API**<br> https://graph.microsoft.com/v1.0/identityGovernance/accessReviews/definitions where recommendation settings is enabled in a group review. | Available after 8/1/2025  |\\\\n-| Access Reviews    | [Access Review – inactive users](review-recommendations-access-reviews.md#inactive-user-recommendations) | Bill when guest user is included in review.<br><br>**API**<br> https://graph.microsoft.com/v1.0/identityGovernance/accessReviews/definitions where inactive guest reviews are included in the policy for a group resource.  | Available after 8/1/2025  |\\\\n+| Access Reviews   | [Access Review – machine learning assisted access reviews](review-recommendations-access-reviews.md#user-to-group-affiliation) | Bill when guest user is included in review. <br><br>**API**<br> https://graph.microsoft.com/v1.0/identityGovernance/accessReviews/definitions where recommendation settings is enabled in a group review. | Decision item summary.  |\\\\n+| Access Reviews    | [Access Review – inactive users](review-recommendations-access-reviews.md#inactive-user-recommendations) | Bill when guest user is included in review.<br><br>**API**<br> https://graph.microsoft.com/v1.0/identityGovernance/accessReviews/definitions where inactive guest reviews are included in the policy for a group resource.  | Decision item summary.  |\\\\n \\\\n \\\\n ## Guest billing in multitenant organizations\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"a0df7a897a091253b0e5b3579fb5054f64d6576b\\\",\\r\\n    \\\"filename\\\": \\\"docs/identity/devices/troubleshoot-macos-platform-single-sign-on-extension.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 5,\\r\\n    \\\"deletions\\\": 4,\\r\\n    \\\"changes\\\": 9,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/6e5257f969ba6c97978a898200fe9e584144a450/docs%2Fidentity%2Fdevices%2Ftroubleshoot-macos-platform-single-sign-on-extension.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/6e5257f969ba6c97978a898200fe9e584144a450/docs%2Fidentity%2Fdevices%2Ftroubleshoot-macos-platform-single-sign-on-extension.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fdevices%2Ftroubleshoot-macos-platform-single-sign-on-extension.md?ref=6e5257f969ba6c97978a898200fe9e584144a450\\\",\\r\\n    \\\"patch\\\": \\\"@@ -69,6 +69,11 @@ If the Enterprise SSO plug-in fails to activate after system updates are applied\\\\n     sudo swcutil reset\\\\n     ```\\\\n ### TLS Inspection URLs to be excluded for Platform SSO\\\\n+\\\\n+#### 1. URLs that need to be allowed for PSSO registration flows\\\\n+Please ensure that traffic to the URLs listed [here](./plan-device-deployment.md#network-requirements-for-device-registration-with-microsoft-entra) is allowed by default and explicitly exempted from TLS interception or inspection. This is critical for registration and device auth flows that rely on TLS challenges to complete successfully.\\\\n+\\\\n+#### 2. URLs that need to be exempted for PSSO token acquisition and token refresh flows\\\\n Please ensure below URLs are exempted from TLS interception/inspection so that Platform SSO token acquisition and refresh can be successfully performed on Platform SSO targeted devices:\\\\n \\\\n - app-site-association.cdn-apple.com\\\\n@@ -87,10 +92,6 @@ Apple's app-site-association domains are critical for SSO extension functioning.\\\\n > [!NOTE] \\\\n > Platform SSO is not compatible with the Microsoft Entra ID Tenant Restrictions v2 feature when Tenant Restrictions is deployed using a corporate proxy. Alternate option is listed in [TRv2 Known limitation](/entra/external-id/tenant-restrictions-v2#known-limitation)\\\\n \\\\n-#### URLs that need to be allowed for PSSO registration flows\\\\n-\\\\n-Please ensure that traffic to the URLs listed [here](./plan-device-deployment.md#network-requirements-for-device-registration-with-microsoft-entra) is allowed by default and explicitly exempted from TLS interception or inspection. This is critical for registration flows that rely on TLS challenges to complete successfully.\\\\n-\\\\n > [!IMPORTANT]\\\\n > **Note: There has been a recent update to the TLS endpoint used in registration flows. Please verify that your environment’s allowlist reflects the latest URL requirements to avoid disruptions.**\\\\n \\\"\\r\\n  }\\r\\n]. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\"}",
-        "Response": "This commit updates the documentation for Microsoft Entra ID Governance licensing for guest users, clarifying the billing for Access Reviews and modifying the `ms.date` field. It also enhances the troubleshooting guide for macOS Platform Single Sign-On extension by reorganising and adding information about TLS inspection exclusions for registration and token acquisition flows.",
-        "Model": "google:gemini-2.5-flash-lite",
-        "Provider": "google",
-        "ModelName": "gemini-2.5-flash-lite",
-        "Timestamp": "2025-09-23T07:01:09.5502293+00:00"
-      },
-      "files": [
-        {
-          "filename": "docs/id-governance/microsoft-entra-id-governance-licensing-for-guest-users.md",
-          "status": "modified",
-          "additions": 3,
-          "deletions": 3
-        },
-        {
-          "filename": "docs/identity/devices/troubleshoot-macos-platform-single-sign-on-extension.md",
-          "status": "modified",
-          "additions": 5,
-          "deletions": 4
-        }
-      ]
     }
-  ],
-  "metadata": {
-    "generated_date": "2025-09-29T23:01:09Z",
-    "total_commits": 26,
-    "source_files": [
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20250923-0701.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20250923-1901.json"
-      },
-      {
-        "commit_count": 2,
-        "filename": "entra-changes-20250923-2301.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20250924-0700.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20250924-1901.json"
-      },
-      {
-        "commit_count": 6,
-        "filename": "entra-changes-20250924-2301.json"
-      },
-      {
-        "commit_count": 2,
-        "filename": "entra-changes-20250925-1900.json"
-      },
-      {
-        "commit_count": 2,
-        "filename": "entra-changes-20250925-2300.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20250926-0702.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20250926-1900.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20250926-2100.json"
-      },
-      {
-        "commit_count": 2,
-        "filename": "entra-changes-20250926-2300.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20250928-1300.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20250928-1901.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20250929-1901.json"
-      },
-      {
-        "commit_count": 2,
-        "filename": "entra-changes-20250929-2300.json"
-      }
-    ]
-  }
+  ]
 }
