@@ -1,0 +1,30 @@
+{
+  "sha": "256f2fed65027c09b7fc2c5087820f5fa38e7f51",
+  "url": "https://github.com/MicrosoftDocs/entra-docs/commit/256f2fed65027c09b7fc2c5087820f5fa38e7f51",
+  "author": "learn-build-service-prod[bot]",
+  "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+  "date": "2025-09-24T05:03:29Z",
+  "message": "Merge pull request #9784 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-09-24 05:00 UTC",
+  "ai_summary": {
+    "Messages": "{\"content\":\"The following is the commit files that have changed: [\\r\\n  {\\r\\n    \\\"sha\\\": \\\"40efebe3693a572f369a26f4534463602a2e8d45\\\",\\r\\n    \\\"filename\\\": \\\"docs/external-id/tenant-restrictions-v2.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 3,\\r\\n    \\\"deletions\\\": 1,\\r\\n    \\\"changes\\\": 4,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/256f2fed65027c09b7fc2c5087820f5fa38e7f51/docs%2Fexternal-id%2Ftenant-restrictions-v2.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/256f2fed65027c09b7fc2c5087820f5fa38e7f51/docs%2Fexternal-id%2Ftenant-restrictions-v2.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fexternal-id%2Ftenant-restrictions-v2.md?ref=256f2fed65027c09b7fc2c5087820f5fa38e7f51\\\",\\r\\n    \\\"patch\\\": \\\"@@ -679,7 +679,9 @@ Use Microsoft Graph to get policy information.\\\\n \\\\n ## Known limitations\\\\n \\\\n-- Tenant restrictions v2 is supported on all clouds. However, tenant restrictions v2 is not enforced with cross-cloud requests.\\\\n+- Tenant restrictions v2 is supported on all clouds.\\\\n+\\\\n+- TRv2 does not enforce restrictions on cross-cloud requests at the authentication plane, so access is permitted during authentication. However, TRv2 does block cross-cloud requests at the data plane. As a result, when using Windows Group Policy (GPO), users will be unable to access TRv2-enlightened resources across cloud boundaries.\\\\n \\\\n - Tenant restrictions v2 doesn't work with the [macOS Platform SSO](~/identity/devices/troubleshoot-macos-platform-single-sign-on-extension.md) feature with client signaling via corporate proxy. Customers who use tenant restrictions v2 and Platform SSO should use universal tenant restrictions v2 with Global Secure Access client signaling. This is an Apple limitation in which Platform SSO is not compatible with tenant restrictions when an intermediary network solution injects headers. An example of such a solution is a proxy that uses a certificate trust chain outside Apple system root certificates.\\\\n \\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"c9245919902c3f2e82c457715e40aafd810f5991\\\",\\r\\n    \\\"filename\\\": \\\"docs/identity/authentication/concept-mandatory-multifactor-authentication.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 1,\\r\\n    \\\"deletions\\\": 3,\\r\\n    \\\"changes\\\": 4,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/256f2fed65027c09b7fc2c5087820f5fa38e7f51/docs%2Fidentity%2Fauthentication%2Fconcept-mandatory-multifactor-authentication.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/256f2fed65027c09b7fc2c5087820f5fa38e7f51/docs%2Fidentity%2Fauthentication%2Fconcept-mandatory-multifactor-authentication.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fauthentication%2Fconcept-mandatory-multifactor-authentication.md?ref=256f2fed65027c09b7fc2c5087820f5fa38e7f51\\\",\\r\\n    \\\"patch\\\": \\\"@@ -4,7 +4,7 @@ description: Plan for mandatory multifactor authentication for users who sign in\\\\n ms.service: entra-id\\\\n ms.subservice: authentication\\\\n ms.topic: article\\\\n-ms.date: 09/17/2025\\\\n+ms.date: 09/23/2025\\\\n ms.author: justinha\\\\n author: justinha\\\\n manager: dougeby\\\\n@@ -210,8 +210,6 @@ For each tenant where they want to postpone the start date of enforcement, a Glo\\\\n >\\\\n >By postponing the start date of enforcement, you take extra risk because accounts that access Microsoft services like the Azure portal are highly valuable targets for threat actors. We recommend all tenants set up MFA now to secure cloud resources.\\\\n \\\\n-Customers need to contact customer support to request postponement of Phase 1 MFA enforcement past September 30, 2025.\\\\n-\\\\n ## Request more time to prepare for Phase 2 MFA enforcement \\\\n \\\\n Microsoft allows customers with complex environments or technical barriers to postpone the enforcement of Phase 2 for their tenants until July 1st, 2026. You can request more time to prepare for Phase 2 MFA enforcement at [https://aka.ms/postponePhase2MFA](https://aka.ms/postponePhase2MFA). Choose another start date, and click **Apply**. \\\"\\r\\n  }\\r\\n]. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\",\"role\":\"user\"}",
+    "Response": "This commit updates two documentation files. Firstly, it clarifies known limitations for \"Tenant Restrictions v2\", specifically addressing how cross-cloud requests are handled at the authentication and data planes. Secondly, it adjusts the `ms.date` metadata for the \"Mandatory multifactor authentication\" article and removes a note about contacting customer support to postpone Phase 1 enforcement, while retaining information about postponing Phase 2.",
+    "Model": "google:gemini-2.5-flash-lite",
+    "Provider": "google",
+    "ModelName": "gemini-2.5-flash-lite",
+    "Timestamp": "2025-09-24T07:00:41.4105808+00:00"
+  },
+  "files": [
+    {
+      "filename": "docs/external-id/tenant-restrictions-v2.md",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "filename": "docs/identity/authentication/concept-mandatory-multifactor-authentication.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 3
+    }
+  ]
+}
