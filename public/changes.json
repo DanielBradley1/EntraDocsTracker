@@ -1,5 +1,127 @@
 {
+  "metadata": {
+    "generated_date": "2025-10-03T19:00:55Z",
+    "total_commits": 31,
+    "source_files": [
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20250926-2100.json"
+      },
+      {
+        "commit_count": 2,
+        "filename": "entra-changes-20250926-2300.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20250928-1300.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20250928-1901.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20250929-1901.json"
+      },
+      {
+        "commit_count": 2,
+        "filename": "entra-changes-20250929-2300.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20250930-0700.json"
+      },
+      {
+        "commit_count": 2,
+        "filename": "entra-changes-20250930-1901.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20250930-2100.json"
+      },
+      {
+        "commit_count": 4,
+        "filename": "entra-changes-20250930-2300.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251001-0701.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251001-1901.json"
+      },
+      {
+        "commit_count": 3,
+        "filename": "entra-changes-20251001-2300.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251002-0701.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251002-1300.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251002-1901.json"
+      },
+      {
+        "commit_count": 4,
+        "filename": "entra-changes-20251002-2301.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251003-0700.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251003-1300.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251003-1900.json"
+      }
+    ]
+  },
   "changes": [
+    {
+      "sha": "7c5e17c42d0599efa36709d9ad07f16f8f5db2e4",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/7c5e17c42d0599efa36709d9ad07f16f8f5db2e4",
+      "author": "learn-build-service-prod[bot]",
+      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+      "date": "2025-10-03T17:03:53Z",
+      "message": "Merge pull request #9898 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-10-03 17:01 UTC",
+      "ai_summary": {
+        "Messages": "{\"content\":\"The following is the commit files that have changed: [\\r\\n  {\\r\\n    \\\"sha\\\": \\\"90b3902fd90941c429e0a078aabf0acd0f9e97dc\\\",\\r\\n    \\\"filename\\\": \\\"docs/docfx.json\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 24,\\r\\n    \\\"deletions\\\": 24,\\r\\n    \\\"changes\\\": 48,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/7c5e17c42d0599efa36709d9ad07f16f8f5db2e4/docs%2Fdocfx.json\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/7c5e17c42d0599efa36709d9ad07f16f8f5db2e4/docs%2Fdocfx.json\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fdocfx.json?ref=7c5e17c42d0599efa36709d9ad07f16f8f5db2e4\\\",\\r\\n    \\\"patch\\\": \\\"@@ -70,32 +70,32 @@\\\\n       \\\\\\\"manager\\\\\\\": {\\\\n         \\\\\\\"architecture/*.md\\\\\\\": \\\\\\\"martincoetzer\\\\\\\",\\\\n         \\\\\\\"architecture/*.yml\\\\\\\": \\\\\\\"martincoetzer\\\\\\\",\\\\n-        \\\\\\\"external-id/**/*.md\\\\\\\": \\\\\\\"CelesteDG\\\\\\\",\\\\n-        \\\\\\\"external-id/**/*.yml\\\\\\\": \\\\\\\"CelesteDG\\\\\\\",\\\\n-        \\\\\\\"fundamentals/*.md\\\\\\\": \\\\\\\"femila\\\\\\\",\\\\n-        \\\\\\\"fundamentals/*.yml\\\\\\\": \\\\\\\"femila\\\\\\\",\\\\n-        \\\\\\\"global-secure-access/*.md\\\\\\\": \\\\\\\"femila\\\\\\\",\\\\n-        \\\\\\\"global-secure-access/*.yml\\\\\\\": \\\\\\\"femila\\\\\\\",\\\\n-        \\\\\\\"id-governance/**/*.md\\\\\\\": \\\\\\\"femila\\\\\\\",\\\\n-        \\\\\\\"id-governance/**/*.yml\\\\\\\": \\\\\\\"femila\\\\\\\",\\\\n-        \\\\\\\"id-protection/*.md\\\\\\\": \\\\\\\"femila\\\\\\\",\\\\n-        \\\\\\\"id-protection/*.yml\\\\\\\": \\\\\\\"femila\\\\\\\",\\\\n-        \\\\\\\"identity/**/*.md\\\\\\\": \\\\\\\"femila\\\\\\\",\\\\n-        \\\\\\\"identity/**/*.yml\\\\\\\": \\\\\\\"femila\\\\\\\",\\\\n-        \\\\\\\"identity/saas-apps/*.md\\\\\\\": \\\\\\\"CelesteDG\\\\\\\",\\\\n-        \\\\\\\"identity/saas-apps/*.yml\\\\\\\": \\\\\\\"CelesteDG\\\\\\\",\\\\n-        \\\\\\\"identity/enterprise-apps/*.md\\\\\\\": \\\\\\\"CelesteDG\\\\\\\",\\\\n-        \\\\\\\"identity/enterprise-apps/*.yml\\\\\\\": \\\\\\\"CelesteDG\\\\\\\",\\\\n-        \\\\\\\"identity-platform/**/*.md\\\\\\\": \\\\\\\"CelesteDG\\\\\\\",\\\\n-        \\\\\\\"identity-platform/**/*.yml\\\\\\\": \\\\\\\"CelesteDG\\\\\\\",\\\\n-        \\\\\\\"permissions-management/*.md\\\\\\\": \\\\\\\"femila\\\\\\\",\\\\n-        \\\\\\\"permissions-management/*.yml\\\\\\\": \\\\\\\"femila\\\\\\\",\\\\n+        \\\\\\\"external-id/**/*.md\\\\\\\": \\\\\\\"dougeby\\\\\\\",\\\\n+        \\\\\\\"external-id/**/*.yml\\\\\\\": \\\\\\\"dougeby\\\\\\\",\\\\n+        \\\\\\\"fundamentals/*.md\\\\\\\": \\\\\\\"pmwongera\\\\\\\",\\\\n+        \\\\\\\"fundamentals/*.yml\\\\\\\": \\\\\\\"pmwongera\\\\\\\",\\\\n+        \\\\\\\"global-secure-access/*.md\\\\\\\": \\\\\\\"pmwongera\\\\\\\",\\\\n+        \\\\\\\"global-secure-access/*.yml\\\\\\\": \\\\\\\"pmwongera\\\\\\\",\\\\n+        \\\\\\\"id-governance/**/*.md\\\\\\\": \\\\\\\"pmwongera\\\\\\\",\\\\n+        \\\\\\\"id-governance/**/*.yml\\\\\\\": \\\\\\\"pmwongera\\\\\\\",\\\\n+        \\\\\\\"id-protection/*.md\\\\\\\": \\\\\\\"pmwongera\\\\\\\",\\\\n+        \\\\\\\"id-protection/*.yml\\\\\\\": \\\\\\\"pmwongera\\\\\\\",\\\\n+        \\\\\\\"identity/**/*.md\\\\\\\": \\\\\\\"pmwongera\\\\\\\",\\\\n+        \\\\\\\"identity/**/*.yml\\\\\\\": \\\\\\\"pmwongera\\\\\\\",\\\\n+        \\\\\\\"identity/saas-apps/*.md\\\\\\\": \\\\\\\"dougeby\\\\\\\",\\\\n+        \\\\\\\"identity/saas-apps/*.yml\\\\\\\": \\\\\\\"dougeby\\\\\\\",\\\\n+        \\\\\\\"identity/enterprise-apps/*.md\\\\\\\": \\\\\\\"dougeby\\\\\\\",\\\\n+        \\\\\\\"identity/enterprise-apps/*.yml\\\\\\\": \\\\\\\"dougeby\\\\\\\",\\\\n+        \\\\\\\"identity-platform/**/*.md\\\\\\\": \\\\\\\"pmwongera\\\\\\\",\\\\n+        \\\\\\\"identity-platform/**/*.yml\\\\\\\": \\\\\\\"pmwongera\\\\\\\",\\\\n+        \\\\\\\"permissions-management/*.md\\\\\\\": \\\\\\\"pmwongera\\\\\\\",\\\\n+        \\\\\\\"permissions-management/*.yml\\\\\\\": \\\\\\\"pmwongera\\\\\\\",\\\\n         \\\\\\\"standards/**/*.md\\\\\\\": \\\\\\\"martincoetzer\\\\\\\",\\\\n         \\\\\\\"standards/**/*.yml\\\\\\\": \\\\\\\"martincoetzer\\\\\\\",\\\\n-        \\\\\\\"verified-id/*.md\\\\\\\": \\\\\\\"femila\\\\\\\",\\\\n-        \\\\\\\"verified-id/*.yml\\\\\\\": \\\\\\\"femila\\\\\\\",\\\\n-        \\\\\\\"workload-id/**/*.md\\\\\\\": \\\\\\\"CelesteDG\\\\\\\",\\\\n-        \\\\\\\"workload-id/**/*.yml\\\\\\\": \\\\\\\"CelesteDG\\\\\\\"\\\\n+        \\\\\\\"verified-id/*.md\\\\\\\": \\\\\\\"pmwongera\\\\\\\",\\\\n+        \\\\\\\"verified-id/*.yml\\\\\\\": \\\\\\\"pmwongera\\\\\\\",\\\\n+        \\\\\\\"workload-id/**/*.md\\\\\\\": \\\\\\\"dougeby\\\\\\\",\\\\n+        \\\\\\\"workload-id/**/*.yml\\\\\\\": \\\\\\\"dougeby\\\\\\\"\\\\n       },\\\\n       \\\\\\\"titleSuffix\\\\\\\": {\\\\n         \\\\\\\"*.md\\\\\\\": \\\\\\\"Microsoft Entra\\\\\\\",\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"be31da1438f24c35524557436a6528b46f8809c8\\\",\\r\\n    \\\"filename\\\": \\\"docs/index.yml\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 7,\\r\\n    \\\"deletions\\\": 3,\\r\\n    \\\"changes\\\": 10,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/7c5e17c42d0599efa36709d9ad07f16f8f5db2e4/docs%2Findex.yml\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/7c5e17c42d0599efa36709d9ad07f16f8f5db2e4/docs%2Findex.yml\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Findex.yml?ref=7c5e17c42d0599efa36709d9ad07f16f8f5db2e4\\\",\\r\\n    \\\"patch\\\": \\\"@@ -10,7 +10,7 @@ metadata:\\\\n   ms.topic: hub-page\\\\n   author: shlipsey3\\\\n   ms.author: sarahlipsey\\\\n-  ms.date: 08/25/2025\\\\n+  ms.date: 10/02/2025\\\\n \\\\n ## BAND 1 - HIGHLIGHTED CONTENT ##############################################\\\\n highlightedContent:\\\\n@@ -65,6 +65,10 @@ productDirectory:\\\\n       imageSrc: ./media/index/workload-id-color.png\\\\n       summary: \\\\\\\"Secure identities for apps and services and their access to cloud resources.\\\\\\\"\\\\n       url: /entra/workload-id/\\\\n+    - title: Security Copilot + Microsoft Entra\\\\n+      imageSrc: ./media/index/copilot-color.png\\\\n+      summary: \\\\\\\"Use the power of Security Copilot for identity and network security.\\\\\\\"\\\\n+      url: /entra/security-copilot/security-copilot-in-entra\\\\n \\\\n conceptualContent:\\\\n   title: Learn more\\\\n@@ -82,8 +86,8 @@ conceptualContent:\\\\n         - text: Configure security recommendations\\\\n           url: /entra/fundamentals/configure-security\\\\n           itemType: reference\\\\n-        - text: Security Copilot in Microsoft Entra\\\\n-          url: /entra/fundamentals/copilot-security-entra\\\\n+        - text: Zero Trust guidance center\\\\n+          url: /security/zero-trust\\\\n           itemType: concept\\\\n     ## CARD 2 ######################\\\\n     - title: Architecture\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"cffcd049d750b11ab72a3456d0bbd91a40f8cf71\\\",\\r\\n    \\\"filename\\\": \\\"docs/media/index/copilot-color.png\\\",\\r\\n    \\\"status\\\": \\\"added\\\",\\r\\n    \\\"additions\\\": 0,\\r\\n    \\\"deletions\\\": 0,\\r\\n    \\\"changes\\\": 0,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/7c5e17c42d0599efa36709d9ad07f16f8f5db2e4/docs%2Fmedia%2Findex%2Fcopilot-color.png\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/7c5e17c42d0599efa36709d9ad07f16f8f5db2e4/docs%2Fmedia%2Findex%2Fcopilot-color.png\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fmedia%2Findex%2Fcopilot-color.png?ref=7c5e17c42d0599efa36709d9ad07f16f8f5db2e4\\\"\\r\\n  }\\r\\n]. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\",\"role\":\"user\"}",
+        "Response": "This commit updates the `docfx.json` configuration file to reassign document managers for several sections, including `external-id`, `fundamentals`, `global-secure-access`, `id-governance`, `id-protection`, `identity`, `identity/saas-apps`, `identity/enterprise-apps`, `identity-platform`, `permissions-management`, `verified-id`, and `workload-id`. Additionally, the `index.yml` file has been modified to update the last modified date, introduce a new highlight for \"Security Copilot + Microsoft Entra\" with a corresponding image file, and update the \"Learn more\" section to link to the \"Zero Trust guidance center\" instead of the previous \"Security Copilot in Microsoft Entra\" entry.",
+        "Model": "google:gemini-2.5-flash-lite",
+        "Provider": "google",
+        "ModelName": "gemini-2.5-flash-lite",
+        "Timestamp": "2025-10-03T19:00:49.1511695+00:00"
+      },
+      "files": [
+        {
+          "filename": "docs/docfx.json",
+          "status": "modified",
+          "additions": 24,
+          "deletions": 24
+        },
+        {
+          "filename": "docs/index.yml",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 3
+        },
+        {
+          "filename": "docs/media/index/copilot-color.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        }
+      ]
+    },
     {
       "sha": "0a42bc21182bcfde42ba3e42503d19a1b8aa402b",
       "url": "https://github.com/MicrosoftDocs/entra-docs/commit/0a42bc21182bcfde42ba3e42503d19a1b8aa402b",
@@ -5266,116 +5388,6 @@
           "deletions": 1
         }
       ]
-    },
-    {
-      "sha": "1ef4a1223219ee5ca39ec06cd6e7ec0b3e413b56",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/1ef4a1223219ee5ca39ec06cd6e7ec0b3e413b56",
-      "author": "learn-build-service-prod[bot]",
-      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
-      "date": "2025-09-26T17:07:04Z",
-      "message": "Merge pull request #9822 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-09-26 17:05 UTC",
-      "ai_summary": {
-        "Messages": "{\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"52375c9465be1d33c7d2e595461098eadbb0a3dd\\\",\\r\\n  \\\"filename\\\": \\\"docs/id-governance/access-review-agent.md\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 1,\\r\\n  \\\"deletions\\\": 1,\\r\\n  \\\"changes\\\": 2,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/1ef4a1223219ee5ca39ec06cd6e7ec0b3e413b56/docs%2Fid-governance%2Faccess-review-agent.md\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/1ef4a1223219ee5ca39ec06cd6e7ec0b3e413b56/docs%2Fid-governance%2Faccess-review-agent.md\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fid-governance%2Faccess-review-agent.md?ref=1ef4a1223219ee5ca39ec06cd6e7ec0b3e413b56\\\",\\r\\n  \\\"patch\\\": \\\"@@ -19,7 +19,7 @@ Say goodbye to time-consuming research and the uncertainty of rushed decisions.\\\\n ## Prerequisites\\\\n - You must have [Microsoft Entra ID Governance or Microsoft Entra Suite licenses](licensing-fundamentals.md).\\\\n - You must [Onboard to Security Copilot](/copilot/security/get-started-security-copilot#onboarding-to-security-copilot) with at least one [security compute unit (SCU)](/copilot/security/manage-usage) provisioned.\\\\n-   - Completing an access review that includes 20 decisions consumes on average one SCU. This includes the agent gathering insights and generating recommendations and the reviewer's natural language conversation in Microsoft Teams with the agent. The SCU consumption can vary based on the conversation length between the reviewer and agent.\\\\n+   - Completing an access review that includes 20 decisions consumes on average 4.5 SCU. This includes the agent gathering insights and generating recommendations and the reviewer's natural language conversation in Microsoft Teams with the agent. The SCU consumption can vary based on the conversation length between the reviewer and agent.\\\\n - Admins must have at least **all** the following roles to set up and manage the agent in the Microsoft Entra admin center:\\\\n    - [Identity Governance  Administrator](../identity/role-based-access-control/permissions-reference.md#identity-governance-administrator)\\\\n    - [Lifecycle Workflows Administrator](../identity/role-based-access-control/permissions-reference.md#lifecycle-workflows-administrator)\\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\",\"role\":\"user\"}",
-        "Response": "This commit updates the documentation for the access review agent. It clarifies the consumption of Security Compute Units (SCUs) per access review, changing the average from one SCU to 4.5 SCU for twenty decisions. This adjustment accounts for the agent's insight gathering, recommendation generation, and the reviewer's conversational interaction.",
-        "Model": "google:gemini-2.5-flash-lite",
-        "Provider": "google",
-        "ModelName": "gemini-2.5-flash-lite",
-        "Timestamp": "2025-09-26T19:00:36.5826226+00:00"
-      },
-      "files": [
-        {
-          "filename": "docs/id-governance/access-review-agent.md",
-          "status": "modified",
-          "additions": 1,
-          "deletions": 1
-        }
-      ]
     }
-  ],
-  "metadata": {
-    "generated_date": "2025-10-03T13:01:08Z",
-    "source_files": [
-      {
-        "filename": "entra-changes-20250926-1900.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20250926-2100.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20250926-2300.json",
-        "commit_count": 2
-      },
-      {
-        "filename": "entra-changes-20250928-1300.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20250928-1901.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20250929-1901.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20250929-2300.json",
-        "commit_count": 2
-      },
-      {
-        "filename": "entra-changes-20250930-0700.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20250930-1901.json",
-        "commit_count": 2
-      },
-      {
-        "filename": "entra-changes-20250930-2100.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20250930-2300.json",
-        "commit_count": 4
-      },
-      {
-        "filename": "entra-changes-20251001-0701.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251001-1901.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251001-2300.json",
-        "commit_count": 3
-      },
-      {
-        "filename": "entra-changes-20251002-0701.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251002-1300.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251002-1901.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251002-2301.json",
-        "commit_count": 4
-      },
-      {
-        "filename": "entra-changes-20251003-0700.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251003-1300.json",
-        "commit_count": 1
-      }
-    ],
-    "total_commits": 31
-  }
+  ]
 }
