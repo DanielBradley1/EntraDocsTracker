@@ -1,0 +1,24 @@
+{
+  "sha": "e925cecfa74d4e419d30ce188ce28fde459d34a0",
+  "url": "https://github.com/MicrosoftDocs/entra-docs/commit/e925cecfa74d4e419d30ce188ce28fde459d34a0",
+  "author": "learn-build-service-prod[bot]",
+  "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+  "date": "2025-10-08T17:05:43Z",
+  "message": "Merge pull request #9957 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-10-08 17:03 UTC",
+  "ai_summary": {
+    "Messages": "{\"role\":\"user\",\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"5ce21b2b29c466aedfc4f37e1dd444c21d727570\\\",\\r\\n  \\\"filename\\\": \\\"docs/id-governance/entitlement-management-onboard.md\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 2,\\r\\n  \\\"deletions\\\": 2,\\r\\n  \\\"changes\\\": 4,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/e925cecfa74d4e419d30ce188ce28fde459d34a0/docs%2Fid-governance%2Fentitlement-management-onboard.md\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/e925cecfa74d4e419d30ce188ce28fde459d34a0/docs%2Fid-governance%2Fentitlement-management-onboard.md\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fid-governance%2Fentitlement-management-onboard.md?ref=e925cecfa74d4e419d30ce188ce28fde459d34a0\\\",\\r\\n  \\\"patch\\\": \\\"@@ -7,7 +7,7 @@ editor: markwahl-msft\\\\n ms.service: entra-id-governance\\\\n ms.subservice: entitlement-management\\\\n ms.topic: article\\\\n-ms.date: 07/15/2024\\\\n+ms.date: 10/07/2025\\\\n ms.author: owinfrey\\\\n ms.reviewer: mwahl\\\\n #Customer intent: As an administrator, I want to simplify onboarding external users to resources using access governance features.\\\\n@@ -58,7 +58,7 @@ Configuring attributes is a similar experience as configuring custom questions,\\\\n When an access package includes a resource configured for attribute collection, the external user is automatically asked for those values in addition to any custom questions specified for the access package itself. The information supplied for these attributes is also presented to the approver, and is written into the requestor’s User object if the request is approved. If your external users are only collaborating with Teams or SharePoint Online, you probably don't need attributes.\\\\n \\\\n > [!NOTE]\\\\n-> The specify attributes feature is cloud only as you are unable to write attributes onto on-premises synched users.\\\\n+> The specify attributes feature is cloud only as you're unable to write attributes onto on-premises synched users.\\\\n \\\\n For a step by step guide on this process, see: [Add resource attributes in the catalog](entitlement-management-catalog-create.md#add-resource-attributes-in-the-catalog).\\\\n \\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\"}",
+    "Response": "The date of the document has been updated from July 15, 2024, to October 7, 2025. Additionally, a minor grammatical correction has been made within a note, changing \"as you are unable\" to \"as you're unable\" when discussing the limitation of the specify attributes feature for on-premises synched users.",
+    "Model": "google:gemini-2.5-flash-lite",
+    "Provider": "google",
+    "ModelName": "gemini-2.5-flash-lite",
+    "Timestamp": "2025-10-08T19:01:45.4560619+00:00"
+  },
+  "files": [
+    {
+      "filename": "docs/id-governance/entitlement-management-onboard.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2
+    }
+  ]
+}
