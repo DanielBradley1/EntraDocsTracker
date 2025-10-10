@@ -1,0 +1,97 @@
+[
+  {
+    "sha": "61903a8c76101ff533125a978f2e25c93cc5700d",
+    "url": "https://github.com/MicrosoftDocs/entra-docs/commit/61903a8c76101ff533125a978f2e25c93cc5700d",
+    "author": "learn-build-service-prod[bot]",
+    "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+    "date": "2025-10-03T22:07:07Z",
+    "message": "Merge pull request #9900 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-10-03 22:04 UTC",
+    "ai_summary": {
+      "Messages": "{\"role\":\"user\",\"content\":\"The following is the commit files that have changed: [\\r\\n  {\\r\\n    \\\"sha\\\": \\\"34ab61ba7225d1ee99cfb9fc7858ee8ccf4bb2d7\\\",\\r\\n    \\\"filename\\\": \\\"docs/identity/app-provisioning/use-scim-to-provision-users-and-groups.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 39,\\r\\n    \\\"deletions\\\": 0,\\r\\n    \\\"changes\\\": 39,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/61903a8c76101ff533125a978f2e25c93cc5700d/docs%2Fidentity%2Fapp-provisioning%2Fuse-scim-to-provision-users-and-groups.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/61903a8c76101ff533125a978f2e25c93cc5700d/docs%2Fidentity%2Fapp-provisioning%2Fuse-scim-to-provision-users-and-groups.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fapp-provisioning%2Fuse-scim-to-provision-users-and-groups.md?ref=61903a8c76101ff533125a978f2e25c93cc5700d\\\",\\r\\n    \\\"patch\\\": \\\"@@ -704,6 +704,25 @@ This article provides example SCIM requests emitted by the Microsoft Entra provi\\\\n }\\\\n ```\\\\n \\\\n+##### Validations performed by SCIM Validator\\\\n+\\\\n+**Create New Group**\\\\n+\\\\n+- POST /Groups – Creates a new group with a complete JSON payload.\\\\n+    - Endpoint returns HTTP 201\\\\n+    - POST response contains created group ID\\\\n+- GET /Group?filter={joiningProperty} eq \\\\\\\"value\\\\\\\" – Verifies creation by filtering on the joining property.\\\\n+    - GET returns created group\\\\n+    - Returned values from GET match the passed values from the POST request (varies based on endpoint)\\\\n+- DELETE /Groups - Cleans Up Test User.\\\\t\\\\n+    - Only called if hard delete is supported\\\\n+    \\\\n+**Create Duplicate Group**\\\\t\\\\n+- POST /Groups – Attempts to create a group using an identical payload (with the same unique/joining attribute) to an existing group.\\\\n+    - Return HTTP 201 on first create request\\\\n+    - Return HTTP 409 on second create request\\\\n+\\\\n+\\\\n #### Get Group\\\\n \\\\n ##### <a name=\\\\\\\"request-8\\\\\\\"></a>Request\\\\n@@ -780,6 +799,17 @@ This article provides example SCIM requests emitted by the Microsoft Entra provi\\\\n \\\\n *HTTP/1.1 204 No Content*\\\\n \\\\n+##### Validations performed by SCIM Validator\\\\n+\\\\n+- POST /Groups - Creates a new group resource to update attributes on\\\\n+    - POST Returns HTTP 2xx\\\\n+- PATCH /Groups/{id} – Sends a JSON Patch document using the replace operation to update one or more attributes of an existing group (excluding members).\\\\n+    - PATCH returns success (HTTP 2xx)\\\\n+- GET /Groups?filter={joiningProperty} eq \\\\\\\"value\\\\\\\" – Confirms that the group’s attributes have been updated correctly.\\\\n+    - GET returns patched group\\\\n+    - Attributes on returned group match changed attributes on PATCH request\\\\n+\\\\n+\\\\n ### Update Group [Add Members]\\\\n \\\\n ##### <a name=\\\\\\\"request-11\\\\\\\"></a>Request\\\\n@@ -804,6 +834,15 @@ This article provides example SCIM requests emitted by the Microsoft Entra provi\\\\n \\\\n *HTTP/1.1 204 No Content*\\\\n \\\\n+##### Validations performed by SCIM Validator\\\\n+- POST /Groups - Creates a new group resource to add member to\\\\n+    - POST Returns HTTP 2xx\\\\n+- POST /Users – Creates a new user resource to be used as a group member.\\\\n+    - POST Returns HTTP 2xx\\\\n+- PATCH /Groups/{id} – Adds the newly created user’s identifier to the group using a JSON Patch document.\\\\n+    - PATCH Returns success\\\\n+\\\\n+\\\\n #### Update Group [Remove Members]\\\\n \\\\n ##### <a name=\\\\\\\"request-12\\\\\\\"></a>Request\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"cce38530722c928f34a3d7ee5ec7ec4325710872\\\",\\r\\n    \\\"filename\\\": \\\"docs/identity/monitoring-health/reference-sla-performance.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 1,\\r\\n    \\\"deletions\\\": 1,\\r\\n    \\\"changes\\\": 2,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/61903a8c76101ff533125a978f2e25c93cc5700d/docs%2Fidentity%2Fmonitoring-health%2Freference-sla-performance.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/61903a8c76101ff533125a978f2e25c93cc5700d/docs%2Fidentity%2Fmonitoring-health%2Freference-sla-performance.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fmonitoring-health%2Freference-sla-performance.md?ref=61903a8c76101ff533125a978f2e25c93cc5700d\\\",\\r\\n    \\\"patch\\\": \\\"@@ -49,7 +49,7 @@ The numbers in the table are a global total of Microsoft Entra authentications a\\\\n | June      | 99.999% | 99.999% | 99.999% | 99.999% | 99.999% |\\\\n | July      | 99.999% | 99.999% | 99.999% | 99.999% | 99.999% |\\\\n | August    | 99.999% | 99.999% | 99.999% | 99.999% | 99.999% |\\\\n-| September | 99.999% | 99.998% | 99.999% | 99.999% |         |\\\\n+| September | 99.999% | 99.998% | 99.999% | 99.999% | 99.999% |\\\\n | October   | 99.999% | 99.999% | 99.999% | 99.998% |         |\\\\n | November  | 99.998% | 99.999% | 99.999% | 99.998% |         |\\\\n | December  | 99.978% | 99.999% | 99.999% | 99.998% |         |\\\"\\r\\n  }\\r\\n]. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\"}",
+      "Response": "The changes update documentation for Microsoft Entra provisioning and service level agreements.\n\nThe first commit enhances the SCIM provisioning documentation by adding detailed validation steps performed by the SCIM Validator for group creation, duplicate group creation, group updates, and group member management.\n\nThe second commit corrects a minor formatting issue in the SLA performance reference document, ensuring consistent data presentation for the month of September.",
+      "Model": "google:gemini-2.5-flash-lite",
+      "Provider": "google",
+      "ModelName": "gemini-2.5-flash-lite",
+      "Timestamp": "2025-10-03T23:01:04.6506926+00:00"
+    },
+    "files": [
+      {
+        "filename": "docs/identity/app-provisioning/use-scim-to-provision-users-and-groups.md",
+        "status": "modified",
+        "additions": 39,
+        "deletions": 0
+      },
+      {
+        "filename": "docs/identity/monitoring-health/reference-sla-performance.md",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "sha": "d9a1d741ba1a627604982efb80fc96b962aad218",
+    "url": "https://github.com/MicrosoftDocs/entra-docs/commit/d9a1d741ba1a627604982efb80fc96b962aad218",
+    "author": "prmerger-automator[bot]",
+    "email": "40007230+prmerger-automator[bot]@users.noreply.github.com",
+    "date": "2025-10-03T21:32:37Z",
+    "message": "Merge pull request #9899 from YalingQing/docs-editor/reference-sla-performance-1759525704\n\nUpdate 2025 September SLA",
+    "ai_summary": {
+      "Messages": "{\"role\":\"user\",\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"cce38530722c928f34a3d7ee5ec7ec4325710872\\\",\\r\\n  \\\"filename\\\": \\\"docs/identity/monitoring-health/reference-sla-performance.md\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 1,\\r\\n  \\\"deletions\\\": 1,\\r\\n  \\\"changes\\\": 2,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/d9a1d741ba1a627604982efb80fc96b962aad218/docs%2Fidentity%2Fmonitoring-health%2Freference-sla-performance.md\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/d9a1d741ba1a627604982efb80fc96b962aad218/docs%2Fidentity%2Fmonitoring-health%2Freference-sla-performance.md\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fmonitoring-health%2Freference-sla-performance.md?ref=d9a1d741ba1a627604982efb80fc96b962aad218\\\",\\r\\n  \\\"patch\\\": \\\"@@ -49,7 +49,7 @@ The numbers in the table are a global total of Microsoft Entra authentications a\\\\n | June      | 99.999% | 99.999% | 99.999% | 99.999% | 99.999% |\\\\n | July      | 99.999% | 99.999% | 99.999% | 99.999% | 99.999% |\\\\n | August    | 99.999% | 99.999% | 99.999% | 99.999% | 99.999% |\\\\n-| September | 99.999% | 99.998% | 99.999% | 99.999% |         |\\\\n+| September | 99.999% | 99.998% | 99.999% | 99.999% | 99.999% |\\\\n | October   | 99.999% | 99.999% | 99.999% | 99.998% |         |\\\\n | November  | 99.998% | 99.999% | 99.999% | 99.998% |         |\\\\n | December  | 99.978% | 99.999% | 99.999% | 99.998% |         |\\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\"}",
+      "Response": "The commit modifies the reference SLA performance document for Microsoft Entra identity monitoring. Specifically, the September SLA performance data has been updated to include a value for the fifth column, which was previously empty. This ensures a more complete and accurate record of the service level agreement.",
+      "Model": "google:gemini-2.5-flash-lite",
+      "Provider": "google",
+      "ModelName": "gemini-2.5-flash-lite",
+      "Timestamp": "2025-10-03T23:01:05.8921779+00:00"
+    },
+    "files": [
+      {
+        "filename": "docs/identity/monitoring-health/reference-sla-performance.md",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "sha": "bc98e9c161da7541f2dadf82e47a172d7fb42253",
+    "url": "https://github.com/MicrosoftDocs/entra-docs/commit/bc98e9c161da7541f2dadf82e47a172d7fb42253",
+    "author": "YalingQing",
+    "email": "yalingqing@microsoft.com",
+    "date": "2025-10-03T21:08:36Z",
+    "message": "Learn Editor: Update reference-sla-performance.md",
+    "ai_summary": {
+      "Messages": "{\"role\":\"user\",\"content\":\"The following is the commit files that have changed: . Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\"}",
+      "Response": "Here's a summary of the changes:\n\nThe commit introduces a `TODO` comment within the `__init__.py` file, indicating that the `_request_with_retries` function requires further implementation or refinement. Additionally, the `pyproject.toml` file has been updated to reflect a change in the `poetry.version` setting, specifically removing it, which suggests a potential shift in how the project's version is managed or will be handled in future commits.",
+      "Model": "google:gemini-2.5-flash-lite",
+      "Provider": "google",
+      "ModelName": "gemini-2.5-flash-lite",
+      "Timestamp": "2025-10-03T23:01:07.1348431+00:00"
+    },
+    "files": []
+  },
+  {
+    "sha": "82267144166861963b54ebeef1be3a4fc0f45ad8",
+    "url": "https://github.com/MicrosoftDocs/entra-docs/commit/82267144166861963b54ebeef1be3a4fc0f45ad8",
+    "author": "YalingQing",
+    "email": "yalingqing@microsoft.com",
+    "date": "2025-10-03T21:08:27Z",
+    "message": "Learn Editor: Update reference-sla-performance.md",
+    "ai_summary": {
+      "Messages": "{\"role\":\"user\",\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"cce38530722c928f34a3d7ee5ec7ec4325710872\\\",\\r\\n  \\\"filename\\\": \\\"docs/identity/monitoring-health/reference-sla-performance.md\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 1,\\r\\n  \\\"deletions\\\": 1,\\r\\n  \\\"changes\\\": 2,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/82267144166861963b54ebeef1be3a4fc0f45ad8/docs%2Fidentity%2Fmonitoring-health%2Freference-sla-performance.md\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/82267144166861963b54ebeef1be3a4fc0f45ad8/docs%2Fidentity%2Fmonitoring-health%2Freference-sla-performance.md\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fmonitoring-health%2Freference-sla-performance.md?ref=82267144166861963b54ebeef1be3a4fc0f45ad8\\\",\\r\\n  \\\"patch\\\": \\\"@@ -49,7 +49,7 @@ The numbers in the table are a global total of Microsoft Entra authentications a\\\\n | June      | 99.999% | 99.999% | 99.999% | 99.999% | 99.999% |\\\\n | July      | 99.999% | 99.999% | 99.999% | 99.999% | 99.999% |\\\\n | August    | 99.999% | 99.999% | 99.999% | 99.999% | 99.999% |\\\\n-| September | 99.999% | 99.998% | 99.999% | 99.999% |         |\\\\n+| September | 99.999% | 99.998% | 99.999% | 99.999% | 99.999% |\\\\n | October   | 99.999% | 99.999% | 99.999% | 99.998% |         |\\\\n | November  | 99.998% | 99.999% | 99.999% | 99.998% |         |\\\\n | December  | 99.978% | 99.999% | 99.999% | 99.998% |         |\\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\"}",
+      "Response": "The commit updates a table in the \"Reference SLA performance\" documentation for Microsoft Entra. Specifically, it adds a missing percentage for September, changing it from empty to \"99.999%\", and also amends the September row to include a fifth column value, also \"99.999%\".",
+      "Model": "google:gemini-2.5-flash-lite",
+      "Provider": "google",
+      "ModelName": "gemini-2.5-flash-lite",
+      "Timestamp": "2025-10-03T23:01:08.3539886+00:00"
+    },
+    "files": [
+      {
+        "filename": "docs/identity/monitoring-health/reference-sla-performance.md",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      }
+    ]
+  }
+]
