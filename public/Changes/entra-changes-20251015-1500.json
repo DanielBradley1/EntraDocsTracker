@@ -1,0 +1,17 @@
+{
+  "sha": "31c5616597b70852d07a2ef98051daf0df10eca0",
+  "url": "https://github.com/MicrosoftDocs/entra-docs/commit/31c5616597b70852d07a2ef98051daf0df10eca0",
+  "author": "Tracey Torble",
+  "email": "56347952+ttorble@users.noreply.github.com",
+  "date": "2025-10-15T14:12:12Z",
+  "message": "Merge pull request #1791 from abhijeetsinha/patch-1\n\nAdd Versa Networks integration details to automated section",
+  "ai_summary": {
+    "Messages": "{\"content\":\"The following is the commit files that have changed: . Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\",\"role\":\"user\"}",
+    "Response": "Here's a summary of the changes:\n\nThis commit introduces a new `get_file_id` function, designed to extract a file identifier from a URL. It also includes updates to the `test_url_from_request` function to accommodate these changes and ensure correct behaviour when processing requests.",
+    "Model": "google:gemini-2.5-flash-lite",
+    "Provider": "google",
+    "ModelName": "gemini-2.5-flash-lite",
+    "Timestamp": "2025-10-15T15:01:01.2246953+00:00"
+  },
+  "files": []
+}
