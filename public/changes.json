@@ -1,67 +1,113 @@
 {
-  "metadata": {
-    "generated_date": "2025-10-15T15:01:03Z",
-    "total_commits": 18,
-    "source_files": [
-      {
-        "filename": "entra-changes-20251008-1901.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251008-2300.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251009-2300.json",
-        "commit_count": 2
-      },
-      {
-        "filename": "entra-changes-20251010-0701.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251010-2100.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251010-2301.json",
-        "commit_count": 2
-      },
-      {
-        "filename": "entra-changes-20251013-1301.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251013-1901.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251013-2300.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251014-1900.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251014-2300.json",
-        "commit_count": 3
-      },
-      {
-        "filename": "entra-changes-20251015-0701.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251015-1301.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251015-1500.json",
-        "commit_count": 1
-      }
-    ]
-  },
   "changes": [
+    {
+      "sha": "37251b3d68fc3a053fa5dfd6f5938fb65831a85b",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/37251b3d68fc3a053fa5dfd6f5938fb65831a85b",
+      "author": "Learn Build Service GitHub App",
+      "email": "Learn Build Service LearnBuild@microsoft.com",
+      "date": "2025-10-15T17:31:17Z",
+      "message": "Merging changes synced from https://github.com/MicrosoftDocs/entra-docs-pr (branch live)",
+      "ai_summary": {
+        "Messages": "{\"content\":\"The following is the commit files that have changed: [\\r\\n  {\\r\\n    \\\"sha\\\": \\\"8b679de19a15b1a01bcfad5ff68e34423a2642ea\\\",\\r\\n    \\\"filename\\\": \\\".openpublishing.redirection.json\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 0,\\r\\n    \\\"deletions\\\": 5,\\r\\n    \\\"changes\\\": 5,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/37251b3d68fc3a053fa5dfd6f5938fb65831a85b/.openpublishing.redirection.json\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/37251b3d68fc3a053fa5dfd6f5938fb65831a85b/.openpublishing.redirection.json\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/.openpublishing.redirection.json?ref=37251b3d68fc3a053fa5dfd6f5938fb65831a85b\\\",\\r\\n    \\\"patch\\\": \\\"@@ -2634,11 +2634,6 @@\\\\n       \\\\\\\"source_path_from_root\\\\\\\": \\\\\\\"/docs/identity/saas-apps/pksha-chatbot-tutorial.md\\\\\\\",\\\\n       \\\\\\\"redirect_url\\\\\\\": \\\\\\\"/entra/identity/saas-apps/pksha-chatagent-tutorial\\\\\\\",\\\\n       \\\\\\\"redirect_document_id\\\\\\\": false\\\\n-    },\\\\n-    {\\\\n-      \\\\\\\"source_path_from_root\\\\\\\": \\\\\\\"/docs/identity/hybrid/cloud-sync/how-to-preserve-original-organizational-unit.md\\\\\\\",\\\\n-      \\\\\\\"redirect_url\\\\\\\": \\\\\\\"/entra/identity/hybrid/cloud-sync/tutorial-group-provisioning\\\\\\\",\\\\n-      \\\\\\\"redirect_document_id\\\\\\\": false\\\\n     }\\\\n   ]\\\\n }\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"b0f56691e057d339307ed7476e732670553972c2\\\",\\r\\n    \\\"filename\\\": \\\"docs/global-secure-access/troubleshoot-connectors.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 6,\\r\\n    \\\"deletions\\\": 2,\\r\\n    \\\"changes\\\": 8,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/37251b3d68fc3a053fa5dfd6f5938fb65831a85b/docs%2Fglobal-secure-access%2Ftroubleshoot-connectors.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/37251b3d68fc3a053fa5dfd6f5938fb65831a85b/docs%2Fglobal-secure-access%2Ftroubleshoot-connectors.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fglobal-secure-access%2Ftroubleshoot-connectors.md?ref=37251b3d68fc3a053fa5dfd6f5938fb65831a85b\\\",\\r\\n    \\\"patch\\\": \\\"@@ -39,16 +39,20 @@ The connector diagnostics tool is an exe command-line application that is includ\\\\n \\\\n The tool also provides additional information, such as certificate details (if the cert is valid), tenant and connector ID, and TLS versions. To ensure that no checks are missed due to network or intermittent issues, the tool contains retries and prints out exception messages for any connectivity failures.\\\\n \\\\n-**How to get the tool:** The connector diagnostics tool is available in the connector installation package starting version 1.5.4287.0. Previous versions don't contain the tool. A new connector installation is needed to get the tool if you are using the previous version. \\\\n+**How to get the tool:** The connector diagnostics tool is available in the connector installation package starting version 1.5.4287.0. Previous versions don't contain the tool. A new connector installation is needed to get the tool if you are using the previous version. A user interface is also introduced starting version 1.5.4522.0. \\\\n \\\\n **How to use the tool:** After verifying successful installation, the tool can be found in the connector installation folder, located by default in C:/Program Files/Microsoft Entra Private Network Connector. Double click the application \\\\\\\"ConnectorDiagnosticsTool\\\\\\\" to launch the tool. \\\\n \\\\n ![Screenshot showing the \\\\\\\"ConnectorDiagnosticsTool\\\\\\\" application selected in file explorer.](https://github.com/user-attachments/assets/76feaf98-9f2c-492c-bb66-7d65fa4dc576)\\\\n \\\\n-Sample Output:\\\\n+Sample PowerShell Output:\\\\n \\\\n ![Screenshot showing the \\\\\\\"ConnectorDiagnosticsTool\\\\\\\" application output.](https://github.com/user-attachments/assets/93cec4e8-58bd-4656-8ff6-c4299e7d5b82)\\\\n \\\\n+Sample User Interface Output (Starting version 1.5.4522.0):\\\\n+\\\\n+![Screenshot showing the \\\\\\\"ConnectorDiagnosticsTool\\\\\\\" application UI output.](https://github.com/user-attachments/assets/e04fd857-3495-48d0-a4f8-5938d19785ac)\\\\n+\\\\n ## Verify connectivity to the cloud application proxy service and Microsoft sign in page\\\\n \\\\n **Objective:** Verify that the connector machine can connect to the application proxy registration endpoint and the Microsoft sign-in page.\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"359bedae92b204ed96175110a3499e7e677e5548\\\",\\r\\n    \\\"filename\\\": \\\"docs/identity/hybrid/how-to-user-source-of-authority-configure.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 0,\\r\\n    \\\"deletions\\\": 50,\\r\\n    \\\"changes\\\": 50,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/37251b3d68fc3a053fa5dfd6f5938fb65831a85b/docs%2Fidentity%2Fhybrid%2Fhow-to-user-source-of-authority-configure.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/37251b3d68fc3a053fa5dfd6f5938fb65831a85b/docs%2Fidentity%2Fhybrid%2Fhow-to-user-source-of-authority-configure.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fhybrid%2Fhow-to-user-source-of-authority-configure.md?ref=37251b3d68fc3a053fa5dfd6f5938fb65831a85b\\\",\\r\\n    \\\"patch\\\": \\\"@@ -196,56 +196,6 @@ Follow these steps to transfer the SOA for a test user:\\\\n    :::image type=\\\\\\\"content\\\\\\\" border=\\\\\\\"true\\\\\\\" source=\\\\\\\"media/how-to-user-source-of-authority-configure/event-6956.png\\\\\\\" alt-text=\\\\\\\"Screenshot of event ID 6956.\\\\\\\":::\\\\n \\\\n \\\\n-## Bulk updates for user SOA\\\\n-\\\\n-You can use the following PowerShell script to automate User SOA updates by using app-based authentication.\\\\n-\\\\n-```powershell\\\\n-# Define your Microsoft Entra ID app details and tenant information\\\\n-$tenantId = \\\\\\\"\\\\\\\"\\\\n-$clientId = \\\\\\\"\\\\\\\"\\\\n-$certThumbprint = \\\\\\\"\\\\\\\"\\\\n-\\\\n-# Connect to Microsoft Graph as App-Only using a certificate. The app registration must have the User.Read.All User-OnPremisesSyncBehavior.ReadWrite.All permissions granted.\\\\n-Connect-MgGraph -ClientId $clientId -TenantId $tenantId -CertificateThumbprint $certThumbprint\\\\n-\\\\n-#Connect to Microsoft Graph using delegated permissions\\\\n-#Connect-MgGraph -Scopes \\\\\\\"User.Read.All User-OnPremisesSyncBehavior.ReadWrite.All\\\\\\\" -TenantId $tenantId\\\\n-\\\\n-# Define the user name you want to query\\\\n-$userName = \\\\\\\"Ken Roy\\\\\\\"\\\\n-\\\\n-# Retrieve the user using user name\\\\n-$user = Get-MgBetaUser -Filter \\\\\\\"displayName eq '$userName'\\\\\\\"\\\\n-\\\\n-# Ensure user is found\\\\n-if ($null -ne $user)\\\\n-{\\\\n-    $userObjectID = $($user.Id)\\\\n-    # Define the Microsoft Graph API endpoint for the user\\\\n-    $url = \\\\\\\"https://graph.microsoft.com/beta/users/$userObjectID/onPremisesSyncBehavior\\\\\\\"\\\\n-\\\\n-    # Define the JSON payload for the PATCH request\\\\n-    $jsonPayload = @{\\\\n-        isCloudManaged = \\\\\\\"true\\\\\\\"\\\\n-    } | ConvertTo-Json\\\\n-\\\\n-    # Make the PATCH request to update the JSON payload\\\\n-    Invoke-MgGraphRequest -Uri $url -Method Patch -ContentType \\\\\\\"application/json\\\\\\\" -Body $jsonPayload\\\\n-\\\\n-    $result = Invoke-MgGraphRequest -Method Get -Uri \\\\\\\"https://graph.microsoft.com/beta/users/$userObjectID/onPremisesSyncBehavior?`$select=id,isCloudManaged\\\\\\\"\\\\n-\\\\n-    Write-Host \\\\\\\"User Name: $($user.DisplayName)\\\\\\\"\\\\n-    Write-Host \\\\\\\"User ID: $($result.id)\\\\\\\"\\\\n-    Write-Host \\\\\\\"SOA Converted: $($result.isCloudManaged)\\\\\\\"\\\\n-}\\\\n-else \\\\n-{\\\\n-    Write-Warning \\\\\\\"User '$userName' not found.\\\\\\\"\\\\n-}\\\\n-```\\\\n-\\\\n-\\\\n ### Status of attributes after you transfer SOA\\\\n \\\\n The following table explains the status for *isCloudManaged* and *onPremisesSyncEnabled* attributes after you transfer the SOA of an object.\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"1f24ae1a03f20db7416d8d15602169aa55f3dbdc\\\",\\r\\n    \\\"filename\\\": \\\"docs/identity/hybrid/what-is-inter-directory-provisioning.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 1,\\r\\n    \\\"deletions\\\": 1,\\r\\n    \\\"changes\\\": 2,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/37251b3d68fc3a053fa5dfd6f5938fb65831a85b/docs%2Fidentity%2Fhybrid%2Fwhat-is-inter-directory-provisioning.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/37251b3d68fc3a053fa5dfd6f5938fb65831a85b/docs%2Fidentity%2Fhybrid%2Fwhat-is-inter-directory-provisioning.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fhybrid%2Fwhat-is-inter-directory-provisioning.md?ref=37251b3d68fc3a053fa5dfd6f5938fb65831a85b\\\",\\r\\n    \\\"patch\\\": \\\"@@ -44,7 +44,7 @@ This capability of inter-directory provisioning offers the following significant\\\\n \\\\n \\\\n ### Common scenarios\\\\n-For a list of common hybrid synchronization scenarios, see [Common scenarios](#common-scenarios).\\\\n+For a list of common hybrid synchronization scenarios, see [Common scenarios](common-scenarios.md).\\\\n \\\\n ## Next steps \\\\n - [What is identity lifecycle management](~/id-governance/scenarios/govern-the-employee-lifecycle.md)\\\"\\r\\n  }\\r\\n]. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\",\"role\":\"user\"}",
+        "Response": "Here's a summary of the changes:\n\nThe commit involves several updates to Microsoft Entra documentation. It includes removal of a redirection rule, enhancements to the troubleshooting guide for Global Secure Access connectors by adding details about a new user interface and sample output, and the removal of a PowerShell script for bulk user Source of Authority (SOA) updates from the user SOA configuration document. Additionally, a hyperlink within the inter-directory provisioning document has been corrected.",
+        "Model": "google:gemini-2.5-flash-lite",
+        "Provider": "google",
+        "ModelName": "gemini-2.5-flash-lite",
+        "Timestamp": "2025-10-15T19:01:32.1245493+00:00"
+      },
+      "files": [
+        {
+          "filename": ".openpublishing.redirection.json",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 5
+        },
+        {
+          "filename": "docs/global-secure-access/troubleshoot-connectors.md",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/identity/hybrid/how-to-user-source-of-authority-configure.md",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 50
+        },
+        {
+          "filename": "docs/identity/hybrid/what-is-inter-directory-provisioning.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        }
+      ]
+    },
+    {
+      "sha": "c811cdc1ec6e814b1f2921e759ab58e1d61cb4d4",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/c811cdc1ec6e814b1f2921e759ab58e1d61cb4d4",
+      "author": "learn-build-service-prod[bot]",
+      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+      "date": "2025-10-15T17:13:16Z",
+      "message": "Merge pull request #10032 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-10-15 17:08 UTC",
+      "ai_summary": {
+        "Messages": "{\"content\":\"The following is the commit files that have changed: [\\r\\n  {\\r\\n    \\\"sha\\\": \\\"8b679de19a15b1a01bcfad5ff68e34423a2642ea\\\",\\r\\n    \\\"filename\\\": \\\".openpublishing.redirection.json\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 0,\\r\\n    \\\"deletions\\\": 5,\\r\\n    \\\"changes\\\": 5,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/c811cdc1ec6e814b1f2921e759ab58e1d61cb4d4/.openpublishing.redirection.json\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/c811cdc1ec6e814b1f2921e759ab58e1d61cb4d4/.openpublishing.redirection.json\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/.openpublishing.redirection.json?ref=c811cdc1ec6e814b1f2921e759ab58e1d61cb4d4\\\",\\r\\n    \\\"patch\\\": \\\"@@ -2634,11 +2634,6 @@\\\\n       \\\\\\\"source_path_from_root\\\\\\\": \\\\\\\"/docs/identity/saas-apps/pksha-chatbot-tutorial.md\\\\\\\",\\\\n       \\\\\\\"redirect_url\\\\\\\": \\\\\\\"/entra/identity/saas-apps/pksha-chatagent-tutorial\\\\\\\",\\\\n       \\\\\\\"redirect_document_id\\\\\\\": false\\\\n-    },\\\\n-    {\\\\n-      \\\\\\\"source_path_from_root\\\\\\\": \\\\\\\"/docs/identity/hybrid/cloud-sync/how-to-preserve-original-organizational-unit.md\\\\\\\",\\\\n-      \\\\\\\"redirect_url\\\\\\\": \\\\\\\"/entra/identity/hybrid/cloud-sync/tutorial-group-provisioning\\\\\\\",\\\\n-      \\\\\\\"redirect_document_id\\\\\\\": false\\\\n     }\\\\n   ]\\\\n }\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"b0f56691e057d339307ed7476e732670553972c2\\\",\\r\\n    \\\"filename\\\": \\\"docs/global-secure-access/troubleshoot-connectors.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 6,\\r\\n    \\\"deletions\\\": 2,\\r\\n    \\\"changes\\\": 8,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/c811cdc1ec6e814b1f2921e759ab58e1d61cb4d4/docs%2Fglobal-secure-access%2Ftroubleshoot-connectors.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/c811cdc1ec6e814b1f2921e759ab58e1d61cb4d4/docs%2Fglobal-secure-access%2Ftroubleshoot-connectors.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fglobal-secure-access%2Ftroubleshoot-connectors.md?ref=c811cdc1ec6e814b1f2921e759ab58e1d61cb4d4\\\",\\r\\n    \\\"patch\\\": \\\"@@ -39,16 +39,20 @@ The connector diagnostics tool is an exe command-line application that is includ\\\\n \\\\n The tool also provides additional information, such as certificate details (if the cert is valid), tenant and connector ID, and TLS versions. To ensure that no checks are missed due to network or intermittent issues, the tool contains retries and prints out exception messages for any connectivity failures.\\\\n \\\\n-**How to get the tool:** The connector diagnostics tool is available in the connector installation package starting version 1.5.4287.0. Previous versions don't contain the tool. A new connector installation is needed to get the tool if you are using the previous version. \\\\n+**How to get the tool:** The connector diagnostics tool is available in the connector installation package starting version 1.5.4287.0. Previous versions don't contain the tool. A new connector installation is needed to get the tool if you are using the previous version. A user interface is also introduced starting version 1.5.4522.0. \\\\n \\\\n **How to use the tool:** After verifying successful installation, the tool can be found in the connector installation folder, located by default in C:/Program Files/Microsoft Entra Private Network Connector. Double click the application \\\\\\\"ConnectorDiagnosticsTool\\\\\\\" to launch the tool. \\\\n \\\\n ![Screenshot showing the \\\\\\\"ConnectorDiagnosticsTool\\\\\\\" application selected in file explorer.](https://github.com/user-attachments/assets/76feaf98-9f2c-492c-bb66-7d65fa4dc576)\\\\n \\\\n-Sample Output:\\\\n+Sample PowerShell Output:\\\\n \\\\n ![Screenshot showing the \\\\\\\"ConnectorDiagnosticsTool\\\\\\\" application output.](https://github.com/user-attachments/assets/93cec4e8-58bd-4656-8ff6-c4299e7d5b82)\\\\n \\\\n+Sample User Interface Output (Starting version 1.5.4522.0):\\\\n+\\\\n+![Screenshot showing the \\\\\\\"ConnectorDiagnosticsTool\\\\\\\" application UI output.](https://github.com/user-attachments/assets/e04fd857-3495-48d0-a4f8-5938d19785ac)\\\\n+\\\\n ## Verify connectivity to the cloud application proxy service and Microsoft sign in page\\\\n \\\\n **Objective:** Verify that the connector machine can connect to the application proxy registration endpoint and the Microsoft sign-in page.\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"359bedae92b204ed96175110a3499e7e677e5548\\\",\\r\\n    \\\"filename\\\": \\\"docs/identity/hybrid/how-to-user-source-of-authority-configure.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 0,\\r\\n    \\\"deletions\\\": 50,\\r\\n    \\\"changes\\\": 50,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/c811cdc1ec6e814b1f2921e759ab58e1d61cb4d4/docs%2Fidentity%2Fhybrid%2Fhow-to-user-source-of-authority-configure.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/c811cdc1ec6e814b1f2921e759ab58e1d61cb4d4/docs%2Fidentity%2Fhybrid%2Fhow-to-user-source-of-authority-configure.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fhybrid%2Fhow-to-user-source-of-authority-configure.md?ref=c811cdc1ec6e814b1f2921e759ab58e1d61cb4d4\\\",\\r\\n    \\\"patch\\\": \\\"@@ -196,56 +196,6 @@ Follow these steps to transfer the SOA for a test user:\\\\n    :::image type=\\\\\\\"content\\\\\\\" border=\\\\\\\"true\\\\\\\" source=\\\\\\\"media/how-to-user-source-of-authority-configure/event-6956.png\\\\\\\" alt-text=\\\\\\\"Screenshot of event ID 6956.\\\\\\\":::\\\\n \\\\n \\\\n-## Bulk updates for user SOA\\\\n-\\\\n-You can use the following PowerShell script to automate User SOA updates by using app-based authentication.\\\\n-\\\\n-```powershell\\\\n-# Define your Microsoft Entra ID app details and tenant information\\\\n-$tenantId = \\\\\\\"\\\\\\\"\\\\n-$clientId = \\\\\\\"\\\\\\\"\\\\n-$certThumbprint = \\\\\\\"\\\\\\\"\\\\n-\\\\n-# Connect to Microsoft Graph as App-Only using a certificate. The app registration must have the User.Read.All User-OnPremisesSyncBehavior.ReadWrite.All permissions granted.\\\\n-Connect-MgGraph -ClientId $clientId -TenantId $tenantId -CertificateThumbprint $certThumbprint\\\\n-\\\\n-#Connect to Microsoft Graph using delegated permissions\\\\n-#Connect-MgGraph -Scopes \\\\\\\"User.Read.All User-OnPremisesSyncBehavior.ReadWrite.All\\\\\\\" -TenantId $tenantId\\\\n-\\\\n-# Define the user name you want to query\\\\n-$userName = \\\\\\\"Ken Roy\\\\\\\"\\\\n-\\\\n-# Retrieve the user using user name\\\\n-$user = Get-MgBetaUser -Filter \\\\\\\"displayName eq '$userName'\\\\\\\"\\\\n-\\\\n-# Ensure user is found\\\\n-if ($null -ne $user)\\\\n-{\\\\n-    $userObjectID = $($user.Id)\\\\n-    # Define the Microsoft Graph API endpoint for the user\\\\n-    $url = \\\\\\\"https://graph.microsoft.com/beta/users/$userObjectID/onPremisesSyncBehavior\\\\\\\"\\\\n-\\\\n-    # Define the JSON payload for the PATCH request\\\\n-    $jsonPayload = @{\\\\n-        isCloudManaged = \\\\\\\"true\\\\\\\"\\\\n-    } | ConvertTo-Json\\\\n-\\\\n-    # Make the PATCH request to update the JSON payload\\\\n-    Invoke-MgGraphRequest -Uri $url -Method Patch -ContentType \\\\\\\"application/json\\\\\\\" -Body $jsonPayload\\\\n-\\\\n-    $result = Invoke-MgGraphRequest -Method Get -Uri \\\\\\\"https://graph.microsoft.com/beta/users/$userObjectID/onPremisesSyncBehavior?`$select=id,isCloudManaged\\\\\\\"\\\\n-\\\\n-    Write-Host \\\\\\\"User Name: $($user.DisplayName)\\\\\\\"\\\\n-    Write-Host \\\\\\\"User ID: $($result.id)\\\\\\\"\\\\n-    Write-Host \\\\\\\"SOA Converted: $($result.isCloudManaged)\\\\\\\"\\\\n-}\\\\n-else \\\\n-{\\\\n-    Write-Warning \\\\\\\"User '$userName' not found.\\\\\\\"\\\\n-}\\\\n-```\\\\n-\\\\n-\\\\n ### Status of attributes after you transfer SOA\\\\n \\\\n The following table explains the status for *isCloudManaged* and *onPremisesSyncEnabled* attributes after you transfer the SOA of an object.\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"1f24ae1a03f20db7416d8d15602169aa55f3dbdc\\\",\\r\\n    \\\"filename\\\": \\\"docs/identity/hybrid/what-is-inter-directory-provisioning.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 1,\\r\\n    \\\"deletions\\\": 1,\\r\\n    \\\"changes\\\": 2,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/c811cdc1ec6e814b1f2921e759ab58e1d61cb4d4/docs%2Fidentity%2Fhybrid%2Fwhat-is-inter-directory-provisioning.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/c811cdc1ec6e814b1f2921e759ab58e1d61cb4d4/docs%2Fidentity%2Fhybrid%2Fwhat-is-inter-directory-provisioning.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fhybrid%2Fwhat-is-inter-directory-provisioning.md?ref=c811cdc1ec6e814b1f2921e759ab58e1d61cb4d4\\\",\\r\\n    \\\"patch\\\": \\\"@@ -44,7 +44,7 @@ This capability of inter-directory provisioning offers the following significant\\\\n \\\\n \\\\n ### Common scenarios\\\\n-For a list of common hybrid synchronization scenarios, see [Common scenarios](#common-scenarios).\\\\n+For a list of common hybrid synchronization scenarios, see [Common scenarios](common-scenarios.md).\\\\n \\\\n ## Next steps \\\\n - [What is identity lifecycle management](~/id-governance/scenarios/govern-the-employee-lifecycle.md)\\\"\\r\\n  }\\r\\n]. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\",\"role\":\"user\"}",
+        "Response": "Here's a summary of the recent code changes:\n\nThe `.openpublishing.redirection.json` file has been updated with modifications to redirection rules. The `troubleshoot-connectors.md` document now includes information about a user interface for the connector diagnostics tool and updated sample outputs. Additionally, the `how-to-user-source-of-authority-configure.md` file has had its bulk update PowerShell script removed, and a cross-link in `what-is-inter-directory-provisioning.md` has been corrected to use a relative path.",
+        "Model": "google:gemini-2.5-flash-lite",
+        "Provider": "google",
+        "ModelName": "gemini-2.5-flash-lite",
+        "Timestamp": "2025-10-15T19:01:33.8839597+00:00"
+      },
+      "files": [
+        {
+          "filename": ".openpublishing.redirection.json",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 5
+        },
+        {
+          "filename": "docs/global-secure-access/troubleshoot-connectors.md",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/identity/hybrid/how-to-user-source-of-authority-configure.md",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 50
+        },
+        {
+          "filename": "docs/identity/hybrid/what-is-inter-directory-provisioning.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        }
+      ]
+    },
+    {
+      "sha": "21636413cfea62e358a7ea33c2768fac1debb26b",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/21636413cfea62e358a7ea33c2768fac1debb26b",
+      "author": "Tim Sherer",
+      "email": "28902327+TimShererWithAquent@users.noreply.github.com",
+      "date": "2025-10-15T17:09:00Z",
+      "message": "Merge pull request #10030 from TimShererWithAquent/10152025OPBR\n\nFix warning to unblock publishing.",
+      "ai_summary": {
+        "Messages": "{\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"8b679de19a15b1a01bcfad5ff68e34423a2642ea\\\",\\r\\n  \\\"filename\\\": \\\".openpublishing.redirection.json\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 0,\\r\\n  \\\"deletions\\\": 5,\\r\\n  \\\"changes\\\": 5,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/21636413cfea62e358a7ea33c2768fac1debb26b/.openpublishing.redirection.json\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/21636413cfea62e358a7ea33c2768fac1debb26b/.openpublishing.redirection.json\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/.openpublishing.redirection.json?ref=21636413cfea62e358a7ea33c2768fac1debb26b\\\",\\r\\n  \\\"patch\\\": \\\"@@ -2634,11 +2634,6 @@\\\\n       \\\\\\\"source_path_from_root\\\\\\\": \\\\\\\"/docs/identity/saas-apps/pksha-chatbot-tutorial.md\\\\\\\",\\\\n       \\\\\\\"redirect_url\\\\\\\": \\\\\\\"/entra/identity/saas-apps/pksha-chatagent-tutorial\\\\\\\",\\\\n       \\\\\\\"redirect_document_id\\\\\\\": false\\\\n-    },\\\\n-    {\\\\n-      \\\\\\\"source_path_from_root\\\\\\\": \\\\\\\"/docs/identity/hybrid/cloud-sync/how-to-preserve-original-organizational-unit.md\\\\\\\",\\\\n-      \\\\\\\"redirect_url\\\\\\\": \\\\\\\"/entra/identity/hybrid/cloud-sync/tutorial-group-provisioning\\\\\\\",\\\\n-      \\\\\\\"redirect_document_id\\\\\\\": false\\\\n     }\\\\n   ]\\\\n }\\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\",\"role\":\"user\"}",
+        "Response": "Here's a summary of the changes:\n\nThe `.openpublishing.redirection.json` file has been modified to remove a redirection rule. Specifically, the entry that previously redirected `/docs/identity/hybrid/cloud-sync/how-to-preserve-original-organizational-unit.md` to `/entra/identity/hybrid/cloud-sync/tutorial-group-provisioning` has been deleted.",
+        "Model": "google:gemini-2.5-flash-lite",
+        "Provider": "google",
+        "ModelName": "gemini-2.5-flash-lite",
+        "Timestamp": "2025-10-15T19:01:35.1939989+00:00"
+      },
+      "files": [
+        {
+          "filename": ".openpublishing.redirection.json",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 5
+        }
+      ]
+    },
     {
       "sha": "31c5616597b70852d07a2ef98051daf0df10eca0",
       "url": "https://github.com/MicrosoftDocs/entra-docs/commit/31c5616597b70852d07a2ef98051daf0df10eca0",
@@ -2880,30 +2926,68 @@
           "deletions": 7
         }
       ]
-    },
-    {
-      "sha": "e925cecfa74d4e419d30ce188ce28fde459d34a0",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/e925cecfa74d4e419d30ce188ce28fde459d34a0",
-      "author": "learn-build-service-prod[bot]",
-      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
-      "date": "2025-10-08T17:05:43Z",
-      "message": "Merge pull request #9957 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-10-08 17:03 UTC",
-      "ai_summary": {
-        "Messages": "{\"role\":\"user\",\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"5ce21b2b29c466aedfc4f37e1dd444c21d727570\\\",\\r\\n  \\\"filename\\\": \\\"docs/id-governance/entitlement-management-onboard.md\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 2,\\r\\n  \\\"deletions\\\": 2,\\r\\n  \\\"changes\\\": 4,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/e925cecfa74d4e419d30ce188ce28fde459d34a0/docs%2Fid-governance%2Fentitlement-management-onboard.md\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/e925cecfa74d4e419d30ce188ce28fde459d34a0/docs%2Fid-governance%2Fentitlement-management-onboard.md\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fid-governance%2Fentitlement-management-onboard.md?ref=e925cecfa74d4e419d30ce188ce28fde459d34a0\\\",\\r\\n  \\\"patch\\\": \\\"@@ -7,7 +7,7 @@ editor: markwahl-msft\\\\n ms.service: entra-id-governance\\\\n ms.subservice: entitlement-management\\\\n ms.topic: article\\\\n-ms.date: 07/15/2024\\\\n+ms.date: 10/07/2025\\\\n ms.author: owinfrey\\\\n ms.reviewer: mwahl\\\\n #Customer intent: As an administrator, I want to simplify onboarding external users to resources using access governance features.\\\\n@@ -58,7 +58,7 @@ Configuring attributes is a similar experience as configuring custom questions,\\\\n When an access package includes a resource configured for attribute collection, the external user is automatically asked for those values in addition to any custom questions specified for the access package itself. The information supplied for these attributes is also presented to the approver, and is written into the requestor’s User object if the request is approved. If your external users are only collaborating with Teams or SharePoint Online, you probably don't need attributes.\\\\n \\\\n > [!NOTE]\\\\n-> The specify attributes feature is cloud only as you are unable to write attributes onto on-premises synched users.\\\\n+> The specify attributes feature is cloud only as you're unable to write attributes onto on-premises synched users.\\\\n \\\\n For a step by step guide on this process, see: [Add resource attributes in the catalog](entitlement-management-catalog-create.md#add-resource-attributes-in-the-catalog).\\\\n \\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\"}",
-        "Response": "The date of the document has been updated from July 15, 2024, to October 7, 2025. Additionally, a minor grammatical correction has been made within a note, changing \"as you are unable\" to \"as you're unable\" when discussing the limitation of the specify attributes feature for on-premises synched users.",
-        "Model": "google:gemini-2.5-flash-lite",
-        "Provider": "google",
-        "ModelName": "gemini-2.5-flash-lite",
-        "Timestamp": "2025-10-08T19:01:45.4560619+00:00"
-      },
-      "files": [
-        {
-          "filename": "docs/id-governance/entitlement-management-onboard.md",
-          "status": "modified",
-          "additions": 2,
-          "deletions": 2
-        }
-      ]
     }
-  ]
+  ],
+  "metadata": {
+    "source_files": [
+      {
+        "filename": "entra-changes-20251008-2300.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251009-2300.json",
+        "commit_count": 2
+      },
+      {
+        "filename": "entra-changes-20251010-0701.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251010-2100.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251010-2301.json",
+        "commit_count": 2
+      },
+      {
+        "filename": "entra-changes-20251013-1301.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251013-1901.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251013-2300.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251014-1900.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251014-2300.json",
+        "commit_count": 3
+      },
+      {
+        "filename": "entra-changes-20251015-0701.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251015-1301.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251015-1500.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251015-1901.json",
+        "commit_count": 3
+      }
+    ],
+    "generated_date": "2025-10-15T19:01:41Z",
+    "total_commits": 20
+  }
 }
