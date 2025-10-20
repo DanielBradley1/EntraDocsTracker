@@ -1,6 +1,54 @@
 {
   "changes": [
     {
+      "sha": "aec927e79c2d9bb7bd8470c33235eef554692c18",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/aec927e79c2d9bb7bd8470c33235eef554692c18",
+      "author": "Learn Build Service GitHub App",
+      "email": "Learn Build Service LearnBuild@microsoft.com",
+      "date": "2025-10-20T11:06:14Z",
+      "message": "Merging changes synced from https://github.com/MicrosoftDocs/entra-docs-pr (branch live)",
+      "ai_summary": {
+        "Messages": "{\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"8411b099df9ee82344cc61d650ba36704826ba8f\\\",\\r\\n  \\\"filename\\\": \\\"docs/includes/user-type-workload-limitations-include.md\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 1,\\r\\n  \\\"deletions\\\": 1,\\r\\n  \\\"changes\\\": 2,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/aec927e79c2d9bb7bd8470c33235eef554692c18/docs%2Fincludes%2Fuser-type-workload-limitations-include.md\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/aec927e79c2d9bb7bd8470c33235eef554692c18/docs%2Fincludes%2Fuser-type-workload-limitations-include.md\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fincludes%2Fuser-type-workload-limitations-include.md?ref=aec927e79c2d9bb7bd8470c33235eef554692c18\\\",\\r\\n  \\\"patch\\\": \\\"@@ -12,6 +12,6 @@ ms.custom: include file\\\\n \\\\n | App or service | Limitations |\\\\n | --- | --- |\\\\n-| Power BI | - Support for UserType Member in Power BI is currently in preview. For more information, see [Distribute Power BI content to external guest users with Microsoft Entra B2B](/power-bi/enterprise/service-admin-azure-ad-b2b#who-can-you-invite). |\\\\n+| Power BI | - Support for UserType Member in Power BI is currently in preview. For more information, see [Distribute Power BI content to external guest users with Microsoft Entra B2B](/fabric/enterprise/powerbi/service-admin-entra-b2b). |\\\\n | Azure Virtual Desktop | - For limitations, see [Prerequisites for Azure Virtual Desktop](/azure/virtual-desktop/prerequisites#users). |\\\\n | Microsoft Teams | - For limitations, see [Collaborate with guests from other Microsoft 365 cloud environments](/microsoft-365/solutions/collaborate-guests-cross-cloud). |\\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\",\"role\":\"user\"}",
+        "Response": "This commit updates a documentation file regarding user type workload limitations. The change specifically modifies the link for Power BI documentation, redirecting it to a more current or relevant path within the Microsoft Fabric documentation. This ensures users can access the latest information on distributing Power BI content to external guest users.",
+        "Model": "google:gemini-2.5-flash-lite",
+        "Provider": "google",
+        "ModelName": "gemini-2.5-flash-lite",
+        "Timestamp": "2025-10-20T13:00:40.6407978+00:00"
+      },
+      "files": [
+        {
+          "filename": "docs/includes/user-type-workload-limitations-include.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        }
+      ]
+    },
+    {
+      "sha": "bb2daa0b23dcf0286d779967b057a8abb1fd8ee7",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/bb2daa0b23dcf0286d779967b057a8abb1fd8ee7",
+      "author": "learn-build-service-prod[bot]",
+      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+      "date": "2025-10-20T11:03:26Z",
+      "message": "Merge pull request #10064 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-10-20 11:00 UTC",
+      "ai_summary": {
+        "Messages": "{\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"8411b099df9ee82344cc61d650ba36704826ba8f\\\",\\r\\n  \\\"filename\\\": \\\"docs/includes/user-type-workload-limitations-include.md\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 1,\\r\\n  \\\"deletions\\\": 1,\\r\\n  \\\"changes\\\": 2,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/bb2daa0b23dcf0286d779967b057a8abb1fd8ee7/docs%2Fincludes%2Fuser-type-workload-limitations-include.md\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/bb2daa0b23dcf0286d779967b057a8abb1fd8ee7/docs%2Fincludes%2Fuser-type-workload-limitations-include.md\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fincludes%2Fuser-type-workload-limitations-include.md?ref=bb2daa0b23dcf0286d779967b057a8abb1fd8ee7\\\",\\r\\n  \\\"patch\\\": \\\"@@ -12,6 +12,6 @@ ms.custom: include file\\\\n \\\\n | App or service | Limitations |\\\\n | --- | --- |\\\\n-| Power BI | - Support for UserType Member in Power BI is currently in preview. For more information, see [Distribute Power BI content to external guest users with Microsoft Entra B2B](/power-bi/enterprise/service-admin-azure-ad-b2b#who-can-you-invite). |\\\\n+| Power BI | - Support for UserType Member in Power BI is currently in preview. For more information, see [Distribute Power BI content to external guest users with Microsoft Entra B2B](/fabric/enterprise/powerbi/service-admin-entra-b2b). |\\\\n | Azure Virtual Desktop | - For limitations, see [Prerequisites for Azure Virtual Desktop](/azure/virtual-desktop/prerequisites#users). |\\\\n | Microsoft Teams | - For limitations, see [Collaborate with guests from other Microsoft 365 cloud environments](/microsoft-365/solutions/collaborate-guests-cross-cloud). |\\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\",\"role\":\"user\"}",
+        "Response": "The commit updates a documentation file, specifically `docs/includes/user-type-workload-limitations-include.md`. The change involves a minor adjustment to a link related to Power BI's support for `UserType Member` and external guest users. The previous link pointed to a Power BI article within the `azure-ad-b2b` section, whereas the updated link now directs to a similar article under the `fabric/enterprise/powerbi/service-admin-entra-b2b` path. This change appears to be a redirection or update to the most current documentation location for this feature.",
+        "Model": "google:gemini-2.5-flash-lite",
+        "Provider": "google",
+        "ModelName": "gemini-2.5-flash-lite",
+        "Timestamp": "2025-10-20T13:00:42.5510064+00:00"
+      },
+      "files": [
+        {
+          "filename": "docs/includes/user-type-workload-limitations-include.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        }
+      ]
+    },
+    {
       "sha": "a8848ab75cde12798ae4c68553cc5d557eb83ff8",
       "url": "https://github.com/MicrosoftDocs/entra-docs/commit/a8848ab75cde12798ae4c68553cc5d557eb83ff8",
       "author": "Learn Build Service GitHub App",
@@ -2905,7 +2953,7 @@
     }
   ],
   "metadata": {
-    "generated_date": "2025-10-17T23:01:26Z",
+    "generated_date": "2025-10-20T13:00:45Z",
     "source_files": [
       {
         "filename": "entra-changes-20251013-1301.json",
@@ -2966,8 +3014,12 @@
       {
         "filename": "entra-changes-20251017-2301.json",
         "commit_count": 2
+      },
+      {
+        "filename": "entra-changes-20251020-1300.json",
+        "commit_count": 2
       }
     ],
-    "total_commits": 27
+    "total_commits": 29
   }
 }
