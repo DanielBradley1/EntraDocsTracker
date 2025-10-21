@@ -1,0 +1,104 @@
+[
+  {
+    "sha": "5b1738a7173bf2372f038193577960ae4951ed7a",
+    "url": "https://github.com/MicrosoftDocs/entra-docs/commit/5b1738a7173bf2372f038193577960ae4951ed7a",
+    "author": "learn-build-service-prod[bot]",
+    "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+    "date": "2025-10-21T17:13:14Z",
+    "message": "Merge pull request #10085 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-10-21 17:06 UTC",
+    "ai_summary": {
+      "Messages": "{\"role\":\"user\",\"content\":\"The following is the commit files that have changed: [\\r\\n  {\\r\\n    \\\"sha\\\": \\\"e5dfb46f1f940f37b744ed901a9a010c0806e727\\\",\\r\\n    \\\"filename\\\": \\\"docs/fundamentals/whats-new-archive.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 3,\\r\\n    \\\"deletions\\\": 3,\\r\\n    \\\"changes\\\": 6,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/5b1738a7173bf2372f038193577960ae4951ed7a/docs%2Ffundamentals%2Fwhats-new-archive.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/5b1738a7173bf2372f038193577960ae4951ed7a/docs%2Ffundamentals%2Fwhats-new-archive.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Ffundamentals%2Fwhats-new-archive.md?ref=5b1738a7173bf2372f038193577960ae4951ed7a\\\",\\r\\n    \\\"patch\\\": \\\"@@ -6,7 +6,7 @@ manager: dougeby\\\\n ms.service: entra\\\\n ms.subservice: fundamentals\\\\n ms.topic: whats-new\\\\n-ms.date: 06/18/2025\\\\n+ms.date: 10/21/2025\\\\n ms.author: owinfrey\\\\n ms.reviewer: dhanyahk\\\\n ms.custom: it-pro, has-adal-ref, has-azure-ad-ps-ref, sfi-ga-nochange\\\\n@@ -1989,13 +1989,13 @@ Here are some resources to guide you rename your own product experiences or cont\\\\n \\\\n ---\\\\n \\\\n-### General Availability - End users will no longer be able to add password SSO apps in My Apps  \\\\n+### General Availability - End users will no longer be able to add password SSO and gallery apps in My Apps  \\\\n \\\\n **Type:** Deprecated   \\\\n **Service category:** My Apps                     \\\\n **Product capability:** End User Experiences            \\\\n \\\\n-Effective November 15, 2023, end users will no longer be able to add password SSO Apps to their gallery in My Apps. However, admins can still add password SSO apps following [these instructions](~/identity/enterprise-apps/configure-password-single-sign-on-non-gallery-applications.md). Password SSO apps previously added by end users remain available in My Apps.\\\\n+Effective November 15, 2023, end users will no longer be able to add password SSO Apps to their gallery in My Apps. However, admins can still add password SSO apps following [these instructions](~/identity/enterprise-apps/configure-password-single-sign-on-non-gallery-applications.md). Password SSO apps previously added by end users remain available in My Apps. The feature **Users can add gallery apps to My Apps** was retired, and admins can no longer see the option to enable this feature for their users in the Entra portal under user settings within Enterprise Apps.\\\\n \\\\n For more information, see: [Discover applications](~/identity/enterprise-apps/myapps-overview.md#discover-applications).\\\\n \\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"64a27d0ca326da4d0c6be9e032d99506c43d20d5\\\",\\r\\n    \\\"filename\\\": \\\"docs/id-governance/access-review-agent.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 3,\\r\\n    \\\"deletions\\\": 1,\\r\\n    \\\"changes\\\": 4,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/5b1738a7173bf2372f038193577960ae4951ed7a/docs%2Fid-governance%2Faccess-review-agent.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/5b1738a7173bf2372f038193577960ae4951ed7a/docs%2Fid-governance%2Faccess-review-agent.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fid-governance%2Faccess-review-agent.md?ref=5b1738a7173bf2372f038193577960ae4951ed7a\\\",\\r\\n    \\\"patch\\\": \\\"@@ -14,7 +14,9 @@ ms.date: 09/04/2025\\\\n # Access Review Agent\\\\n Say goodbye to time-consuming research and the uncertainty of rushed decisions. The Access Review Agent works for your reviewers by automatically gathering insights and generating recommendations. It then guides reviewers through the review process in Microsoft Teams with natural language, with simple summaries and proposed decisions, so they can make the final call with confidence and clarity.\\\\n \\\\n-:::image type=\\\\\\\"content\\\\\\\" source=\\\\\\\"media/access-review-agent/access-review-agent-prompt.png\\\\\\\" alt-text=\\\\\\\"Screenshot of the initial prompt in the access review agent chat.\\\\\\\" lightbox=\\\\\\\"media/access-review-agent/access-review-agent-prompt.png\\\\\\\":::\\\\n+\\\\n+> [!VIDEO https://www.youtube.com/embed/T3Psj8Z2Ghc?si=S5bD8vmhy9gm5UuZ]\\\\n+\\\\n \\\\n ## Prerequisites\\\\n - You must have [Microsoft Entra ID Governance or Microsoft Entra Suite licenses](licensing-fundamentals.md).\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"413c09a5acd488b451577ab3fba59aa3240ad114\\\",\\r\\n    \\\"filename\\\": \\\"docs/id-governance/entitlement-management-dynamic-approval.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 3,\\r\\n    \\\"deletions\\\": 0,\\r\\n    \\\"changes\\\": 3,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/5b1738a7173bf2372f038193577960ae4951ed7a/docs%2Fid-governance%2Fentitlement-management-dynamic-approval.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/5b1738a7173bf2372f038193577960ae4951ed7a/docs%2Fid-governance%2Fentitlement-management-dynamic-approval.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fid-governance%2Fentitlement-management-dynamic-approval.md?ref=5b1738a7173bf2372f038193577960ae4951ed7a\\\",\\r\\n    \\\"patch\\\": \\\"@@ -25,6 +25,9 @@ With the introduction of [custom extensions](entitlement-management-logic-apps-i\\\\n \\\\n This article walks you through making a custom extension, its underlying Azure Logic App, setting its system-assigned identity and role in the catalog, editing the logic app action to perform business logic, and testing to see if it runs successfully.\\\\n \\\\n+Want to learn how this feature can use SAP organizational business context for approvals? Check out this episode of the SAP on Azure podcast:\\\\n+\\\\n+[!VIDEO https://www.youtube.com/embed/qpEkNQtLLRY?si=ImIiD2jZPE8YTJGq]\\\\n \\\\n ## License requirements\\\\n \\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"75124b66dbeda11aaffd2deffb65a0e6398399ac\\\",\\r\\n    \\\"filename\\\": \\\"docs/identity-platform/jwt-claims-customization.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 2,\\r\\n    \\\"deletions\\\": 0,\\r\\n    \\\"changes\\\": 2,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/5b1738a7173bf2372f038193577960ae4951ed7a/docs%2Fidentity-platform%2Fjwt-claims-customization.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/5b1738a7173bf2372f038193577960ae4951ed7a/docs%2Fidentity-platform%2Fjwt-claims-customization.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity-platform%2Fjwt-claims-customization.md?ref=5b1738a7173bf2372f038193577960ae4951ed7a\\\",\\r\\n    \\\"patch\\\": \\\"@@ -91,6 +91,8 @@ If you need other transformations, submit your idea in the [feedback forum in Mi\\\\n \\\\n ## Regex-based claims transformation\\\\n \\\\n+You can use regular expressions to transform claims. A maximum of 20 total regex replacements can be made when using regex-based claims transformations.\\\\n+\\\\n The following image shows an example of the first level of transformation:\\\\n \\\\n :::image type=\\\\\\\"content\\\\\\\" source=\\\\\\\"./media/jwt-claims-customization/regexreplace-transform1.png\\\\\\\" alt-text=\\\\\\\"Screenshot of the first level of transformation.\\\\\\\":::\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"c8f1d7d519dae5ac8c71ac8fdf383b1a96952b35\\\",\\r\\n    \\\"filename\\\": \\\"docs/identity-platform/reference-error-codes.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 2,\\r\\n    \\\"deletions\\\": 0,\\r\\n    \\\"changes\\\": 2,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/5b1738a7173bf2372f038193577960ae4951ed7a/docs%2Fidentity-platform%2Freference-error-codes.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/5b1738a7173bf2372f038193577960ae4951ed7a/docs%2Fidentity-platform%2Freference-error-codes.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity-platform%2Freference-error-codes.md?ref=5b1738a7173bf2372f038193577960ae4951ed7a\\\",\\r\\n    \\\"patch\\\": \\\"@@ -206,6 +206,8 @@ The `error` field has several possible values - review the protocol documentatio\\\\n | AADSTS50161 | Failed to validate authorization url of external claims provider. |\\\\n | AADSTS50162 | Claims transformation has timed out. This indicates too many or too complex transformations may have been configured for this application. A retry of the request may succeed. Otherwise, please contact your admin to fix the configuration. |\\\\n | AADSTS50163 | Regular expression replacement for claims transformation has resulted in a claim which exceeds the size limit. Please contact your admin to fix the configuration.|\\\\n+| AADSTS501631 | Regular expression replacement for claims transformation results in too many replacements in the input sourceClaim. Please contact your admin to fix the configuration. |\\\\n+| AADSTS501632 | Regular expression replacement for claims transformation has too many substitution parameters in the replacement input parameter. Please contact your admin to fix the configuration. |\\\\n | AADSTS50164 | The supplied access token was not issued for the purpose for which it is being used. Expected a token with purpose '{name}'. |\\\\n | AADSTS50165 | The token encrypting algorithm '{algorithm}' requested by the application isn't supported for this type of token. This indicates the application is misconfigured. |\\\\n | AADSTS50166 | Request to External OIDC endpoint failed. |\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"e90fe45bea29f3e3920b4b7abd3833383c4153d7\\\",\\r\\n    \\\"filename\\\": \\\"docs/identity-platform/saml-claims-customization.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 3,\\r\\n    \\\"deletions\\\": 1,\\r\\n    \\\"changes\\\": 4,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/5b1738a7173bf2372f038193577960ae4951ed7a/docs%2Fidentity-platform%2Fsaml-claims-customization.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/5b1738a7173bf2372f038193577960ae4951ed7a/docs%2Fidentity-platform%2Fsaml-claims-customization.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity-platform%2Fsaml-claims-customization.md?ref=5b1738a7173bf2372f038193577960ae4951ed7a\\\",\\r\\n    \\\"patch\\\": \\\"@@ -155,6 +155,8 @@ You can use the following functions to transform claims.\\\\n \\\\n ## Regex-based claims transformation\\\\n \\\\n+You can use regular expressions to transform claims. A maximum of 20 total regex replacements can be made when using regex-based claims transformations.\\\\n+\\\\n The following image shows an example of the first level of transformation:\\\\n \\\\n :::image type=\\\\\\\"content\\\\\\\" source=\\\\\\\"./media/saml-claims-customization/regexreplace-transform1.png\\\\\\\" alt-text=\\\\\\\"Screenshot of the first level of transformation.\\\\\\\":::\\\\n@@ -170,7 +172,7 @@ The actions listed in the following table provide information about the first le\\\\n | `5` | `Add additional parameter` | More than one user attribute can be used for the transformation. The values of the attributes would then be merged with regex transformation output. Up to five more parameters are supported. |\\\\n | `6` | `Replacement pattern` | The replacement pattern is the text template, which contains placeholders for regex outcome. All group names must be wrapped inside the curly braces such as `{group-name}`. Let's say the administration wants to use user alias with some other domain name, for example `xyz.com` and merge country name with it. In this case, the replacement pattern would be `{country}.{domain}@xyz.com`, where `{country}` is the value of input parameter and `{domain}` is the group output from the regular expression evaluation. In such a case, the expected outcome is `US.swmal@xyz.com`. |\\\\n \\\\n-The following image shows an example of the second  level of transformation:\\\\n+The following image shows an example of the second level of transformation:\\\\n \\\\n :::image type=\\\\\\\"content\\\\\\\" source=\\\\\\\"./media/saml-claims-customization/regexreplace-transform2.png\\\\\\\" alt-text=\\\\\\\"Screenshot of second level of claims transformation.\\\\\\\":::\\\\n \\\"\\r\\n  }\\r\\n]. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\"}",
+      "Response": "This commit updates documentation for Microsoft Entra. Changes include a revised date in the \"What's New\" archive, expanded details on the retirement of end-user gallery app additions in My Apps, and the addition of a YouTube video for the Access Review Agent. It also introduces a link to a podcast about using SAP business context for entitlement management approvals, clarifies limits for regex-based claims transformations, and adds new error codes related to claims transformation timeouts and regex replacement issues.",
+      "Model": "google:gemini-2.5-flash-lite",
+      "Provider": "google",
+      "ModelName": "gemini-2.5-flash-lite",
+      "Timestamp": "2025-10-21T19:01:16.8282252+00:00"
+    },
+    "files": [
+      {
+        "filename": "docs/fundamentals/whats-new-archive.md",
+        "status": "modified",
+        "additions": 3,
+        "deletions": 3
+      },
+      {
+        "filename": "docs/id-governance/access-review-agent.md",
+        "status": "modified",
+        "additions": 3,
+        "deletions": 1
+      },
+      {
+        "filename": "docs/id-governance/entitlement-management-dynamic-approval.md",
+        "status": "modified",
+        "additions": 3,
+        "deletions": 0
+      },
+      {
+        "filename": "docs/identity-platform/jwt-claims-customization.md",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 0
+      },
+      {
+        "filename": "docs/identity-platform/reference-error-codes.md",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 0
+      },
+      {
+        "filename": "docs/identity-platform/saml-claims-customization.md",
+        "status": "modified",
+        "additions": 3,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "sha": "e6235a838d252e4e84afecb84d7875b3c6786c98",
+    "url": "https://github.com/MicrosoftDocs/entra-docs/commit/e6235a838d252e4e84afecb84d7875b3c6786c98",
+    "author": "prmerger-automator[bot]",
+    "email": "40007230+prmerger-automator[bot]@users.noreply.github.com",
+    "date": "2025-10-21T17:05:45Z",
+    "message": "Merge pull request #10084 from OWinfreyATL/owinfreyATLArchiveTest\n\nUpdate acrolinx",
+    "ai_summary": {
+      "Messages": "{\"role\":\"user\",\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"e5dfb46f1f940f37b744ed901a9a010c0806e727\\\",\\r\\n  \\\"filename\\\": \\\"docs/fundamentals/whats-new-archive.md\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 1,\\r\\n  \\\"deletions\\\": 1,\\r\\n  \\\"changes\\\": 2,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/e6235a838d252e4e84afecb84d7875b3c6786c98/docs%2Ffundamentals%2Fwhats-new-archive.md\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/e6235a838d252e4e84afecb84d7875b3c6786c98/docs%2Ffundamentals%2Fwhats-new-archive.md\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Ffundamentals%2Fwhats-new-archive.md?ref=e6235a838d252e4e84afecb84d7875b3c6786c98\\\",\\r\\n  \\\"patch\\\": \\\"@@ -6,7 +6,7 @@ manager: dougeby\\\\n ms.service: entra\\\\n ms.subservice: fundamentals\\\\n ms.topic: whats-new\\\\n-ms.date: 06/18/2025\\\\n+ms.date: 10/21/2025\\\\n ms.author: owinfrey\\\\n ms.reviewer: dhanyahk\\\\n ms.custom: it-pro, has-adal-ref, has-azure-ad-ps-ref, sfi-ga-nochange\\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\"}",
+      "Response": "This commit updates the `ms.date` metadata in the `docs/fundamentals/whats-new-archive.md` file. The date has been changed from June 18, 2025, to October 21, 2025. This appears to be a routine maintenance update to reflect a newer publication or review date for the document.",
+      "Model": "google:gemini-2.5-flash-lite",
+      "Provider": "google",
+      "ModelName": "gemini-2.5-flash-lite",
+      "Timestamp": "2025-10-21T19:01:18.0317594+00:00"
+    },
+    "files": [
+      {
+        "filename": "docs/fundamentals/whats-new-archive.md",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "sha": "167453a0dbda07011030ca10c667851558656185",
+    "url": "https://github.com/MicrosoftDocs/entra-docs/commit/167453a0dbda07011030ca10c667851558656185",
+    "author": "Ortagus Winfrey",
+    "email": "85191667+OWinfreyATL@users.noreply.github.com",
+    "date": "2025-10-21T17:01:59Z",
+    "message": "Update acrolinx",
+    "ai_summary": {
+      "Messages": "{\"role\":\"user\",\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"e5dfb46f1f940f37b744ed901a9a010c0806e727\\\",\\r\\n  \\\"filename\\\": \\\"docs/fundamentals/whats-new-archive.md\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 1,\\r\\n  \\\"deletions\\\": 1,\\r\\n  \\\"changes\\\": 2,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/167453a0dbda07011030ca10c667851558656185/docs%2Ffundamentals%2Fwhats-new-archive.md\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/167453a0dbda07011030ca10c667851558656185/docs%2Ffundamentals%2Fwhats-new-archive.md\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Ffundamentals%2Fwhats-new-archive.md?ref=167453a0dbda07011030ca10c667851558656185\\\",\\r\\n  \\\"patch\\\": \\\"@@ -6,7 +6,7 @@ manager: dougeby\\\\n ms.service: entra\\\\n ms.subservice: fundamentals\\\\n ms.topic: whats-new\\\\n-ms.date: 06/18/2025\\\\n+ms.date: 10/21/2025\\\\n ms.author: owinfrey\\\\n ms.reviewer: dhanyahk\\\\n ms.custom: it-pro, has-adal-ref, has-azure-ad-ps-ref, sfi-ga-nochange\\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\"}",
+      "Response": "This commit updates the metadata for the `docs/fundamentals/whats-new-archive.md` file. Specifically, it changes the `ms.date` attribute from `06/18/2025` to `10/21/2025`. This adjustment likely reflects a revision or intended publication date for the content within the 'What's New' archive document.",
+      "Model": "google:gemini-2.5-flash-lite",
+      "Provider": "google",
+      "ModelName": "gemini-2.5-flash-lite",
+      "Timestamp": "2025-10-21T19:01:19.5249065+00:00"
+    },
+    "files": [
+      {
+        "filename": "docs/fundamentals/whats-new-archive.md",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      }
+    ]
+  }
+]
