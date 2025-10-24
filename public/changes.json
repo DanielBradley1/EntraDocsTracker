@@ -1,6 +1,78 @@
 {
   "changes": [
     {
+      "sha": "bc00f6a892c2ad6ebf99e2e66a0c1172928323da",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/bc00f6a892c2ad6ebf99e2e66a0c1172928323da",
+      "author": "Shannon Leavitt",
+      "email": "47186198+ShannonLeavitt@users.noreply.github.com",
+      "date": "2025-10-24T20:47:42Z",
+      "message": "Merge pull request #1806 from Sammak/patch-11\n\nUpdate notification recipient details in documentation",
+      "ai_summary": {
+        "Messages": "{\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"d195efdec37a5b3d380c1262b54a1fa03c2846f0\\\",\\r\\n  \\\"filename\\\": \\\"docs/security-copilot/conditional-access-agent-optimization.md\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 1,\\r\\n  \\\"deletions\\\": 1,\\r\\n  \\\"changes\\\": 2,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/bc00f6a892c2ad6ebf99e2e66a0c1172928323da/docs%2Fsecurity-copilot%2Fconditional-access-agent-optimization.md\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/bc00f6a892c2ad6ebf99e2e66a0c1172928323da/docs%2Fsecurity-copilot%2Fconditional-access-agent-optimization.md\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fsecurity-copilot%2Fconditional-access-agent-optimization.md?ref=bc00f6a892c2ad6ebf99e2e66a0c1172928323da\\\",\\r\\n  \\\"patch\\\": \\\"@@ -147,7 +147,7 @@ To configure notifications in the Conditional Access optimization agent settings\\\\n \\\\n 1. At the bottom of the main **Settings** page, select the **Save** button.\\\\n \\\\n-You can select up to 10 recipients to receive notifications. You can select a group to receive the notifications, but the membership of that group can't exceed 10 users. If you select a group that has fewer than 10 users but more are added later, the group no longer receives notifications. Similarly, the notifications can only be sent to five objects, such as a combination of individual users or groups.\\\\n+You can select up to 10 recipients to receive notifications. You can select a group to receive the notifications, but the membership of that group can't exceed 10 users. If you select a group that has fewer than 10 users but more are added later, the group no longer receives notifications. Similarly, the notifications can only be sent to five objects, such as a combination of individual users or groups. To stop receiving notifications, remove your user object or the group you're included in from the recipient's list. \\\\n \\\\n At this time, the agent's communication is one direction, so you can receive notifications but can't respond to them in Microsoft Teams. To take action on a suggestion, select **Review suggestion** from the chat to open the Conditional Access optimization agent in the Microsoft Entra admin center.\\\\n \\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\",\"role\":\"user\"}",
+        "Response": "A minor amendment has been made to the documentation regarding the Conditional Access optimisation agent. The update clarifies that to cease receiving notifications, users must remove their individual user object or the group they belong to from the recipient list. This change aims to provide clearer instructions on managing notification subscriptions.",
+        "Model": "google:gemini-2.5-flash-lite",
+        "Provider": "google",
+        "ModelName": "gemini-2.5-flash-lite",
+        "Timestamp": "2025-10-24T21:01:50.9833191+00:00"
+      },
+      "files": [
+        {
+          "filename": "docs/security-copilot/conditional-access-agent-optimization.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        }
+      ]
+    },
+    {
+      "sha": "d8832ac42d57ef53ef6acd05b1d2d0728bc7350d",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/d8832ac42d57ef53ef6acd05b1d2d0728bc7350d",
+      "author": "Shannon Leavitt",
+      "email": "47186198+ShannonLeavitt@users.noreply.github.com",
+      "date": "2025-10-24T19:20:42Z",
+      "message": "Merge pull request #1804 from nickludwig/patch-3\n\nDocument certificate revocation guidance in outages",
+      "ai_summary": {
+        "Messages": "{\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"14a2bb735b507435c7b33e01065a5841a82dc7b5\\\",\\r\\n  \\\"filename\\\": \\\"docs/architecture/backup-authentication-system.md\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 4,\\r\\n  \\\"deletions\\\": 0,\\r\\n  \\\"changes\\\": 4,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/d8832ac42d57ef53ef6acd05b1d2d0728bc7350d/docs%2Farchitecture%2Fbackup-authentication-system.md\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/d8832ac42d57ef53ef6acd05b1d2d0728bc7350d/docs%2Farchitecture%2Fbackup-authentication-system.md\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Farchitecture%2Fbackup-authentication-system.md?ref=d8832ac42d57ef53ef6acd05b1d2d0728bc7350d\\\",\\r\\n  \\\"patch\\\": \\\"@@ -72,6 +72,10 @@ Certain other types of policies don't support use of the backup authentication s\\\\n - Use of the [authentication methods policy](~/identity/conditional-access/concept-conditional-access-grant.md#require-authentication-strength).\\\\n - Use of [classic Conditional Access policies](~/identity/conditional-access/policy-migration-mfa.md).\\\\n \\\\n+### How does certificate revocation work in an outage? \\\\n+\\\\n+To enhance its resilience posture, the backup authentication system can't perform fresh revocation checks. Instead, it relies on the state of the certificate revocation list (CRL) check that's performed when the session was last backed up. If you need to revoke before this backup expires, you should explicitly revoke the session instead of waiting for the CRL.  \\\\n+\\\\n ## Workload identity resilience in the backup authentication system\\\\n \\\\n In addition to user authentication, the backup authentication system provides resilience for [managed identities](~/identity/managed-identities-azure-resources/overview.md) and other key Azure infrastructure by offering a regionally isolated authentication service that is redundantly layered with the primary authentication service. This system enables the infrastructure authentication within an Azure region to be resilient to issues that might occur in another region or within the larger Microsoft Entra service. This system complements Azure's cross-region architecture. Building your own applications using MI and following Azure's [best practices for resilience and availability]() ensures your applications are highly resilient. In addition to MI, this regionally resilient backup system protects key Azure infrastructure and services that keep the cloud functional.\\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\",\"role\":\"user\"}",
+        "Response": "This commit updates the `backup-authentication-system.md` documentation. It adds a new section explaining how certificate revocation functions within the backup authentication system during an outage, detailing its reliance on previous CRL checks and the need for explicit session revocation if immediate revocation is required. This addresses resilience concerns by clarifying the system's behaviour in such scenarios.",
+        "Model": "google:gemini-2.5-flash-lite",
+        "Provider": "google",
+        "ModelName": "gemini-2.5-flash-lite",
+        "Timestamp": "2025-10-24T21:01:52.0416932+00:00"
+      },
+      "files": [
+        {
+          "filename": "docs/architecture/backup-authentication-system.md",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 0
+        }
+      ]
+    },
+    {
+      "sha": "247061a8f836d331e08e2c1175c7007cf9d54567",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/247061a8f836d331e08e2c1175c7007cf9d54567",
+      "author": "Shannon Leavitt",
+      "email": "47186198+ShannonLeavitt@users.noreply.github.com",
+      "date": "2025-10-24T19:14:30Z",
+      "message": "Update docs/architecture/backup-authentication-system.md",
+      "ai_summary": {
+        "Messages": "{\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"14a2bb735b507435c7b33e01065a5841a82dc7b5\\\",\\r\\n  \\\"filename\\\": \\\"docs/architecture/backup-authentication-system.md\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 1,\\r\\n  \\\"deletions\\\": 1,\\r\\n  \\\"changes\\\": 2,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/247061a8f836d331e08e2c1175c7007cf9d54567/docs%2Farchitecture%2Fbackup-authentication-system.md\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/247061a8f836d331e08e2c1175c7007cf9d54567/docs%2Farchitecture%2Fbackup-authentication-system.md\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Farchitecture%2Fbackup-authentication-system.md?ref=247061a8f836d331e08e2c1175c7007cf9d54567\\\",\\r\\n  \\\"patch\\\": \\\"@@ -74,7 +74,7 @@ Certain other types of policies don't support use of the backup authentication s\\\\n \\\\n ### How does certificate revocation work in an outage? \\\\n \\\\n-To enhance its resilience posture, the backup authentication system does not have the ability to perform fresh revocation checks. Instead it relies on the state of the certificate revocation list (CRL) check performed when the session was last backed up. If you need to revoke before this backup expires, you should explicitly revoke the session instead of waiting for the CRL.  \\\\n+To enhance its resilience posture, the backup authentication system can't perform fresh revocation checks. Instead, it relies on the state of the certificate revocation list (CRL) check that's performed when the session was last backed up. If you need to revoke before this backup expires, you should explicitly revoke the session instead of waiting for the CRL.  \\\\n \\\\n ## Workload identity resilience in the backup authentication system\\\\n \\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\",\"role\":\"user\"}",
+        "Response": "The document `docs/architecture/backup-authentication-system.md` has been updated. A minor edit was made to clarify how certificate revocation functions during an outage. The system now relies on the state of the last CRL check performed when a session was backed up, rather than performing fresh checks. If immediate revocation is required before a backup expires, users are advised to explicitly revoke the session.",
+        "Model": "google:gemini-2.5-flash-lite",
+        "Provider": "google",
+        "ModelName": "gemini-2.5-flash-lite",
+        "Timestamp": "2025-10-24T21:01:53.2708789+00:00"
+      },
+      "files": [
+        {
+          "filename": "docs/architecture/backup-authentication-system.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        }
+      ]
+    },
+    {
       "sha": "68f45c87763023867695caf4b198a153b5618bed",
       "url": "https://github.com/MicrosoftDocs/entra-docs/commit/68f45c87763023867695caf4b198a153b5618bed",
       "author": "learn-build-service-prod[bot]",
@@ -1430,7 +1502,7 @@
     }
   ],
   "metadata": {
-    "generated_date": "2025-10-24T19:01:51Z",
+    "total_commits": 34,
     "source_files": [
       {
         "filename": "entra-changes-20251017-2301.json",
@@ -1491,8 +1563,12 @@
       {
         "filename": "entra-changes-20251024-1901.json",
         "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251024-2101.json",
+        "commit_count": 3
       }
     ],
-    "total_commits": 31
+    "generated_date": "2025-10-24T21:01:55Z"
   }
 }
