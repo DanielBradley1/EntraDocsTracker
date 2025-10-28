@@ -1,79 +1,77 @@
 {
-  "metadata": {
-    "source_files": [
-      {
-        "filename": "entra-changes-20251020-2300.json",
-        "commit_count": 3
-      },
-      {
-        "filename": "entra-changes-20251021-0701.json",
-        "commit_count": 2
-      },
-      {
-        "filename": "entra-changes-20251021-1701.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251021-1901.json",
-        "commit_count": 3
-      },
-      {
-        "filename": "entra-changes-20251021-2301.json",
-        "commit_count": 3
-      },
-      {
-        "filename": "entra-changes-20251022-0701.json",
-        "commit_count": 2
-      },
-      {
-        "filename": "entra-changes-20251022-1900.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251022-2302.json",
-        "commit_count": 4
-      },
-      {
-        "filename": "entra-changes-20251023-0701.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251023-1301.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251023-2100.json",
-        "commit_count": 2
-      },
-      {
-        "filename": "entra-changes-20251023-2301.json",
-        "commit_count": 3
-      },
-      {
-        "filename": "entra-changes-20251024-1901.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251024-2101.json",
-        "commit_count": 3
-      },
-      {
-        "filename": "entra-changes-20251024-2300.json",
-        "commit_count": 4
-      },
-      {
-        "filename": "entra-changes-20251027-1600.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251027-1801.json",
-        "commit_count": 2
-      }
-    ],
-    "generated_date": "2025-10-27T18:01:07Z",
-    "total_commits": 37
-  },
   "changes": [
+    {
+      "sha": "41674b3385c2b451508c87e3cf85556b319fd2d8",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/41674b3385c2b451508c87e3cf85556b319fd2d8",
+      "author": "learn-build-service-prod[bot]",
+      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+      "date": "2025-10-27T22:03:07Z",
+      "message": "Merge pull request #10144 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-10-27 22:00 UTC",
+      "ai_summary": {
+        "Messages": "{\"content\":\"The following is the commit files that have changed: [\\r\\n  {\\r\\n    \\\"sha\\\": \\\"78544981a6fe355d6d974334900d939a142b0e08\\\",\\r\\n    \\\"filename\\\": \\\"docs/id-protection/howto-identity-protection-remediate-unblock.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 0,\\r\\n    \\\"deletions\\\": 2,\\r\\n    \\\"changes\\\": 2,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/41674b3385c2b451508c87e3cf85556b319fd2d8/docs%2Fid-protection%2Fhowto-identity-protection-remediate-unblock.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/41674b3385c2b451508c87e3cf85556b319fd2d8/docs%2Fid-protection%2Fhowto-identity-protection-remediate-unblock.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fid-protection%2Fhowto-identity-protection-remediate-unblock.md?ref=41674b3385c2b451508c87e3cf85556b319fd2d8\\\",\\r\\n    \\\"patch\\\": \\\"@@ -81,8 +81,6 @@ Some situations require an IT administrator to manually remediate sign-in or use\\\\n - Confirm the user is compromised and take action to secure the account.\\\\n - Unblock the user.\\\\n \\\\n-You can also [remediate in Microsoft Defender for Identity](/defender-for-identity/remediation-actions).\\\\n-\\\\n ### Generate a temporary password\\\\n \\\\n By generating a temporary password, you can immediately bring an identity back into a safe state. This method requires contacting the affected users because they need to know what the temporary password is. Because the password is temporary, the user is prompted to change the password to something new during the next sign-in.\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"28b667da9f8c0089447bf5f53ef07e7a3c97be08\\\",\\r\\n    \\\"filename\\\": \\\"docs/identity/users/licensing-service-plan-reference.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 1,\\r\\n    \\\"deletions\\\": 1,\\r\\n    \\\"changes\\\": 2,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/41674b3385c2b451508c87e3cf85556b319fd2d8/docs%2Fidentity%2Fusers%2Flicensing-service-plan-reference.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/41674b3385c2b451508c87e3cf85556b319fd2d8/docs%2Fidentity%2Fusers%2Flicensing-service-plan-reference.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fusers%2Flicensing-service-plan-reference.md?ref=41674b3385c2b451508c87e3cf85556b319fd2d8\\\",\\r\\n    \\\"patch\\\": \\\"@@ -644,9 +644,9 @@ When [managing licenses in the Azure portal](https://portal.azure.com/#blade/Mic\\\\n \\\\n Some products contain service plans that cannot be assigned to the same user at the same time. For example, if you have *Office 365 E1* and *Office 365 E3* in your tenant, and you try to assign both licenses to the same user, the operation fails. This is because the E3 product contains the following service plans that conflict with their E1 counterparts:\\\\n \\\\n--   SharePoint Online (Plan 2) conflicts with SharePoint Online (Plan 1).\\\\n -   Exchange Online (Plan 2) conflicts with Exchange Online (Plan 1).\\\\n \\\\n+Also, It is not recommended to assign both SharePoint Online (Plan 1) and SharePoint Online (Plan 2) simultaneously.\\\\n When using group-based licensing, you experience [this error condition](licensing-groups-resolve-problems.md#conflicting-service-plans). When using PowerShell, you see the *MutuallyExclusiveViolation* error.\\\\n \\\\n This section lists the most common service plans that are mutually exclusive, grouped by service type. You can use this information to plan your license deployment and avoid assignment errors. These tables are for reference purposes and are accurate only as of the date when this article was last updated. Microsoft does not plan to update them for newly added services periodically.\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"e9804f653a000872b2bb9a031622237afd2d93f5\\\",\\r\\n    \\\"filename\\\": \\\"docs/security-copilot/conditional-access-agent-optimization-chat.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 35,\\r\\n    \\\"deletions\\\": 7,\\r\\n    \\\"changes\\\": 42,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/41674b3385c2b451508c87e3cf85556b319fd2d8/docs%2Fsecurity-copilot%2Fconditional-access-agent-optimization-chat.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/41674b3385c2b451508c87e3cf85556b319fd2d8/docs%2Fsecurity-copilot%2Fconditional-access-agent-optimization-chat.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fsecurity-copilot%2Fconditional-access-agent-optimization-chat.md?ref=41674b3385c2b451508c87e3cf85556b319fd2d8\\\",\\r\\n    \\\"patch\\\": \\\"@@ -13,13 +13,10 @@ ms.topic: how-to\\\\n ms.custom: security-copilot\\\\n ms.collection: msec-ai-copilot\\\\n ---\\\\n-# Chat with the Conditional Access optimization agent (preview)\\\\n+# Chat with the Conditional Access optimization agent\\\\n \\\\n The Conditional Access optimization agent features a conversational interface that enables administrators to interact with the agent using natural language. This chat capability makes it easier to understand suggestions, request more information, and update policy details generated by the agent. With the chat capability, you can focus only on the details of the policy suggestion that you need so you can make the right decision. \\\\n- \\\\n-> [!IMPORTANT]\\\\n-> The chat capability in the Conditional Access Optimization agent is currently in PREVIEW.\\\\n-> This information relates to a prerelease product that might be substantially modified before release. Microsoft makes no warranties, expressed or implied, with respect to the information provided here.\\\\n+\\\\n \\\\n ## Prerequisites\\\\n \\\\n@@ -36,6 +33,14 @@ The Conditional Access optimization agent features a conversational interface th\\\\n \\\\n With the Conditional Access optimization agent chat interface, you can use natural language to get more information on a policy suggestion or have the agent present the suggestions in a different order. \\\\n \\\\n+### Explain agent capabilities\\\\n+\\\\n+The Conditional Access Optimization Agent provides several capabilities, so it might help to ask the agent what it can do and how it assists with policy management. The agent can explain its supported functions.\\\\n+\\\\n+Sample prompts:\\\\n+- *What can the Conditional Access Optimization Agent help me with?*\\\\n+- *Summarize your capabilities.*\\\\n+\\\\n ### Prioritize suggestions\\\\n \\\\n With the chat capability you can ask the agent to help you prioritize the suggestions. The agent compares the potential impact of the policy changes and provides a ranked list of suggestions based on [Zero Trust principles](/security/zero-trust/zero-trust-overview), so you don't have to review the full list and make that decision yourself.\\\\n@@ -56,6 +61,24 @@ Sample prompts:\\\\n \\\\n If you didn't ask the agent to prioritize the order of the suggestions and you ask for more details on the first suggestion, the agent tells you about the first item in the **Recent suggestions** list.\\\\n \\\\n+### Explain agent findings\\\\n+\\\\n+Ask the agent to to describe the details about the findings included in a policy suggestion. The agent will clarify the logic behind the suggestion and its impact on security and user experience.\\\\n+\\\\n+Sample prompts:\\\\n+- *Who are the 12 users included in this suggestion?*\\\\n+- *What are the 100 unprotected applications discovered by the agent?*\\\\n+- *Why should I enable this policy?*\\\\n+- *What happens if I accept a phased rollout suggestion?*\\\\n+\\\\n+### Summarize all agent findings\\\\n+\\\\n+If the agent identified several suggestions, it might be difficult to keep track of potential changes or impacted users, groups, and applications. You can ask the agent to summarize all findings across multiple suggestions to get a high-level overview. The agent provides an overview of the key suggestions, grouped by priority or category.\\\\n+\\\\n+Sample prompts:\\\\n+- *Summarize my Conditional Access assessment.*\\\\n+- *Provide an overview of all suggestions.*\\\\n+\\\\n ### Understand agent decisions\\\\n \\\\n In some cases, the agent might identify several policy suggestions that, at first glance, might appear similar to other policies. You can ask the agent to help you understand why one policy was selected for an update when multiple policies could apply. You can ask in the chat why the agent chose a specific policy for update.\\\\n@@ -93,9 +116,14 @@ You can access the chat from the main Conditional Access Optimization Agent page\\\\n \\\\n     :::image type=\\\\\\\"content\\\\\\\" source=\\\\\\\"media/conditional-access-agent-optimization-chat/agent-chat-policy-suggestions.png\\\\\\\" alt-text=\\\\\\\"Screenshot of a policy suggestion details page with the Chat with agent button highlighted.\\\\\\\" lightbox=\\\\\\\"media/conditional-access-agent-optimization-chat/agent-chat-policy-suggestions.png\\\\\\\":::\\\\n \\\\n-1. Enter a prompt in the chat window using natural language from the supported scenarios in the [What you can do with chat](#what-you-can-do-with-chat) section.\\\\n+1. Enter a prompt in the chat window using natural language from the supported scenarios in the [What you can do with chat](#what-you-can-do-with-chat) section. The following quick-start prompts are provided to help you get started.\\\\n+\\\\n+    - **Summarize**: *What is my overall assessment of Conditional Access policies?*\\\\n+    - **Analyze**: *What suggestions should I implement first to optimize my Zero Trust posture?*\\\\n+    - **Troubleshoot**: *Tell me more about this suggestion.*\\\\n+    - **Learn**: *What can you help me with?*\\\\n \\\\n-1. Review the response and apply the recommended changes. For more information, see the [Confirm changes in chat](#confirm-changes-in-chat) section.\\\\n+1. Review the response and apply the recommended changes. For more information, see the [Confirm changes in chat](#confirm-changes-in-chat) section. Every chat response provides the option to copy the response and provide feedback on the response.\\\\n \\\\n     :::image type=\\\\\\\"content\\\\\\\" source=\\\\\\\"media/conditional-access-agent-optimization-chat/agent-chat-confirm-cancel.png\\\\\\\" alt-text=\\\\\\\"Screenshot of the Conditional Access optimization agent chat with the options to confirm or cancel changes.\\\\\\\" lightbox=\\\\\\\"media/conditional-access-agent-optimization-chat/agent-chat-confirm-cancel.png\\\\\\\":::\\\\n \\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"1838f975bd51462aab3b16c1516e99fd7eb0fad5\\\",\\r\\n    \\\"filename\\\": \\\"docs/security-copilot/conditional-access-agent-optimization-review-suggestions.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 24,\\r\\n    \\\"deletions\\\": 14,\\r\\n    \\\"changes\\\": 38,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/41674b3385c2b451508c87e3cf85556b319fd2d8/docs%2Fsecurity-copilot%2Fconditional-access-agent-optimization-review-suggestions.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/41674b3385c2b451508c87e3cf85556b319fd2d8/docs%2Fsecurity-copilot%2Fconditional-access-agent-optimization-review-suggestions.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fsecurity-copilot%2Fconditional-access-agent-optimization-review-suggestions.md?ref=41674b3385c2b451508c87e3cf85556b319fd2d8\\\",\\r\\n    \\\"patch\\\": \\\"@@ -20,6 +20,10 @@ The Microsoft Entra Conditional Access optimization agent provides suggestions t\\\\n \\\\n This article provides an overview of the logic behind the suggestions and reports and how to review and act on those suggestions.\\\\n \\\\n+> [!IMPORTANT]\\\\n+> The Microsoft Teams integrations in the Conditional Access optimization agent is currently in PREVIEW.\\\\n+> This information relates to a prerelease product that might be substantially modified before release. Microsoft makes no warranties, expressed or implied, with respect to the information provided here.\\\\n+\\\\n ## Prerequisites\\\\n \\\\n - You must have at least the [Microsoft Entra ID P1](../identity/conditional-access/overview.md#license-requirements) license.\\\\n@@ -65,15 +69,21 @@ The default view of the suggestion provides the policy details, including a high\\\\n \\\\n :::image type=\\\\\\\"content\\\\\\\" source=\\\\\\\"media/conditional-access-agent-optimization-review-suggestions/review-suggestions-details.png\\\\\\\" alt-text=\\\\\\\"Screenshot of the agent with the policy suggestion details open.\\\\\\\" lightbox=\\\\\\\"media/conditional-access-agent-optimization-review-suggestions/review-suggestions-details-expanded.png\\\\\\\":::\\\\n \\\\n-From this view you can make decisions about the suggestion, including:\\\\n+From the policy details, you can take action on the suggestion using several options. At the top of the page, you can edit, duplicate, download, or delete the policy. You can also use the [Chat with agent](conditional-access-agent-optimization-chat.md) feature.\\\\n \\\\n-- Turn on a new policy in report-only mode\\\\n-- Apply changes to an existing policy\\\\n-- Mark a suggestion as reviewed\\\\n-- Snooze a suggestion for 14 days\\\\n-- Add notes about the suggestion for other admins to review\\\\n+:::image type=\\\\\\\"content\\\\\\\" source=\\\\\\\"media/conditional-access-agent-optimization-review-suggestions/policy-details-buttons.png\\\\\\\" alt-text=\\\\\\\"Screenshot of the policy details with the buttons highlighted.\\\\\\\" lightbox=\\\\\\\"media/conditional-access-agent-optimization-review-suggestions/policy-details-buttons.png\\\\\\\":::\\\\n \\\\n-You can also edit, duplicate, or download the policy from this page. The policy suggestions detail page is detailed and provides every option needed to make an informed decision about the suggestion. But if you need more information, you can also view the policy impact and see details about the agent's activity.\\\\n+Below the policy suggestion summary, you can take several actions:\\\\n+\\\\n+- **Review policy changes**: View a summary or JSON details of the suggestion.Further details described in the [Review policy changes](#review-policy-changes) section.\\\\n+- **Turn on policy**: Turn on new policies that were created in report-only mode by the agent.\\\\n+- **Mark suggestion as reviewed**: Select from the down arrow on the **Turn on policy** button to indicate that you've reviewed the suggestion without applying it.\\\\n+- **Snooze for 14 days**: Select from the down arrow on the **Turn on policy** button to temporarily hide the suggestion. The suggestion reappears in the list after 14 days.\\\\n+- **View agent's full activity**: View the full activity and decisions. Further details described in the [View agent's full activity](#view-agents-full-activity) section.\\\\n+- **Add notes**: Select the pen and paper icon to add notes about the suggestion for other admins to review\\\\n+\\\\n+The policy suggestions detail page is detailed and provides every option needed to make an informed decision about the suggestion. But if you need more information, you can also view the policy impact and see details about the agent's activity. \\\\n+Ask Copilot about this file-diff\\\\n \\\\n ### Policy impact\\\\n \\\\n@@ -104,9 +114,7 @@ If the agent suggests modifying an existing policy, select **Review policy chang\\\\n \\\\n Deep analysis performs an in-depth review of Conditional Access policies for scenarios such as blocking legacy authentication, blocking device control flow, and policies that require device or MFA controls. It evaluates the targeted users, groups, and roles to identify coverage gaps, overlapping or redundant policies, and consolidation opportunities. It also analyzes exclusions—flagging policies that exclude a large portion of users and recommending explicit exclusion of break‑glass accounts to reduce the risk of accidental lockout.\\\\n \\\\n-Because the policy suggestions that come through deep analysis might have a significant impact on your environment, consider using the \\\\\\\"snooze\\\\\\\" option to give you time to investigate the suggestion and make any needed changes to your policies before applying the suggestion. You can also add notes about the suggestion that can be saved for other admins to review. If you choose to snooze the suggestion, it reappears in the list after 14 days with the notes intact.\\\\n-\\\\n-:::image type=\\\\\\\"content\\\\\\\" source=\\\\\\\"media/conditional-access-agent-optimization-review-suggestions/deep-analysis-suggestion.png\\\\\\\" alt-text=\\\\\\\"Screenshot of the suggestion created with deep analysis with the snooze and notes buttons highlighted.\\\\\\\" lightbox=\\\\\\\"media/conditional-access-agent-optimization-review-suggestions/deep-analysis-suggestion.png\\\\\\\":::\\\\n+Because the policy suggestions that come through deep analysis might have a significant impact on your environment, consider using the \\\\\\\"snooze\\\\\\\" option to give you time to investigate the suggestion and the \\\\\\\"notes\\\\\\\" option to provide context and rationale for your decision-making process.\\\\n \\\\n ## Apply suggestions\\\\n \\\\n@@ -142,14 +150,16 @@ When the agent suggests a new policy, it creates the policy in report-only mode.\\\\n > [!WARNING]\\\\n > Policies in report-only mode that require a compliant device might prompt users on macOS, iOS, and Android devices to select a device certificate during policy evaluation, even though device compliance isn't enforced. These prompts might repeat until the device is compliant. To prevent end users from receiving prompts during sign-in, exclude device platforms Mac, iOS, and Android from report-only policies that perform device compliance checks.\\\\n \\\\n+## Microsoft Teams agent suggestion notifications (Preview)\\\\n+\\\\n+Microsoft Teams can be used to receive notifications from the Conditional Access optimization agent when new suggestions are available. This preview feature allows you to configure who you want to receive notifications when new suggestions are identified by the agent. At this time, the Teams integration provides one-way communication with the agent and a direct link to the policy suggestion in the Microsoft Entra admin center.\\\\n+\\\\n+For more information, see the **Notifications** section of [Conditional Access Optimization Agent](conditional-access-agent-optimization.md).\\\\n+\\\\n ## Review policy reports\\\\n \\\\n The Conditional Access optimization agent also detects spikes and dips in activity related to existing policies. These anomalies often indicate a misconfiguration of a policy that needs to be investigated. If the agent identifies a significant change in activity, a report appears in the list of suggestions. The reports apply to both active and report-only policies that the agent suggests turning on. In the **Actions taken by agent** column, you'll see **Suggested policy review** as the value.\\\\n \\\\n-> [!IMPORTANT]\\\\n-> The policy reports in the Conditional Access Optimization agent are currently in PREVIEW.\\\\n-> This information relates to a prerelease product that might be substantially modified before release. Microsoft makes no warranties, expressed or implied, with respect to the information provided here.\\\\n-\\\\n To view a policy review report:\\\\n \\\\n 1. Select **Review suggestion** to view the details of the suggested policy review.\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"50807467e62a7bdbed7b08e7157c010e3ed7fdfe\\\",\\r\\n    \\\"filename\\\": \\\"docs/security-copilot/conditional-access-agent-optimization.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 3,\\r\\n    \\\"deletions\\\": 2,\\r\\n    \\\"changes\\\": 5,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/41674b3385c2b451508c87e3cf85556b319fd2d8/docs%2Fsecurity-copilot%2Fconditional-access-agent-optimization.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/41674b3385c2b451508c87e3cf85556b319fd2d8/docs%2Fsecurity-copilot%2Fconditional-access-agent-optimization.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fsecurity-copilot%2Fconditional-access-agent-optimization.md?ref=41674b3385c2b451508c87e3cf85556b319fd2d8\\\",\\r\\n    \\\"patch\\\": \\\"@@ -22,7 +22,7 @@ The Conditional Access optimization agent helps you ensure all users and applica\\\\n The Conditional Access optimization agent evaluates policies such as requiring multifactor authentication (MFA), enforcing device based controls (device compliance, app protection policies, and domain-joined devices), and blocking legacy authentication and device code flow. The agent also evaluates all existing enabled policies to propose potential consolidation of similar policies. When the agent identifies a suggestion, you can have the agent update the associated policy with one click-remediation.\\\\n \\\\n > [!IMPORTANT]\\\\n-> The chat capability and policy reports in the Conditional Access optimization agent are currently in PREVIEW.\\\\n+> The ServiceNow and Microsoft Teams integrations in the Conditional Access optimization agent are currently in PREVIEW.\\\\n > This information relates to a prerelease product that might be substantially modified before release. Microsoft makes no warranties, expressed or implied, with respect to the information provided here.\\\\n \\\\n ## Prerequisites\\\\n@@ -127,7 +127,7 @@ By default, the Conditional Access optimization agent can create new policies *i\\\\n \\\\n ### Notifications\\\\n \\\\n-The Conditional Access optimization agent can send notifications through Microsoft Teams to a select set of recipients. With the **Conditional Access agent** app in Microsoft Teams, recipients receive notifications directly in their Teams chat when the agent surfaces a new suggestion.\\\\n+As part of a preview capability, the Conditional Access optimization agent can send notifications through Microsoft Teams to a select set of recipients. With the **Conditional Access agent** app in Microsoft Teams, recipients receive notifications directly in their Teams chat when the agent surfaces a new suggestion.\\\\n \\\\n To add the agent app to Microsoft Teams:\\\\n \\\\n@@ -152,6 +152,7 @@ You can select up to 10 recipients to receive notifications. You can select a gr\\\\n At this time, the agent's communication is one direction, so you can receive notifications but can't respond to them in Microsoft Teams. To take action on a suggestion, select **Review suggestion** from the chat to open the Conditional Access optimization agent in the Microsoft Entra admin center.\\\\n \\\\n    :::image type=\\\\\\\"content\\\\\\\" source=\\\\\\\"media/conditional-access-agent-optimization/agent-teams-suggestion-message.png\\\\\\\" alt-text=\\\\\\\"Screenshot of the Conditional Access agent notification message in Teams.\\\\\\\" lightbox=\\\\\\\"media/conditional-access-agent-optimization/agent-teams-suggestion-message.png\\\\\\\":::\\\\n+\\\\n ### Phased rollout\\\\n \\\\n When the agent creates a new policy in report-only mode, the policy is rolled out in phases, so you can monitor the effect of the new policy. Phased rollout is on by default.\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"487067844e774ab9e43ab0ef71922cdaa2c789eb\\\",\\r\\n    \\\"filename\\\": \\\"docs/security-copilot/media/conditional-access-agent-optimization-review-suggestions/deep-analysis-suggestion.png\\\",\\r\\n    \\\"status\\\": \\\"removed\\\",\\r\\n    \\\"additions\\\": 0,\\r\\n    \\\"deletions\\\": 0,\\r\\n    \\\"changes\\\": 0,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/34b362980aedf795540dc32099d16c6232850154/docs%2Fsecurity-copilot%2Fmedia%2Fconditional-access-agent-optimization-review-suggestions%2Fdeep-analysis-suggestion.png\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/34b362980aedf795540dc32099d16c6232850154/docs%2Fsecurity-copilot%2Fmedia%2Fconditional-access-agent-optimization-review-suggestions%2Fdeep-analysis-suggestion.png\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fsecurity-copilot%2Fmedia%2Fconditional-access-agent-optimization-review-suggestions%2Fdeep-analysis-suggestion.png?ref=34b362980aedf795540dc32099d16c6232850154\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"0be47e45ddd246bb4d6fcda9e359f650aa01c457\\\",\\r\\n    \\\"filename\\\": \\\"docs/security-copilot/media/conditional-access-agent-optimization-review-suggestions/policy-details-buttons.png\\\",\\r\\n    \\\"status\\\": \\\"added\\\",\\r\\n    \\\"additions\\\": 0,\\r\\n    \\\"deletions\\\": 0,\\r\\n    \\\"changes\\\": 0,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/41674b3385c2b451508c87e3cf85556b319fd2d8/docs%2Fsecurity-copilot%2Fmedia%2Fconditional-access-agent-optimization-review-suggestions%2Fpolicy-details-buttons.png\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/41674b3385c2b451508c87e3cf85556b319fd2d8/docs%2Fsecurity-copilot%2Fmedia%2Fconditional-access-agent-optimization-review-suggestions%2Fpolicy-details-buttons.png\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fsecurity-copilot%2Fmedia%2Fconditional-access-agent-optimization-review-suggestions%2Fpolicy-details-buttons.png?ref=41674b3385c2b451508c87e3cf85556b319fd2d8\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"ae56293ce3c371c64adb7a5b4d77991e5e5e4c39\\\",\\r\\n    \\\"filename\\\": \\\"docs/security-copilot/media/conditional-access-agent-optimization-review-suggestions/review-suggestions-details-expanded.png\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 0,\\r\\n    \\\"deletions\\\": 0,\\r\\n    \\\"changes\\\": 0,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/41674b3385c2b451508c87e3cf85556b319fd2d8/docs%2Fsecurity-copilot%2Fmedia%2Fconditional-access-agent-optimization-review-suggestions%2Freview-suggestions-details-expanded.png\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/41674b3385c2b451508c87e3cf85556b319fd2d8/docs%2Fsecurity-copilot%2Fmedia%2Fconditional-access-agent-optimization-review-suggestions%2Freview-suggestions-details-expanded.png\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fsecurity-copilot%2Fmedia%2Fconditional-access-agent-optimization-review-suggestions%2Freview-suggestions-details-expanded.png?ref=41674b3385c2b451508c87e3cf85556b319fd2d8\\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"e843cb377b3e10f680d0366229eee76a7af098fd\\\",\\r\\n    \\\"filename\\\": \\\"docs/security-copilot/media/conditional-access-agent-optimization-review-suggestions/review-suggestions-details.png\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 0,\\r\\n    \\\"deletions\\\": 0,\\r\\n    \\\"changes\\\": 0,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/41674b3385c2b451508c87e3cf85556b319fd2d8/docs%2Fsecurity-copilot%2Fmedia%2Fconditional-access-agent-optimization-review-suggestions%2Freview-suggestions-details.png\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/41674b3385c2b451508c87e3cf85556b319fd2d8/docs%2Fsecurity-copilot%2Fmedia%2Fconditional-access-agent-optimization-review-suggestions%2Freview-suggestions-details.png\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fsecurity-copilot%2Fmedia%2Fconditional-access-agent-optimization-review-suggestions%2Freview-suggestions-details.png?ref=41674b3385c2b451508c87e3cf85556b319fd2d8\\\"\\r\\n  }\\r\\n]. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\",\"role\":\"user\"}",
+        "Response": "These commits refine documentation regarding Microsoft Entra ID features. Changes include removing a reference to Microsoft Defender for Identity remediation, clarifying license plan conflicts for SharePoint Online, updating the preview status and adding new capabilities for the Conditional Access optimization agent, including chat features and Microsoft Teams notifications. Additionally, an outdated image related to the agent's deep analysis has been removed, and new images and textual updates have been made to reflect changes in the agent's review and action options.",
+        "Model": "google:gemini-2.5-flash-lite",
+        "Provider": "google",
+        "ModelName": "gemini-2.5-flash-lite",
+        "Timestamp": "2025-10-28T00:01:05.8860378+00:00"
+      },
+      "files": [
+        {
+          "filename": "docs/id-protection/howto-identity-protection-remediate-unblock.md",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/identity/users/licensing-service-plan-reference.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/security-copilot/conditional-access-agent-optimization-chat.md",
+          "status": "modified",
+          "additions": 35,
+          "deletions": 7
+        },
+        {
+          "filename": "docs/security-copilot/conditional-access-agent-optimization-review-suggestions.md",
+          "status": "modified",
+          "additions": 24,
+          "deletions": 14
+        },
+        {
+          "filename": "docs/security-copilot/conditional-access-agent-optimization.md",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/security-copilot/media/conditional-access-agent-optimization-review-suggestions/deep-analysis-suggestion.png",
+          "status": "removed",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/security-copilot/media/conditional-access-agent-optimization-review-suggestions/policy-details-buttons.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/security-copilot/media/conditional-access-agent-optimization-review-suggestions/review-suggestions-details-expanded.png",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/security-copilot/media/conditional-access-agent-optimization-review-suggestions/review-suggestions-details.png",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 0
+        }
+      ]
+    },
     {
       "sha": "34b362980aedf795540dc32099d16c6232850154",
       "url": "https://github.com/MicrosoftDocs/entra-docs/commit/34b362980aedf795540dc32099d16c6232850154",
@@ -1663,78 +1661,80 @@
           "deletions": 1
         }
       ]
-    },
-    {
-      "sha": "55af9a656b01a5fb71e2ffd14d4d12d2a3fdf1a4",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/55af9a656b01a5fb71e2ffd14d4d12d2a3fdf1a4",
-      "author": "Learn Build Service GitHub App",
-      "email": "Learn Build Service LearnBuild@microsoft.com",
-      "date": "2025-10-20T22:09:26Z",
-      "message": "Merging changes synced from https://github.com/MicrosoftDocs/entra-docs-pr (branch live)",
-      "ai_summary": {
-        "Messages": "{\"role\":\"user\",\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"2c28d4b49e68764a04c477fa5b17c8bd5ebf4e0c\\\",\\r\\n  \\\"filename\\\": \\\"docs/identity/authentication/concept-certificate-based-authentication-certificate-revocation-list.md\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 30,\\r\\n  \\\"deletions\\\": 2,\\r\\n  \\\"changes\\\": 32,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/55af9a656b01a5fb71e2ffd14d4d12d2a3fdf1a4/docs%2Fidentity%2Fauthentication%2Fconcept-certificate-based-authentication-certificate-revocation-list.md\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/55af9a656b01a5fb71e2ffd14d4d12d2a3fdf1a4/docs%2Fidentity%2Fauthentication%2Fconcept-certificate-based-authentication-certificate-revocation-list.md\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fauthentication%2Fconcept-certificate-based-authentication-certificate-revocation-list.md?ref=55af9a656b01a5fb71e2ffd14d4d12d2a3fdf1a4\\\",\\r\\n  \\\"patch\\\": \\\"@@ -92,9 +92,37 @@ Microsoft Entra ID supports only one CRL endpoint and supports only HTTP or HTTP\\\\n    >Microsoft Entra ID checks the CRL of the issuing CA and other CAs in the PKI trust chain up to the root CA.    We have a limit of up to 10 CAs from the leaf client certificate for CRL validation in the PKI chain. The    limitation is to make sure a bad actor doesn't bring down the service by uploading a PKI chain with a huge    number of CAs with a bigger CRL size.\\\\n    >If the tenant's PKI chain has more than 10 CAs, and if there's a CA compromise, Authentication Policy Administrators should remove the compromised trusted issuer from the Microsoft Entra tenant configuration. For more information, see [CRL Pre-fetching](/windows/win32/seccrypto/certificate-revocation-list-semantics#crl-pre-fetching).\\\\n \\\\n-### How to configure revocation\\\\n+## How to configure revocation\\\\n \\\\n-[!INCLUDE [Configure revocation](../../includes/entra-authentication-configure-revocation.md)]\\\\n+To revoke a client certificate, Microsoft Entra ID fetches the certificate revocation list (CRL) from the URLs uploaded as part of certificate authority information and caches it. The last publish timestamp (**Effective Date** property) in the CRL is used to ensure the CRL is still valid. The CRL is periodically referenced to revoke access to certificates that are a part of the list.\\\\n+\\\\n+**Immediate revocation of sessions with Entra CBA**\\\\n+\\\\n+There are many scenarios that could require an administrator to immediately revoke all of the session tokens so all access for a user is revoked. Such scenarios include \\\\n+- compromised accounts\\\\n+- employee termination\\\\n+- Entra outage where cached credentials are used which does not include CRL validation\\\\n+- other insider threats.\\\\n+\\\\n+If a more instant revocation is required (for example, if a user loses a device), the authorization token of the user can be invalidated. To invalidate the authorization token, set the **StsRefreshTokensValidFrom** field for this particular user using Windows PowerShell. You must update the **StsRefreshTokensValidFrom** field for each user you want to revoke access for.\\\\n+\\\\n+To ensure that the revocation persists, you must set the **Effective Date** of the CRL to a date after the value set by **StsRefreshTokensValidFrom** and ensure the certificate in question is in the CRL.\\\\n+\\\\n+The following steps outline the process for updating and invalidating the authorization token by setting the **StsRefreshTokensValidFrom** field.\\\\n+\\\\n+\\\\n+```https\\\\n+# Authenticate to Microsoft Graph\\\\n+Connect-MgGraph -Scopes \\\\\\\"User.Read.All\\\\\\\"\\\\n+\\\\n+# Get the user\\\\n+$user = Get-MgUser -UserPrincipalName \\\\\\\"test@yourdomain.com\\\\\\\"\\\\n+\\\\n+# Get the StsRefreshTokensValidFrom property\\\\n+$user.StsRefreshTokensValidFrom\\\\n+```\\\\n+\\\\n+The date you set must be in the future. If the date is not in the future, the **StsRefreshTokensValidFrom** property is not set. If the date is in the future, **StsRefreshTokensValidFrom** is set to the current time (not the date indicated by Set-MsolUser command).\\\\n \\\\n ## Enforce CRL validation for CAs\\\\n \\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\"}",
-        "Response": "This commit updates the documentation for Certificate Revocation Lists (CRLs) in Microsoft Entra ID. It clarifies the process of CRL fetching and caching, and introduces immediate revocation capabilities for user sessions. Administrators can now invalidate user authorization tokens by setting the `StsRefreshTokensValidFrom` field in PowerShell, ensuring a faster response to security incidents.",
-        "Model": "google:gemini-2.5-flash-lite",
-        "Provider": "google",
-        "ModelName": "gemini-2.5-flash-lite",
-        "Timestamp": "2025-10-20T23:00:40.8233049+00:00"
-      },
-      "files": [
-        {
-          "filename": "docs/identity/authentication/concept-certificate-based-authentication-certificate-revocation-list.md",
-          "status": "modified",
-          "additions": 30,
-          "deletions": 2
-        }
-      ]
-    },
-    {
-      "sha": "2442ca8238c24cce44b86e65a45bc66f3366877e",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/2442ca8238c24cce44b86e65a45bc66f3366877e",
-      "author": "learn-build-service-prod[bot]",
-      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
-      "date": "2025-10-20T22:06:54Z",
-      "message": "Merge pull request #10071 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-10-20 22:04 UTC",
-      "ai_summary": {
-        "Messages": "{\"role\":\"user\",\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"2c28d4b49e68764a04c477fa5b17c8bd5ebf4e0c\\\",\\r\\n  \\\"filename\\\": \\\"docs/identity/authentication/concept-certificate-based-authentication-certificate-revocation-list.md\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 30,\\r\\n  \\\"deletions\\\": 2,\\r\\n  \\\"changes\\\": 32,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/2442ca8238c24cce44b86e65a45bc66f3366877e/docs%2Fidentity%2Fauthentication%2Fconcept-certificate-based-authentication-certificate-revocation-list.md\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/2442ca8238c24cce44b86e65a45bc66f3366877e/docs%2Fidentity%2Fauthentication%2Fconcept-certificate-based-authentication-certificate-revocation-list.md\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fauthentication%2Fconcept-certificate-based-authentication-certificate-revocation-list.md?ref=2442ca8238c24cce44b86e65a45bc66f3366877e\\\",\\r\\n  \\\"patch\\\": \\\"@@ -92,9 +92,37 @@ Microsoft Entra ID supports only one CRL endpoint and supports only HTTP or HTTP\\\\n    >Microsoft Entra ID checks the CRL of the issuing CA and other CAs in the PKI trust chain up to the root CA.    We have a limit of up to 10 CAs from the leaf client certificate for CRL validation in the PKI chain. The    limitation is to make sure a bad actor doesn't bring down the service by uploading a PKI chain with a huge    number of CAs with a bigger CRL size.\\\\n    >If the tenant's PKI chain has more than 10 CAs, and if there's a CA compromise, Authentication Policy Administrators should remove the compromised trusted issuer from the Microsoft Entra tenant configuration. For more information, see [CRL Pre-fetching](/windows/win32/seccrypto/certificate-revocation-list-semantics#crl-pre-fetching).\\\\n \\\\n-### How to configure revocation\\\\n+## How to configure revocation\\\\n \\\\n-[!INCLUDE [Configure revocation](../../includes/entra-authentication-configure-revocation.md)]\\\\n+To revoke a client certificate, Microsoft Entra ID fetches the certificate revocation list (CRL) from the URLs uploaded as part of certificate authority information and caches it. The last publish timestamp (**Effective Date** property) in the CRL is used to ensure the CRL is still valid. The CRL is periodically referenced to revoke access to certificates that are a part of the list.\\\\n+\\\\n+**Immediate revocation of sessions with Entra CBA**\\\\n+\\\\n+There are many scenarios that could require an administrator to immediately revoke all of the session tokens so all access for a user is revoked. Such scenarios include \\\\n+- compromised accounts\\\\n+- employee termination\\\\n+- Entra outage where cached credentials are used which does not include CRL validation\\\\n+- other insider threats.\\\\n+\\\\n+If a more instant revocation is required (for example, if a user loses a device), the authorization token of the user can be invalidated. To invalidate the authorization token, set the **StsRefreshTokensValidFrom** field for this particular user using Windows PowerShell. You must update the **StsRefreshTokensValidFrom** field for each user you want to revoke access for.\\\\n+\\\\n+To ensure that the revocation persists, you must set the **Effective Date** of the CRL to a date after the value set by **StsRefreshTokensValidFrom** and ensure the certificate in question is in the CRL.\\\\n+\\\\n+The following steps outline the process for updating and invalidating the authorization token by setting the **StsRefreshTokensValidFrom** field.\\\\n+\\\\n+\\\\n+```https\\\\n+# Authenticate to Microsoft Graph\\\\n+Connect-MgGraph -Scopes \\\\\\\"User.Read.All\\\\\\\"\\\\n+\\\\n+# Get the user\\\\n+$user = Get-MgUser -UserPrincipalName \\\\\\\"test@yourdomain.com\\\\\\\"\\\\n+\\\\n+# Get the StsRefreshTokensValidFrom property\\\\n+$user.StsRefreshTokensValidFrom\\\\n+```\\\\n+\\\\n+The date you set must be in the future. If the date is not in the future, the **StsRefreshTokensValidFrom** property is not set. If the date is in the future, **StsRefreshTokensValidFrom** is set to the current time (not the date indicated by Set-MsolUser command).\\\\n \\\\n ## Enforce CRL validation for CAs\\\\n \\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\"}",
-        "Response": "This commit updates the documentation for Certificate Revocation Lists (CRLs) in Microsoft Entra ID.\n\nIt introduces new sections detailing how to configure revocation, including an immediate revocation method by updating the `StsRefreshTokensValidFrom` field for users via PowerShell. This ensures that compromised or terminated user sessions are immediately invalidated, enhancing security. The changes also clarify the process of CRL fetching and validation, emphasising the importance of the CRL's 'Effective Date' property in conjunction with the `StsRefreshTokensValidFrom` setting for persistent revocation.",
-        "Model": "google:gemini-2.5-flash-lite",
-        "Provider": "google",
-        "ModelName": "gemini-2.5-flash-lite",
-        "Timestamp": "2025-10-20T23:00:42.2561467+00:00"
-      },
-      "files": [
-        {
-          "filename": "docs/identity/authentication/concept-certificate-based-authentication-certificate-revocation-list.md",
-          "status": "modified",
-          "additions": 30,
-          "deletions": 2
-        }
-      ]
-    },
-    {
-      "sha": "540076db3823103231f91dda508815e812827409",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/540076db3823103231f91dda508815e812827409",
-      "author": "prmerger-automator[bot]",
-      "email": "40007230+prmerger-automator[bot]@users.noreply.github.com",
-      "date": "2025-10-20T21:53:56Z",
-      "message": "Merge pull request #9962 from vimrang/CRLUserRevocation\n\nupdated CCS credential revocation",
-      "ai_summary": {
-        "Messages": "{\"role\":\"user\",\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"2c28d4b49e68764a04c477fa5b17c8bd5ebf4e0c\\\",\\r\\n  \\\"filename\\\": \\\"docs/identity/authentication/concept-certificate-based-authentication-certificate-revocation-list.md\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 30,\\r\\n  \\\"deletions\\\": 2,\\r\\n  \\\"changes\\\": 32,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/540076db3823103231f91dda508815e812827409/docs%2Fidentity%2Fauthentication%2Fconcept-certificate-based-authentication-certificate-revocation-list.md\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/540076db3823103231f91dda508815e812827409/docs%2Fidentity%2Fauthentication%2Fconcept-certificate-based-authentication-certificate-revocation-list.md\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fauthentication%2Fconcept-certificate-based-authentication-certificate-revocation-list.md?ref=540076db3823103231f91dda508815e812827409\\\",\\r\\n  \\\"patch\\\": \\\"@@ -92,9 +92,37 @@ Microsoft Entra ID supports only one CRL endpoint and supports only HTTP or HTTP\\\\n    >Microsoft Entra ID checks the CRL of the issuing CA and other CAs in the PKI trust chain up to the root CA.    We have a limit of up to 10 CAs from the leaf client certificate for CRL validation in the PKI chain. The    limitation is to make sure a bad actor doesn't bring down the service by uploading a PKI chain with a huge    number of CAs with a bigger CRL size.\\\\n    >If the tenant's PKI chain has more than 10 CAs, and if there's a CA compromise, Authentication Policy Administrators should remove the compromised trusted issuer from the Microsoft Entra tenant configuration. For more information, see [CRL Pre-fetching](/windows/win32/seccrypto/certificate-revocation-list-semantics#crl-pre-fetching).\\\\n \\\\n-### How to configure revocation\\\\n+## How to configure revocation\\\\n \\\\n-[!INCLUDE [Configure revocation](../../includes/entra-authentication-configure-revocation.md)]\\\\n+To revoke a client certificate, Microsoft Entra ID fetches the certificate revocation list (CRL) from the URLs uploaded as part of certificate authority information and caches it. The last publish timestamp (**Effective Date** property) in the CRL is used to ensure the CRL is still valid. The CRL is periodically referenced to revoke access to certificates that are a part of the list.\\\\n+\\\\n+**Immediate revocation of sessions with Entra CBA**\\\\n+\\\\n+There are many scenarios that could require an administrator to immediately revoke all of the session tokens so all access for a user is revoked. Such scenarios include \\\\n+- compromised accounts\\\\n+- employee termination\\\\n+- Entra outage where cached credentials are used which does not include CRL validation\\\\n+- other insider threats.\\\\n+\\\\n+If a more instant revocation is required (for example, if a user loses a device), the authorization token of the user can be invalidated. To invalidate the authorization token, set the **StsRefreshTokensValidFrom** field for this particular user using Windows PowerShell. You must update the **StsRefreshTokensValidFrom** field for each user you want to revoke access for.\\\\n+\\\\n+To ensure that the revocation persists, you must set the **Effective Date** of the CRL to a date after the value set by **StsRefreshTokensValidFrom** and ensure the certificate in question is in the CRL.\\\\n+\\\\n+The following steps outline the process for updating and invalidating the authorization token by setting the **StsRefreshTokensValidFrom** field.\\\\n+\\\\n+\\\\n+```https\\\\n+# Authenticate to Microsoft Graph\\\\n+Connect-MgGraph -Scopes \\\\\\\"User.Read.All\\\\\\\"\\\\n+\\\\n+# Get the user\\\\n+$user = Get-MgUser -UserPrincipalName \\\\\\\"test@yourdomain.com\\\\\\\"\\\\n+\\\\n+# Get the StsRefreshTokensValidFrom property\\\\n+$user.StsRefreshTokensValidFrom\\\\n+```\\\\n+\\\\n+The date you set must be in the future. If the date is not in the future, the **StsRefreshTokensValidFrom** property is not set. If the date is in the future, **StsRefreshTokensValidFrom** is set to the current time (not the date indicated by Set-MsolUser command).\\\\n \\\\n ## Enforce CRL validation for CAs\\\\n \\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\"}",
-        "Response": "This commit updates the documentation for Certificate Revocation Lists (CRLs) in Microsoft Entra ID. It clarifies how CRLs are fetched and cached, introduces immediate revocation of user sessions using the `StsRefreshTokensValidFrom` PowerShell command, and specifies that the CRL's 'Effective Date' must be set after the `StsRefreshTokensValidFrom` value for persistent revocation. The changes also remove an include statement and add more detailed explanations and examples.",
-        "Model": "google:gemini-2.5-flash-lite",
-        "Provider": "google",
-        "ModelName": "gemini-2.5-flash-lite",
-        "Timestamp": "2025-10-20T23:00:43.6210699+00:00"
-      },
-      "files": [
-        {
-          "filename": "docs/identity/authentication/concept-certificate-based-authentication-certificate-revocation-list.md",
-          "status": "modified",
-          "additions": 30,
-          "deletions": 2
-        }
-      ]
     }
-  ]
+  ],
+  "metadata": {
+    "generated_date": "2025-10-28T00:01:11Z",
+    "total_commits": 35,
+    "source_files": [
+      {
+        "filename": "entra-changes-20251021-0701.json",
+        "commit_count": 2
+      },
+      {
+        "filename": "entra-changes-20251021-1701.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251021-1901.json",
+        "commit_count": 3
+      },
+      {
+        "filename": "entra-changes-20251021-2301.json",
+        "commit_count": 3
+      },
+      {
+        "filename": "entra-changes-20251022-0701.json",
+        "commit_count": 2
+      },
+      {
+        "filename": "entra-changes-20251022-1900.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251022-2302.json",
+        "commit_count": 4
+      },
+      {
+        "filename": "entra-changes-20251023-0701.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251023-1301.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251023-2100.json",
+        "commit_count": 2
+      },
+      {
+        "filename": "entra-changes-20251023-2301.json",
+        "commit_count": 3
+      },
+      {
+        "filename": "entra-changes-20251024-1901.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251024-2101.json",
+        "commit_count": 3
+      },
+      {
+        "filename": "entra-changes-20251024-2300.json",
+        "commit_count": 4
+      },
+      {
+        "filename": "entra-changes-20251027-1600.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251027-1801.json",
+        "commit_count": 2
+      },
+      {
+        "filename": "entra-changes-20251028-0001.json",
+        "commit_count": 1
+      }
+    ]
+  }
 }
