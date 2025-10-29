@@ -1,0 +1,74 @@
+[
+  {
+    "sha": "800e2184820a9c149fa15f2e59832a0561e01f9e",
+    "url": "https://github.com/MicrosoftDocs/entra-docs/commit/800e2184820a9c149fa15f2e59832a0561e01f9e",
+    "author": "Learn Build Service GitHub App",
+    "email": "Learn Build Service LearnBuild@microsoft.com",
+    "date": "2025-10-21T22:15:05Z",
+    "message": "Merging changes synced from https://github.com/MicrosoftDocs/entra-docs-pr (branch live)",
+    "ai_summary": {
+      "Messages": "{\"role\":\"user\",\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"74ab3ade25399145ec4500708c2b3e549e88fd78\\\",\\r\\n  \\\"filename\\\": \\\"docs/id-governance/entitlement-management-dynamic-approval.md\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 1,\\r\\n  \\\"deletions\\\": 1,\\r\\n  \\\"changes\\\": 2,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/800e2184820a9c149fa15f2e59832a0561e01f9e/docs%2Fid-governance%2Fentitlement-management-dynamic-approval.md\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/800e2184820a9c149fa15f2e59832a0561e01f9e/docs%2Fid-governance%2Fentitlement-management-dynamic-approval.md\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fid-governance%2Fentitlement-management-dynamic-approval.md?ref=800e2184820a9c149fa15f2e59832a0561e01f9e\\\",\\r\\n  \\\"patch\\\": \\\"@@ -27,7 +27,7 @@ This article walks you through making a custom extension, its underlying Azure L\\\\n \\\\n Want to learn how this feature can use SAP organizational business context for approvals? Check out this episode of the SAP on Azure podcast:\\\\n \\\\n-[!VIDEO https://www.youtube.com/embed/qpEkNQtLLRY?si=ImIiD2jZPE8YTJGq]\\\\n+> [!VIDEO https://www.youtube.com/embed/qpEkNQtLLRY?si=ImIiD2jZPE8YTJGq]\\\\n \\\\n ## License requirements\\\\n \\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\"}",
+      "Response": "A minor change has been made to the documentation for dynamic approval in entitlement management. A YouTube video embed has been reformatted, changing the `[!VIDEO` markdown to a block quote markdown, `> [!VIDEO`. This update appears to be a stylistic adjustment to how the embedded video is presented within the document.",
+      "Model": "google:gemini-2.5-flash-lite",
+      "Provider": "google",
+      "ModelName": "gemini-2.5-flash-lite",
+      "Timestamp": "2025-10-21T23:01:59.2530419+00:00"
+    },
+    "files": [
+      {
+        "filename": "docs/id-governance/entitlement-management-dynamic-approval.md",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "sha": "04bc35a014dedb3e167bfe2da5236aa3d8f9a03e",
+    "url": "https://github.com/MicrosoftDocs/entra-docs/commit/04bc35a014dedb3e167bfe2da5236aa3d8f9a03e",
+    "author": "learn-build-service-prod[bot]",
+    "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+    "date": "2025-10-21T22:11:01Z",
+    "message": "Merge pull request #10091 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-10-21 22:04 UTC",
+    "ai_summary": {
+      "Messages": "{\"role\":\"user\",\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"74ab3ade25399145ec4500708c2b3e549e88fd78\\\",\\r\\n  \\\"filename\\\": \\\"docs/id-governance/entitlement-management-dynamic-approval.md\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 1,\\r\\n  \\\"deletions\\\": 1,\\r\\n  \\\"changes\\\": 2,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/04bc35a014dedb3e167bfe2da5236aa3d8f9a03e/docs%2Fid-governance%2Fentitlement-management-dynamic-approval.md\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/04bc35a014dedb3e167bfe2da5236aa3d8f9a03e/docs%2Fid-governance%2Fentitlement-management-dynamic-approval.md\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fid-governance%2Fentitlement-management-dynamic-approval.md?ref=04bc35a014dedb3e167bfe2da5236aa3d8f9a03e\\\",\\r\\n  \\\"patch\\\": \\\"@@ -27,7 +27,7 @@ This article walks you through making a custom extension, its underlying Azure L\\\\n \\\\n Want to learn how this feature can use SAP organizational business context for approvals? Check out this episode of the SAP on Azure podcast:\\\\n \\\\n-[!VIDEO https://www.youtube.com/embed/qpEkNQtLLRY?si=ImIiD2jZPE8YTJGq]\\\\n+> [!VIDEO https://www.youtube.com/embed/qpEkNQtLLRY?si=ImIiD2jZPE8YTJGq]\\\\n \\\\n ## License requirements\\\\n \\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\"}",
+      "Response": "This commit updates a markdown document to correctly format an embedded YouTube video. The change involves converting a line starting with `[!VIDEO...]` to a block quote format using `> [!VIDEO...]`. This ensures the video is displayed appropriately within the documentation.",
+      "Model": "google:gemini-2.5-flash-lite",
+      "Provider": "google",
+      "ModelName": "gemini-2.5-flash-lite",
+      "Timestamp": "2025-10-21T23:02:00.4902811+00:00"
+    },
+    "files": [
+      {
+        "filename": "docs/id-governance/entitlement-management-dynamic-approval.md",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "sha": "635e636ce8d445352ace08a73e86ee7cee7e7da0",
+    "url": "https://github.com/MicrosoftDocs/entra-docs/commit/635e636ce8d445352ace08a73e86ee7cee7e7da0",
+    "author": "Diana Richards",
+    "email": "v-dirichards@microsoft.com",
+    "date": "2025-10-21T21:18:13Z",
+    "message": "Merge pull request #1793 from nickludwig/patch-2\n\nUpdate resilience defaults testing information",
+    "ai_summary": {
+      "Messages": "{\"role\":\"user\",\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"546aab4f8c660ef5c2a5ecfa478643dedd7eebaa\\\",\\r\\n  \\\"filename\\\": \\\"docs/identity/conditional-access/resilience-defaults.md\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 1,\\r\\n  \\\"deletions\\\": 1,\\r\\n  \\\"changes\\\": 2,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/635e636ce8d445352ace08a73e86ee7cee7e7da0/docs%2Fidentity%2Fconditional-access%2Fresilience-defaults.md\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/635e636ce8d445352ace08a73e86ee7cee7e7da0/docs%2Fidentity%2Fconditional-access%2Fresilience-defaults.md\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fconditional-access%2Fresilience-defaults.md?ref=635e636ce8d445352ace08a73e86ee7cee7e7da0\\\",\\r\\n  \\\"patch\\\": \\\"@@ -71,7 +71,7 @@ When resilience defaults are disabled, the Backup Authentication Service doesn't\\\\n \\\\n ## Testing resilience defaults\\\\n \\\\n-You can't conduct a dry run using the Backup Authentication Service or simulate the result of a policy with resilience defaults enabled or disabled. Microsoft Entra runs monthly tests using the Backup Authentication Service. The sign-in logs indicate if the Backup Authentication Service issued the access token. In **Entra ID** > **Monitoring & health** > **Sign-in Logs**, add the filter \\\\\\\"Token issuer type == Microsoft Entra Backup Auth\\\\\\\" to display the logs processed by Microsoft Entra Backup Authentication Service.\\\\n+You can't conduct a dry run using the Backup Authentication Service or simulate the result of a policy with resilience defaults enabled or disabled. Microsoft Entra runs monthly tests using the Backup Authentication Service. The scope of these tests varies. We do not test every tenant every month. To see if tokens were issued via Backup Authentication Service within your tenant, you can use the sign-in logs. In **Entra ID** > **Monitoring & health** > **Sign-in Logs**, add the filter \\\\\\\"Token issuer type == Microsoft Entra Backup Auth\\\\\\\" to display the logs processed by Microsoft Entra Backup Authentication Service.\\\\n \\\\n ## Configuring resilience defaults\\\\n \\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\"}",
+      "Response": "This commit modifies the documentation for resilience defaults in Microsoft Entra ID. The text clarifies that while direct testing of resilience defaults is not possible, users can identify if the Backup Authentication Service has issued access tokens by filtering sign-in logs. The scope of Microsoft Entra's monthly tests is also mentioned as varying, with not all tenants being tested each month.",
+      "Model": "google:gemini-2.5-flash-lite",
+      "Provider": "google",
+      "ModelName": "gemini-2.5-flash-lite",
+      "Timestamp": "2025-10-21T23:02:02.6207646+00:00"
+    },
+    "files": [
+      {
+        "filename": "docs/identity/conditional-access/resilience-defaults.md",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      }
+    ]
+  }
+]
