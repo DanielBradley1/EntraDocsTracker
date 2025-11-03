@@ -1,0 +1,24 @@
+{
+  "sha": "186aabca424d8e10e76f7ec53324238fd2502dab",
+  "url": "https://github.com/MicrosoftDocs/entra-docs/commit/186aabca424d8e10e76f7ec53324238fd2502dab",
+  "author": "Tracey Torble",
+  "email": "56347952+ttorble@users.noreply.github.com",
+  "date": "2025-10-27T14:29:34Z",
+  "message": "Merge pull request #1739 from HarryGwinnell/main\n\nFix Powershell Cmdlet name in `How to use VM Tokens`",
+  "ai_summary": {
+    "Messages": "{\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"388007446b08b05267e658fd7473c88261aeaa75\\\",\\r\\n  \\\"filename\\\": \\\"docs/identity/managed-identities-azure-resources/how-to-use-vm-token.md\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 5,\\r\\n  \\\"deletions\\\": 6,\\r\\n  \\\"changes\\\": 11,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/186aabca424d8e10e76f7ec53324238fd2502dab/docs%2Fidentity%2Fmanaged-identities-azure-resources%2Fhow-to-use-vm-token.md\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/186aabca424d8e10e76f7ec53324238fd2502dab/docs%2Fidentity%2Fmanaged-identities-azure-resources%2Fhow-to-use-vm-token.md\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fmanaged-identities-azure-resources%2Fhow-to-use-vm-token.md?ref=186aabca424d8e10e76f7ec53324238fd2502dab\\\",\\r\\n  \\\"patch\\\": \\\"@@ -291,23 +291,22 @@ The following example demonstrates how to use the managed identities for Azure r\\\\n 2. Use the access token to call an Azure Resource Manager REST API and get information about the VM. Be sure to substitute your subscription ID, resource group name, and virtual machine name for `<SUBSCRIPTION-ID>`, `<RESOURCE-GROUP>`, and `<VM-NAME>`, respectively.\\\\n \\\\n ```azurepowershell\\\\n-Invoke-RestMeth -Method GET -Uri 'http://169.254.169.254/metadata/identity/oauth2/token?api-version=2018-02-01&resource=https%3A%2F%2Fmanagement.azure.com%2F' -Headers @{Metadata=\\\\\\\"true\\\\\\\"}\\\\n+Invoke-RestMethod -Method GET -Uri 'http://169.254.169.254/metadata/identity/oauth2/token?api-version=2018-02-01&resource=https%3A%2F%2Fmanagement.azure.com%2F' -Headers @{Metadata=\\\\\\\"true\\\\\\\"}\\\\n ```\\\\n \\\\n Example of how to parse the access token from the response:\\\\n ```azurepowershell\\\\n # Get an access token for managed identities for Azure resources\\\\n $resource = 'https://management.azure.com'\\\\n-$response = Invoke-RestMeth -Method GET `\\\\n-                            -Uri 'http://169.254.169.254/metadata/identity/oauth2/token?api-version=2018-02-01&resource=$resource' `\\\\n+$response = Invoke-RestMethod -Method GET `\\\\n+                            -Uri \\\\\\\"http://169.254.169.254/metadata/identity/oauth2/token?api-version=2018-02-01&resource=$resource\\\\\\\" `\\\\n                             -Headers @{ Metadata=\\\\\\\"true\\\\\\\" }\\\\n-$content = $response.Content | ConvertFrom-Json\\\\n-$accessToken = $content.access_token\\\\n+$accessToken = $response.access_token\\\\n Write-Host \\\\\\\"Access token using a User-Assigned Managed Identity is $accessToken\\\\\\\"\\\\n \\\\n # Use the access token to get resource information for the VM\\\\n $secureToken = $accessToken | ConvertTo-SecureString -AsPlainText\\\\n-$vmInfoRest = Invoke-RestMeth -Method GET `\\\\n+$vmInfoRest = Invoke-RestMethod -Method GET `\\\\n                               -Uri 'https://management.azure.com/subscriptions/<SUBSCRIPTION-ID>/resourceGroups/<RESOURCE-GROUP>/providers/Microsoft.Compute/virtualMachines/<VM-NAME>?api-version=2017-12-01' `\\\\n                               -ContentType 'application/json' `\\\\n                               -Authentication Bearer `\\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\",\"role\":\"user\"}",
+    "Response": "This commit updates a markdown file demonstrating how to obtain an access token for managed identities in Azure. The changes correct a typo in the `Invoke-RestMeth` command, changing it to `Invoke-RestMethod`, and adjust the parsing of the access token from the response to directly access the `access_token` property.",
+    "Model": "google:gemini-2.5-flash-lite",
+    "Provider": "google",
+    "ModelName": "gemini-2.5-flash-lite",
+    "Timestamp": "2025-10-27T16:00:48.2170018+00:00"
+  },
+  "files": [
+    {
+      "filename": "docs/identity/managed-identities-azure-resources/how-to-use-vm-token.md",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 6
+    }
+  ]
+}
