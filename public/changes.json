@@ -1,51 +1,103 @@
 {
   "metadata": {
-    "total_commits": 12,
-    "generated_date": "2025-11-03T18:02:14Z",
+    "generated_date": "2025-11-03T22:00:58Z",
+    "total_commits": 14,
     "source_files": [
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20251028-0001.json"
+        "filename": "entra-changes-20251028-0001.json",
+        "commit_count": 1
       },
       {
-        "commit_count": 2,
-        "filename": "entra-changes-20251028-2200.json"
+        "filename": "entra-changes-20251028-2200.json",
+        "commit_count": 2
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20251029-0001.json"
+        "filename": "entra-changes-20251029-0001.json",
+        "commit_count": 1
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20251029-0601.json"
+        "filename": "entra-changes-20251029-0601.json",
+        "commit_count": 1
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20251030-0000.json"
+        "filename": "entra-changes-20251030-0000.json",
+        "commit_count": 1
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20251030-0600.json"
+        "filename": "entra-changes-20251030-0600.json",
+        "commit_count": 1
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20251031-0601.json"
+        "filename": "entra-changes-20251031-0601.json",
+        "commit_count": 1
       },
       {
-        "commit_count": 2,
-        "filename": "entra-changes-20251031-1200.json"
+        "filename": "entra-changes-20251031-1200.json",
+        "commit_count": 2
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20251031-1801.json"
+        "filename": "entra-changes-20251031-1801.json",
+        "commit_count": 1
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20251102-1200.json"
+        "filename": "entra-changes-20251102-1200.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251103-2200.json",
+        "commit_count": 2
       }
     ]
   },
   "changes": [
+    {
+      "sha": "446cdc04b6fcc1b18c873488f029e3b613daa30a",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/446cdc04b6fcc1b18c873488f029e3b613daa30a",
+      "author": "Kristine Toliver",
+      "email": "ktoliver@users.noreply.github.com",
+      "date": "2025-11-03T21:28:02Z",
+      "message": "Merge pull request #1810 from ShemManyu/patch-2\n\nModify installation requirements for health agents",
+      "ai_summary": {
+        "Messages": "{\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"b488cc7138e27dcefed3509cbafd6c666d160b22\\\",\\r\\n  \\\"filename\\\": \\\"docs/identity/hybrid/connect/how-to-connect-health-agent-install.md\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 3,\\r\\n  \\\"deletions\\\": 3,\\r\\n  \\\"changes\\\": 6,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/446cdc04b6fcc1b18c873488f029e3b613daa30a/docs%2Fidentity%2Fhybrid%2Fconnect%2Fhow-to-connect-health-agent-install.md\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/446cdc04b6fcc1b18c873488f029e3b613daa30a/docs%2Fidentity%2Fhybrid%2Fconnect%2Fhow-to-connect-health-agent-install.md\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fhybrid%2Fconnect%2Fhow-to-connect-health-agent-install.md?ref=446cdc04b6fcc1b18c873488f029e3b613daa30a\\\",\\r\\n  \\\"patch\\\": \\\"@@ -27,7 +27,7 @@ The following table lists requirements for using Microsoft Entra Connect Health:\\\\n | Requirement | Description |\\\\n | --- | --- |\\\\n | You have a Microsoft Entra ID P1 or P2 subscription. |Microsoft Entra Connect Health is a feature of Microsoft Entra ID P1 or P2. For more information, see [Sign up for Microsoft Entra ID P1 or P2](~/fundamentals/get-started-premium.md). <br /><br />To start a free 30-day trial, see [Start a trial](https://azure.microsoft.com/trial/get-started-active-directory/). |\\\\n-| You're a Global Administrator in Microsoft Entra ID. |Currently, only Global Administrator accounts can install and configure health agents. . <br /><br /> By using Azure role-based access control (Azure RBAC), you can allow other users in your organization to access Microsoft Entra Connect Health. For more information, see [Azure RBAC for Microsoft Entra Connect Health](how-to-connect-health-operations.md#manage-access-with-azure-rbac). <br /><br />**Important**: Use a work or school account to install the agents. You can't use a Microsoft account to install the agents. For more information, see [Sign up for Azure as an organization](~/fundamentals/sign-up-organization.md). |\\\\n+| You're either a [Global Administrator](../../role-based-access-control/permissions-reference.md#global-administrator) or a [Hybrid Identity Administrator](../../role-based-access-control/permissions-reference.md#hybrid-identity-administrator) in Microsoft Entra ID. | By using Azure role-based access control (Azure RBAC), you can allow other users in your organization to access Microsoft Entra Connect Health. For more information, see [Azure RBAC for Microsoft Entra Connect Health](how-to-connect-health-operations.md#manage-access-with-azure-rbac). <br /><br />**Important**: Use a work or school account to install the agents. You can't use a Microsoft account to install the agents. For more information, see [Sign up for Azure as an organization](~/fundamentals/sign-up-organization.md). |\\\\n | The Microsoft Entra Connect Health agent is installed on each targeted server. | Health agents must be installed and configured on targeted servers so that they can receive data and provide monitoring and analytics capabilities. <br /><br />For example, to get data from your Active Directory Federation Services (AD FS) infrastructure, you must install the agent on the AD FS server and on the Web Application Proxy server. Similarly, to get data from your on-premises AD Domain Services infrastructure, you must install the agent on the domain controllers. |\\\\n | The Azure service endpoints have outbound connectivity. | During installation and runtime, the agent requires connectivity to Microsoft Entra Connect Health service endpoints. If firewalls block outbound connectivity, add the [outbound connectivity endpoints](how-to-connect-health-agent-install.md#outbound-connectivity-to-azure-service-endpoints) to an allowlist. |\\\\n |Outbound connectivity is based on IP addresses. | For information about firewall filtering based on IP addresses, see [Azure IP ranges](https://www.microsoft.com/download/details.aspx?id=56519).|\\\\n@@ -113,7 +113,7 @@ The command takes following parameters:\\\\n - `AttributeFiltering`: `$true` (default) if Microsoft Entra Connect isn't syncing the default attribute set and has been customized to use a filtered attribute set. Otherwise, use `$false`.\\\\n - `StagingMode`: `$false` (default) if the Microsoft Entra Connect server is *not* in staging mode. If the server is configured to be in staging mode, use `$true`. You can determine if the server is in staging mode with `(Get-ADSyncScheduler).StagingModeEnabled`.\\\\n \\\\n-When you're prompted for authentication, use the same Global Administrator account (such as `admin@domain.onmicrosoft.com`) that you used to configure Microsoft Entra Connect.\\\\n+When you're prompted for authentication, use the same Global Administrator or Hybrid Identity Administrator account (such as `admin@domain.onmicrosoft.com`) that you used to configure Microsoft Entra Connect.\\\\n \\\\n <a name='install-the-agent-for-azure-ad-ds'></a>\\\\n \\\\n@@ -186,7 +186,7 @@ These commands accept `Credential` as a parameter to complete the registration n\\\\n \\\\n - You can capture `Credential` in a PowerShell variable that's passed as a parameter.\\\\n - You can provide any Microsoft Entra identity that has permissions to register the agents, and which does *not* have multifactor authentication enabled.\\\\n-- By default, Global Administrators have permissions to register the agents. You can also allow less-privileged identities to do this step. For more information, see [Azure RBAC](how-to-connect-health-operations.md#manage-access-with-azure-rbac).\\\\n+- By default, Global Administrators and Hybrid Identity Administrators have permissions to register the agents. You can also allow less-privileged identities to do this step. For more information, see [Azure RBAC](how-to-connect-health-operations.md#manage-access-with-azure-rbac).\\\\n \\\\n ```powershell\\\\n     $cred = Get-Credential\\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\",\"role\":\"user\"}",
+        "Response": "The changes update the documentation for installing the Microsoft Entra Connect Health agent. The primary modification expands the required administrator roles from just \"Global Administrator\" to also include \"Hybrid Identity Administrator\". This provides more flexibility for users in managing access and permissions for installing and configuring the health agents, while still emphasising the use of work or school accounts.",
+        "Model": "google:gemini-2.5-flash-lite",
+        "Provider": "google",
+        "ModelName": "gemini-2.5-flash-lite",
+        "Timestamp": "2025-11-03T22:00:55.0763646+00:00"
+      },
+      "files": [
+        {
+          "filename": "docs/identity/hybrid/connect/how-to-connect-health-agent-install.md",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 3
+        }
+      ]
+    },
+    {
+      "sha": "aa18fb162d1903739dd26aa3ed1b98b3601e9633",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/aa18fb162d1903739dd26aa3ed1b98b3601e9633",
+      "author": "Kristine Toliver",
+      "email": "ktoliver@users.noreply.github.com",
+      "date": "2025-11-03T21:24:41Z",
+      "message": "Update links in health agent installation documentation",
+      "ai_summary": {
+        "Messages": "{\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"b488cc7138e27dcefed3509cbafd6c666d160b22\\\",\\r\\n  \\\"filename\\\": \\\"docs/identity/hybrid/connect/how-to-connect-health-agent-install.md\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 1,\\r\\n  \\\"deletions\\\": 1,\\r\\n  \\\"changes\\\": 2,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/aa18fb162d1903739dd26aa3ed1b98b3601e9633/docs%2Fidentity%2Fhybrid%2Fconnect%2Fhow-to-connect-health-agent-install.md\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/aa18fb162d1903739dd26aa3ed1b98b3601e9633/docs%2Fidentity%2Fhybrid%2Fconnect%2Fhow-to-connect-health-agent-install.md\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fhybrid%2Fconnect%2Fhow-to-connect-health-agent-install.md?ref=aa18fb162d1903739dd26aa3ed1b98b3601e9633\\\",\\r\\n  \\\"patch\\\": \\\"@@ -27,7 +27,7 @@ The following table lists requirements for using Microsoft Entra Connect Health:\\\\n | Requirement | Description |\\\\n | --- | --- |\\\\n | You have a Microsoft Entra ID P1 or P2 subscription. |Microsoft Entra Connect Health is a feature of Microsoft Entra ID P1 or P2. For more information, see [Sign up for Microsoft Entra ID P1 or P2](~/fundamentals/get-started-premium.md). <br /><br />To start a free 30-day trial, see [Start a trial](https://azure.microsoft.com/trial/get-started-active-directory/). |\\\\n-| You're either a [Global Administrator](/entra/identity/role-based-access-control/permissions-reference#global-administrator) or a [Hybrid Identity Administrator](/entra/identity/role-based-access-control/permissions-reference#hybrid-identity-administrator) in Microsoft Entra ID. | By using Azure role-based access control (Azure RBAC), you can allow other users in your organization to access Microsoft Entra Connect Health. For more information, see [Azure RBAC for Microsoft Entra Connect Health](how-to-connect-health-operations.md#manage-access-with-azure-rbac). <br /><br />**Important**: Use a work or school account to install the agents. You can't use a Microsoft account to install the agents. For more information, see [Sign up for Azure as an organization](~/fundamentals/sign-up-organization.md). |\\\\n+| You're either a [Global Administrator](../../role-based-access-control/permissions-reference.md#global-administrator) or a [Hybrid Identity Administrator](../../role-based-access-control/permissions-reference.md#hybrid-identity-administrator) in Microsoft Entra ID. | By using Azure role-based access control (Azure RBAC), you can allow other users in your organization to access Microsoft Entra Connect Health. For more information, see [Azure RBAC for Microsoft Entra Connect Health](how-to-connect-health-operations.md#manage-access-with-azure-rbac). <br /><br />**Important**: Use a work or school account to install the agents. You can't use a Microsoft account to install the agents. For more information, see [Sign up for Azure as an organization](~/fundamentals/sign-up-organization.md). |\\\\n | The Microsoft Entra Connect Health agent is installed on each targeted server. | Health agents must be installed and configured on targeted servers so that they can receive data and provide monitoring and analytics capabilities. <br /><br />For example, to get data from your Active Directory Federation Services (AD FS) infrastructure, you must install the agent on the AD FS server and on the Web Application Proxy server. Similarly, to get data from your on-premises AD Domain Services infrastructure, you must install the agent on the domain controllers. |\\\\n | The Azure service endpoints have outbound connectivity. | During installation and runtime, the agent requires connectivity to Microsoft Entra Connect Health service endpoints. If firewalls block outbound connectivity, add the [outbound connectivity endpoints](how-to-connect-health-agent-install.md#outbound-connectivity-to-azure-service-endpoints) to an allowlist. |\\\\n |Outbound connectivity is based on IP addresses. | For information about firewall filtering based on IP addresses, see [Azure IP ranges](https://www.microsoft.com/download/details.aspx?id=56519).|\\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\",\"role\":\"user\"}",
+        "Response": "The changes address the formatting of links to administrator roles within the Microsoft Entra ID documentation. Previously, the links used a relative path within the `entra-docs` repository. They have been updated to use a more direct link to the `permissions-reference.md` file, improving clarity and maintainability.",
+        "Model": "google:gemini-2.5-flash-lite",
+        "Provider": "google",
+        "ModelName": "gemini-2.5-flash-lite",
+        "Timestamp": "2025-11-03T22:00:56.1883984+00:00"
+      },
+      "files": [
+        {
+          "filename": "docs/identity/hybrid/connect/how-to-connect-health-agent-install.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        }
+      ]
+    },
     {
       "sha": "496349b5bcd1b318d3adf6096f9a228ba6b0af67",
       "url": "https://github.com/MicrosoftDocs/entra-docs/commit/496349b5bcd1b318d3adf6096f9a228ba6b0af67",
