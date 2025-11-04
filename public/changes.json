@@ -1,59 +1,29 @@
 {
-  "metadata": {
-    "source_files": [
-      {
-        "commit_count": 2,
-        "filename": "entra-changes-20251028-2200.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251029-0001.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251029-0601.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251030-0000.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251030-0600.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251031-0601.json"
-      },
-      {
-        "commit_count": 2,
-        "filename": "entra-changes-20251031-1200.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251031-1801.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251102-1200.json"
-      },
-      {
-        "commit_count": 2,
-        "filename": "entra-changes-20251103-2200.json"
-      },
-      {
-        "commit_count": 2,
-        "filename": "entra-changes-20251104-0000.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251104-0801.json"
-      }
-    ],
-    "total_commits": 16,
-    "generated_date": "2025-11-04T08:02:00Z"
-  },
   "changes": [
+    {
+      "sha": "f92330a18530c900fdf571b8e7a4b8588d89290c",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/f92330a18530c900fdf571b8e7a4b8588d89290c",
+      "author": "learn-build-service-prod[bot]",
+      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+      "date": "2025-11-04T13:02:56Z",
+      "message": "Merge pull request #10248 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-11-04 13:00 UTC",
+      "ai_summary": {
+        "Messages": "{\"role\":\"user\",\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"17c287a82d7dbe2c2460e5ab2f3b65981d3b371d\\\",\\r\\n  \\\"filename\\\": \\\"docs/identity-platform/configurable-token-lifetimes.md\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 4,\\r\\n  \\\"deletions\\\": 1,\\r\\n  \\\"changes\\\": 5,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/f92330a18530c900fdf571b8e7a4b8588d89290c/docs%2Fidentity-platform%2Fconfigurable-token-lifetimes.md\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/f92330a18530c900fdf571b8e7a4b8588d89290c/docs%2Fidentity-platform%2Fconfigurable-token-lifetimes.md\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity-platform%2Fconfigurable-token-lifetimes.md?ref=f92330a18530c900fdf571b8e7a4b8588d89290c\\\",\\r\\n  \\\"patch\\\": \\\"@@ -27,7 +27,10 @@ For practical guidance, see [examples of how to configure token lifetimes](confi\\\\n > To manage the lifetime of web browser sessions for SharePoint Online and OneDrive for Business, use the [Conditional Access session lifetime](~/identity/conditional-access/howto-conditional-access-session-lifetime.md) feature. Refer to the [SharePoint Online blog](https://techcommunity.microsoft.com/t5/SharePoint-Blog/Introducing-Idle-Session-Timeout-in-SharePoint-and-OneDrive/ba-p/119208) to learn more about configuring idle session time-outs.\\\\n \\\\n > [!NOTE]\\\\n-> You might want to increase the token lifetime so that a script runs for more than an hour. Many Microsoft libraries, such as Microsoft Graph PowerShell SDK, extend the token lifetime as needed and you don't need to makes changes to the access token policy. \\\\n+> You might want to increase the token lifetime so that a script runs for more than an hour. Many Microsoft libraries, such as Microsoft Graph PowerShell SDK, extend the token lifetime as needed and you don't need to makes changes to the access token policy.\\\\n+\\\\n+> [!NOTE]\\\\n+> Configurable token lifetime policy is not supported for applications developed for personal Microsoft accounts (where `signInAudience` is set to `AzureADandPersonalMicrosoftAccount` or `PersonalMicrosoftAccount`).\\\\n \\\\n ## License requirements\\\\n \\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\"}",
+        "Response": "The recent changes to the `configurable-token-lifetimes.md` document provide an important clarification. A new note has been added to inform users that configurable token lifetime policies are not supported for applications designed for personal Microsoft accounts. This addresses a potential point of confusion for developers working with both Azure AD and personal Microsoft accounts.",
+        "Model": "google:gemini-2.5-flash-lite",
+        "Provider": "google",
+        "ModelName": "gemini-2.5-flash-lite",
+        "Timestamp": "2025-11-04T14:00:40.2576262+00:00"
+      },
+      "files": [
+        {
+          "filename": "docs/identity-platform/configurable-token-lifetimes.md",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 1
+        }
+      ]
+    },
     {
       "sha": "7faf8d961df7559fb440fae757f2cd5554f29fde",
       "url": "https://github.com/MicrosoftDocs/entra-docs/commit/7faf8d961df7559fb440fae757f2cd5554f29fde",
@@ -2795,5 +2765,63 @@
         }
       ]
     }
-  ]
+  ],
+  "metadata": {
+    "total_commits": 17,
+    "source_files": [
+      {
+        "filename": "entra-changes-20251028-2200.json",
+        "commit_count": 2
+      },
+      {
+        "filename": "entra-changes-20251029-0001.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251029-0601.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251030-0000.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251030-0600.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251031-0601.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251031-1200.json",
+        "commit_count": 2
+      },
+      {
+        "filename": "entra-changes-20251031-1801.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251102-1200.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251103-2200.json",
+        "commit_count": 2
+      },
+      {
+        "filename": "entra-changes-20251104-0000.json",
+        "commit_count": 2
+      },
+      {
+        "filename": "entra-changes-20251104-0801.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251104-1400.json",
+        "commit_count": 1
+      }
+    ],
+    "generated_date": "2025-11-04T14:00:42Z"
+  }
 }
