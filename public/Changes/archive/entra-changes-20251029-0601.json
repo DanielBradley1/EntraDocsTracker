@@ -1,0 +1,30 @@
+{
+  "sha": "7dc3f58ba1f3e0504b504807003bcc8b8e20cce8",
+  "url": "https://github.com/MicrosoftDocs/entra-docs/commit/7dc3f58ba1f3e0504b504807003bcc8b8e20cce8",
+  "author": "learn-build-service-prod[bot]",
+  "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+  "date": "2025-10-29T05:04:53Z",
+  "message": "Merge pull request #10163 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-10-29 05:02 UTC",
+  "ai_summary": {
+    "Messages": "{\"role\":\"user\",\"content\":\"The following is the commit files that have changed: [\\r\\n  {\\r\\n    \\\"sha\\\": \\\"dc83bafe13954a6fc1691c3a3032fc7e25e75eb5\\\",\\r\\n    \\\"filename\\\": \\\"docs/architecture/backup-authentication-system.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 1,\\r\\n    \\\"deletions\\\": 1,\\r\\n    \\\"changes\\\": 2,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/7dc3f58ba1f3e0504b504807003bcc8b8e20cce8/docs%2Farchitecture%2Fbackup-authentication-system.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/7dc3f58ba1f3e0504b504807003bcc8b8e20cce8/docs%2Farchitecture%2Fbackup-authentication-system.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Farchitecture%2Fbackup-authentication-system.md?ref=7dc3f58ba1f3e0504b504807003bcc8b8e20cce8\\\",\\r\\n    \\\"patch\\\": \\\"@@ -72,7 +72,7 @@ Certain other types of policies don't support use of the backup authentication s\\\\n - Use of the [authentication methods policy](~/identity/conditional-access/concept-conditional-access-grant.md#require-authentication-strength).\\\\n - Use of [classic Conditional Access policies](~/identity/conditional-access/policy-migration-mfa.md).\\\\n \\\\n-### How does certificate revocation work in an outage? \\\\n+### Certificate revocation and the backup authentication system \\\\n \\\\n To enhance its resilience posture, the backup authentication system can't perform fresh revocation checks. Instead, it relies on the state of the certificate revocation list (CRL) check that's performed when the session was last backed up. If you need to revoke before this backup expires, you should explicitly revoke the session instead of waiting for the CRL.  \\\\n \\\"\\r\\n  },\\r\\n  {\\r\\n    \\\"sha\\\": \\\"13103b2aec9c935620615d51431841e667f53b4d\\\",\\r\\n    \\\"filename\\\": \\\"docs/identity/hybrid/connect/how-to-connect-install-prerequisites.md\\\",\\r\\n    \\\"status\\\": \\\"modified\\\",\\r\\n    \\\"additions\\\": 3,\\r\\n    \\\"deletions\\\": 0,\\r\\n    \\\"changes\\\": 3,\\r\\n    \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/7dc3f58ba1f3e0504b504807003bcc8b8e20cce8/docs%2Fidentity%2Fhybrid%2Fconnect%2Fhow-to-connect-install-prerequisites.md\\\",\\r\\n    \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/7dc3f58ba1f3e0504b504807003bcc8b8e20cce8/docs%2Fidentity%2Fhybrid%2Fconnect%2Fhow-to-connect-install-prerequisites.md\\\",\\r\\n    \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Fidentity%2Fhybrid%2Fconnect%2Fhow-to-connect-install-prerequisites.md?ref=7dc3f58ba1f3e0504b504807003bcc8b8e20cce8\\\",\\r\\n    \\\"patch\\\": \\\"@@ -267,6 +267,9 @@ The following table shows the minimum requirements for the Microsoft Entra Conne\\\\n | 300,000–600,000 |1.6 GHz |32 GB |450 GB |\\\\n | More than 600,000 |1.6 GHz |32 GB |500 GB |\\\\n \\\\n+The specifications listed above represent combined hardware requirements for the Microsoft Entra Connect server hosting both the synchronization application and the SQL Server database (either the built-in SQL Express or a full SQL Server instance installed locally).\\\\n+If the SQL Server database is hosted remotely on a separate server, the Entra Connect application server may require fewer resources, while the SQL Server will need its own compute, memory, and storage capacity according to SQL Server sizing best practices.\\\\n+\\\\n The minimum requirements for computers running AD FS or Web Application Proxy servers are:\\\\n \\\\n * CPU: Dual core 1.6 GHz or higher\\\"\\r\\n  }\\r\\n]. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\"}",
+    "Response": "This commit updates two documentation files. Firstly, it amends a heading in \"backup-authentication-system.md\" for clarity regarding certificate revocation. Secondly, it adds a clarification to \"how-to-connect-install-prerequisites.md\" about hardware specifications, specifying that listed requirements are for a combined server and that a remote SQL Server will have its own resource needs.",
+    "Model": "google:gemini-2.5-flash-lite",
+    "Provider": "google",
+    "ModelName": "gemini-2.5-flash-lite",
+    "Timestamp": "2025-10-29T06:01:04.9354259+00:00"
+  },
+  "files": [
+    {
+      "filename": "docs/architecture/backup-authentication-system.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "filename": "docs/identity/hybrid/connect/how-to-connect-install-prerequisites.md",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0
+    }
+  ]
+}
