@@ -1,0 +1,24 @@
+{
+  "sha": "84d7a7148789eee22e8669d6624fea1022994c0e",
+  "url": "https://github.com/MicrosoftDocs/entra-docs/commit/84d7a7148789eee22e8669d6624fea1022994c0e",
+  "author": "learn-build-service-prod[bot]",
+  "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+  "date": "2025-10-30T05:06:31Z",
+  "message": "Merge pull request #10173 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-10-30 05:00 UTC",
+  "ai_summary": {
+    "Messages": "{\"role\":\"user\",\"content\":\"The following is the commit files that have changed: {\\r\\n  \\\"sha\\\": \\\"78c55f5b18aa51de9e295e067c969c4ea699905f\\\",\\r\\n  \\\"filename\\\": \\\"docs/architecture/backup-authentication-system.md\\\",\\r\\n  \\\"status\\\": \\\"modified\\\",\\r\\n  \\\"additions\\\": 4,\\r\\n  \\\"deletions\\\": 0,\\r\\n  \\\"changes\\\": 4,\\r\\n  \\\"blob_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/blob/84d7a7148789eee22e8669d6624fea1022994c0e/docs%2Farchitecture%2Fbackup-authentication-system.md\\\",\\r\\n  \\\"raw_url\\\": \\\"https://github.com/MicrosoftDocs/entra-docs/raw/84d7a7148789eee22e8669d6624fea1022994c0e/docs%2Farchitecture%2Fbackup-authentication-system.md\\\",\\r\\n  \\\"contents_url\\\": \\\"https://api.github.com/repos/MicrosoftDocs/entra-docs/contents/docs%2Farchitecture%2Fbackup-authentication-system.md?ref=84d7a7148789eee22e8669d6624fea1022994c0e\\\",\\r\\n  \\\"patch\\\": \\\"@@ -72,6 +72,10 @@ Certain other types of policies don't support use of the backup authentication s\\\\n - Use of the [authentication methods policy](~/identity/conditional-access/concept-conditional-access-grant.md#require-authentication-strength).\\\\n - Use of [classic Conditional Access policies](~/identity/conditional-access/policy-migration-mfa.md).\\\\n \\\\n+#### Evaluation of report-only Conditional Access policies\\\\n+\\\\n+If a request is processed by the backup authentication system, report-only Conditional Access policies will appear under the **Conditional Access** tab in **Entra ID** > **Monitoring & health** > **Sign-in logs** for that sign-in event, rather than in the **Report-only** tab. Note that even in this view, policies configured in report-only mode are never enforced. To see if tokens were issued via backup authentication system within your tenant, you can use the sign-in logs. In **Entra ID** > **Monitoring & health** > **Sign-in Logs**, add the filter `Token issuer type == Microsoft Entra Backup Auth` to display the logs processed by the backup authentication system. \\\\n+\\\\n ### Certificate revocation and the backup authentication system \\\\n \\\\n To enhance its resilience posture, the backup authentication system can't perform fresh revocation checks. Instead, it relies on the state of the certificate revocation list (CRL) check that's performed when the session was last backed up. If you need to revoke before this backup expires, you should explicitly revoke the session instead of waiting for the CRL.  \\\"\\r\\n}. Please summarise it in a few sentences, using UK grammar and ensure the response is formatted for markdown. Do not start the response with here is summary.\"}",
+    "Response": "The changes update the documentation for the backup authentication system. A new section has been added detailing the evaluation of report-only Conditional Access policies when processed by the backup authentication system. It clarifies that these policies will appear in the 'Conditional Access' tab of sign-in logs, not the 'Report-only' tab, and explains how to filter sign-in logs to identify events processed by the backup authentication system.",
+    "Model": "google:gemini-2.5-flash-lite",
+    "Provider": "google",
+    "ModelName": "gemini-2.5-flash-lite",
+    "Timestamp": "2025-10-30T06:00:43.1995787+00:00"
+  },
+  "files": [
+    {
+      "filename": "docs/architecture/backup-authentication-system.md",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0
+    }
+  ]
+}
