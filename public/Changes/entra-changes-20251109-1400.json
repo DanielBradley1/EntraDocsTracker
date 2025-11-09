@@ -1,0 +1,29 @@
+{
+  "sha": "d82e1e199d8dc39972381a5b88a881a6a45bc0f7",
+  "url": "https://github.com/MicrosoftDocs/entra-docs/commit/d82e1e199d8dc39972381a5b88a881a6a45bc0f7",
+  "author": "learn-build-service-prod[bot]",
+  "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+  "date": "2025-11-09T12:02:43Z",
+  "message": "Merge pull request #10389 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-11-09 12:00 UTC",
+  "ai_summary": "Unable to generate summary for this commit.",
+  "files": [
+    {
+      "filename": "docs/global-secure-access/how-to-configure-domain-controllers.md",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 10
+    },
+    {
+      "filename": "docs/global-secure-access/media/how-to-configure-domain-controllers/connectors-and-sensors.png",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "filename": "docs/global-secure-access/media/how-to-configure-domain-controllers/exclusions-and-inclusions.png",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 0
+    }
+  ]
+}
