@@ -1,6 +1,167 @@
 {
   "changes": [
     {
+      "sha": "415ea3aa362b69df99682693d92e6086106b5a26",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/415ea3aa362b69df99682693d92e6086106b5a26",
+      "author": "learn-build-service-prod[bot]",
+      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+      "date": "2025-11-10T18:10:28Z",
+      "message": "Merge pull request #10411 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-11-10 18:07 UTC",
+      "ai_summary": "Unable to generate summary for this commit.",
+      "files": [
+        {
+          "filename": ".openpublishing.redirection.json",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/external-id/customers/how-to-configure-waf-integration.md",
+          "status": "added",
+          "additions": 354,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/external-id/customers/media/how-to-configure-cloudflare-integration/bot-protection.png",
+          "status": "renamed",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/external-id/customers/media/how-to-configure-cloudflare-integration/choose-waf-provider.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/external-id/customers/media/how-to-configure-cloudflare-integration/choose-waf.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/external-id/customers/media/how-to-configure-cloudflare-integration/configuration-test.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/external-id/customers/media/how-to-configure-cloudflare-integration/configure-waf-provider.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/external-id/customers/media/how-to-configure-cloudflare-integration/consent-button.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/external-id/customers/media/how-to-configure-cloudflare-integration/consent-to-permissions.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/external-id/customers/media/how-to-configure-cloudflare-integration/create-rule-name.png",
+          "status": "renamed",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/external-id/customers/media/how-to-configure-cloudflare-integration/create-rule.png",
+          "status": "renamed",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/external-id/customers/media/how-to-configure-cloudflare-integration/ddos-message-expanded.png",
+          "status": "renamed",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/external-id/customers/media/how-to-configure-cloudflare-integration/ddos-message.png",
+          "status": "renamed",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/external-id/customers/media/how-to-configure-cloudflare-integration/flow-consent.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/external-id/customers/media/how-to-configure-cloudflare-integration/flow-diagram.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/external-id/customers/media/how-to-configure-cloudflare-integration/permission-reference.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/external-id/customers/media/how-to-configure-cloudflare-integration/proxied-status-expanded.png",
+          "status": "renamed",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/external-id/customers/media/how-to-configure-cloudflare-integration/proxied-status.png",
+          "status": "renamed",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/external-id/customers/media/how-to-configure-cloudflare-integration/proxy-settings-expanded.png",
+          "status": "renamed",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/external-id/customers/media/how-to-configure-cloudflare-integration/proxy-settings.png",
+          "status": "renamed",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/external-id/customers/media/how-to-configure-cloudflare-integration/ruleset-expanded.png",
+          "status": "renamed",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/external-id/customers/media/how-to-configure-cloudflare-integration/rulesets.png",
+          "status": "renamed",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/external-id/customers/media/how-to-configure-cloudflare-integration/verify-domain.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/external-id/customers/toc.yml",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/external-id/customers/tutorial-configure-cloudflare-integration.md",
+          "status": "removed",
+          "additions": 0,
+          "deletions": 151
+        }
+      ]
+    },
+    {
       "sha": "f475abef1a6e6d3cd188e61279afe59aa357d19d",
       "url": "https://github.com/MicrosoftDocs/entra-docs/commit/f475abef1a6e6d3cd188e61279afe59aa357d19d",
       "author": "learn-build-service-prod[bot]",
@@ -2090,8 +2251,8 @@
     }
   ],
   "metadata": {
-    "generated_date": "2025-11-10T14:01:21Z",
-    "total_commits": 24,
+    "generated_date": "2025-11-10T20:01:25Z",
+    "total_commits": 25,
     "source_files": [
       {
         "commit_count": 2,
@@ -2172,6 +2333,10 @@
       {
         "commit_count": 1,
         "filename": "entra-changes-20251110-1401.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251110-2001.json"
       }
     ]
   }
