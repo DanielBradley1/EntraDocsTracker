@@ -1,35 +1,22 @@
 {
-  "metadata": {
-    "generated_date": "2025-11-19T20:01:16Z",
-    "total_commits": 23,
-    "source_files": [
-      {
-        "filename": "entra-changes-20251118-2001.json",
-        "commit_count": 12
-      },
-      {
-        "filename": "entra-changes-20251119-0001.json",
-        "commit_count": 5
-      },
-      {
-        "filename": "entra-changes-20251119-0801.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251119-1401.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251119-1801.json",
-        "commit_count": 3
-      },
-      {
-        "filename": "entra-changes-20251119-2001.json",
-        "commit_count": 1
-      }
-    ]
-  },
   "changes": [
+    {
+      "sha": "11087ff0c4876e0c2ecec0f3c76dbb4d24dc1aec",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/11087ff0c4876e0c2ecec0f3c76dbb4d24dc1aec",
+      "author": "Diana Richards",
+      "email": "v-dirichards@microsoft.com",
+      "date": "2025-11-19T21:35:34Z",
+      "message": "Merge pull request #1824 from bistraining/patch-1\n\nUpdate bis-tutorial.md",
+      "ai_summary": "Unable to generate summary for this commit.",
+      "files": [
+        {
+          "filename": "docs/identity/saas-apps/bis-tutorial.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        }
+      ]
+    },
     {
       "sha": "f47e3713b5bae7d10c3ed68eeeb3c3112a9a594d",
       "url": "https://github.com/MicrosoftDocs/entra-docs/commit/f47e3713b5bae7d10c3ed68eeeb3c3112a9a594d",
@@ -1117,5 +1104,39 @@
         }
       ]
     }
-  ]
+  ],
+  "metadata": {
+    "source_files": [
+      {
+        "commit_count": 12,
+        "filename": "entra-changes-20251118-2001.json"
+      },
+      {
+        "commit_count": 5,
+        "filename": "entra-changes-20251119-0001.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251119-0801.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251119-1401.json"
+      },
+      {
+        "commit_count": 3,
+        "filename": "entra-changes-20251119-1801.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251119-2001.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251119-2200.json"
+      }
+    ],
+    "generated_date": "2025-11-19T22:00:43Z",
+    "total_commits": 24
+  }
 }
