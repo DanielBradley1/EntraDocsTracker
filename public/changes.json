@@ -1,5 +1,50 @@
 {
+  "metadata": {
+    "total_commits": 20,
+    "source_files": [
+      {
+        "commit_count": 2,
+        "filename": "entra-changes-20251112-2001.json"
+      },
+      {
+        "commit_count": 12,
+        "filename": "entra-changes-20251118-2001.json"
+      },
+      {
+        "commit_count": 5,
+        "filename": "entra-changes-20251119-0001.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251119-0801.json"
+      }
+    ],
+    "generated_date": "2025-11-19T08:01:43Z"
+  },
   "changes": [
+    {
+      "sha": "5e6feac444389be01b745b3ac83b49b8a7bccf28",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/5e6feac444389be01b745b3ac83b49b8a7bccf28",
+      "author": "learn-build-service-prod[bot]",
+      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+      "date": "2025-11-19T06:04:23Z",
+      "message": "Merge pull request #10532 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-11-19 06:00 UTC",
+      "ai_summary": "Unable to generate summary for this commit.",
+      "files": [
+        {
+          "filename": "docs/fundamentals/whats-new.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity/monitoring-health/howto-investigate-remote-networks-scenario-signals.md",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 5
+        }
+      ]
+    },
     {
       "sha": "fe182ceaa94da4e8212b69977f63f4f26d54c9a3",
       "url": "https://github.com/MicrosoftDocs/entra-docs/commit/fe182ceaa94da4e8212b69977f63f4f26d54c9a3",
@@ -917,23 +962,5 @@
         }
       ]
     }
-  ],
-  "metadata": {
-    "total_commits": 19,
-    "source_files": [
-      {
-        "filename": "entra-changes-20251112-2001.json",
-        "commit_count": 2
-      },
-      {
-        "filename": "entra-changes-20251118-2001.json",
-        "commit_count": 12
-      },
-      {
-        "filename": "entra-changes-20251119-0001.json",
-        "commit_count": 5
-      }
-    ],
-    "generated_date": "2025-11-19T00:01:22Z"
-  }
+  ]
 }
