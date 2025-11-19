@@ -1,6 +1,7 @@
 {
   "metadata": {
     "total_commits": 20,
+    "generated_date": "2025-11-19T14:01:20Z",
     "source_files": [
       {
         "commit_count": 2,
@@ -18,8 +19,7 @@
         "commit_count": 1,
         "filename": "entra-changes-20251119-0801.json"
       }
-    ],
-    "generated_date": "2025-11-19T08:01:43Z"
+    ]
   },
   "changes": [
     {
