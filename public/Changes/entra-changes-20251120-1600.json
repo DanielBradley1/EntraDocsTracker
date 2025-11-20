@@ -1,0 +1,17 @@
+{
+  "sha": "57f43a1b2d30c4da2186bfdeec714b251e2a9cce",
+  "url": "https://github.com/MicrosoftDocs/entra-docs/commit/57f43a1b2d30c4da2186bfdeec714b251e2a9cce",
+  "author": "Tracey Torble",
+  "email": "56347952+ttorble@users.noreply.github.com",
+  "date": "2025-11-20T15:19:31Z",
+  "message": "Merge pull request #1829 from dsalamancaMS/patch-1\n\nUpdate workload-identity-federation-considerations.md",
+  "ai_summary": "Unable to generate summary for this commit.",
+  "files": [
+    {
+      "filename": "docs/workload-id/workload-identity-federation-considerations.md",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1
+    }
+  ]
+}
