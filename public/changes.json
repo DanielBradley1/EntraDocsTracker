@@ -1,5 +1,6 @@
 {
   "metadata": {
+    "generated_date": "2025-11-20T14:01:20Z",
     "source_files": [
       {
         "commit_count": 12,
@@ -36,12 +37,32 @@
       {
         "commit_count": 1,
         "filename": "entra-changes-20251120-0801.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251120-1401.json"
       }
     ],
-    "total_commits": 28,
-    "generated_date": "2025-11-20T08:02:03Z"
+    "total_commits": 29
   },
   "changes": [
+    {
+      "sha": "baba0e2140879d46d1e3d1205cb79e8f0d5dccba",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/baba0e2140879d46d1e3d1205cb79e8f0d5dccba",
+      "author": "learn-build-service-prod[bot]",
+      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+      "date": "2025-11-20T12:02:53Z",
+      "message": "Merge pull request #10548 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-11-20 12:00 UTC",
+      "ai_summary": "Unable to generate summary for this commit.",
+      "files": [
+        {
+          "filename": "docs/identity/hybrid/connect/admin-audit-logging.md",
+          "status": "modified",
+          "additions": 25,
+          "deletions": 25
+        }
+      ]
+    },
     {
       "sha": "2cd9dd29c9548fae52a86934b144850cab605a00",
       "url": "https://github.com/MicrosoftDocs/entra-docs/commit/2cd9dd29c9548fae52a86934b144850cab605a00",
