@@ -1,0 +1,47 @@
+{
+  "sha": "7165ace8f8875b66e7a6ea837e80e020845d4fcf",
+  "url": "https://github.com/MicrosoftDocs/entra-docs/commit/7165ace8f8875b66e7a6ea837e80e020845d4fcf",
+  "author": "learn-build-service-prod[bot]",
+  "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+  "date": "2025-11-21T06:06:51Z",
+  "message": "Merge pull request #10564 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-11-21 06:00 UTC",
+  "ai_summary": "Unable to generate summary for this commit.",
+  "files": [
+    {
+      "filename": "docs/security-copilot/access-review-agent.md",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 3
+    },
+    {
+      "filename": "docs/security-copilot/entra-agents.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "filename": "docs/security-copilot/media/access-review-agent/access-review-agent-create-identity.png",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "filename": "docs/security-copilot/media/access-review-agent/access-review-agent-identity-screen.png",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "filename": "docs/security-copilot/media/access-review-agent/access-review-agent-identity.png",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "filename": "docs/security-copilot/toc.yml",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1
+    }
+  ]
+}
