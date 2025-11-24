@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "total_commits": 46,
+    "generated_date": "2025-11-24T14:01:36Z",
     "source_files": [
       {
         "commit_count": 12,
@@ -77,11 +77,38 @@
       {
         "commit_count": 1,
         "filename": "entra-changes-20251122-0801.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251124-1401.json"
       }
     ],
-    "generated_date": "2025-11-22T08:01:26Z"
+    "total_commits": 47
   },
   "changes": [
+    {
+      "sha": "15c7119e017405c3bf7c93c650106a5608acff61",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/15c7119e017405c3bf7c93c650106a5608acff61",
+      "author": "learn-build-service-prod[bot]",
+      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+      "date": "2025-11-24T12:04:54Z",
+      "message": "Merge pull request #10580 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-11-24 12:00 UTC",
+      "ai_summary": "Unable to generate summary for this commit.",
+      "files": [
+        {
+          "filename": "docs/identity/enterprise-apps/assign-agent-identities-to-applications.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/identity/enterprise-apps/media/assign-agent-identities-to-applications/agent-saml.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        }
+      ]
+    },
     {
       "sha": "0526e3acaa611a5f9c1ac7b25b681998d42eec4b",
       "url": "https://github.com/MicrosoftDocs/entra-docs/commit/0526e3acaa611a5f9c1ac7b25b681998d42eec4b",
