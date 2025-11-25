@@ -1,6 +1,46 @@
 {
   "changes": [
     {
+      "sha": "5c76b2e1176540c5f6eccc84445b7e9f761bb55a",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/5c76b2e1176540c5f6eccc84445b7e9f761bb55a",
+      "author": "learn-build-service-prod[bot]",
+      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+      "date": "2025-11-24T23:09:17Z",
+      "message": "Merge pull request #10595 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-11-24 23:03 UTC",
+      "ai_summary": "Unable to generate summary for this commit.",
+      "files": [
+        {
+          "filename": "docs/external-id/tenant-restrictions-v2.md",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity/devices/device-join-out-of-box.md",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 7
+        }
+      ]
+    },
+    {
+      "sha": "3ee92988c985a037117e2aa3b3757f3f517f6e2a",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/3ee92988c985a037117e2aa3b3757f3f517f6e2a",
+      "author": "prmerger-automator[bot]",
+      "email": "40007230+prmerger-automator[bot]@users.noreply.github.com",
+      "date": "2025-11-24T22:34:36Z",
+      "message": "Merge pull request #10594 from MicrosoftGuyJFlo/DevicesAuthMethodsUpdate\n\n[Authentication] Windows device join methods",
+      "ai_summary": "Unable to generate summary for this commit.",
+      "files": [
+        {
+          "filename": "docs/identity/devices/device-join-out-of-box.md",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 7
+        }
+      ]
+    },
+    {
       "sha": "775b16b3ecf59d3afc460af13522261a3c7d90ca",
       "url": "https://github.com/MicrosoftDocs/entra-docs/commit/775b16b3ecf59d3afc460af13522261a3c7d90ca",
       "author": "learn-build-service-prod[bot]",
@@ -2192,7 +2232,6 @@
     }
   ],
   "metadata": {
-    "total_commits": 48,
     "source_files": [
       {
         "commit_count": 12,
@@ -2277,8 +2316,13 @@
       {
         "commit_count": 1,
         "filename": "entra-changes-20251124-2001.json"
+      },
+      {
+        "commit_count": 2,
+        "filename": "entra-changes-20251125-0001.json"
       }
     ],
-    "generated_date": "2025-11-24T20:01:19Z"
+    "generated_date": "2025-11-25T00:01:39Z",
+    "total_commits": 50
   }
 }
