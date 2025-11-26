@@ -1,5 +1,116 @@
 {
+  "metadata": {
+    "source_files": [
+      {
+        "filename": "entra-changes-20251119-1801.json",
+        "commit_count": 3
+      },
+      {
+        "filename": "entra-changes-20251119-2001.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251119-2200.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251120-0000.json",
+        "commit_count": 3
+      },
+      {
+        "filename": "entra-changes-20251120-0801.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251120-1401.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251120-1600.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251120-2001.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251120-2201.json",
+        "commit_count": 4
+      },
+      {
+        "filename": "entra-changes-20251121-0001.json",
+        "commit_count": 4
+      },
+      {
+        "filename": "entra-changes-20251121-0800.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251121-1400.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251121-2001.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251122-0002.json",
+        "commit_count": 3
+      },
+      {
+        "filename": "entra-changes-20251122-0801.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251124-1401.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251124-2001.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251125-0001.json",
+        "commit_count": 2
+      },
+      {
+        "filename": "entra-changes-20251125-1401.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251125-2001.json",
+        "commit_count": 2
+      },
+      {
+        "filename": "entra-changes-20251126-0001.json",
+        "commit_count": 10
+      },
+      {
+        "filename": "entra-changes-20251126-1401.json",
+        "commit_count": 1
+      }
+    ],
+    "generated_date": "2025-11-26T14:01:19Z",
+    "total_commits": 45
+  },
   "changes": [
+    {
+      "sha": "783df3ea311dcdacd1713a6d8c19fa58ebf40091",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/783df3ea311dcdacd1713a6d8c19fa58ebf40091",
+      "author": "learn-build-service-prod[bot]",
+      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+      "date": "2025-11-26T12:02:55Z",
+      "message": "Merge pull request #10611 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-11-26 12:00 UTC",
+      "ai_summary": "Unable to generate summary for this commit.",
+      "files": [
+        {
+          "filename": "docs/external-id/customers/concept-supported-features-customers.md",
+          "status": "modified",
+          "additions": 11,
+          "deletions": 1
+        }
+      ]
+    },
     {
       "sha": "771b8d8dfdf68b93c61222fdee71d4c326febe5d",
       "url": "https://github.com/MicrosoftDocs/entra-docs/commit/771b8d8dfdf68b93c61222fdee71d4c326febe5d",
@@ -1731,240 +1842,6 @@
           "deletions": 1
         }
       ]
-    },
-    {
-      "sha": "3d4b683a95ad5f37021c7e79c1162d4e2a8c3164",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/3d4b683a95ad5f37021c7e79c1162d4e2a8c3164",
-      "author": "learn-build-service-prod[bot]",
-      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
-      "date": "2025-11-19T12:05:16Z",
-      "message": "Merge pull request #10533 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-11-19 12:00 UTC",
-      "ai_summary": "Unable to generate summary for this commit.",
-      "files": [
-        {
-          "filename": ".openpublishing.redirection.json",
-          "status": "modified",
-          "additions": 5,
-          "deletions": 1
-        },
-        {
-          "filename": "docs/external-id/customers/how-to-region-code-opt-in.md",
-          "status": "modified",
-          "additions": 2,
-          "deletions": 3
-        },
-        {
-          "filename": "docs/global-secure-access/scripts/powershell-windows-client-install-proof-of-concept.md",
-          "status": "added",
-          "additions": 323,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/global-secure-access/toc.yml",
-          "status": "modified",
-          "additions": 2,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity-platform/app-objects-and-service-principals.md",
-          "status": "modified",
-          "additions": 0,
-          "deletions": 2
-        },
-        {
-          "filename": "docs/identity-platform/howto-remove-app.md",
-          "status": "modified",
-          "additions": 0,
-          "deletions": 3
-        },
-        {
-          "filename": "docs/identity-platform/tutorial-native-authentication-single-page-app-angular-reset-password.md",
-          "status": "modified",
-          "additions": 2,
-          "deletions": 2
-        },
-        {
-          "filename": "docs/identity-platform/tutorial-native-authentication-single-page-app-angular-sign-in.md",
-          "status": "modified",
-          "additions": 2,
-          "deletions": 2
-        },
-        {
-          "filename": "docs/identity-platform/tutorial-native-authentication-single-page-app-angular-sign-up.md",
-          "status": "modified",
-          "additions": 4,
-          "deletions": 4
-        },
-        {
-          "filename": "docs/identity-platform/tutorial-native-authentication-single-page-app-react-sdk-reset-password.md",
-          "status": "modified",
-          "additions": 2,
-          "deletions": 2
-        },
-        {
-          "filename": "docs/identity-platform/tutorial-native-authentication-single-page-app-react-sdk-sign-in.md",
-          "status": "modified",
-          "additions": 2,
-          "deletions": 2
-        },
-        {
-          "filename": "docs/identity-platform/tutorial-native-authentication-single-page-app-react-sdk-sign-up.md",
-          "status": "modified",
-          "additions": 3,
-          "deletions": 3
-        },
-        {
-          "filename": "docs/identity/authentication/concept-mfa-telephony-fraud.md",
-          "status": "modified",
-          "additions": 3,
-          "deletions": 1
-        },
-        {
-          "filename": "docs/identity/enterprise-apps/deactivate-application-portal.md",
-          "status": "removed",
-          "additions": 0,
-          "deletions": 149
-        },
-        {
-          "filename": "docs/identity/enterprise-apps/delete-application-portal.md",
-          "status": "modified",
-          "additions": 0,
-          "deletions": 3
-        },
-        {
-          "filename": "docs/identity/enterprise-apps/disable-user-sign-in-portal.md",
-          "status": "modified",
-          "additions": 0,
-          "deletions": 3
-        },
-        {
-          "filename": "docs/identity/enterprise-apps/toc.yml",
-          "status": "modified",
-          "additions": 0,
-          "deletions": 2
-        }
-      ]
-    },
-    {
-      "sha": "5e6feac444389be01b745b3ac83b49b8a7bccf28",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/5e6feac444389be01b745b3ac83b49b8a7bccf28",
-      "author": "learn-build-service-prod[bot]",
-      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
-      "date": "2025-11-19T06:04:23Z",
-      "message": "Merge pull request #10532 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-11-19 06:00 UTC",
-      "ai_summary": "Unable to generate summary for this commit.",
-      "files": [
-        {
-          "filename": "docs/fundamentals/whats-new.md",
-          "status": "modified",
-          "additions": 1,
-          "deletions": 1
-        },
-        {
-          "filename": "docs/identity/monitoring-health/howto-investigate-remote-networks-scenario-signals.md",
-          "status": "modified",
-          "additions": 5,
-          "deletions": 5
-        }
-      ]
     }
-  ],
-  "metadata": {
-    "generated_date": "2025-11-26T00:01:19Z",
-    "total_commits": 46,
-    "source_files": [
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251119-0801.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251119-1401.json"
-      },
-      {
-        "commit_count": 3,
-        "filename": "entra-changes-20251119-1801.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251119-2001.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251119-2200.json"
-      },
-      {
-        "commit_count": 3,
-        "filename": "entra-changes-20251120-0000.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251120-0801.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251120-1401.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251120-1600.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251120-2001.json"
-      },
-      {
-        "commit_count": 4,
-        "filename": "entra-changes-20251120-2201.json"
-      },
-      {
-        "commit_count": 4,
-        "filename": "entra-changes-20251121-0001.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251121-0800.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251121-1400.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251121-2001.json"
-      },
-      {
-        "commit_count": 3,
-        "filename": "entra-changes-20251122-0002.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251122-0801.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251124-1401.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251124-2001.json"
-      },
-      {
-        "commit_count": 2,
-        "filename": "entra-changes-20251125-0001.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251125-1401.json"
-      },
-      {
-        "commit_count": 2,
-        "filename": "entra-changes-20251125-2001.json"
-      },
-      {
-        "commit_count": 10,
-        "filename": "entra-changes-20251126-0001.json"
-      }
-    ]
-  }
+  ]
 }
