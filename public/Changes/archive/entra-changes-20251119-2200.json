@@ -1,0 +1,17 @@
+{
+  "sha": "11087ff0c4876e0c2ecec0f3c76dbb4d24dc1aec",
+  "url": "https://github.com/MicrosoftDocs/entra-docs/commit/11087ff0c4876e0c2ecec0f3c76dbb4d24dc1aec",
+  "author": "Diana Richards",
+  "email": "v-dirichards@microsoft.com",
+  "date": "2025-11-19T21:35:34Z",
+  "message": "Merge pull request #1824 from bistraining/patch-1\n\nUpdate bis-tutorial.md",
+  "ai_summary": "Unable to generate summary for this commit.",
+  "files": [
+    {
+      "filename": "docs/identity/saas-apps/bis-tutorial.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2
+    }
+  ]
+}
