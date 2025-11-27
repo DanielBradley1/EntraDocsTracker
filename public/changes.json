@@ -1,83 +1,92 @@
 {
   "metadata": {
-    "generated_date": "2025-11-27T08:01:08Z",
     "source_files": [
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20251120-1401.json"
+        "filename": "entra-changes-20251120-2201.json",
+        "commit_count": 4
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20251120-1600.json"
+        "filename": "entra-changes-20251121-0001.json",
+        "commit_count": 4
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20251120-2001.json"
+        "filename": "entra-changes-20251121-0800.json",
+        "commit_count": 1
       },
       {
-        "commit_count": 4,
-        "filename": "entra-changes-20251120-2201.json"
+        "filename": "entra-changes-20251121-1400.json",
+        "commit_count": 1
       },
       {
-        "commit_count": 4,
-        "filename": "entra-changes-20251121-0001.json"
+        "filename": "entra-changes-20251121-2001.json",
+        "commit_count": 1
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20251121-0800.json"
+        "filename": "entra-changes-20251122-0002.json",
+        "commit_count": 3
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20251121-1400.json"
+        "filename": "entra-changes-20251122-0801.json",
+        "commit_count": 1
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20251121-2001.json"
+        "filename": "entra-changes-20251124-1401.json",
+        "commit_count": 1
       },
       {
-        "commit_count": 3,
-        "filename": "entra-changes-20251122-0002.json"
+        "filename": "entra-changes-20251124-2001.json",
+        "commit_count": 1
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20251122-0801.json"
+        "filename": "entra-changes-20251125-0001.json",
+        "commit_count": 2
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20251124-1401.json"
+        "filename": "entra-changes-20251125-1401.json",
+        "commit_count": 1
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20251124-2001.json"
+        "filename": "entra-changes-20251125-2001.json",
+        "commit_count": 2
       },
       {
-        "commit_count": 2,
-        "filename": "entra-changes-20251125-0001.json"
+        "filename": "entra-changes-20251126-0001.json",
+        "commit_count": 10
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20251125-1401.json"
+        "filename": "entra-changes-20251126-1401.json",
+        "commit_count": 1
       },
       {
-        "commit_count": 2,
-        "filename": "entra-changes-20251125-2001.json"
+        "filename": "entra-changes-20251127-0800.json",
+        "commit_count": 1
       },
       {
-        "commit_count": 10,
-        "filename": "entra-changes-20251126-0001.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251126-1401.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251127-0800.json"
+        "filename": "entra-changes-20251127-2001.json",
+        "commit_count": 1
       }
     ],
-    "total_commits": 37
+    "total_commits": 35,
+    "generated_date": "2025-11-27T20:01:32Z"
   },
   "changes": [
+    {
+      "sha": "c4c3269158bb93550d5bf2918a7accae31cb0cf1",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/c4c3269158bb93550d5bf2918a7accae31cb0cf1",
+      "author": "learn-build-service-prod[bot]",
+      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+      "date": "2025-11-27T18:03:42Z",
+      "message": "Merge pull request #10623 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-11-27 18:01 UTC",
+      "ai_summary": "Unable to generate summary for this commit.",
+      "files": [
+        {
+          "filename": "docs/external-id/customers/concept-supported-features-customers.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        }
+      ]
+    },
     {
       "sha": "b2c90f16ddf4b838669decf71220b6762a7914fb",
       "url": "https://github.com/MicrosoftDocs/entra-docs/commit/b2c90f16ddf4b838669decf71220b6762a7914fb",
@@ -1157,135 +1166,6 @@
           "status": "modified",
           "additions": 3,
           "deletions": 0
-        }
-      ]
-    },
-    {
-      "sha": "1b9c0bd2219d0d48de0930db9e9829f590f8a2bd",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/1b9c0bd2219d0d48de0930db9e9829f590f8a2bd",
-      "author": "learn-build-service-prod[bot]",
-      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
-      "date": "2025-11-20T18:09:38Z",
-      "message": "Merge pull request #10556 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-11-20 18:05 UTC",
-      "ai_summary": "Unable to generate summary for this commit.",
-      "files": [
-        {
-          "filename": "docs/id-governance/entitlement-management-access-package-request-policy.md",
-          "status": "modified",
-          "additions": 7,
-          "deletions": 4
-        },
-        {
-          "filename": "docs/id-governance/media/entitlement-management-access-package-request-policy/for-users-not-in-your-directory.png",
-          "status": "modified",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/id-governance/media/entitlement-management-access-package-request-policy/none-admin-direct-assignments-only.png",
-          "status": "modified",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity/authentication/TOC.yml",
-          "status": "modified",
-          "additions": 6,
-          "deletions": 2
-        },
-        {
-          "filename": "docs/identity/authentication/kerberos-faq.yml",
-          "status": "added",
-          "additions": 137,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity/authentication/kerberos.md",
-          "status": "modified",
-          "additions": 109,
-          "deletions": 16
-        },
-        {
-          "filename": "docs/identity/enterprise-apps/assign-agent-identities-to-applications.md",
-          "status": "added",
-          "additions": 115,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity/enterprise-apps/toc.yml",
-          "status": "modified",
-          "additions": 2,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/includes/entra-entitlement-management-request-policy.md",
-          "status": "modified",
-          "additions": 13,
-          "deletions": 9
-        },
-        {
-          "filename": "docs/includes/media/entitlement-management-request-policy/enable-requests.png",
-          "status": "modified",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/includes/media/entitlement-management-request-policy/for-users-in-your-directory.png",
-          "status": "modified",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/includes/media/entitlement-management-request-policy/for-users-not-in-your-directory.png",
-          "status": "modified",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/includes/media/entitlement-management-request-policy/none-admin-direct-assignments-only.png",
-          "status": "modified",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/workload-id/workload-identity-federation-considerations.md",
-          "status": "modified",
-          "additions": 0,
-          "deletions": 1
-        }
-      ]
-    },
-    {
-      "sha": "57f43a1b2d30c4da2186bfdeec714b251e2a9cce",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/57f43a1b2d30c4da2186bfdeec714b251e2a9cce",
-      "author": "Tracey Torble",
-      "email": "56347952+ttorble@users.noreply.github.com",
-      "date": "2025-11-20T15:19:31Z",
-      "message": "Merge pull request #1829 from dsalamancaMS/patch-1\n\nUpdate workload-identity-federation-considerations.md",
-      "ai_summary": "Unable to generate summary for this commit.",
-      "files": [
-        {
-          "filename": "docs/workload-id/workload-identity-federation-considerations.md",
-          "status": "modified",
-          "additions": 0,
-          "deletions": 1
-        }
-      ]
-    },
-    {
-      "sha": "baba0e2140879d46d1e3d1205cb79e8f0d5dccba",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/baba0e2140879d46d1e3d1205cb79e8f0d5dccba",
-      "author": "learn-build-service-prod[bot]",
-      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
-      "date": "2025-11-20T12:02:53Z",
-      "message": "Merge pull request #10548 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-11-20 12:00 UTC",
-      "ai_summary": "Unable to generate summary for this commit.",
-      "files": [
-        {
-          "filename": "docs/identity/hybrid/connect/admin-audit-logging.md",
-          "status": "modified",
-          "additions": 25,
-          "deletions": 25
         }
       ]
     }
