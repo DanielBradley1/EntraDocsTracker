@@ -1,75 +1,39 @@
 {
-  "metadata": {
-    "source_files": [
-      {
-        "filename": "entra-changes-20251120-2201.json",
-        "commit_count": 4
-      },
-      {
-        "filename": "entra-changes-20251121-0001.json",
-        "commit_count": 4
-      },
-      {
-        "filename": "entra-changes-20251121-0800.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251121-1400.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251121-2001.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251122-0002.json",
-        "commit_count": 3
-      },
-      {
-        "filename": "entra-changes-20251122-0801.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251124-1401.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251124-2001.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251125-0001.json",
-        "commit_count": 2
-      },
-      {
-        "filename": "entra-changes-20251125-1401.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251125-2001.json",
-        "commit_count": 2
-      },
-      {
-        "filename": "entra-changes-20251126-0001.json",
-        "commit_count": 10
-      },
-      {
-        "filename": "entra-changes-20251126-1401.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251127-0800.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251127-2001.json",
-        "commit_count": 1
-      }
-    ],
-    "total_commits": 35,
-    "generated_date": "2025-11-27T20:01:32Z"
-  },
   "changes": [
+    {
+      "sha": "0663f3418506bb201222d07a08b35c0f9b912333",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/0663f3418506bb201222d07a08b35c0f9b912333",
+      "author": "Diana Richards",
+      "email": "v-dirichards@microsoft.com",
+      "date": "2025-12-01T15:56:01Z",
+      "message": "Merge pull request #1817 from CenWu1/patch-5\n\nUpdate authentication requirement details in documentation",
+      "ai_summary": "Unable to generate summary for this commit.",
+      "files": [
+        {
+          "filename": "docs/identity/monitoring-health/concept-sign-in-log-activity-details.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        }
+      ]
+    },
+    {
+      "sha": "6ce1ab8fb5872ec1649f40ac714ef5394e4c6601",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/6ce1ab8fb5872ec1649f40ac714ef5394e4c6601",
+      "author": "Diana Richards",
+      "email": "v-dirichards@microsoft.com",
+      "date": "2025-12-01T15:41:13Z",
+      "message": "Update docs/identity/monitoring-health/concept-sign-in-log-activity-details.md\n\nCo-authored-by: shlipsey3 <66325782+shlipsey3@users.noreply.github.com>",
+      "ai_summary": "Unable to generate summary for this commit.",
+      "files": [
+        {
+          "filename": "docs/identity/monitoring-health/concept-sign-in-log-activity-details.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        }
+      ]
+    },
     {
       "sha": "c4c3269158bb93550d5bf2918a7accae31cb0cf1",
       "url": "https://github.com/MicrosoftDocs/entra-docs/commit/c4c3269158bb93550d5bf2918a7accae31cb0cf1",
@@ -686,488 +650,48 @@
           "deletions": 6
         }
       ]
-    },
-    {
-      "sha": "15c7119e017405c3bf7c93c650106a5608acff61",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/15c7119e017405c3bf7c93c650106a5608acff61",
-      "author": "learn-build-service-prod[bot]",
-      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
-      "date": "2025-11-24T12:04:54Z",
-      "message": "Merge pull request #10580 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-11-24 12:00 UTC",
-      "ai_summary": "Unable to generate summary for this commit.",
-      "files": [
-        {
-          "filename": "docs/identity/enterprise-apps/assign-agent-identities-to-applications.md",
-          "status": "modified",
-          "additions": 2,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity/enterprise-apps/media/assign-agent-identities-to-applications/agent-saml.png",
-          "status": "added",
-          "additions": 0,
-          "deletions": 0
-        }
-      ]
-    },
-    {
-      "sha": "0526e3acaa611a5f9c1ac7b25b681998d42eec4b",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/0526e3acaa611a5f9c1ac7b25b681998d42eec4b",
-      "author": "learn-build-service-prod[bot]",
-      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
-      "date": "2025-11-22T06:02:30Z",
-      "message": "Merge pull request #10578 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-11-22 06:00 UTC",
-      "ai_summary": "Unable to generate summary for this commit.",
-      "files": [
-        {
-          "filename": "docs/identity/authentication/concept-certificate-based-authentication-mobile-ios.md",
-          "status": "modified",
-          "additions": 5,
-          "deletions": 4
-        },
-        {
-          "filename": "docs/identity/authentication/concept-certificate-based-authentication-technical-deep-dive.md",
-          "status": "modified",
-          "additions": 1,
-          "deletions": 4
-        }
-      ]
-    },
-    {
-      "sha": "5188205a83b64416b507075bab640cd47c8aad92",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/5188205a83b64416b507075bab640cd47c8aad92",
-      "author": "learn-build-service-prod[bot]",
-      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
-      "date": "2025-11-21T23:07:17Z",
-      "message": "Merge pull request #10574 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-11-21 23:05 UTC",
-      "ai_summary": "Unable to generate summary for this commit.",
-      "files": [
-        {
-          "filename": "docs/external-id/reference-cross-tenant-custom-roles.md",
-          "status": "modified",
-          "additions": 2,
-          "deletions": 2
-        },
-        {
-          "filename": "docs/global-secure-access/how-to-install-windows-client.md",
-          "status": "modified",
-          "additions": 5,
-          "deletions": 2
-        }
-      ]
-    },
-    {
-      "sha": "525d458ec8bf66f3e154d6538058f7d37c4c5df2",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/525d458ec8bf66f3e154d6538058f7d37c4c5df2",
-      "author": "Taojunshen",
-      "email": "v-jutao@microsoft.com",
-      "date": "2025-11-21T22:29:22Z",
-      "message": "Merge pull request #10572 from MicrosoftDocs/repo_sync_working_branch\n\nConfirm merge from repo_sync_working_branch to main to sync with https://github.com/MicrosoftDocs/entra-docs (branch main)",
-      "ai_summary": "Unable to generate summary for this commit.",
-      "files": [
-        {
-          "filename": "docs/external-id/reference-cross-tenant-custom-roles.md",
-          "status": "modified",
-          "additions": 2,
-          "deletions": 2
-        }
-      ]
-    },
-    {
-      "sha": "96763be35f1a9a72e66596fe03b7f78c3269092d",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/96763be35f1a9a72e66596fe03b7f78c3269092d",
-      "author": "Kristine Toliver",
-      "email": "ktoliver@users.noreply.github.com",
-      "date": "2025-11-21T22:22:07Z",
-      "message": "Merge pull request #1832 from m-hanisch/patch-1\n\nUpdate reference-cross-tenant-custom-roles.md",
-      "ai_summary": "Unable to generate summary for this commit.",
-      "files": [
-        {
-          "filename": "docs/external-id/reference-cross-tenant-custom-roles.md",
-          "status": "modified",
-          "additions": 2,
-          "deletions": 2
-        }
-      ]
-    },
-    {
-      "sha": "fc15566f87eaa456aee9b08883495d92b277253e",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/fc15566f87eaa456aee9b08883495d92b277253e",
-      "author": "learn-build-service-prod[bot]",
-      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
-      "date": "2025-11-21T18:12:17Z",
-      "message": "Merge pull request #10569 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-11-21 18:09 UTC",
-      "ai_summary": "Unable to generate summary for this commit.",
-      "files": [
-        {
-          "filename": "docs/identity-platform/concept-native-authentication.md",
-          "status": "modified",
-          "additions": 3,
-          "deletions": 2
-        },
-        {
-          "filename": "docs/identity-platform/reference-native-authentication-api.md",
-          "status": "modified",
-          "additions": 3,
-          "deletions": 2
-        },
-        {
-          "filename": "docs/identity/authentication/TOC.yml",
-          "status": "modified",
-          "additions": 2,
-          "deletions": 2
-        }
-      ]
-    },
-    {
-      "sha": "bab913508e9b63ab7f2107825e6d2230852ea788",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/bab913508e9b63ab7f2107825e6d2230852ea788",
-      "author": "learn-build-service-prod[bot]",
-      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
-      "date": "2025-11-21T12:08:45Z",
-      "message": "Merge pull request #10565 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-11-21 12:00 UTC",
-      "ai_summary": "Unable to generate summary for this commit.",
-      "files": [
-        {
-          "filename": "docs/identity-platform/includes/native-auth-api/enable-username-signin.md",
-          "status": "added",
-          "additions": 18,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity-platform/quickstart-native-authentication-android-sign-in.md",
-          "status": "modified",
-          "additions": 4,
-          "deletions": 1
-        },
-        {
-          "filename": "docs/identity-platform/quickstart-native-authentication-ios-sign-in.md",
-          "status": "modified",
-          "additions": 5,
-          "deletions": 1
-        },
-        {
-          "filename": "docs/identity-platform/quickstart-native-authentication-macos-sign-in.md",
-          "status": "modified",
-          "additions": 6,
-          "deletions": 1
-        },
-        {
-          "filename": "docs/identity-platform/quickstart-native-authentication-single-page-app-react-sign-in.md",
-          "status": "modified",
-          "additions": 7,
-          "deletions": 3
-        },
-        {
-          "filename": "docs/identity-platform/quickstart-native-authentication-single-page-app-sdk-sign-in.md",
-          "status": "modified",
-          "additions": 5,
-          "deletions": 1
-        },
-        {
-          "filename": "docs/identity-platform/reference-native-authentication-api.md",
-          "status": "modified",
-          "additions": 12,
-          "deletions": 8
-        },
-        {
-          "filename": "docs/identity-platform/tutorial-native-authentication-android-sign-in-sign-out.md",
-          "status": "modified",
-          "additions": 6,
-          "deletions": 1
-        },
-        {
-          "filename": "docs/identity-platform/tutorial-native-authentication-ios-macos-sign-in-sign-out.md",
-          "status": "modified",
-          "additions": 5,
-          "deletions": 2
-        },
-        {
-          "filename": "docs/identity-platform/tutorial-native-authentication-single-page-app-angular-sign-in.md",
-          "status": "modified",
-          "additions": 5,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity-platform/tutorial-native-authentication-single-page-app-react-sdk-sign-in.md",
-          "status": "modified",
-          "additions": 4,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity-platform/tutorial-native-authentication-single-page-app-react-sign-in.md",
-          "status": "modified",
-          "additions": 5,
-          "deletions": 1
-        },
-        {
-          "filename": "docs/identity/saas-apps/gofluent-tutorial.md",
-          "status": "modified",
-          "additions": 2,
-          "deletions": 2
-        }
-      ]
-    },
-    {
-      "sha": "7165ace8f8875b66e7a6ea837e80e020845d4fcf",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/7165ace8f8875b66e7a6ea837e80e020845d4fcf",
-      "author": "learn-build-service-prod[bot]",
-      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
-      "date": "2025-11-21T06:06:51Z",
-      "message": "Merge pull request #10564 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-11-21 06:00 UTC",
-      "ai_summary": "Unable to generate summary for this commit.",
-      "files": [
-        {
-          "filename": "docs/security-copilot/access-review-agent.md",
-          "status": "modified",
-          "additions": 20,
-          "deletions": 3
-        },
-        {
-          "filename": "docs/security-copilot/entra-agents.md",
-          "status": "modified",
-          "additions": 2,
-          "deletions": 2
-        },
-        {
-          "filename": "docs/security-copilot/media/access-review-agent/access-review-agent-create-identity.png",
-          "status": "added",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/security-copilot/media/access-review-agent/access-review-agent-identity-screen.png",
-          "status": "added",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/security-copilot/media/access-review-agent/access-review-agent-identity.png",
-          "status": "added",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/security-copilot/toc.yml",
-          "status": "modified",
-          "additions": 1,
-          "deletions": 1
-        }
-      ]
-    },
-    {
-      "sha": "9edfdaf7ed93952ea91ecf6e2adde1c3fdbc8e3f",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/9edfdaf7ed93952ea91ecf6e2adde1c3fdbc8e3f",
-      "author": "learn-build-service-prod[bot]",
-      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
-      "date": "2025-11-20T23:08:14Z",
-      "message": "Merge pull request #10562 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-11-20 23:06 UTC",
-      "ai_summary": "Unable to generate summary for this commit.",
-      "files": [
-        {
-          "filename": "docs/agent-id/identity-platform/toc.yml",
-          "status": "modified",
-          "additions": 2,
-          "deletions": 3
-        },
-        {
-          "filename": "docs/id-governance/media/custom-data-resource-access-reviews/custom-data-provided-information.png",
-          "status": "modified",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity/authentication/how-to-deploy-phishing-resistant-passwordless-authentication.md",
-          "status": "modified",
-          "additions": 7,
-          "deletions": 6
-        },
-        {
-          "filename": "docs/identity/conditional-access/concept-conditional-access-cloud-apps.md",
-          "status": "modified",
-          "additions": 6,
-          "deletions": 3
-        },
-        {
-          "filename": "docs/identity/conditional-access/concept-token-protection.md",
-          "status": "modified",
-          "additions": 3,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity/conditional-access/howto-conditional-access-session-lifetime.md",
-          "status": "modified",
-          "additions": 3,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity/conditional-access/workload-identity.md",
-          "status": "modified",
-          "additions": 3,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity/devices/assign-local-admin.md",
-          "status": "modified",
-          "additions": 1,
-          "deletions": 1
-        },
-        {
-          "filename": "docs/identity/hybrid/TOC.yml",
-          "status": "modified",
-          "additions": 2,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity/hybrid/connect/authenticate-application-id.md",
-          "status": "modified",
-          "additions": 643,
-          "deletions": 290
-        },
-        {
-          "filename": "docs/identity/hybrid/connect/media/authenticate-application-id/app-registration-certificate-bring-your-application.png",
-          "status": "added",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity/hybrid/connect/media/authenticate-application-id/app-registration-certificate.png",
-          "status": "added",
-          "additions": 0,
-          "deletions": 0
-        }
-      ]
-    },
-    {
-      "sha": "2d922a781b6fb9cf1c85894f5a87967798e88684",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/2d922a781b6fb9cf1c85894f5a87967798e88684",
-      "author": "Taojunshen",
-      "email": "v-jutao@microsoft.com",
-      "date": "2025-11-20T22:37:56Z",
-      "message": "Merge pull request #10558 from MicrosoftDocs/repo_sync_working_branch\n\nConfirm merge from repo_sync_working_branch to main to sync with https://github.com/MicrosoftDocs/entra-docs (branch main)",
-      "ai_summary": "Unable to generate summary for this commit.",
-      "files": [
-        {
-          "filename": "docs/identity/conditional-access/concept-conditional-access-cloud-apps.md",
-          "status": "modified",
-          "additions": 6,
-          "deletions": 3
-        },
-        {
-          "filename": "docs/identity/conditional-access/workload-identity.md",
-          "status": "modified",
-          "additions": 3,
-          "deletions": 0
-        }
-      ]
-    },
-    {
-      "sha": "79bfd6078059adfa7df960958938a1eac9bd0076",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/79bfd6078059adfa7df960958938a1eac9bd0076",
-      "author": "Dennis Rea",
-      "email": "v-denrea@microsoft.com",
-      "date": "2025-11-20T22:31:20Z",
-      "message": "Merge pull request #10550 from OWinfreyATL/owinfreyATL-UpdatesToArticles\n\n20 member rules group",
-      "ai_summary": "Unable to generate summary for this commit.",
-      "files": [
-        {
-          "filename": "docs/id-governance/media/custom-data-resource-access-reviews/custom-data-provided-information.png",
-          "status": "modified",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/identity/devices/assign-local-admin.md",
-          "status": "modified",
-          "additions": 1,
-          "deletions": 1
-        }
-      ]
-    },
-    {
-      "sha": "947f807d9945c491038ff75f13fcddaad5cd9e36",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/947f807d9945c491038ff75f13fcddaad5cd9e36",
-      "author": "Dennis Rea",
-      "email": "v-denrea@microsoft.com",
-      "date": "2025-11-20T22:20:44Z",
-      "message": "Merge pull request #10560 from MicrosoftDocs/MicrosoftGuyJFlo-patch-25\n\nFix link for managing agents in user experience",
-      "ai_summary": "Unable to generate summary for this commit.",
-      "files": [
-        {
-          "filename": "docs/agent-id/identity-platform/toc.yml",
-          "status": "modified",
-          "additions": 2,
-          "deletions": 3
-        }
-      ]
-    },
-    {
-      "sha": "c85ecf9c78331f4636ba31a97e9e416a7a3a7bfd",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/c85ecf9c78331f4636ba31a97e9e416a7a3a7bfd",
-      "author": "Diana Richards",
-      "email": "v-dirichards@microsoft.com",
-      "date": "2025-11-20T21:08:49Z",
-      "message": "Merge pull request #1748 from ChristianCB83/patch-10\n\nAdding PIM for Auth context - Update concept-conditional-access-cloud-apps.md",
-      "ai_summary": "Unable to generate summary for this commit.",
-      "files": [
-        {
-          "filename": "docs/identity/conditional-access/concept-conditional-access-cloud-apps.md",
-          "status": "modified",
-          "additions": 4,
-          "deletions": 3
-        }
-      ]
-    },
-    {
-      "sha": "97adf39583dff02d6bb06cd3aab0aabeb27f01f2",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/97adf39583dff02d6bb06cd3aab0aabeb27f01f2",
-      "author": "Diana Richards",
-      "email": "v-dirichards@microsoft.com",
-      "date": "2025-11-20T21:04:06Z",
-      "message": "fixing typo",
-      "ai_summary": "Unable to generate summary for this commit.",
-      "files": [
-        {
-          "filename": "docs/identity/conditional-access/concept-conditional-access-cloud-apps.md",
-          "status": "modified",
-          "additions": 1,
-          "deletions": 1
-        }
-      ]
-    },
-    {
-      "sha": "fe4befe24763ecf139898fe84a404c3b428150f2",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/fe4befe24763ecf139898fe84a404c3b428150f2",
-      "author": "Diana Richards",
-      "email": "v-dirichards@microsoft.com",
-      "date": "2025-11-20T21:02:21Z",
-      "message": "Merge pull request #1787 from robelliottuk/patch-3\n\nUpdate concept-conditional-access-cloud-apps.md",
-      "ai_summary": "Unable to generate summary for this commit.",
-      "files": [
-        {
-          "filename": "docs/identity/conditional-access/concept-conditional-access-cloud-apps.md",
-          "status": "modified",
-          "additions": 2,
-          "deletions": 0
-        }
-      ]
-    },
-    {
-      "sha": "7772a5d27deb03b97bc0536ec9da9ad50aba1411",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/7772a5d27deb03b97bc0536ec9da9ad50aba1411",
-      "author": "Diana Richards",
-      "email": "v-dirichards@microsoft.com",
-      "date": "2025-11-20T21:01:36Z",
-      "message": "Merge pull request #1731 from NoahJenkins/main\n\nClarify CA policy enforcement for service principals in groups",
-      "ai_summary": "Unable to generate summary for this commit.",
-      "files": [
-        {
-          "filename": "docs/identity/conditional-access/workload-identity.md",
-          "status": "modified",
-          "additions": 3,
-          "deletions": 0
-        }
-      ]
     }
-  ]
+  ],
+  "metadata": {
+    "total_commits": 21,
+    "generated_date": "2025-12-01T16:01:00Z",
+    "source_files": [
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251124-2001.json"
+      },
+      {
+        "commit_count": 2,
+        "filename": "entra-changes-20251125-0001.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251125-1401.json"
+      },
+      {
+        "commit_count": 2,
+        "filename": "entra-changes-20251125-2001.json"
+      },
+      {
+        "commit_count": 10,
+        "filename": "entra-changes-20251126-0001.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251126-1401.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251127-0800.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251127-2001.json"
+      },
+      {
+        "commit_count": 2,
+        "filename": "entra-changes-20251201-1600.json"
+      }
+    ]
+  }
 }
