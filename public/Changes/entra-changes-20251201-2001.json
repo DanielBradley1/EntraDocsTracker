@@ -1,0 +1,239 @@
+{
+  "sha": "f1bef4242622c851aeada5f16476430a76868200",
+  "url": "https://github.com/MicrosoftDocs/entra-docs/commit/f1bef4242622c851aeada5f16476430a76868200",
+  "author": "learn-build-service-prod[bot]",
+  "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+  "date": "2025-12-01T18:10:26Z",
+  "message": "Merge pull request #10633 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-12-01 18:04 UTC",
+  "ai_summary": "Unable to generate summary for this commit.",
+  "files": [
+    {
+      "filename": ".openpublishing.redirection.json",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 0
+    },
+    {
+      "filename": "docs/agent-id/identity-platform/agent-owners-sponsors-managers.md",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "filename": "docs/agent-id/identity-professional/agent-access-packages.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "filename": "docs/agent-id/identity-professional/microsoft-entra-agent-identities-for-ai-agents.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "filename": "docs/architecture/secure-best-practices.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "filename": "docs/fundamentals/concept-secure-remote-workers.md",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 139
+    },
+    {
+      "filename": "docs/fundamentals/index.yml",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "filename": "docs/fundamentals/toc.yml",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "filename": "docs/fundamentals/whats-new.md",
+      "status": "modified",
+      "additions": 336,
+      "deletions": 0
+    },
+    {
+      "filename": "docs/id-governance/access-reviews-overview.md",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "filename": "docs/id-governance/agent-id-governance-overview.md",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 6
+    },
+    {
+      "filename": "docs/id-governance/create-access-review.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "filename": "docs/id-governance/deploy-access-reviews.md",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 1
+    },
+    {
+      "filename": "docs/id-governance/entitlement-management-access-package-resources.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "filename": "docs/id-governance/identity-governance-overview.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "filename": "docs/id-governance/perform-access-review.md",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 2
+    },
+    {
+      "filename": "docs/identity-platform/TOC.yml",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 7
+    },
+    {
+      "filename": "docs/identity-platform/authentication-flows-app-scenarios.md",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 7
+    },
+    {
+      "filename": "docs/identity-platform/index-web-app.yml",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "filename": "docs/identity-platform/quickstart-v2-java-webapp.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "filename": "docs/identity-platform/quickstart-v2-python-webapp.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "filename": "docs/identity-platform/quickstart_audit_with_new_fields.xlsx",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "filename": "docs/identity-platform/scenario-web-app-call-api-app-configuration.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "filename": "docs/identity-platform/scenario-web-app-call-api-sign-in.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 3
+    },
+    {
+      "filename": "docs/identity-platform/scenario-web-app-sign-user-app-configuration.md",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 399
+    },
+    {
+      "filename": "docs/identity-platform/scenario-web-app-sign-user-sign-in.md",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 415
+    },
+    {
+      "filename": "docs/identity-platform/tutorial-v2-nodejs-webapp-msal.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "filename": "docs/identity-platform/tutorial-web-app-dotnet-prepare-app.md",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 8
+    },
+    {
+      "filename": "docs/identity-platform/tutorial-web-app-python-flask-sign-in-out.md",
+      "status": "modified",
+      "additions": 27,
+      "deletions": 2
+    },
+    {
+      "filename": "docs/identity-platform/web-app-quickstart-portal-java.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "filename": "docs/identity-platform/web-app-quickstart-portal-python.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "filename": "docs/identity-platform/whats-new-docs.md",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "filename": "docs/identity/conditional-access/media/policy-all-users-windows-app-protection/mdm-enrollment.png",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "filename": "docs/identity/conditional-access/media/policy-all-users-windows-app-protection/stay-signed-in-to-all-your-apps.png",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "filename": "docs/identity/conditional-access/policy-all-users-windows-app-protection.md",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 21
+    },
+    {
+      "filename": "docs/identity/index.yml",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "filename": "docs/identity/monitoring-health/concept-sign-in-log-activity-details.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "filename": "docs/identity/users/groups-dynamic-rule-member-of.md",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 7
+    }
+  ]
+}
