@@ -1,0 +1,29 @@
+{
+  "sha": "e5eb4066a209cd4648dbb635ceb086df0b74e64e",
+  "url": "https://github.com/MicrosoftDocs/entra-docs/commit/e5eb4066a209cd4648dbb635ceb086df0b74e64e",
+  "author": "learn-build-service-prod[bot]",
+  "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+  "date": "2025-12-02T06:02:33Z",
+  "message": "Merge pull request #10649 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-12-02 06:00 UTC",
+  "ai_summary": "Unable to generate summary for this commit.",
+  "files": [
+    {
+      "filename": "docs/identity/hybrid/cloud-sync/how-to-prerequisites.md",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 11
+    },
+    {
+      "filename": "docs/identity/hybrid/cloud-sync/tutorial-group-provisioning.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "filename": "docs/identity/hybrid/includes/gpad-prereqs.md",
+      "status": "modified",
+      "additions": 71,
+      "deletions": 13
+    }
+  ]
+}
