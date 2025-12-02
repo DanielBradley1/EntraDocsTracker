@@ -1,0 +1,23 @@
+{
+  "sha": "ae49b2c42bb68e19908fc86c32f24dbe1360b2d2",
+  "url": "https://github.com/MicrosoftDocs/entra-docs/commit/ae49b2c42bb68e19908fc86c32f24dbe1360b2d2",
+  "author": "learn-build-service-prod[bot]",
+  "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+  "date": "2025-12-02T12:02:27Z",
+  "message": "Merge pull request #10652 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-12-02 12:00 UTC",
+  "ai_summary": "Unable to generate summary for this commit.",
+  "files": [
+    {
+      "filename": "docs/identity-platform/whats-new-docs.md",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 5
+    },
+    {
+      "filename": "docs/identity/enterprise-apps/whats-new-docs.md",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 11
+    }
+  ]
+}
