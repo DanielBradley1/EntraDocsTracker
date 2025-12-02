@@ -1,5 +1,128 @@
 {
+  "metadata": {
+    "total_commits": 20,
+    "generated_date": "2025-12-02T20:01:42Z",
+    "source_files": [
+      {
+        "filename": "entra-changes-20251126-0001.json",
+        "commit_count": 10
+      },
+      {
+        "filename": "entra-changes-20251126-1401.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251127-0800.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251127-2001.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251201-1600.json",
+        "commit_count": 2
+      },
+      {
+        "filename": "entra-changes-20251201-2001.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251202-0001.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251202-0801.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251202-1401.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251202-2001.json",
+        "commit_count": 1
+      }
+    ]
+  },
   "changes": [
+    {
+      "sha": "5d0539563cac2f6a6cbafb2bc3c908951eb990ec",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/5d0539563cac2f6a6cbafb2bc3c908951eb990ec",
+      "author": "learn-build-service-prod[bot]",
+      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+      "date": "2025-12-02T18:10:29Z",
+      "message": "Merge pull request #10659 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-12-02 18:07 UTC",
+      "ai_summary": "Unable to generate summary for this commit.",
+      "files": [
+        {
+          "filename": "docs/agent-id/identity-platform/error-codes.md",
+          "status": "added",
+          "additions": 46,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/preview-known-issues.md",
+          "status": "modified",
+          "additions": 52,
+          "deletions": 24
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/toc.yml",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/access-reviews-overview.md",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/id-governance/catalog-access-reviews.md",
+          "status": "modified",
+          "additions": 15,
+          "deletions": 8
+        },
+        {
+          "filename": "docs/id-governance/custom-data-resource-access-reviews.md",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 3
+        },
+        {
+          "filename": "docs/id-governance/entitlement-management-catalog-create.md",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 3
+        },
+        {
+          "filename": "docs/id-governance/manage-user-access-with-access-reviews.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity/authentication/concept-authentication-external-method-provider.md",
+          "status": "modified",
+          "additions": 32,
+          "deletions": 13
+        },
+        {
+          "filename": "docs/identity/hybrid/connect/how-to-connect-install-prerequisites.md",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 12
+        },
+        {
+          "filename": "docs/includes/cloud-sync-version-history.md",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 0
+        }
+      ]
+    },
     {
       "sha": "ae49b2c42bb68e19908fc86c32f24dbe1360b2d2",
       "url": "https://github.com/MicrosoftDocs/entra-docs/commit/ae49b2c42bb68e19908fc86c32f24dbe1360b2d2",
@@ -760,182 +883,6 @@
           "deletions": 1
         }
       ]
-    },
-    {
-      "sha": "a65e288a339bb5c65eb5339522eb11429c1bbe13",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/a65e288a339bb5c65eb5339522eb11429c1bbe13",
-      "author": "learn-build-service-prod[bot]",
-      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
-      "date": "2025-11-25T18:15:18Z",
-      "message": "Merge pull request #10602 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-11-25 18:08 UTC",
-      "ai_summary": "Unable to generate summary for this commit.",
-      "files": [
-        {
-          "filename": ".openpublishing.redirection.json",
-          "status": "modified",
-          "additions": 5,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/external-id/customers/media/overview-solutions-customers/use-case-common.png",
-          "status": "removed",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/external-id/customers/media/overview-solutions-customers/use-case-passcode.png",
-          "status": "removed",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/external-id/customers/media/overview-solutions-customers/use-case-social.png",
-          "status": "removed",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/external-id/customers/overview-solutions-customers.md",
-          "status": "removed",
-          "additions": 0,
-          "deletions": 81
-        },
-        {
-          "filename": "docs/external-id/customers/toc.yml",
-          "status": "modified",
-          "additions": 0,
-          "deletions": 2
-        },
-        {
-          "filename": "docs/external-id/index.yml",
-          "status": "modified",
-          "additions": 0,
-          "deletions": 2
-        },
-        {
-          "filename": "docs/external-id/whats-new-docs.md",
-          "status": "modified",
-          "additions": 0,
-          "deletions": 1
-        },
-        {
-          "filename": "docs/global-secure-access/reference-macos-client-release-history.md",
-          "status": "modified",
-          "additions": 16,
-          "deletions": 6
-        },
-        {
-          "filename": "docs/identity-platform/custom-extension-overview.md",
-          "status": "modified",
-          "additions": 0,
-          "deletions": 21
-        }
-      ]
-    },
-    {
-      "sha": "44047ceee8f0c6015699cd57eb1b5a5a3836d1d3",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/44047ceee8f0c6015699cd57eb1b5a5a3836d1d3",
-      "author": "Dennis Rea",
-      "email": "v-denrea@microsoft.com",
-      "date": "2025-11-25T18:10:40Z",
-      "message": "Merge pull request #10601 from csmulligan/csmulligan-exid-woodgrove\n\n[EXID] Removed Woodgrove article - UUF 504451",
-      "ai_summary": "Unable to generate summary for this commit.",
-      "files": [
-        {
-          "filename": ".openpublishing.redirection.json",
-          "status": "modified",
-          "additions": 5,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/external-id/customers/media/overview-solutions-customers/use-case-common.png",
-          "status": "removed",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/external-id/customers/media/overview-solutions-customers/use-case-passcode.png",
-          "status": "removed",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/external-id/customers/media/overview-solutions-customers/use-case-social.png",
-          "status": "removed",
-          "additions": 0,
-          "deletions": 0
-        },
-        {
-          "filename": "docs/external-id/customers/overview-solutions-customers.md",
-          "status": "removed",
-          "additions": 0,
-          "deletions": 81
-        },
-        {
-          "filename": "docs/external-id/customers/toc.yml",
-          "status": "modified",
-          "additions": 0,
-          "deletions": 2
-        },
-        {
-          "filename": "docs/external-id/index.yml",
-          "status": "modified",
-          "additions": 0,
-          "deletions": 2
-        },
-        {
-          "filename": "docs/external-id/whats-new-docs.md",
-          "status": "modified",
-          "additions": 0,
-          "deletions": 1
-        }
-      ]
     }
-  ],
-  "metadata": {
-    "generated_date": "2025-12-02T14:01:16Z",
-    "total_commits": 21,
-    "source_files": [
-      {
-        "filename": "entra-changes-20251125-2001.json",
-        "commit_count": 2
-      },
-      {
-        "filename": "entra-changes-20251126-0001.json",
-        "commit_count": 10
-      },
-      {
-        "filename": "entra-changes-20251126-1401.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251127-0800.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251127-2001.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251201-1600.json",
-        "commit_count": 2
-      },
-      {
-        "filename": "entra-changes-20251201-2001.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251202-0001.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251202-0801.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251202-1401.json",
-        "commit_count": 1
-      }
-    ]
-  }
+  ]
 }
