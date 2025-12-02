@@ -1,5 +1,80 @@
 {
+  "metadata": {
+    "total_commits": 21,
+    "generated_date": "2025-12-02T08:01:11Z",
+    "source_files": [
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251125-1401.json"
+      },
+      {
+        "commit_count": 2,
+        "filename": "entra-changes-20251125-2001.json"
+      },
+      {
+        "commit_count": 10,
+        "filename": "entra-changes-20251126-0001.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251126-1401.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251127-0800.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251127-2001.json"
+      },
+      {
+        "commit_count": 2,
+        "filename": "entra-changes-20251201-1600.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251201-2001.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251202-0001.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251202-0801.json"
+      }
+    ]
+  },
   "changes": [
+    {
+      "sha": "e5eb4066a209cd4648dbb635ceb086df0b74e64e",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/e5eb4066a209cd4648dbb635ceb086df0b74e64e",
+      "author": "learn-build-service-prod[bot]",
+      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+      "date": "2025-12-02T06:02:33Z",
+      "message": "Merge pull request #10649 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-12-02 06:00 UTC",
+      "ai_summary": "Unable to generate summary for this commit.",
+      "files": [
+        {
+          "filename": "docs/identity/hybrid/cloud-sync/how-to-prerequisites.md",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 11
+        },
+        {
+          "filename": "docs/identity/hybrid/cloud-sync/tutorial-group-provisioning.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity/hybrid/includes/gpad-prereqs.md",
+          "status": "modified",
+          "additions": 71,
+          "deletions": 13
+        }
+      ]
+    },
     {
       "sha": "a312234ab6000a5a6b129e921fa31e7aed215aa5",
       "url": "https://github.com/MicrosoftDocs/entra-docs/commit/a312234ab6000a5a6b129e921fa31e7aed215aa5",
@@ -874,47 +949,5 @@
         }
       ]
     }
-  ],
-  "metadata": {
-    "generated_date": "2025-12-02T00:01:28Z",
-    "total_commits": 20,
-    "source_files": [
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251125-1401.json"
-      },
-      {
-        "commit_count": 2,
-        "filename": "entra-changes-20251125-2001.json"
-      },
-      {
-        "commit_count": 10,
-        "filename": "entra-changes-20251126-0001.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251126-1401.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251127-0800.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251127-2001.json"
-      },
-      {
-        "commit_count": 2,
-        "filename": "entra-changes-20251201-1600.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251201-2001.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251202-0001.json"
-      }
-    ]
-  }
+  ]
 }
