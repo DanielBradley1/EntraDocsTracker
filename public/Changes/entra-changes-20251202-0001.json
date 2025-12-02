@@ -1,0 +1,77 @@
+{
+  "sha": "a312234ab6000a5a6b129e921fa31e7aed215aa5",
+  "url": "https://github.com/MicrosoftDocs/entra-docs/commit/a312234ab6000a5a6b129e921fa31e7aed215aa5",
+  "author": "learn-build-service-prod[bot]",
+  "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+  "date": "2025-12-01T23:08:37Z",
+  "message": "Merge pull request #10646 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-12-01 23:06 UTC",
+  "ai_summary": "Unable to generate summary for this commit.",
+  "files": [
+    {
+      "filename": "docs/fundamentals/licensing.md",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "filename": "docs/global-secure-access/reference-current-known-limitations.md",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "filename": "docs/id-governance/custom-data-resource-access-reviews.md",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 8
+    },
+    {
+      "filename": "docs/id-governance/identity-governance-applications-existing-users.md",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 1
+    },
+    {
+      "filename": "docs/id-governance/identity-governance-applications-integrate.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "filename": "docs/id-governance/identity-governance-applications-not-provisioned-users.md",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 4
+    },
+    {
+      "filename": "docs/id-protection/concept-risky-user-report.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "filename": "docs/id-protection/identity-risk-management-agent-get-started.md",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 3
+    },
+    {
+      "filename": "docs/id-protection/identity-risk-management-agent-risky-user-report.md",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "filename": "docs/id-protection/identity-risk-management-agent-settings.md",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "filename": "docs/security-copilot/entra-agents.md",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 8
+    }
+  ]
+}
