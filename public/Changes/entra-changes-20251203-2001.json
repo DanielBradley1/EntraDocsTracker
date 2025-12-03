@@ -1,0 +1,185 @@
+{
+  "sha": "7bacc88579a0c452254d17c38ce9f13429b45401",
+  "url": "https://github.com/MicrosoftDocs/entra-docs/commit/7bacc88579a0c452254d17c38ce9f13429b45401",
+  "author": "learn-build-service-prod[bot]",
+  "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+  "date": "2025-12-03T18:12:27Z",
+  "message": "Merge pull request #10684 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-12-03 18:09 UTC",
+  "ai_summary": "Unable to generate summary for this commit.",
+  "files": [
+    {
+      "filename": "docs/agent-id/identity-professional/manage-agents-without-identity.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "filename": "docs/external-id/customers/how-to-custom-oidc-federation-customers.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "filename": "docs/id-governance/apps.md",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 7
+    },
+    {
+      "filename": "docs/id-governance/best-practices-secure-id-governance.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 3
+    },
+    {
+      "filename": "docs/id-governance/custom-entitlement-report-with-adx-and-entra-id.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "filename": "docs/id-governance/custom-entitlement-report-with-other-sources.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "filename": "docs/id-governance/governance-custom-alerts.md",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "filename": "docs/id-governance/governance-dashboard.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "filename": "docs/id-governance/identity-governance-overview.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "filename": "docs/id-governance/scenarios/automate-identity-lifecycle.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "filename": "docs/id-governance/scenarios/deploy-sap-netweaver.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "filename": "docs/id-governance/scenarios/entitlement-management-private-access.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "filename": "docs/id-governance/scenarios/govern-guest-lifecycle-new-project.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "filename": "docs/id-governance/scenarios/govern-the-employee-lifecycle.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "filename": "docs/id-governance/scenarios/identity-governance-use-cases.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "filename": "docs/id-governance/scenarios/least-privileged.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "filename": "docs/id-governance/scenarios/provision-active-directory-to-entra-cloud-sync.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "filename": "docs/id-governance/scenarios/provision-active-directory-to-entra-connect-sync.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "filename": "docs/id-governance/scenarios/provision-ldap.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "filename": "docs/id-governance/scenarios/provision-microsoft-identity-manager-to-active-directory.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "filename": "docs/id-governance/scenarios/provision-microsoft-identity-manager-to-entra.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "filename": "docs/id-governance/scenarios/provision-sap.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "filename": "docs/id-governance/scenarios/provision-sql.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "filename": "docs/id-governance/scenarios/provision-workday-to-active-directory.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "filename": "docs/id-governance/scenarios/provision-workday-to-entra.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "filename": "docs/id-governance/scenarios/sap-template.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "filename": "docs/id-governance/what-is-provisioning.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "filename": "docs/includes/cloud-sync-version-history.md",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 9
+    },
+    {
+      "filename": "docs/verified-id/how-to-dnsbind.md",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3
+    }
+  ]
+}
