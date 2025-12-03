@@ -1,0 +1,17 @@
+{
+  "sha": "783df3ea311dcdacd1713a6d8c19fa58ebf40091",
+  "url": "https://github.com/MicrosoftDocs/entra-docs/commit/783df3ea311dcdacd1713a6d8c19fa58ebf40091",
+  "author": "learn-build-service-prod[bot]",
+  "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+  "date": "2025-11-26T12:02:55Z",
+  "message": "Merge pull request #10611 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-11-26 12:00 UTC",
+  "ai_summary": "Unable to generate summary for this commit.",
+  "files": [
+    {
+      "filename": "docs/external-id/customers/concept-supported-features-customers.md",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 1
+    }
+  ]
+}
