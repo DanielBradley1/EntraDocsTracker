@@ -1,0 +1,310 @@
+[
+  {
+    "sha": "771b8d8dfdf68b93c61222fdee71d4c326febe5d",
+    "url": "https://github.com/MicrosoftDocs/entra-docs/commit/771b8d8dfdf68b93c61222fdee71d4c326febe5d",
+    "author": "learn-build-service-prod[bot]",
+    "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+    "date": "2025-11-25T23:05:54Z",
+    "message": "Merge pull request #10608 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-11-25 23:03 UTC",
+    "ai_summary": "Unable to generate summary for this commit.",
+    "files": [
+      {
+        "filename": "docs/architecture/deployment-scenario-remote-access.md",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "filename": "docs/architecture/deployment-scenario-workforce-guest.md",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "filename": "docs/id-governance/custom-data-resource-access-reviews.md",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2
+      },
+      {
+        "filename": "docs/id-governance/custom-extension-security.md",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "filename": "docs/id-governance/entitlement-management-catalog-create.md",
+        "status": "modified",
+        "additions": 6,
+        "deletions": 6
+      },
+      {
+        "filename": "docs/id-governance/entitlement-management-delegate-managers.md",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2
+      },
+      {
+        "filename": "docs/id-governance/entitlement-management-delegate.md",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "filename": "docs/id-governance/entitlement-management-dynamic-approval.md",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "sha": "45cea71512d912841b626525b7d42bb3d28f18ff",
+    "url": "https://github.com/MicrosoftDocs/entra-docs/commit/45cea71512d912841b626525b7d42bb3d28f18ff",
+    "author": "prmerger-automator[bot]",
+    "email": "40007230+prmerger-automator[bot]@users.noreply.github.com",
+    "date": "2025-11-25T22:45:48Z",
+    "message": "Merge pull request #10607 from OWinfreyATL/owinfreyATL-GovernanceChanges\n\nUpdate catalog guidance",
+    "ai_summary": "Unable to generate summary for this commit.",
+    "files": [
+      {
+        "filename": "docs/architecture/deployment-scenario-remote-access.md",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "filename": "docs/architecture/deployment-scenario-workforce-guest.md",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "filename": "docs/id-governance/custom-data-resource-access-reviews.md",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2
+      },
+      {
+        "filename": "docs/id-governance/custom-extension-security.md",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "filename": "docs/id-governance/entitlement-management-catalog-create.md",
+        "status": "modified",
+        "additions": 6,
+        "deletions": 6
+      },
+      {
+        "filename": "docs/id-governance/entitlement-management-delegate-managers.md",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2
+      },
+      {
+        "filename": "docs/id-governance/entitlement-management-delegate.md",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "filename": "docs/id-governance/entitlement-management-dynamic-approval.md",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "sha": "b473b0ccf9b04969893bc939814ccb82a4e9ca31",
+    "url": "https://github.com/MicrosoftDocs/entra-docs/commit/b473b0ccf9b04969893bc939814ccb82a4e9ca31",
+    "author": "Ortagus Winfrey",
+    "email": "85191667+OWinfreyATL@users.noreply.github.com",
+    "date": "2025-11-25T22:41:16Z",
+    "message": "Updates",
+    "ai_summary": "Unable to generate summary for this commit.",
+    "files": [
+      {
+        "filename": "docs/id-governance/entitlement-management-catalog-create.md",
+        "status": "modified",
+        "additions": 3,
+        "deletions": 3
+      },
+      {
+        "filename": "docs/id-governance/entitlement-management-delegate-managers.md",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2
+      },
+      {
+        "filename": "docs/id-governance/entitlement-management-delegate.md",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "filename": "docs/id-governance/entitlement-management-dynamic-approval.md",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "sha": "ffb732c8bb863d5067fe110305d856c904796796",
+    "url": "https://github.com/MicrosoftDocs/entra-docs/commit/ffb732c8bb863d5067fe110305d856c904796796",
+    "author": "Ortagus Winfrey",
+    "email": "85191667+OWinfreyATL@users.noreply.github.com",
+    "date": "2025-11-25T22:38:58Z",
+    "message": "Updates",
+    "ai_summary": "Unable to generate summary for this commit.",
+    "files": [
+      {
+        "filename": "docs/id-governance/custom-extension-security.md",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "filename": "docs/id-governance/entitlement-management-catalog-create.md",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2
+      }
+    ]
+  },
+  {
+    "sha": "862611ba5fb15010282c387df6736074efa454d5",
+    "url": "https://github.com/MicrosoftDocs/entra-docs/commit/862611ba5fb15010282c387df6736074efa454d5",
+    "author": "Ortagus Winfrey",
+    "email": "85191667+OWinfreyATL@users.noreply.github.com",
+    "date": "2025-11-25T22:35:16Z",
+    "message": "Updates",
+    "ai_summary": "Unable to generate summary for this commit.",
+    "files": [
+      {
+        "filename": "docs/id-governance/custom-data-resource-access-reviews.md",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2
+      }
+    ]
+  },
+  {
+    "sha": "9f59f18a1aa650a2104f6c50a7f5aa812042d700",
+    "url": "https://github.com/MicrosoftDocs/entra-docs/commit/9f59f18a1aa650a2104f6c50a7f5aa812042d700",
+    "author": "Ortagus Winfrey",
+    "email": "85191667+OWinfreyATL@users.noreply.github.com",
+    "date": "2025-11-25T22:34:27Z",
+    "message": "updates",
+    "ai_summary": "Unable to generate summary for this commit.",
+    "files": [
+      {
+        "filename": "docs/architecture/deployment-scenario-remote-access.md",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "filename": "docs/architecture/deployment-scenario-workforce-guest.md",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "sha": "79ccb5970bc3fcf86e962bd643c06b8e59a0d2ec",
+    "url": "https://github.com/MicrosoftDocs/entra-docs/commit/79ccb5970bc3fcf86e962bd643c06b8e59a0d2ec",
+    "author": "Ortagus Winfrey",
+    "email": "85191667+OWinfreyATL@users.noreply.github.com",
+    "date": "2025-11-25T22:33:01Z",
+    "message": "Update catalog guidance",
+    "ai_summary": "Unable to generate summary for this commit.",
+    "files": [
+      {
+        "filename": "docs/id-governance/entitlement-management-catalog-create.md",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "sha": "f5f4f0ed121660372635885f4601f5bf7e5e95d7",
+    "url": "https://github.com/MicrosoftDocs/entra-docs/commit/f5f4f0ed121660372635885f4601f5bf7e5e95d7",
+    "author": "Celeste de Guzman",
+    "email": "16906646+CelesteDG@users.noreply.github.com",
+    "date": "2025-11-25T22:28:38Z",
+    "message": "Merge pull request #10606 from MicrosoftDocs/main\n\nPublish access token update and other items in Main. Fast tracking fix.",
+    "ai_summary": "Unable to generate summary for this commit.",
+    "files": [
+      {
+        "filename": "docs/agent-id/identity-professional/agent-access-packages.md",
+        "status": "modified",
+        "additions": 10,
+        "deletions": 5
+      },
+      {
+        "filename": "docs/agent-id/identity-professional/microsoft-entra-agent-identities-for-ai-agents.md",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "filename": "docs/agent-id/identity-professional/security-for-ai.md",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2
+      },
+      {
+        "filename": "docs/identity-platform/v2-oauth2-on-behalf-of-flow.md",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "filename": "docs/identity/app-provisioning/on-premises-ldap-connector-prepare-directory.md",
+        "status": "modified",
+        "additions": 3,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "sha": "c4ff9098af49a1906fecce4a6013719e899ededc",
+    "url": "https://github.com/MicrosoftDocs/entra-docs/commit/c4ff9098af49a1906fecce4a6013719e899ededc",
+    "author": "Celeste de Guzman",
+    "email": "16906646+CelesteDG@users.noreply.github.com",
+    "date": "2025-11-25T22:12:49Z",
+    "message": "Merge pull request #10605 from MicrosoftDocs/CelesteDG-patch-10\n\nChange access token value to placeholder",
+    "ai_summary": "Unable to generate summary for this commit.",
+    "files": [
+      {
+        "filename": "docs/identity-platform/v2-oauth2-on-behalf-of-flow.md",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "sha": "9669c0ad575155286d44e86d1805178b35927914",
+    "url": "https://github.com/MicrosoftDocs/entra-docs/commit/9669c0ad575155286d44e86d1805178b35927914",
+    "author": "Celeste de Guzman",
+    "email": "16906646+CelesteDG@users.noreply.github.com",
+    "date": "2025-11-25T22:06:46Z",
+    "message": "Change access token value to placeholder\n\nPer SFI guidelines",
+    "ai_summary": "Unable to generate summary for this commit.",
+    "files": [
+      {
+        "filename": "docs/identity-platform/v2-oauth2-on-behalf-of-flow.md",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      }
+    ]
+  }
+]
