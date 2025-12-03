@@ -1,0 +1,23 @@
+{
+  "sha": "1b3d7278c6cea1440215e691c275dcfcb2436125",
+  "url": "https://github.com/MicrosoftDocs/entra-docs/commit/1b3d7278c6cea1440215e691c275dcfcb2436125",
+  "author": "learn-build-service-prod[bot]",
+  "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+  "date": "2025-12-03T12:02:46Z",
+  "message": "Merge pull request #10674 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-12-03 12:00 UTC",
+  "ai_summary": "Unable to generate summary for this commit.",
+  "files": [
+    {
+      "filename": "docs/external-id/whats-new-docs.md",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 7
+    },
+    {
+      "filename": "docs/identity/hybrid/connect/how-to-connect-password-hash-synchronization.md",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 3
+    }
+  ]
+}
