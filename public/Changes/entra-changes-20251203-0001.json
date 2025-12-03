@@ -1,0 +1,94 @@
+[
+  {
+    "sha": "dff632d05cebad5b44d4694436277247c028c0d5",
+    "url": "https://github.com/MicrosoftDocs/entra-docs/commit/dff632d05cebad5b44d4694436277247c028c0d5",
+    "author": "learn-build-service-prod[bot]",
+    "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+    "date": "2025-12-02T23:15:11Z",
+    "message": "Merge pull request #10663 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-12-02 23:07 UTC",
+    "ai_summary": "Unable to generate summary for this commit.",
+    "files": [
+      {
+        "filename": "docs/id-governance/create-access-review-pim-for-groups.md",
+        "status": "modified",
+        "additions": 3,
+        "deletions": 0
+      },
+      {
+        "filename": "docs/id-governance/create-access-review.md",
+        "status": "modified",
+        "additions": 7,
+        "deletions": 3
+      },
+      {
+        "filename": "docs/id-governance/delegate-approvals-my-access.md",
+        "status": "modified",
+        "additions": 4,
+        "deletions": 3
+      },
+      {
+        "filename": "docs/identity/multi-tenant-organizations/multi-tenant-organization-known-issues.md",
+        "status": "modified",
+        "additions": 5,
+        "deletions": 4
+      },
+      {
+        "filename": "docs/security-copilot/entra-agents.md",
+        "status": "modified",
+        "additions": 12,
+        "deletions": 6
+      }
+    ]
+  },
+  {
+    "sha": "23d99f645db062757fa3037e67498baf690271ec",
+    "url": "https://github.com/MicrosoftDocs/entra-docs/commit/23d99f645db062757fa3037e67498baf690271ec",
+    "author": "prmerger-automator[bot]",
+    "email": "40007230+prmerger-automator[bot]@users.noreply.github.com",
+    "date": "2025-12-02T22:49:00Z",
+    "message": "Merge pull request #10662 from lnalepa/patch-4\n\nUpdate delegation feature details in My Access documentation",
+    "ai_summary": "Unable to generate summary for this commit.",
+    "files": [
+      {
+        "filename": "docs/id-governance/delegate-approvals-my-access.md",
+        "status": "modified",
+        "additions": 4,
+        "deletions": 3
+      }
+    ]
+  },
+  {
+    "sha": "0ca24959429f2b7b6e75a420e2f47b85c35fde6e",
+    "url": "https://github.com/MicrosoftDocs/entra-docs/commit/0ca24959429f2b7b6e75a420e2f47b85c35fde6e",
+    "author": "Lesia Nalepa",
+    "email": "lesia.nalepa@gmail.com",
+    "date": "2025-12-02T22:28:34Z",
+    "message": "Remove empty line in delegate approvals documentation\n\nRemoved an empty line before the section on enabling delegate approvals.",
+    "ai_summary": "Unable to generate summary for this commit.",
+    "files": [
+      {
+        "filename": "docs/id-governance/delegate-approvals-my-access.md",
+        "status": "modified",
+        "additions": 0,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "sha": "4176e7e682d5b56f801b92ab300083f03d599131",
+    "url": "https://github.com/MicrosoftDocs/entra-docs/commit/4176e7e682d5b56f801b92ab300083f03d599131",
+    "author": "Lesia Nalepa",
+    "email": "lesia.nalepa@gmail.com",
+    "date": "2025-12-02T22:26:52Z",
+    "message": "Update delegation feature details in My Access documentation\n\nClarified delegation feature details and updated notes on access reviews.",
+    "ai_summary": "Unable to generate summary for this commit.",
+    "files": [
+      {
+        "filename": "docs/id-governance/delegate-approvals-my-access.md",
+        "status": "modified",
+        "additions": 5,
+        "deletions": 3
+      }
+    ]
+  }
+]
