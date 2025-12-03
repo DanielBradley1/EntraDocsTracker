@@ -1,0 +1,47 @@
+{
+  "sha": "057578cf2dc3fcd37107df3f9726c67f6bc8ef72",
+  "url": "https://github.com/MicrosoftDocs/entra-docs/commit/057578cf2dc3fcd37107df3f9726c67f6bc8ef72",
+  "author": "learn-build-service-prod[bot]",
+  "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+  "date": "2025-12-03T06:02:52Z",
+  "message": "Merge pull request #10668 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-12-03 06:00 UTC",
+  "ai_summary": "Unable to generate summary for this commit.",
+  "files": [
+    {
+      "filename": "docs/agent-id/identity-professional/agent-access-packages.md",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1
+    },
+    {
+      "filename": "docs/agent-id/identity-professional/authorization-agent-id.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "filename": "docs/agent-id/identity-professional/grant-agent-access-microsoft-365.md",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 2
+    },
+    {
+      "filename": "docs/agent-id/identity-professional/manage-agents-without-identity.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "filename": "docs/id-governance/agent-id-governance-overview.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "filename": "docs/id-governance/governance-custom-alerts.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2
+    }
+  ]
+}
