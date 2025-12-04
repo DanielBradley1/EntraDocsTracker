@@ -1,63 +1,55 @@
 {
   "metadata": {
-    "total_commits": 18,
-    "generated_date": "2025-12-04T00:01:25Z",
+    "total_commits": 16,
+    "generated_date": "2025-12-04T20:01:48Z",
     "source_files": [
       {
-        "filename": "entra-changes-20251127-0800.json",
-        "commit_count": 1
+        "commit_count": 2,
+        "filename": "entra-changes-20251201-1600.json"
       },
       {
-        "filename": "entra-changes-20251127-2001.json",
-        "commit_count": 1
+        "commit_count": 1,
+        "filename": "entra-changes-20251201-2001.json"
       },
       {
-        "filename": "entra-changes-20251201-1600.json",
-        "commit_count": 2
+        "commit_count": 1,
+        "filename": "entra-changes-20251202-0001.json"
       },
       {
-        "filename": "entra-changes-20251201-2001.json",
-        "commit_count": 1
+        "commit_count": 1,
+        "filename": "entra-changes-20251202-0801.json"
       },
       {
-        "filename": "entra-changes-20251202-0001.json",
-        "commit_count": 1
+        "commit_count": 1,
+        "filename": "entra-changes-20251202-1401.json"
       },
       {
-        "filename": "entra-changes-20251202-0801.json",
-        "commit_count": 1
+        "commit_count": 1,
+        "filename": "entra-changes-20251202-2001.json"
       },
       {
-        "filename": "entra-changes-20251202-1401.json",
-        "commit_count": 1
+        "commit_count": 4,
+        "filename": "entra-changes-20251203-0001.json"
       },
       {
-        "filename": "entra-changes-20251202-2001.json",
-        "commit_count": 1
+        "commit_count": 1,
+        "filename": "entra-changes-20251203-0802.json"
       },
       {
-        "filename": "entra-changes-20251203-0001.json",
-        "commit_count": 4
+        "commit_count": 1,
+        "filename": "entra-changes-20251203-1401.json"
       },
       {
-        "filename": "entra-changes-20251203-0802.json",
-        "commit_count": 1
+        "commit_count": 1,
+        "filename": "entra-changes-20251203-1801.json"
       },
       {
-        "filename": "entra-changes-20251203-1401.json",
-        "commit_count": 1
+        "commit_count": 1,
+        "filename": "entra-changes-20251203-2001.json"
       },
       {
-        "filename": "entra-changes-20251203-1801.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251203-2001.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251204-0001.json",
-        "commit_count": 1
+        "commit_count": 1,
+        "filename": "entra-changes-20251204-0001.json"
       }
     ]
   },
@@ -943,40 +935,6 @@
           "status": "modified",
           "additions": 1,
           "deletions": 1
-        }
-      ]
-    },
-    {
-      "sha": "c4c3269158bb93550d5bf2918a7accae31cb0cf1",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/c4c3269158bb93550d5bf2918a7accae31cb0cf1",
-      "author": "learn-build-service-prod[bot]",
-      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
-      "date": "2025-11-27T18:03:42Z",
-      "message": "Merge pull request #10623 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-11-27 18:01 UTC",
-      "ai_summary": "Unable to generate summary for this commit.",
-      "files": [
-        {
-          "filename": "docs/external-id/customers/concept-supported-features-customers.md",
-          "status": "modified",
-          "additions": 2,
-          "deletions": 2
-        }
-      ]
-    },
-    {
-      "sha": "b2c90f16ddf4b838669decf71220b6762a7914fb",
-      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/b2c90f16ddf4b838669decf71220b6762a7914fb",
-      "author": "learn-build-service-prod[bot]",
-      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
-      "date": "2025-11-27T06:05:22Z",
-      "message": "Merge pull request #10621 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-11-27 06:00 UTC",
-      "ai_summary": "Unable to generate summary for this commit.",
-      "files": [
-        {
-          "filename": "docs/id-governance/entitlement-management-roles.md",
-          "status": "modified",
-          "additions": 16,
-          "deletions": 10
         }
       ]
     }
