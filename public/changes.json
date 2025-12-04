@@ -1,6 +1,7 @@
 {
   "metadata": {
-    "total_commits": 17,
+    "total_commits": 18,
+    "generated_date": "2025-12-04T00:01:25Z",
     "source_files": [
       {
         "filename": "entra-changes-20251127-0800.json",
@@ -53,11 +54,55 @@
       {
         "filename": "entra-changes-20251203-2001.json",
         "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251204-0001.json",
+        "commit_count": 1
       }
-    ],
-    "generated_date": "2025-12-03T20:02:02Z"
+    ]
   },
   "changes": [
+    {
+      "sha": "d0b16b566ff99b8f8b3c92e466cbd08e1b8df309",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/d0b16b566ff99b8f8b3c92e466cbd08e1b8df309",
+      "author": "learn-build-service-prod[bot]",
+      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+      "date": "2025-12-03T23:09:06Z",
+      "message": "Merge pull request #10688 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-12-03 23:06 UTC",
+      "ai_summary": "Unable to generate summary for this commit.",
+      "files": [
+        {
+          "filename": "docs/global-secure-access/how-to-network-content-filtering.md",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/reference-windows-client-release-history.md",
+          "status": "modified",
+          "additions": 20,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/verified-id/TOC.yml",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/verified-id/idv-partners.md",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 7
+        },
+        {
+          "filename": "docs/verified-id/services-partners.md",
+          "status": "modified",
+          "additions": 20,
+          "deletions": 19
+        }
+      ]
+    },
     {
       "sha": "7bacc88579a0c452254d17c38ce9f13429b45401",
       "url": "https://github.com/MicrosoftDocs/entra-docs/commit/7bacc88579a0c452254d17c38ce9f13429b45401",
