@@ -1,0 +1,41 @@
+{
+  "sha": "421342810096da1aae3178e99c3536f5a489f84b",
+  "url": "https://github.com/MicrosoftDocs/entra-docs/commit/421342810096da1aae3178e99c3536f5a489f84b",
+  "author": "learn-build-service-prod[bot]",
+  "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+  "date": "2025-12-05T18:11:52Z",
+  "message": "Merge pull request #10710 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-12-05 18:09 UTC",
+  "ai_summary": "Unable to generate summary for this commit.",
+  "files": [
+    {
+      "filename": "docs/identity/conditional-access/concept-session-lifetime.md",
+      "status": "modified",
+      "additions": 25,
+      "deletions": 25
+    },
+    {
+      "filename": "docs/identity/conditional-access/policy-block-authentication-flows.md",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 18
+    },
+    {
+      "filename": "docs/identity/conditional-access/policy-block-by-location.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "filename": "docs/identity/conditional-access/troubleshoot-conditional-access.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "filename": "docs/identity/saas-apps/netop-portal-tutorial.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2
+    }
+  ]
+}
