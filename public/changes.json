@@ -1,5 +1,96 @@
 {
+  "metadata": {
+    "source_files": [
+      {
+        "commit_count": 2,
+        "filename": "entra-changes-20251201-1600.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251201-2001.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251202-0001.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251202-0801.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251202-1401.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251202-2001.json"
+      },
+      {
+        "commit_count": 4,
+        "filename": "entra-changes-20251203-0001.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251203-0802.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251203-1401.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251203-1801.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251203-2001.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251204-0001.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251205-0001.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251205-0801.json"
+      }
+    ],
+    "generated_date": "2025-12-05T08:01:31Z",
+    "total_commits": 18
+  },
   "changes": [
+    {
+      "sha": "45475a76cb066a9ec6dd1ab45f367d95b14b3728",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/45475a76cb066a9ec6dd1ab45f367d95b14b3728",
+      "author": "learn-build-service-prod[bot]",
+      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+      "date": "2025-12-05T06:07:54Z",
+      "message": "Merge pull request #10706 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-12-05 06:00 UTC",
+      "ai_summary": "Unable to generate summary for this commit.",
+      "files": [
+        {
+          "filename": "docs/global-secure-access/faq-transport-layer-security.yml",
+          "status": "modified",
+          "additions": 40,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/how-to-transport-layer-security.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity/monitoring-health/reference-sla-performance.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        }
+      ]
+    },
     {
       "sha": "7d5a12b7321c653d57b0cd5d4c919e042c0fb732",
       "url": "https://github.com/MicrosoftDocs/entra-docs/commit/7d5a12b7321c653d57b0cd5d4c919e042c0fb732",
@@ -967,63 +1058,5 @@
         }
       ]
     }
-  ],
-  "metadata": {
-    "generated_date": "2025-12-05T00:01:16Z",
-    "total_commits": 17,
-    "source_files": [
-      {
-        "filename": "entra-changes-20251201-1600.json",
-        "commit_count": 2
-      },
-      {
-        "filename": "entra-changes-20251201-2001.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251202-0001.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251202-0801.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251202-1401.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251202-2001.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251203-0001.json",
-        "commit_count": 4
-      },
-      {
-        "filename": "entra-changes-20251203-0802.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251203-1401.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251203-1801.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251203-2001.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251204-0001.json",
-        "commit_count": 1
-      },
-      {
-        "filename": "entra-changes-20251205-0001.json",
-        "commit_count": 1
-      }
-    ]
-  }
+  ]
 }
