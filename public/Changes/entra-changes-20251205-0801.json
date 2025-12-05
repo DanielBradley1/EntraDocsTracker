@@ -1,0 +1,29 @@
+{
+  "sha": "45475a76cb066a9ec6dd1ab45f367d95b14b3728",
+  "url": "https://github.com/MicrosoftDocs/entra-docs/commit/45475a76cb066a9ec6dd1ab45f367d95b14b3728",
+  "author": "learn-build-service-prod[bot]",
+  "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+  "date": "2025-12-05T06:07:54Z",
+  "message": "Merge pull request #10706 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-12-05 06:00 UTC",
+  "ai_summary": "Unable to generate summary for this commit.",
+  "files": [
+    {
+      "filename": "docs/global-secure-access/faq-transport-layer-security.yml",
+      "status": "modified",
+      "additions": 40,
+      "deletions": 0
+    },
+    {
+      "filename": "docs/global-secure-access/how-to-transport-layer-security.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "filename": "docs/identity/monitoring-health/reference-sla-performance.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1
+    }
+  ]
+}
