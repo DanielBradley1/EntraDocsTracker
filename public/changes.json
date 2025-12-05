@@ -1,67 +1,88 @@
 {
   "metadata": {
+    "total_commits": 19,
+    "generated_date": "2025-12-05T16:01:41Z",
     "source_files": [
       {
-        "commit_count": 2,
-        "filename": "entra-changes-20251201-1600.json"
+        "filename": "entra-changes-20251201-1600.json",
+        "commit_count": 2
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20251201-2001.json"
+        "filename": "entra-changes-20251201-2001.json",
+        "commit_count": 1
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20251202-0001.json"
+        "filename": "entra-changes-20251202-0001.json",
+        "commit_count": 1
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20251202-0801.json"
+        "filename": "entra-changes-20251202-0801.json",
+        "commit_count": 1
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20251202-1401.json"
+        "filename": "entra-changes-20251202-1401.json",
+        "commit_count": 1
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20251202-2001.json"
+        "filename": "entra-changes-20251202-2001.json",
+        "commit_count": 1
       },
       {
-        "commit_count": 4,
-        "filename": "entra-changes-20251203-0001.json"
+        "filename": "entra-changes-20251203-0001.json",
+        "commit_count": 4
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20251203-0802.json"
+        "filename": "entra-changes-20251203-0802.json",
+        "commit_count": 1
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20251203-1401.json"
+        "filename": "entra-changes-20251203-1401.json",
+        "commit_count": 1
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20251203-1801.json"
+        "filename": "entra-changes-20251203-1801.json",
+        "commit_count": 1
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20251203-2001.json"
+        "filename": "entra-changes-20251203-2001.json",
+        "commit_count": 1
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20251204-0001.json"
+        "filename": "entra-changes-20251204-0001.json",
+        "commit_count": 1
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20251205-0001.json"
+        "filename": "entra-changes-20251205-0001.json",
+        "commit_count": 1
       },
       {
-        "commit_count": 1,
-        "filename": "entra-changes-20251205-0801.json"
+        "filename": "entra-changes-20251205-0801.json",
+        "commit_count": 1
+      },
+      {
+        "filename": "entra-changes-20251205-1601.json",
+        "commit_count": 1
       }
-    ],
-    "generated_date": "2025-12-05T08:01:31Z",
-    "total_commits": 18
+    ]
   },
   "changes": [
+    {
+      "sha": "387643c8e47cd8e4ab8aa7dfdafc2267a2b93899",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/387643c8e47cd8e4ab8aa7dfdafc2267a2b93899",
+      "author": "Diana Richards",
+      "email": "v-dirichards@microsoft.com",
+      "date": "2025-12-05T15:19:43Z",
+      "message": "Merge pull request #1800 from aluca-private/patch-1\n\nUpdate netop-portal-tutorial.md",
+      "ai_summary": "Unable to generate summary for this commit.",
+      "files": [
+        {
+          "filename": "docs/identity/saas-apps/netop-portal-tutorial.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        }
+      ]
+    },
     {
       "sha": "45475a76cb066a9ec6dd1ab45f367d95b14b3728",
       "url": "https://github.com/MicrosoftDocs/entra-docs/commit/45475a76cb066a9ec6dd1ab45f367d95b14b3728",
