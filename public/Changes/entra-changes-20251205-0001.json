@@ -1,0 +1,83 @@
+{
+  "sha": "7d5a12b7321c653d57b0cd5d4c919e042c0fb732",
+  "url": "https://github.com/MicrosoftDocs/entra-docs/commit/7d5a12b7321c653d57b0cd5d4c919e042c0fb732",
+  "author": "learn-build-service-prod[bot]",
+  "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+  "date": "2025-12-04T23:14:07Z",
+  "message": "Merge pull request #10702 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-12-04 23:09 UTC",
+  "ai_summary": "Unable to generate summary for this commit.",
+  "files": [
+    {
+      "filename": "docs/global-secure-access/concept-b2b-guest-access.md",
+      "status": "modified",
+      "additions": 92,
+      "deletions": 15
+    },
+    {
+      "filename": "docs/global-secure-access/how-to-network-content-filtering.md",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 17
+    },
+    {
+      "filename": "docs/global-secure-access/media/concept-b2b-guest-access/client-agent.png",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "filename": "docs/global-secure-access/media/concept-b2b-guest-access/organization-resource-tenant.png",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "filename": "docs/global-secure-access/media/concept-b2b-guest-access/user-type-guest.png",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "filename": "docs/id-governance/lifecycle-workflow-tasks.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "filename": "docs/id-governance/media/workflow-sensitivity-labels/add-group-sensitivity-label.png",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "filename": "docs/id-governance/media/workflow-sensitivity-labels/group-sensitivity-labels.png",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "filename": "docs/id-governance/media/workflow-sensitivity-labels/select-groups-workflow.png",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "filename": "docs/id-governance/media/workflow-sensitivity-labels/sensitivity-label-existing-workflow.png",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "filename": "docs/id-governance/workflow-sensitivity-labels.md",
+      "status": "modified",
+      "additions": 38,
+      "deletions": 9
+    },
+    {
+      "filename": "docs/includes/lifecycle-workflows-tasks-table.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1
+    }
+  ]
+}
