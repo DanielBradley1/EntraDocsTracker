@@ -1,0 +1,36 @@
+[
+  {
+    "sha": "39f627054bf2812357ae0566c24431b887e983fa",
+    "url": "https://github.com/MicrosoftDocs/entra-docs/commit/39f627054bf2812357ae0566c24431b887e983fa",
+    "author": "Learn Build Service GitHub App",
+    "email": "Learn Build Service LearnBuild@microsoft.com",
+    "date": "2025-12-06T06:05:28Z",
+    "message": "Merging changes synced from https://github.com/MicrosoftDocs/entra-docs-pr (branch live)",
+    "ai_summary": "Unable to generate summary for this commit.",
+    "files": [
+      {
+        "filename": "docs/identity/enterprise-apps/configure-app-management-policies.md",
+        "status": "modified",
+        "additions": 8,
+        "deletions": 2
+      }
+    ]
+  },
+  {
+    "sha": "033e517df3c9869d1afe70b7dc2ddeba3a2e9b67",
+    "url": "https://github.com/MicrosoftDocs/entra-docs/commit/033e517df3c9869d1afe70b7dc2ddeba3a2e9b67",
+    "author": "learn-build-service-prod[bot]",
+    "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+    "date": "2025-12-06T06:02:33Z",
+    "message": "Merge pull request #10717 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-12-06 06:00 UTC",
+    "ai_summary": "Unable to generate summary for this commit.",
+    "files": [
+      {
+        "filename": "docs/identity/enterprise-apps/configure-app-management-policies.md",
+        "status": "modified",
+        "additions": 8,
+        "deletions": 2
+      }
+    ]
+  }
+]
