@@ -1,5 +1,2021 @@
 {
+  "metadata": {
+    "total_commits": 28,
+    "generated_date": "2025-12-06T00:01:01Z",
+    "source_files": [
+      {
+        "commit_count": 2,
+        "filename": "entra-changes-20251201-1600.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251201-2001.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251202-0001.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251202-0801.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251202-1401.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251202-2001.json"
+      },
+      {
+        "commit_count": 4,
+        "filename": "entra-changes-20251203-0001.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251203-0802.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251203-1401.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251203-1801.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251203-2001.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251204-0001.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251205-0001.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251205-0801.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251205-1601.json"
+      },
+      {
+        "commit_count": 1,
+        "filename": "entra-changes-20251205-2001.json"
+      },
+      {
+        "commit_count": 8,
+        "filename": "entra-changes-20251206-0000.json"
+      }
+    ]
+  },
   "changes": [
+    {
+      "sha": "e919f961767e08b45cfa15eafe2879164e7b713e",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/e919f961767e08b45cfa15eafe2879164e7b713e",
+      "author": "Shannon Leavitt",
+      "email": "47186198+ShannonLeavitt@users.noreply.github.com",
+      "date": "2025-12-05T23:21:18Z",
+      "message": "Merge pull request #1818 from SarahBar/patch-2\n\nUpdate howto-configure-health-alert-notifications.md",
+      "ai_summary": "Unable to generate summary for this commit.",
+      "files": [
+        {
+          "filename": "docs/identity/monitoring-health/howto-configure-health-alert-notifications.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 1
+        }
+      ]
+    },
+    {
+      "sha": "39b7a6da2d4a2f14b848cdbed4b13ab35cf6ea18",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/39b7a6da2d4a2f14b848cdbed4b13ab35cf6ea18",
+      "author": "Shannon Leavitt",
+      "email": "47186198+ShannonLeavitt@users.noreply.github.com",
+      "date": "2025-12-05T23:18:55Z",
+      "message": "Update docs/identity/monitoring-health/howto-configure-health-alert-notifications.md",
+      "ai_summary": "Unable to generate summary for this commit.",
+      "files": [
+        {
+          "filename": "docs/identity/monitoring-health/howto-configure-health-alert-notifications.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        }
+      ]
+    },
+    {
+      "sha": "6863ae683c86f74e573c87f25a4fac6b78cd5e24",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/6863ae683c86f74e573c87f25a4fac6b78cd5e24",
+      "author": "Learn Build Service GitHub App",
+      "email": "Learn Build Service LearnBuild@microsoft.com",
+      "date": "2025-12-05T23:07:18Z",
+      "message": "Merging changes synced from https://github.com/MicrosoftDocs/entra-docs-pr (branch live)",
+      "ai_summary": "Unable to generate summary for this commit.",
+      "files": [
+        {
+          "filename": "docs/identity/hybrid/cloud-sync/tutorial-group-provisioning.md",
+          "status": "modified",
+          "additions": 24,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity/hybrid/connect/how-to-connect-password-hash-synchronization.md",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 1
+        }
+      ]
+    },
+    {
+      "sha": "5fec3be4b64569ee7a48c8560d48144878c0dcf6",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/5fec3be4b64569ee7a48c8560d48144878c0dcf6",
+      "author": "learn-build-service-prod[bot]",
+      "email": "113403604+learn-build-service-prod[bot]@users.noreply.github.com",
+      "date": "2025-12-05T23:04:25Z",
+      "message": "Merge pull request #10715 from MicrosoftDocs/main\n\nAuto Publish – main to live - 2025-12-05 23:01 UTC",
+      "ai_summary": "Unable to generate summary for this commit.",
+      "files": [
+        {
+          "filename": "docs/identity/hybrid/cloud-sync/tutorial-group-provisioning.md",
+          "status": "modified",
+          "additions": 24,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/identity/hybrid/connect/how-to-connect-password-hash-synchronization.md",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 1
+        }
+      ]
+    },
+    {
+      "sha": "2f7606f00ed8fbf87c99e9fec1a8cf0d0896fcde",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/2f7606f00ed8fbf87c99e9fec1a8cf0d0896fcde",
+      "author": "Shannon Leavitt",
+      "email": "47186198+ShannonLeavitt@users.noreply.github.com",
+      "date": "2025-12-05T22:25:40Z",
+      "message": "Merge branch 'main' into patch-2",
+      "ai_summary": "Unable to generate summary for this commit.",
+      "files": [
+        {
+          "filename": ".github/workflows/stale.yml",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": ".openpublishing.redirection.json",
+          "status": "modified",
+          "additions": 60,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/agent-autonomous-app-oauth-flow.md",
+          "status": "added",
+          "additions": 75,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/agent-blueprint.md",
+          "status": "added",
+          "additions": 96,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/agent-identities.md",
+          "status": "added",
+          "additions": 88,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/agent-lists.md",
+          "status": "added",
+          "additions": 83,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/agent-metadata-discoverability.md",
+          "status": "added",
+          "additions": 74,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/agent-oauth-protocols.md",
+          "status": "added",
+          "additions": 69,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/agent-on-behalf-of-oauth-flow.md",
+          "status": "added",
+          "additions": 103,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/agent-owners-sponsors-managers.md",
+          "status": "added",
+          "additions": 81,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/agent-registry-collections.md",
+          "status": "added",
+          "additions": 103,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/agent-registry-manage-collections.md",
+          "status": "added",
+          "additions": 69,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/agent-service-principals.md",
+          "status": "added",
+          "additions": 84,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/agent-token-claims.md",
+          "status": "added",
+          "additions": 173,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/agent-tokens.md",
+          "status": "added",
+          "additions": 137,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/agent-user-oauth-flow.md",
+          "status": "added",
+          "additions": 87,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/agent-users.md",
+          "status": "added",
+          "additions": 84,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/autonomous-agent-request-agent-user-tokens.md",
+          "status": "added",
+          "additions": 273,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/autonomous-agent-request-authorization-entra-admin.md",
+          "status": "added",
+          "additions": 109,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/autonomous-agent-request-tokens.md",
+          "status": "added",
+          "additions": 145,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/call-api-azure-services.md",
+          "status": "added",
+          "additions": 211,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/call-api-custom.md",
+          "status": "added",
+          "additions": 584,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/call-api-microsoft-graph.md",
+          "status": "added",
+          "additions": 133,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/create-blueprint.md",
+          "status": "added",
+          "additions": 292,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/create-delete-agent-identities.md",
+          "status": "added",
+          "additions": 234,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/error-codes.md",
+          "status": "added",
+          "additions": 46,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/includes/call-api-common-dotnet.md",
+          "status": "added",
+          "additions": 18,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/includes/do-not-use-secrets.md",
+          "status": "added",
+          "additions": 13,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/includes/managed-identities-preferred.md",
+          "status": "added",
+          "additions": 15,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/includes/use-microsoft-libraries.md",
+          "status": "added",
+          "additions": 14,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/includes/validate-tokens.md",
+          "status": "added",
+          "additions": 17,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/index.yml",
+          "status": "added",
+          "additions": 56,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/interactive-agent-authenticate-user.md",
+          "status": "added",
+          "additions": 126,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/interactive-agent-request-admin-authorization.md",
+          "status": "added",
+          "additions": 45,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/interactive-agent-request-user-authorization.md",
+          "status": "added",
+          "additions": 107,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/interactive-agent-request-user-tokens.md",
+          "status": "added",
+          "additions": 130,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/key-concepts.md",
+          "status": "added",
+          "additions": 76,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/manage-agent-blueprint.md",
+          "status": "added",
+          "additions": 65,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/manage-agent.md",
+          "status": "added",
+          "additions": 46,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/media/agent-autonomous-app-oauth-flow/autonomous-app-flow-token-sequence.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/media/agent-autonomous-app-oauth-flow/autonomous-app-flow.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/media/agent-blueprint/agent-blueprint-principal.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/media/agent-blueprint/agent-blueprint.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/media/agent-identities/agent-blueprint.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/media/agent-identities/agent-identity.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/media/agent-oauth-protocols/agent-flows.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/media/agent-on-behalf-of-oauth-flow/on-behalf-of-flow-token-sequence.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/media/agent-on-behalf-of-oauth-flow/on-behalf-of-flow.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/media/agent-registry-manage-collections/agent-collections.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/media/agent-registry-manage-collections/custom-collections.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/media/agent-registry-manage-collections/predefined-add-agents.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/media/agent-user-oauth-flow/agent-user-flow-token-sequence.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/media/agent-user-oauth-flow/agent-user-flow.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/media/agent-users/agent-user.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/media/manage-agent/manage-agent-view.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/media/manage-agent/manage-agents-list.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/media/what-is-agent-registry/agent-registry-diagram.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/microsoft-entra-sdk-for-agent-identities.md",
+          "status": "added",
+          "additions": 103,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/preview-known-issues.md",
+          "status": "added",
+          "additions": 195,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/publish-agents-to-registry.md",
+          "status": "added",
+          "additions": 247,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/registry-agent-to-agent-protocol.md",
+          "status": "added",
+          "additions": 75,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/toc.yml",
+          "status": "added",
+          "additions": 116,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/what-is-agent-id-platform.md",
+          "status": "added",
+          "additions": 58,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/what-is-agent-id.md",
+          "status": "added",
+          "additions": 83,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-platform/what-is-agent-registry.md",
+          "status": "added",
+          "additions": 67,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-professional/agent-access-packages.md",
+          "status": "added",
+          "additions": 46,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-professional/agent-id-creation-channels.md",
+          "status": "added",
+          "additions": 128,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-professional/authorization-agent-id.md",
+          "status": "added",
+          "additions": 157,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-professional/configure-inheritable-permissions-blueprints.md",
+          "status": "added",
+          "additions": 194,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-professional/control-user-access-agents.md",
+          "status": "added",
+          "additions": 129,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-professional/disable-agent-identities.md",
+          "status": "added",
+          "additions": 348,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-professional/grant-agent-access-microsoft-365.md",
+          "status": "added",
+          "additions": 86,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-professional/index.yml",
+          "status": "added",
+          "additions": 44,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-professional/manage-agents-without-identity.md",
+          "status": "added",
+          "additions": 35,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-professional/media/microsoft-entra-agent-identities-for-ai-agents/microsoft-entra-agent-identity-capabilities.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-professional/media/security-for-ai/microsoft-entra-agent-identities-diagram.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-professional/media/sign-in-process/consent-page.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-professional/microsoft-entra-agent-identities-for-ai-agents.md",
+          "status": "added",
+          "additions": 77,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-professional/reference-registry-roles.md",
+          "status": "added",
+          "additions": 123,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-professional/security-for-ai.md",
+          "status": "added",
+          "additions": 124,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-professional/sign-in-audit-logs-agents.md",
+          "status": "added",
+          "additions": 57,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-professional/sign-in-process.md",
+          "status": "added",
+          "additions": 93,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/identity-professional/toc.yml",
+          "status": "added",
+          "additions": 52,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/agent-id/index.yml",
+          "status": "added",
+          "additions": 114,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/architecture/deployment-external-operations.md",
+          "status": "modified",
+          "additions": 59,
+          "deletions": 55
+        },
+        {
+          "filename": "docs/architecture/deployment-scenario-remote-access.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/architecture/deployment-scenario-workforce-guest.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/architecture/entra-delivery-guide.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/architecture/secure-best-practices.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/external-id/add-users-administrator.yml",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/external-id/b2b-quickstart-invite-powershell.md",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 4
+        },
+        {
+          "filename": "docs/external-id/customers/azure-rest-api-operations-tenant-management.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/external-id/customers/concept-multifactor-authentication-customers.md",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/external-id/customers/concept-security-customers.md",
+          "status": "modified",
+          "additions": 9,
+          "deletions": 9
+        },
+        {
+          "filename": "docs/external-id/customers/concept-supported-features-customers.md",
+          "status": "modified",
+          "additions": 11,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/external-id/customers/how-to-configure-akamai-integration.md",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 7
+        },
+        {
+          "filename": "docs/external-id/customers/how-to-configure-waf-integration.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/external-id/customers/how-to-custom-oidc-federation-customers.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/external-id/customers/how-to-integrate-fraud-protection.md",
+          "status": "modified",
+          "additions": 12,
+          "deletions": 7
+        },
+        {
+          "filename": "docs/external-id/customers/how-to-region-code-opt-in.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 3
+        },
+        {
+          "filename": "docs/external-id/customers/media/how-to-integrate-fraud-protection/provider-configuration-human.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/external-id/customers/media/how-to-integrate-fraud-protection/provider-configuration.png",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/external-id/customers/media/overview-solutions-customers/use-case-common.png",
+          "status": "removed",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/external-id/customers/media/overview-solutions-customers/use-case-passcode.png",
+          "status": "removed",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/external-id/customers/media/overview-solutions-customers/use-case-social.png",
+          "status": "removed",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/external-id/customers/overview-solutions-customers.md",
+          "status": "removed",
+          "additions": 0,
+          "deletions": 81
+        },
+        {
+          "filename": "docs/external-id/customers/quickstart-get-started-guide.md",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 3
+        },
+        {
+          "filename": "docs/external-id/customers/toc.yml",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/external-id/customers/visual-studio-code-extension.md",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 3
+        },
+        {
+          "filename": "docs/external-id/hybrid-on-premises-to-cloud.md",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 4
+        },
+        {
+          "filename": "docs/external-id/index.yml",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/external-id/one-time-passcode.md",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 6
+        },
+        {
+          "filename": "docs/external-id/reference-cross-tenant-custom-roles.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/external-id/tenant-restrictions-v2.md",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/external-id/tutorial-bulk-invite.md",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 8
+        },
+        {
+          "filename": "docs/external-id/user-flow-customize-language.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/external-id/user-properties.md",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 8
+        },
+        {
+          "filename": "docs/external-id/whats-new-docs.md",
+          "status": "modified",
+          "additions": 17,
+          "deletions": 11
+        },
+        {
+          "filename": "docs/fundamentals/concept-secure-remote-workers.md",
+          "status": "removed",
+          "additions": 0,
+          "deletions": 139
+        },
+        {
+          "filename": "docs/fundamentals/index.yml",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/fundamentals/licensing.md",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/fundamentals/toc.yml",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/fundamentals/whats-new-archive.md",
+          "status": "modified",
+          "additions": 58,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/fundamentals/whats-new-ignite-2025.md",
+          "status": "added",
+          "additions": 268,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/fundamentals/whats-new.md",
+          "status": "modified",
+          "additions": 337,
+          "deletions": 57
+        },
+        {
+          "filename": "docs/global-secure-access/concept-b2b-guest-access.md",
+          "status": "modified",
+          "additions": 92,
+          "deletions": 15
+        },
+        {
+          "filename": "docs/global-secure-access/concept-netskope-integration.md",
+          "status": "modified",
+          "additions": 70,
+          "deletions": 47
+        },
+        {
+          "filename": "docs/global-secure-access/concept-secure-web-ai-gateway-agents.md",
+          "status": "added",
+          "additions": 45,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/concept-transport-layer-security.md",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 9
+        },
+        {
+          "filename": "docs/global-secure-access/faq-transport-layer-security.yml",
+          "status": "modified",
+          "additions": 40,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/how-to-ai-prompt-shield.md",
+          "status": "added",
+          "additions": 126,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/how-to-assign-traffic-profile-to-remote-network.md",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 5
+        },
+        {
+          "filename": "docs/global-secure-access/how-to-configure-cloud-firewall.md",
+          "status": "added",
+          "additions": 150,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/how-to-configure-domain-controllers.md",
+          "status": "modified",
+          "additions": 15,
+          "deletions": 12
+        },
+        {
+          "filename": "docs/global-secure-access/how-to-create-remote-networks.md",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/global-secure-access/how-to-customize-block-page.md",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/global-secure-access/how-to-full-data-loss-protection.md",
+          "status": "added",
+          "additions": 82,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/how-to-install-windows-client.md",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 11
+        },
+        {
+          "filename": "docs/global-secure-access/how-to-manage-remote-networks.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/global-secure-access/how-to-network-content-filtering.md",
+          "status": "added",
+          "additions": 170,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/how-to-secure-web-ai-gateway-agents.md",
+          "status": "added",
+          "additions": 92,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/how-to-transport-layer-security-settings.md",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 13
+        },
+        {
+          "filename": "docs/global-secure-access/how-to-transport-layer-security.md",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 10
+        },
+        {
+          "filename": "docs/global-secure-access/media/concept-b2b-guest-access/client-agent.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/concept-b2b-guest-access/organization-resource-tenant.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/concept-b2b-guest-access/user-type-guest.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/concept-netskope-integration/contact-private-plan.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/concept-netskope-integration/offer-expired.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/concept-netskope-integration/try-free-thirty.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/concept-secure-web-ai-gateway-agents/agent-traffic-flow.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/how-to-ai-prompt-shield/prompt-rule.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/how-to-ai-prompt-shield/prompt-shield-architecture.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/how-to-assign-traffic-profile-to-remote-network/microsoft-traffic-profile-remote-network.png",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/how-to-assign-traffic-profile-to-remote-network/microsoft-traffic-profile-selected.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/how-to-configure-cloud-firewall/create-cloud-firewall-policy.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/how-to-configure-cloud-firewall/edit-baseline-policy-link-policies.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/how-to-configure-cloud-firewall/edit-baseline-policy.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/how-to-configure-cloud-firewall/edit-rules-2.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/how-to-configure-cloud-firewall/edit-rules.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/how-to-configure-cloud-firewall/security-baseline-profile.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/how-to-configure-cloud-firewall/select-action.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/how-to-create-remote-networks/microsoft-traffic-profile-selected.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/how-to-manage-remote-networks/microsoft-traffic-profile-selected.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/how-to-network-content-filtering/internet-access-rules.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/how-to-network-content-filtering/network-content-filtering-architecture.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/how-to-network-content-filtering/scan-with-purview.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/how-to-secure-web-ai-gateway-agents/screenshot-power-platform-gsa-agents-ui.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/media/how-to-transport-layer-security-settings/status-active.png",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/reference-current-known-limitations.md",
+          "status": "modified",
+          "additions": 40,
+          "deletions": 26
+        },
+        {
+          "filename": "docs/global-secure-access/reference-ip-addresses-advertised-by-remote-network-connectivity.md",
+          "status": "added",
+          "additions": 396,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/reference-macos-client-release-history.md",
+          "status": "modified",
+          "additions": 16,
+          "deletions": 6
+        },
+        {
+          "filename": "docs/global-secure-access/reference-windows-client-release-history.md",
+          "status": "modified",
+          "additions": 20,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/global-secure-access/scripts/powershell-windows-client-install-proof-of-concept.md",
+          "status": "added",
+          "additions": 323,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/global-secure-access/toc.yml",
+          "status": "modified",
+          "additions": 20,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/global-secure-access/troubleshoot-transport-layer-security.md",
+          "status": "added",
+          "additions": 103,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/TOC.yml",
+          "status": "modified",
+          "additions": 23,
+          "deletions": 9
+        },
+        {
+          "filename": "docs/id-governance/access-reviews-overview.md",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/id-governance/agent-id-governance-overview.md",
+          "status": "added",
+          "additions": 69,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/agent-sponsor-tasks.md",
+          "status": "added",
+          "additions": 53,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/apps.md",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 7
+        },
+        {
+          "filename": "docs/id-governance/best-practices-secure-id-governance.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 3
+        },
+        {
+          "filename": "docs/id-governance/catalog-access-reviews.md",
+          "status": "added",
+          "additions": 95,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/create-access-review-pim-for-groups.md",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/create-access-review.md",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 3
+        },
+        {
+          "filename": "docs/id-governance/custom-data-resource-access-reviews.md",
+          "status": "added",
+          "additions": 190,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/custom-entitlement-report-with-adx-and-entra-id.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/id-governance/custom-entitlement-report-with-other-sources.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/id-governance/custom-extension-security.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/id-governance/delegate-approvals-my-access.md",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 3
+        },
+        {
+          "filename": "docs/id-governance/deploy-access-reviews.md",
+          "status": "modified",
+          "additions": 9,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/id-governance/entitlement-management-access-package-approval-policy.md",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 10
+        },
+        {
+          "filename": "docs/id-governance/entitlement-management-access-package-assignments.md",
+          "status": "modified",
+          "additions": 29,
+          "deletions": 24
+        },
+        {
+          "filename": "docs/id-governance/entitlement-management-access-package-auto-assignment-policy.md",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 6
+        },
+        {
+          "filename": "docs/id-governance/entitlement-management-access-package-create.md",
+          "status": "modified",
+          "additions": 15,
+          "deletions": 11
+        },
+        {
+          "filename": "docs/id-governance/entitlement-management-access-package-eligible.md",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 18
+        },
+        {
+          "filename": "docs/id-governance/entitlement-management-access-package-lifecycle-policy.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/id-governance/entitlement-management-access-package-request-policy.md",
+          "status": "modified",
+          "additions": 38,
+          "deletions": 31
+        },
+        {
+          "filename": "docs/id-governance/entitlement-management-access-package-resources.md",
+          "status": "modified",
+          "additions": 44,
+          "deletions": 30
+        },
+        {
+          "filename": "docs/id-governance/entitlement-management-catalog-create.md",
+          "status": "modified",
+          "additions": 12,
+          "deletions": 10
+        },
+        {
+          "filename": "docs/id-governance/entitlement-management-configure-id-protection-approvals.md",
+          "status": "added",
+          "additions": 90,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/entitlement-management-configure-insider-risk-management-approvals.md",
+          "status": "added",
+          "additions": 82,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/entitlement-management-delegate-managers.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/id-governance/entitlement-management-delegate.md",
+          "status": "modified",
+          "additions": 13,
+          "deletions": 13
+        },
+        {
+          "filename": "docs/id-governance/entitlement-management-dynamic-approval.md",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 5
+        },
+        {
+          "filename": "docs/id-governance/entitlement-management-external-users.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/id-governance/entitlement-management-group-writeback.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/id-governance/entitlement-management-overview.md",
+          "status": "modified",
+          "additions": 43,
+          "deletions": 37
+        },
+        {
+          "filename": "docs/id-governance/entitlement-management-process.md",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 4
+        },
+        {
+          "filename": "docs/id-governance/entitlement-management-reports.md",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 8
+        },
+        {
+          "filename": "docs/id-governance/entitlement-management-request-approve.md",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 3
+        },
+        {
+          "filename": "docs/id-governance/entitlement-management-request-behalf.md",
+          "status": "modified",
+          "additions": 23,
+          "deletions": 8
+        },
+        {
+          "filename": "docs/id-governance/entitlement-management-roles.md",
+          "status": "modified",
+          "additions": 18,
+          "deletions": 12
+        },
+        {
+          "filename": "docs/id-governance/entitlement-management-scenarios.md",
+          "status": "modified",
+          "additions": 11,
+          "deletions": 3
+        },
+        {
+          "filename": "docs/id-governance/entitlement-management-verified-id-settings.md",
+          "status": "modified",
+          "additions": 39,
+          "deletions": 4
+        },
+        {
+          "filename": "docs/id-governance/governance-custom-alerts.md",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 5
+        },
+        {
+          "filename": "docs/id-governance/governance-dashboard.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/id-governance/identity-governance-applications-existing-users.md",
+          "status": "modified",
+          "additions": 10,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/id-governance/identity-governance-applications-integrate.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/identity-governance-applications-not-provisioned-users.md",
+          "status": "modified",
+          "additions": 7,
+          "deletions": 4
+        },
+        {
+          "filename": "docs/id-governance/identity-governance-applications-prepare.md",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 4
+        },
+        {
+          "filename": "docs/id-governance/identity-governance-organizational-roles.md",
+          "status": "modified",
+          "additions": 9,
+          "deletions": 9
+        },
+        {
+          "filename": "docs/id-governance/identity-governance-overview.md",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/image.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/licensing-fundamentals.md",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/id-governance/lifecycle-workflow-inactive-users.md",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 3
+        },
+        {
+          "filename": "docs/id-governance/lifecycle-workflow-tasks.md",
+          "status": "modified",
+          "additions": 104,
+          "deletions": 9
+        },
+        {
+          "filename": "docs/id-governance/manage-user-access-with-access-reviews.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/id-governance/media/catalog-access-reviews/access-review-templates.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/custom-data-resource-access-reviews/access-review-instance-object-id.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/custom-data-resource-access-reviews/access-review-object-id.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/custom-data-resource-access-reviews/custom-data-provided-information.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/custom-data-resource-access-reviews/custom-resource-access-data-information.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/custom-data-resource-access-reviews/initializing-access-review-status.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/custom-data-resource-access-reviews/upload-access-data-basics.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/custom-data-resource-access-reviews/upload-access-data-files.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/custom-data-resource-access-reviews/upload-custom-access-data.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/entitlement-management-access-package-approval-policy/enable-requests.png",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/entitlement-management-access-package-assignments/assignments-add-any-user.png",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/entitlement-management-access-package-assignments/assignments-add-user.png",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/entitlement-management-access-package-create/api-permissions-roles.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/entitlement-management-access-package-create/requests.png",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/entitlement-management-access-package-create/resource-roles.png",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/entitlement-management-access-package-request-policy/for-users-in-your-directory.png",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/entitlement-management-access-package-request-policy/for-users-not-in-your-directory.png",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/entitlement-management-access-package-request-policy/none-admin-direct-assignments-only.png",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/entitlement-management-access-package-resources/catalog-resources.png",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/entitlement-management-configure-risk-approvals/control-configurations-cards.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/entitlement-management-configure-risk-approvals/id-protection-risk-settings.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/entitlement-management-configure-risk-approvals/insider-risk-levels-settings.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/entitlement-management-configure-risk-approvals/insider-risky-user-approvals.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/entitlement-management-configure-risk-approvals/insider-risky-user-pending-request.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/entitlement-management-configure-risk-approvals/risk-based-approval-overview.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/entitlement-management-configure-risk-approvals/risky-user-approvals.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/entitlement-management-configure-risk-approvals/risky-user-pending-request.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/entitlement-management-dynamic-approval/custom-extension-approval-stage.png",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/entitlement-management-verified-id-settings/access-package-id-verified.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/entitlement-management-verified-id-settings/face-check-verified-id.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/entitlement-management-verified-id-settings/issuer-security-partners.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/entitlement-management-verified-id-settings/issuer-verification-partner.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/entitlement-management-verified-id-settings/verified-id-network-issuer.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/lifecycle-workflow-execution-conditions/sign-in-inactivity-trigger.png",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/lifecycle-workflow-task/send-cosponsors-email.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/lifecycle-workflow-task/send-email-manager-sponsor-change.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/lifecycle-workflow-task/send-email-user-inactivity-task.png",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/lifecycle-workflow-templates/begin-off-board-inactive-users-template.png",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/lifecycle-workflow-templates/off-board-inactive-users-template.png",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/lifecycle-workflow-templates/templates-list.png",
+          "status": "modified",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/manage-agent-sponsors/sponsor-workflow-tasks.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/workflow-sensitivity-labels/add-group-sensitivity-label.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/workflow-sensitivity-labels/group-sensitivity-labels.png",
+          "status": "removed",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/workflow-sensitivity-labels/select-groups-workflow.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/media/workflow-sensitivity-labels/sensitivity-label-existing-workflow.png",
+          "status": "added",
+          "additions": 0,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/microsoft-entra-id-governance-licensing-for-guest-users.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "filename": "docs/id-governance/my-access-portal-overview.md",
+          "status": "modified",
+          "additions": 16,
+          "deletions": 8
+        },
+        {
+          "filename": "docs/id-governance/perform-access-review.md",
+          "status": "modified",
+          "additions": 5,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/id-governance/privileged-identity-management/pim-how-to-add-role-to-user.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-governance/scenarios/automate-identity-lifecycle.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/id-governance/scenarios/deploy-sap-netweaver.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/id-governance/scenarios/entitlement-management-private-access.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/id-governance/scenarios/govern-guest-lifecycle-new-project.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/id-governance/scenarios/govern-the-employee-lifecycle.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/id-governance/scenarios/identity-governance-use-cases.md",
+          "status": "modified",
+          "additions": 3,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/id-governance/scenarios/least-privileged.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/id-governance/scenarios/provision-active-directory-to-entra-cloud-sync.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/id-governance/scenarios/provision-active-directory-to-entra-connect-sync.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/id-governance/scenarios/provision-ldap.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/id-governance/scenarios/provision-microsoft-identity-manager-to-active-directory.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/id-governance/scenarios/provision-microsoft-identity-manager-to-entra.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/id-governance/scenarios/provision-sap.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/id-governance/scenarios/provision-sql.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/id-governance/scenarios/provision-workday-to-active-directory.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/id-governance/scenarios/provision-workday-to-entra.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/id-governance/scenarios/sap-template.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/id-governance/what-is-provisioning.md",
+          "status": "modified",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/id-governance/workflow-sensitivity-labels.md",
+          "status": "modified",
+          "additions": 38,
+          "deletions": 9
+        },
+        {
+          "filename": "docs/id-protection/TOC.yml",
+          "status": "modified",
+          "additions": 12,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-protection/concept-identity-protection-policies.md",
+          "status": "modified",
+          "additions": 33,
+          "deletions": 13
+        },
+        {
+          "filename": "docs/id-protection/concept-identity-protection-user-experience.md",
+          "status": "modified",
+          "additions": 8,
+          "deletions": 2
+        },
+        {
+          "filename": "docs/id-protection/concept-risk-detection-types.md",
+          "status": "modified",
+          "additions": 6,
+          "deletions": 0
+        },
+        {
+          "filename": "docs/id-protection/concept-risk-reports.md",
+          "status": "modified",
+          "additions": 26,
+          "deletions": 24
+        }
+      ]
+    },
+    {
+      "sha": "dcd60f92a93d7755f02bd06c9caf13284d1d3d23",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/dcd60f92a93d7755f02bd06c9caf13284d1d3d23",
+      "author": "Shannon Leavitt",
+      "email": "47186198+ShannonLeavitt@users.noreply.github.com",
+      "date": "2025-12-05T22:24:14Z",
+      "message": "Merge pull request #1819 from SarahBar/patch-3\n\nUpdate howto-configure-health-alert-notifications.md",
+      "ai_summary": "Unable to generate summary for this commit.",
+      "files": [
+        {
+          "filename": "docs/identity/monitoring-health/howto-configure-health-alert-notifications.md",
+          "status": "modified",
+          "additions": 4,
+          "deletions": 4
+        }
+      ]
+    },
+    {
+      "sha": "e8ef4b2245d5cec5bc5b5fceaae657a4ea18d041",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/e8ef4b2245d5cec5bc5b5fceaae657a4ea18d041",
+      "author": "Shannon Leavitt",
+      "email": "47186198+ShannonLeavitt@users.noreply.github.com",
+      "date": "2025-12-05T22:11:52Z",
+      "message": "Update docs/identity/monitoring-health/howto-configure-health-alert-notifications.md\n\nCo-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>",
+      "ai_summary": "Unable to generate summary for this commit.",
+      "files": [
+        {
+          "filename": "docs/identity/monitoring-health/howto-configure-health-alert-notifications.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        }
+      ]
+    },
+    {
+      "sha": "fa234c45f956a27d055a5a6f2fb059fa9c22957a",
+      "url": "https://github.com/MicrosoftDocs/entra-docs/commit/fa234c45f956a27d055a5a6f2fb059fa9c22957a",
+      "author": "Shannon Leavitt",
+      "email": "47186198+ShannonLeavitt@users.noreply.github.com",
+      "date": "2025-12-05T22:11:44Z",
+      "message": "Update docs/identity/monitoring-health/howto-configure-health-alert-notifications.md\n\nCo-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>",
+      "ai_summary": "Unable to generate summary for this commit.",
+      "files": [
+        {
+          "filename": "docs/identity/monitoring-health/howto-configure-health-alert-notifications.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1
+        }
+      ]
+    },
     {
       "sha": "421342810096da1aae3178e99c3536f5a489f84b",
       "url": "https://github.com/MicrosoftDocs/entra-docs/commit/421342810096da1aae3178e99c3536f5a489f84b",
@@ -1054,75 +3070,5 @@
         }
       ]
     }
-  ],
-  "metadata": {
-    "source_files": [
-      {
-        "commit_count": 2,
-        "filename": "entra-changes-20251201-1600.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251201-2001.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251202-0001.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251202-0801.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251202-1401.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251202-2001.json"
-      },
-      {
-        "commit_count": 4,
-        "filename": "entra-changes-20251203-0001.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251203-0802.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251203-1401.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251203-1801.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251203-2001.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251204-0001.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251205-0001.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251205-0801.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251205-1601.json"
-      },
-      {
-        "commit_count": 1,
-        "filename": "entra-changes-20251205-2001.json"
-      }
-    ],
-    "total_commits": 20,
-    "generated_date": "2025-12-05T20:01:36Z"
-  }
+  ]
 }
